@@ -1,0 +1,29 @@
+Package: redlist
+Type: Package
+Title: Access and Analyze IUCN Red List Data
+Version: 0.1.0
+Authors@R: c(
+    person(given = "Stanislas Mahussi", 
+           family = "Gandaho", 
+           role = c("aut", "cre"), 
+           email = "gandahostanmah@gmail.com", 
+           comment = c(ORCID = "0009-0003-4969-1252")))
+Maintainer: Stanislas Mahussi Gandaho <gandahostanmah@gmail.com>
+Description: Provides tools to access and analyze data from the IUCN Red List API.
+    This package includes functions to retrieve species assessments, conservation statuses, 
+    and population trends, as well as taxonomic and distribution information for species 
+    listed on the IUCN Red List of Threatened Species. The package is designed to support 
+    conservation efforts and biodiversity research by enabling users to programmatically 
+    access up-to-date Red List data.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.1
+Roxygen: list(markdown = TRUE)
+Imports: 
+    httr2,
+    dplyr,
+    jsonlite
+URL: https://github.com/yourusername/redlist
+BugReports: https://github.com/yourusername/redlist/issues
+
