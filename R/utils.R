@@ -1,23 +1,23 @@
-# Laod package
-library(httr2)
-library(dplyr)
+#' Pipe operator
+#'
+#' @name %>%
+#' @rdname pipe
+#' @keywords internal
+#' @importFrom magrittr %>%
+#' @usage lhs \%>\% rhs
+#' @export
+magrittr::`%>%`
 
+#' Pipe operator
+#'
+#' @name %<>%
+#' @rdname pipe
+#' @keywords internal
+#' @importFrom magrittr %<>%
+#' @usage lhs \%<>\% rhs
+#' @export
+magrittr::`%<>%`
 
-#' @noRd
-rl_get_count <- function(country_code = "BJ"){
-
-  suppressMessages(rl_check_api())
-  query_url <- paste0("https://api.iucnredlist.org/api/v4/countries/", country) %>%
-    httr2::request() %>%
-    httr2::req_headers(
-      accept = "application/json",
-      Authorization = Sys.getenv("redlist_api")
-    ) %>%
-    httr2::req_perform()
-
-  total_count <- as.numeric(query_url$headers$`Total-Count`)
-  return(total_count)
-}
 
 #' Function to get total page available
 #' @noRd

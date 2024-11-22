@@ -3,5 +3,17 @@ export(rl_set_api)
 export(rl_from_species_name)
 export(rl_from_url)
 export(rl_country)
+export(rl_get_count)
 export(rl_from_assessment_id)
+export(`%>%`)
+export(`%<>%`)
 
+
+# magrittr
+importFrom(magrittr, "%>%")
+importFrom(magrittr, "%<>%")
+
+#dplyr
+importFrom(dplyr, "select")
+importFrom(dplyr, "tibble")
+importFrom(dplyr, "bind_rows")

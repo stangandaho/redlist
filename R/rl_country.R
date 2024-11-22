@@ -100,7 +100,7 @@ rl_country <- function(country_code = "BJ",
       Sys.sleep(2)
     }
 
-    assessment <- bind_rows(assessment)
+    assessment <- dplyr::bind_rows(assessment)
   }
 
   return(dplyr::tibble(assessment %>% select(-c(scopes, code_type))))
