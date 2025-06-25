@@ -12,10 +12,10 @@ You can install the `redlist` package from GitHub using the following commands:
 
 ```r
 # Install the remotes package if you haven't already
-install.packages("remotes")
+if(!require("pak")){install.packages("pak")}
 
 # Install the redlist package from GitHub
-remotes::install_github("stangandaho/redlist")
+pak::pkg_install("stangandaho/redlist")
 ```
 
 ## Usage

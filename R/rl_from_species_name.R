@@ -48,14 +48,14 @@ rl_from_species_name <- function(scientific_name){
       httr2::req_url_query(!!!params) %>%
       httr2::req_headers(
         accept = "application/json",
-        Authorization = Sys.getenv("redlist_api")
+        Authorization = Sys.getenv("REDLIST_API")
       ) %>%
       httr2::req_perform()
   },
   error = function(e){paste0("error")})
 
   if (any(performed_request == "error")) {
-    stop("Species scientific name doesn't exist", call. = F)
+    cli::cli_abort("Species scientific name doesn't exist")
   }
 
   if (performed_request$status == 200) {
@@ -75,7 +75,7 @@ rl_from_species_name <- function(scientific_name){
     all_assessment <- dplyr::bind_rows(all_assessment)
 
   }else{
-    message("Species not found")
+    cli::cli_alert_info("Species not found")
   }
 
   return(all_assessment)

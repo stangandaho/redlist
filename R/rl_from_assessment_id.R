@@ -103,7 +103,7 @@ rl_from_assessment_id <- function(assessment_id){
   # converte all column to character
   cols <- colnames(assessment)
   assessment <- assessment %>%
-    mutate(across(.cols = all_of(cols), .fns = as.character))
+    dplyr::mutate(across(.cols = all_of(cols), .fns = as.character))
 
   return(assessment)
 }

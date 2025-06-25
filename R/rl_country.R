@@ -1,4 +1,4 @@
-#' Retrieve IUCN Red List Assessments by Country
+#' Retrieve IUCN Red List assessments by country
 #'
 #' Fetches species assessments from the IUCN Red List API for a specified country and year.
 #' This function returns data on threatened species assessed within the specified country,
@@ -11,7 +11,8 @@
 #'   - If a single numeric value, retrieves that specific page.
 #'   - If "all", retrieves all pages available.
 #'   - If a numeric vector, retrieves multiple specific pages.
-#' @param verbose Logical. If TRUE, prints progress messages when multiple pages are requested. Defaults to TRUE.
+#' @param save Logical. If TRUE, saves the output to save_path. Defaults to TRUE.
+#' @param save_path Character. The path of file to save.
 #'
 #' @return A data frame containing the species assessment data, excluding columns `scopes` and `code_type`.
 #'
@@ -26,9 +27,6 @@
 #' - `scientific_name`: Scientific name of the species.
 #' - `year_published`: The year the assessment was published.
 #' - and other relevant assessment details.
-#'
-#' @note Requires an IUCN Red List API token to be set as an environment variable under `redlist_api` with [rl_set_api()] function.
-#'   For reliable functioning, the helper function [rl_check_api()] could be called to validate the API token.
 #'
 #' @examples
 #' \dontrun{
@@ -45,12 +43,12 @@
 #' @import httr2
 #' @import dplyr
 #' @export
-
-
 rl_country <- function(country_code = "BJ",
                        year = NULL,
                        page = NULL,
-                       verbose = TRUE){
+                       save = TRUE,
+                       save_path = getwd()
+                       ){
 
   suppressMessages(rl_check_api())
 
@@ -81,8 +79,10 @@ rl_country <- function(country_code = "BJ",
 
     # process to data query
     assessment <- list()
+
+    sb <- cli::cli_status("{cli::symbol$arrow_right} Retrieving {page_size} pages")
     for (i in 1:page_size) {
-      if(verbose){print(noquote(paste0("On page ", i, "/", page_size)))}
+      Sys.sleep(1)
 
       params <- list(page = i, year_published = year_published)
 
@@ -91,17 +91,49 @@ rl_country <- function(country_code = "BJ",
         httr2::req_url_query(!!!params) %>%
         httr2::req_headers(
           accept = "application/json",
-          Authorization = Sys.getenv("redlist_api")
+          Authorization = Sys.getenv("REDLIST_API")
         ) %>%
         httr2::req_perform() %>%
         httr2::resp_body_json(simplifyDataFrame = T)
 
       assessment[[i]] <- query_url$assessments
-      Sys.sleep(2)
+      cli::cli_status_update(id = sb,
+                        "{cli::symbol$arrow_right} Got {i} page{?s}, retrieving {paste0(round(i*100/page_size, 1), '%')}")
     }
+    cli::cli_status_clear(id = sb)
+    cli::cli_alert_success("Downloads done.")
 
     assessment <- dplyr::bind_rows(assessment)
   }
+  assessment <- assessment %>% select(-c("scopes", "code_type"))
 
-  return(dplyr::tibble(assessment %>% select(-c(scopes, code_type))))
+  if (save) {
+    save_file <- out_file(path = save_path,
+                          filename = paste0(country_code, "_redlist_", Sys.Date()))
+    write.csv(x = assessment, file = save_file, row.names = FALSE, fileEncoding = "ISO-8859-1")
+    cli::cli_text("{cli::symbol$circle_filled} Saved to {.file {save_file}}")
+  }
+
+  return(dplyr::tibble(assessment))
 }
+
+
+#' Set download output file
+#' @keywords internal
+#' @noRd
+
+out_file <- function(path, filename = "") {
+
+  if (fs::is_dir(path)) {
+    filename <- ifelse(nchar(filename), filename,
+                       paste0("redlist_", Sys.Date()))
+    of <- fs::path(path, fs::path_ext_remove(filename), ext = "csv")
+  } else if (fs::is_file(path)) {
+    of <- fs::path(fs::path_ext_remove(path),  ext = "csv")
+  }else{
+    of <- fs::path(getwd(), path,  ext = "csv")
+  }
+
+  return(of)
+}
+

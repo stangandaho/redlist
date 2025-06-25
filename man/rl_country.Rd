@@ -2,9 +2,15 @@
 % Please edit documentation in R/rl_country.R
 \name{rl_country}
 \alias{rl_country}
-\title{Retrieve IUCN Red List Assessments by Country}
+\title{Retrieve IUCN Red List assessments by country}
 \usage{
-rl_country(country_code = "BJ", year = NULL, page = NULL, verbose = TRUE)
+rl_country(
+  country_code = "BJ",
+  year = NULL,
+  page = NULL,
+  save = TRUE,
+  save_path = getwd()
+)
 }
 \arguments{
 \item{country_code}{Character. The ISO 3166-1 alpha-2 country code (e.g., "BJ" for Benin). Defaults to "BJ".}
@@ -19,7 +25,9 @@ rl_country(country_code = "BJ", year = NULL, page = NULL, verbose = TRUE)
 \item If a numeric vector, retrieves multiple specific pages.
 }}
 
-\item{verbose}{Logical. If TRUE, prints progress messages when multiple pages are requested. Defaults to TRUE.}
+\item{save}{Logical. If TRUE, saves the output to save_path. Defaults to TRUE.}
+
+\item{save_path}{Character. The path of file to save.}
 }
 \value{
 A data frame containing the species assessment data, excluding columns \code{scopes} and \code{code_type}.
@@ -42,10 +50,6 @@ The retrieved data frame contains the following fields:
 \item \code{year_published}: The year the assessment was published.
 \item and other relevant assessment details.
 }
-}
-\note{
-Requires an IUCN Red List API token to be set as an environment variable under \code{redlist_api} with \code{\link[=rl_set_api]{rl_set_api()}} function.
-For reliable functioning, the helper function \code{\link[=rl_check_api]{rl_check_api()}} could be called to validate the API token.
 }
 \examples{
 \dontrun{

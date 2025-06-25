@@ -1,3 +1,5 @@
+# base
+importFrom("utils", "write.csv")
 
 export(rl_set_api)
 export(rl_from_species_name)
@@ -21,3 +23,16 @@ importFrom(dplyr, "mutate")
 importFrom(dplyr, "filter")
 importFrom(dplyr, "summarise")
 importFrom(dplyr, "slice")
+
+# cli
+importFrom(cli, cli_alert_danger)
+importFrom(cli, cli_alert_danger)
+importFrom(cli, cli_alert_success)
+importFrom(cli, cli_alert_warning)
+importFrom(cli, cli_format)
+importFrom(cli, list_symbols)
+importFrom(cli, cli_text)
+importFrom(cli, cli_status)
+importFrom(cli, cli_status_update)
+importFrom(cli, cli_status_clear)
+importFrom(cli, cli_alert_success)

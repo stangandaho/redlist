@@ -21,9 +21,12 @@ LazyData: true
 RoxygenNote: 7.3.1
 Roxygen: list(markdown = TRUE)
 Imports: 
-    httr2,
+    cli,
     dplyr,
-    jsonlite
+    httr2,
+    jsonlite,
+    magrittr,
+    fs
 URL: https://github.com/yourusername/redlist
 BugReports: https://github.com/yourusername/redlist/issues
 
