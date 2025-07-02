@@ -4,8 +4,6 @@
 
 [![codecov](https://codecov.io/gh/stangandaho/redlist/graph/badge.svg?token=AS6SSJ8F1N)](https://codecov.io/gh/stangandaho/redlist)
 
-![R](https://img.shields.io/badge/R-%2764.svg?style=for-the-badge&logo=R&logoColor=white)
-![IUCN](https://img.shields.io/badge/IUCN_Red_List-API_V4-blue)
 
 # IUCN Redlist API Wrapper
 
