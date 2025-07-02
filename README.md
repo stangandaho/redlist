@@ -1,34 +1,37 @@
-**Access and Analyze IUCN Red List Data**
+  <!-- badges: start -->
+  [![R-CMD-check](https://github.com/stangandaho/redlist/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/stangandaho/redlist/actions/workflows/R-CMD-check.yaml)
+  <!-- badges: end -->
 
-The `redlist` package provides tools to access and analyze data from the IUCN Red List API. 
-It enables users to retrieve species assessments, conservation statuses, 
-population trends, and taxonomic information for species listed on the IUCN Red 
-List of Threatened Species. This package is designed to support conservation efforts 
-and biodiversity research by programmatically accessing up-to-date Red List data.
+[![codecov](https://codecov.io/gh/stangandaho/redlist/graph/badge.svg?token=AS6SSJ8F1N)](https://codecov.io/gh/stangandaho/redlist)
+
+![R](https://img.shields.io/badge/R-%2764.svg?style=for-the-badge&logo=R&logoColor=white)
+![IUCN](https://img.shields.io/badge/IUCN_Red_List-API_V4-blue)
+
+# IUCN Redlist API Wrapper
+
+## About This Project
+
+**Initiated September, 2024** - This project was developed when `rredlist` package 
+was still using the deprecated V3 API. In January 2025, `rredlist` received a major 
+update to V4, but this package represents an independent implementation with different design choices.
+
+While both packages now use API V4, they differ significantly in:
+- Implementation approach
+- Documentation style
+- Output formatting
+- User interface design
+
+This is **not** a competing package, but rather an alternative implementation for users who prefer:
+- Consistent tibble outputs for all endpoints
+- API-endpoint-aligned function organization
+- Simplified parameter structures
 
 ## Installation
 
-You can install the `redlist` package from GitHub using the following commands:
-
 ```r
-# Install the remotes package if you haven't already
-if(!require("pak")){install.packages("pak")}
-
-# Install the redlist package from GitHub
-pak::pkg_install("stangandaho/redlist")
-```
-
-## Usage
-
-```r
+# Install from GitHub
+remotes::install_github("stangandaho/redlist")
 library(redlist)
 
-# Set your IUCN Red List API key
-rl_set_api("your_api_key_here")
-
-# Get assessments for a specific country (e.g., Benin)
-assessments <- rl_country("BJ")
-
-# Get assessment info from a specific species name
-species_info <- rl_from_species_name("Panthera leo")
-```
+# Get all Critically Endangered species
+cr_species <- rl_red_list_categories(code = "CR")
