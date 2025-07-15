@@ -16,6 +16,7 @@ A tibble of Green Status assessments.
 Retrieve all IUCN Green Status assessments.
 }
 \examples{
+\dontrun{
 rl_green_status()
-
+}
 }

@@ -10,6 +10,7 @@ rl_version()
 Returns the current version of the IUCN Red List of Threatened Species and API
 }
 \examples{
+\dontrun{
 rl_version()
-
+}
 }

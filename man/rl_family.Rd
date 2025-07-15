@@ -37,6 +37,7 @@ If \code{family_name = NULL}, it returns a list of available families.
 If \code{family_name} is provided, it retrieves assessments for species in the specified family.
 }
 \examples{
+\dontrun{
 # List all available families
 rl_family()
 
@@ -49,5 +50,5 @@ rl_family(
   year_published = 2019:2022,
   latest = TRUE
 )
-
+}
 }

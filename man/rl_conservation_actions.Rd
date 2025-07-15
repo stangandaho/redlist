@@ -42,8 +42,9 @@ Get assessment data by conservation action
 See \code{actions} argument for available action codes
 }
 \examples{
+\dontrun{
 rl_conservation_actions(code = 1,
                         year_published = 2024:2025,
                         page = 1:3)
-
+}
 }

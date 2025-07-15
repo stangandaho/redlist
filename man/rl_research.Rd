@@ -43,6 +43,7 @@ If \code{code = NULL}, it returns a list of available research categories.
 If \code{code} is provided, it retrieves assessments for species with the specified research need(s).
 }
 \examples{
+\dontrun{
 # List all research categories
 rl_research()
 
@@ -54,5 +55,5 @@ rl_research(
   code = "1_3",
   year_published = 2019:2023
 )
-
+}
 }

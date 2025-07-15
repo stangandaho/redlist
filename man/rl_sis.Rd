@@ -19,7 +19,8 @@ Retrieve species assessments using the Species Information Service (SIS) identif
 Returns summary assessment data including both latest and historic assessments.
 }
 \examples{
+\dontrun{
 # Get assessments for species with SIS ID 179359
 rl_sis(179359)
-
+}
 }

@@ -17,7 +17,8 @@ Retrieve species assessments flagged as possibly extinct.
 Returns all latest global assessments for taxa that are possibly extinct.
 }
 \examples{
+\dontrun{
 # Get all possibly extinct species
 rl_possibly_extinct()
-
+}
 }

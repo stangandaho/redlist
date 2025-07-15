@@ -43,6 +43,7 @@ If \code{code = NULL}, it returns a list of available ecological systems.
 If \code{code} is provided, it retrieves assessments for species in the specified system(s).
 }
 \examples{
+\dontrun{
 # List all ecological systems
 rl_systems()
 
@@ -54,5 +55,5 @@ rl_systems(
   code = "2",
   year_published = 2021:2023
 )
-
+}
 }

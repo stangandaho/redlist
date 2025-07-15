@@ -52,6 +52,7 @@ If \code{page} is not specified, the function will automatically paginate over a
 available pages for each parameter combination.
 }
 \examples{
+\dontrun{
 # List all available biogeographical realms
 rl_biogeographical_realms()
 
@@ -64,5 +65,6 @@ rl_biogeographical_realms(
   year_published = c(2020, 2021),
   page = c(1, 2)
 )
+}
 
 }

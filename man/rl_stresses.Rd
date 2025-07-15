@@ -43,6 +43,7 @@ If \code{code = NULL}, it returns a list of available stress categories.
 If \code{code} is provided, it retrieves assessments for species affected by the specified stress(es).
 }
 \examples{
+\dontrun{
 # List all stress categories
 rl_stresses()
 
@@ -54,5 +55,5 @@ rl_stresses(
   code = "2_3_2",
   year_published = 2020:2023
 )
-
+}
 }

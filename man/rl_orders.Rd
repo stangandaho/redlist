@@ -37,6 +37,7 @@ If \code{order_name = NULL}, it returns a list of available orders.
 If \code{order_name} is provided, it retrieves assessments for species in the specified order.
 }
 \examples{
+\dontrun{
 # List all available orders
 rl_orders()
 
@@ -49,5 +50,5 @@ rl_orders(
   year_published = 2022,
   latest = TRUE
 )
-
+}
 }

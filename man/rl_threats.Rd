@@ -43,6 +43,7 @@ If \code{code = NULL}, it returns a list of available threat categories.
 If \code{code} is provided, it retrieves assessments for species affected by the specified threat(s).
 }
 \examples{
+\dontrun{
 # List all threat categories
 rl_threats()
 
@@ -54,5 +55,5 @@ rl_threats(
   code = "11",
   year_published = 2025
 )
-
+}
 }

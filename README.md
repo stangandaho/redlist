@@ -1,6 +1,7 @@
-  <!-- badges: start -->
-  [![R-CMD-check](https://github.com/stangandaho/redlist/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/stangandaho/redlist/actions/workflows/R-CMD-check.yaml)
-  <!-- badges: end -->
+redlist <img src="man/figures/logo.jpg" align="right" height="120" alt="" />  
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/stangandaho/redlist/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/stangandaho/redlist/actions/workflows/R-CMD-check.yaml)
+<!-- badges: end -->
 
 [![codecov](https://codecov.io/gh/stangandaho/redlist/graph/badge.svg?token=AS6SSJ8F1N)](https://codecov.io/gh/stangandaho/redlist)
 

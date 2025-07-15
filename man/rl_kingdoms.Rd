@@ -37,6 +37,7 @@ If \code{kingdom_name = NULL}, it returns a list of available kingdoms.
 If \code{kingdom_name} is provided, it retrieves assessments for species in the specified kingdom.
 }
 \examples{
+\dontrun{
 # List all available kingdoms
 rl_kingdoms()
 
@@ -49,5 +50,5 @@ rl_kingdoms(
   year_published = 2021,
   latest = TRUE
 )
-
+}
 }

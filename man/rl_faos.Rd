@@ -45,6 +45,7 @@ If \code{code} is \code{NULL}, this returns the available FAO region codes and t
 If a \code{code} (or multiple codes) is provided, retrieves the IUCN assessments for those regions.
 }
 \examples{
+\dontrun{
 # List available FAO regions
 rl_faos()
 
@@ -53,5 +54,5 @@ rl_faos(code = "27")
 
 # Get assessments for regions 21 and 27 on page 1
 rl_faos(code = c("21", "27"), page = 1)
-
+}
 }

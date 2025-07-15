@@ -37,6 +37,7 @@ If \code{class_name = NULL}, it returns a list of available classes.
 If \code{class_name} is provided, it retrieves assessments for species in the specified class.
 }
 \examples{
+\dontrun{
 # List all available classes
 rl_classes()
 
@@ -49,5 +50,6 @@ rl_classes(
   year_published = 2024:2025,
   latest = TRUE
 )
+}
 
 }

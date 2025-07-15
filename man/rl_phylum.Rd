@@ -37,6 +37,7 @@ If \code{phylum_name = NULL}, it returns a list of available phyla.
 If \code{phylum_name} is provided, it retrieves assessments for species in the specified phylum.
 }
 \examples{
+\dontrun{
 # List all available phyla
 rl_phylum()
 
@@ -49,5 +50,5 @@ rl_phylum(
   year_published = 2020,
   latest = TRUE
 )
-
+}
 }

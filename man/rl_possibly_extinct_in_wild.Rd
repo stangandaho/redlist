@@ -17,7 +17,8 @@ Retrieve species assessments flagged as possibly extinct in the wild.
 Returns all latest global assessments for taxa that are possibly extinct in the wild.
 }
 \examples{
+\dontrun{
 # Get all possibly extinct in the wild species
 rl_possibly_extinct_in_wild()
-
+}
 }

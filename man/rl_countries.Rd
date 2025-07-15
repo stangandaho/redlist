@@ -42,6 +42,7 @@ Retrieves the species assessed by the IUCN for a specified countries.
 See \code{code} argument for available countries codes
 }
 \examples{
+\dontrun{
   # Retrieve assessments for Benin (country code "BJ") for the year 2020
   rl_countries("BJ", year = 2020)
 
@@ -50,5 +51,5 @@ See \code{code} argument for available countries codes
 
   # Retrieve assessments for Canada (country code "CA") on specific pages
   rl_countries("CA", page = c(1, 2))
-
+}
 }

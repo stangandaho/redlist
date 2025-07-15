@@ -43,6 +43,7 @@ If \code{code = NULL}, it returns a list of available assessment scopes.
 If \code{code} is provided, it retrieves assessments for the specified scope(s).
 }
 \examples{
+\dontrun{
 # List all assessment scopes
 rl_scopes()
 
@@ -54,5 +55,5 @@ rl_scopes(
   code = "2",
   year_published = 2020:2023
 )
-
+}
 }

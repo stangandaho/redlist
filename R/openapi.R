@@ -10,7 +10,9 @@
 #' @return Returns assessment data for a supplied assessment_id.
 #'
 #' @examples
+#' \dontrun{
 #' rl_assessement_id(1425064)
+#' }
 #'
 #' @export
 rl_assessement_id <- function(assessment_id = 1425064, pad_with_na = FALSE) {
@@ -49,7 +51,7 @@ rl_assessement_id <- function(assessment_id = 1425064, pad_with_na = FALSE) {
 #'
 #' @return Tibble of biogeographical realms depending on parameters.
 #'
-#' @examples
+#' @examples \dontrun{
 #' # List all available biogeographical realms
 #' rl_biogeographical_realms()
 #'
@@ -62,6 +64,7 @@ rl_assessement_id <- function(assessment_id = 1425064, pad_with_na = FALSE) {
 #'   year_published = c(2020, 2021),
 #'   page = c(1, 2)
 #' )
+#' }
 #'
 #' @export
 rl_biogeographical_realms <- function(code = NULL,
@@ -111,11 +114,11 @@ rl_biogeographical_realms <- function(code = NULL,
 #'
 #' @return Tibble of assessments for a comprehensive group name
 #'
-#' @examples
+#' @examples \dontrun{
 #' rl_comprehensive_groups(name = "amphibians",
 #'                         year_published = 2024:2025,
 #'                         page = 1:3)
-#'
+#'}
 #' @export
 rl_comprehensive_groups <- function(name = NULL,
                                     year_published = NULL,
@@ -158,11 +161,11 @@ rl_comprehensive_groups <- function(name = NULL,
 #'
 #' @return Tibble of assessments for a conservation action code.
 #'
-#' @examples
+#' @examples \dontrun{
 #' rl_conservation_actions(code = 1,
 #'                         year_published = 2024:2025,
 #'                         page = 1:3)
-#'
+#'}
 #' @export
 rl_conservation_actions <- function(code = NULL,
                                     year_published = NULL,
@@ -206,7 +209,7 @@ rl_conservation_actions <- function(code = NULL,
 #'
 #' @return Tibble of assessments for a given country ISO alpha-2 code.
 #'
-#' @examples
+#' @examples \dontrun{
 #'   # Retrieve assessments for Benin (country code "BJ") for the year 2020
 #'   rl_countries("BJ", year = 2020)
 #'
@@ -215,7 +218,7 @@ rl_conservation_actions <- function(code = NULL,
 #'
 #'   # Retrieve assessments for Canada (country code "CA") on specific pages
 #'   rl_countries("CA", page = c(1, 2))
-#'
+#'}
 #' @export
 rl_countries <- function(code = NULL,
                         year_published = NULL,
@@ -262,7 +265,7 @@ rl_countries <- function(code = NULL,
 #'
 #' @return A tibble of assessments for the specified FAO region(s), or a tibble of available FAO codes and descriptions.
 #'
-#' @examples
+#' @examples \dontrun{
 #' # List available FAO regions
 #' rl_faos()
 #'
@@ -271,7 +274,7 @@ rl_countries <- function(code = NULL,
 #'
 #' # Get assessments for regions 21 and 27 on page 1
 #' rl_faos(code = c("21", "27"), page = 1)
-#'
+#'}
 #' @export
 rl_faos <- function(code = NULL,
                     year_published = NULL,
@@ -317,7 +320,7 @@ rl_faos <- function(code = NULL,
 #'
 #' @return A tibble of assessments for the specified growth form(s), or a tibble of available growth form codes and descriptions.
 #'
-#' @examples
+#' @examples \dontrun{
 #' # List available growth form codes
 #' rl_growth_forms()
 #'
@@ -326,7 +329,7 @@ rl_faos <- function(code = NULL,
 #'
 #' # Get assessments for multiple growth forms (e.g Hydrophyte, Lithophyte)
 #' rl_growth_forms(code = c("H", "L"), page = c(1, 2))
-#'
+#'}
 #' @export
 rl_growth_forms <- function(code = NULL,
                             year_published = NULL,
@@ -365,9 +368,9 @@ rl_growth_forms <- function(code = NULL,
 #' @inheritParams rl_biogeographical_realms
 #' @return A tibble of Green Status assessments.
 #'
-#' @examples
+#' @examples \dontrun{
 #' rl_green_status()
-#'
+#'}
 #' @export
 rl_green_status <- function(pad_with_na = FALSE) {
   base_url <- "https://api.iucnredlist.org/api/v4/green_status/all"
@@ -389,13 +392,13 @@ rl_green_status <- function(pad_with_na = FALSE) {
 #' @inheritParams rl_biogeographical_realms
 #' @return A tibble of assessments for a given IUCN habitat classification code.
 #'
-#' @examples
+#' @examples \dontrun{
 #' # Retrieve available habitat codes
 #' rl_habitats()
 #'
 #' # Retrieve assessments for the Desert
 #' rl_habitats(code = 8)
-#'
+#'}
 #' @export
 rl_habitats <- function(code = NULL,
                         year_published = NULL,
@@ -433,9 +436,9 @@ rl_habitats <- function(code = NULL,
 #'
 #' Returns the current version of the IUCN Red List of Threatened Species and API
 #'
-#' @examples
+#' @examples \dontrun{
 #' rl_version()
-#'
+#'}
 #' @export
 rl_version <- function() {
 
@@ -476,7 +479,7 @@ rl_version <- function() {
 #'
 #' @return Tibble of population trend categories or species assessments depending on parameters.
 #'
-#' @examples
+#' @examples \dontrun{
 #' # List all available population trend categories
 #' rl_population_trends()
 #'
@@ -489,7 +492,7 @@ rl_version <- function() {
 #'   year_published = 2020,
 #'   latest = TRUE
 #' )
-#'
+#'}
 #' @export
 rl_population_trends <- function(code = NULL,
                                  year_published = NULL,
@@ -537,7 +540,7 @@ rl_population_trends <- function(code = NULL,
 #'
 #' @return A tibble containing Red List categories or species assessments.
 #'
-#' @examples
+#' @examples \dontrun{
 #' # List all Red List categories
 #' rl_red_list_categories()
 #'
@@ -549,7 +552,7 @@ rl_population_trends <- function(code = NULL,
 #'   code = "VU",
 #'   year_published = 2020
 #' )
-#'
+#'}
 #' @export
 rl_red_list_categories <- function(code = NULL,
                                    year_published = NULL,
@@ -593,7 +596,7 @@ rl_red_list_categories <- function(code = NULL,
 #' @inheritParams rl_biogeographical_realms
 #' @return A tibble containing research categories or species assessments.
 #'
-#' @examples
+#' @examples \dontrun{
 #' # List all research categories
 #' rl_research()
 #'
@@ -605,7 +608,7 @@ rl_red_list_categories <- function(code = NULL,
 #'   code = "1_3",
 #'   year_published = 2019:2023
 #' )
-#'
+#'}
 #' @export
 rl_research <- function(code = NULL,
                         year_published = NULL,
@@ -650,7 +653,7 @@ rl_research <- function(code = NULL,
 #' @inheritParams rl_biogeographical_realms
 #' @return A tibble containing assessment scopes or species assessments.
 #'
-#' @examples
+#' @examples \dontrun{
 #' # List all assessment scopes
 #' rl_scopes()
 #'
@@ -662,7 +665,7 @@ rl_research <- function(code = NULL,
 #'   code = "2",
 #'   year_published = 2020:2023
 #' )
-#'
+#'}
 #' @export
 rl_scopes <- function(code = NULL,
                       year_published = NULL,
@@ -701,10 +704,10 @@ rl_scopes <- function(code = NULL,
 #'
 #' @return A tibble containing the count of assessed species.
 #'
-#' @examples
+#' @examples \dontrun{
 #' # Get total count of assessed species
 #' rl_statistics()
-#'
+#'}
 #' @export
 rl_statistics <- function() {
 
@@ -729,7 +732,7 @@ rl_statistics <- function() {
 #' @inheritParams rl_biogeographical_realms
 #' @return A tibble containing stress categories or species assessments.
 #'
-#' @examples
+#' @examples \dontrun{
 #' # List all stress categories
 #' rl_stresses()
 #'
@@ -741,7 +744,7 @@ rl_statistics <- function() {
 #'   code = "2_3_2",
 #'   year_published = 2020:2023
 #' )
-#'
+#'}
 #' @export
 rl_stresses <- function(code = NULL,
                         year_published = NULL,
@@ -785,7 +788,7 @@ rl_stresses <- function(code = NULL,
 #' @inheritParams rl_biogeographical_realms
 #' @return A tibble containing ecological systems or species assessments.
 #'
-#' @examples
+#' @examples \dontrun{
 #' # List all ecological systems
 #' rl_systems()
 #'
@@ -797,7 +800,7 @@ rl_stresses <- function(code = NULL,
 #'   code = "2",
 #'   year_published = 2021:2023
 #' )
-#'
+#'}
 #' @export
 rl_systems <- function(code = NULL,
                        year_published = NULL,
@@ -840,10 +843,10 @@ rl_systems <- function(code = NULL,
 #'
 #' @return A tibble containing assessment data for the specified SIS ID(s).
 #'
-#' @examples
+#' @examples \dontrun{
 #' # Get assessments for species with SIS ID 179359
 #' rl_sis(179359)
-#'
+#'}
 #' @export
 rl_sis <- function(sis_id = 179359,
                    pad_with_na = FALSE) {
@@ -873,10 +876,10 @@ rl_sis <- function(sis_id = 179359,
 #'
 #' @return A tibble containing assessment data for the specified taxon.
 #'
-#' @examples
+#' @examples \dontrun{
 #' # Get assessments for Panthera leo (lion)
 #' rl_scientific_name(genus_name = "Panthera", species_name = "leo")
-#'
+#'}
 #' @export
 rl_scientific_name <- function(genus_name,
                                 species_name,
@@ -912,7 +915,7 @@ rl_scientific_name <- function(genus_name,
 #' @inheritParams rl_biogeographical_realms
 #' @return A tibble containing kingdoms or species assessments.
 #'
-#' @examples
+#' @examples \dontrun{
 #' # List all available kingdoms
 #' rl_kingdoms()
 #'
@@ -925,7 +928,7 @@ rl_scientific_name <- function(genus_name,
 #'   year_published = 2021,
 #'   latest = TRUE
 #' )
-#'
+#'}
 #' @export
 rl_kingdoms <- function(kingdom_name = NULL,
                         year_published = NULL,
@@ -969,7 +972,7 @@ rl_kingdoms <- function(kingdom_name = NULL,
 #' @inheritParams rl_biogeographical_realms
 #' @return A tibble containing phyla or species assessments.
 #'
-#' @examples
+#' @examples \dontrun{
 #' # List all available phyla
 #' rl_phylum()
 #'
@@ -982,7 +985,7 @@ rl_kingdoms <- function(kingdom_name = NULL,
 #'   year_published = 2020,
 #'   latest = TRUE
 #' )
-#'
+#'}
 #' @export
 rl_phylum <- function(phylum_name = NULL,
                       year_published = NULL,
@@ -1026,7 +1029,7 @@ rl_phylum <- function(phylum_name = NULL,
 #' @inheritParams rl_biogeographical_realms
 #' @return A tibble containing classes or species assessments.
 #'
-#' @examples
+#' @examples \dontrun{
 #' # List all available classes
 #' rl_classes()
 #'
@@ -1039,6 +1042,7 @@ rl_phylum <- function(phylum_name = NULL,
 #'   year_published = 2024:2025,
 #'   latest = TRUE
 #' )
+#'}
 #'
 #' @export
 rl_classes <- function(class_name = NULL,
@@ -1083,7 +1087,7 @@ rl_classes <- function(class_name = NULL,
 #' @inheritParams rl_biogeographical_realms
 #' @return A tibble containing orders or species assessments.
 #'
-#' @examples
+#' @examples \dontrun{
 #' # List all available orders
 #' rl_orders()
 #'
@@ -1096,7 +1100,7 @@ rl_classes <- function(class_name = NULL,
 #'   year_published = 2022,
 #'   latest = TRUE
 #' )
-#'
+#'}
 #' @export
 rl_orders <- function(order_name = NULL,
                       year_published = NULL,
@@ -1140,7 +1144,7 @@ rl_orders <- function(order_name = NULL,
 #' @inheritParams rl_biogeographical_realms
 #' @return A tibble containing families or species assessments.
 #'
-#' @examples
+#' @examples \dontrun{
 #' # List all available families
 #' rl_family()
 #'
@@ -1153,7 +1157,7 @@ rl_orders <- function(order_name = NULL,
 #'   year_published = 2019:2022,
 #'   latest = TRUE
 #' )
-#'
+#'}
 #' @export
 rl_family <- function(family_name = NULL,
                         year_published = NULL,
@@ -1195,10 +1199,10 @@ rl_family <- function(family_name = NULL,
 #'
 #' @return A tibble containing species assessments marked as possibly extinct.
 #'
-#' @examples
+#' @examples \dontrun{
 #' # Get all possibly extinct species
 #' rl_possibly_extinct()
-#'
+#'}
 #' @export
 rl_possibly_extinct <- function(pad_with_na = FALSE) {
 
@@ -1220,10 +1224,10 @@ rl_possibly_extinct <- function(pad_with_na = FALSE) {
 #'
 #' @return A tibble containing species assessments marked as possibly extinct in the wild.
 #'
-#' @examples
+#' @examples \dontrun{
 #' # Get all possibly extinct in the wild species
 #' rl_possibly_extinct_in_wild()
-#'
+#'}
 #' @export
 rl_possibly_extinct_in_wild <- function(pad_with_na = FALSE) {
 
@@ -1247,7 +1251,7 @@ rl_possibly_extinct_in_wild <- function(pad_with_na = FALSE) {
 #' @inheritParams rl_biogeographical_realms
 #' @return A tibble containing threat categories or species assessments.
 #'
-#' @examples
+#' @examples \dontrun{
 #' # List all threat categories
 #' rl_threats()
 #'
@@ -1259,7 +1263,7 @@ rl_possibly_extinct_in_wild <- function(pad_with_na = FALSE) {
 #'   code = "11",
 #'   year_published = 2025
 #' )
-#'
+#'}
 #' @export
 rl_threats <- function(code = NULL,
                        year_published = NULL,
@@ -1303,7 +1307,7 @@ rl_threats <- function(code = NULL,
 #' @inheritParams rl_biogeographical_realms
 #' @return A tibble containing use/trade categories or species assessments.
 #'
-#' @examples
+#' @examples \dontrun{
 #' # List all use and trade categories
 #' rl_use_and_trade()
 #'
@@ -1315,7 +1319,7 @@ rl_threats <- function(code = NULL,
 #'   code = "15",
 #'   year_published = 2024
 #' )
-#'
+#'}
 #' @export
 rl_use_and_trade <- function(code = NULL,
                              year_published = NULL,

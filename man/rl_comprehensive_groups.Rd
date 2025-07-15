@@ -44,8 +44,9 @@ Get assessment data by comprehensive group name (e.g \code{amphibians},
 See \code{name} argument for available group names.
 }
 \examples{
+\dontrun{
 rl_comprehensive_groups(name = "amphibians",
                         year_published = 2024:2025,
                         page = 1:3)
-
+}
 }

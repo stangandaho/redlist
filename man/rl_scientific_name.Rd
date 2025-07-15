@@ -31,7 +31,8 @@ Retrieve species assessments using scientific names (Latin binomials).
 Returns summary assessment data including both latest and historic assessments.
 }
 \examples{
+\dontrun{
 # Get assessments for Panthera leo (lion)
 rl_scientific_name(genus_name = "Panthera", species_name = "leo")
-
+}
 }

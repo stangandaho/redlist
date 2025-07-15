@@ -14,7 +14,8 @@ Retrieve count of species with assessments.
 This endpoint returns the total number of assessed species on the IUCN Red List.
 }
 \examples{
+\dontrun{
 # Get total count of assessed species
 rl_statistics()
-
+}
 }

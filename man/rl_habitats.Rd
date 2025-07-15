@@ -41,10 +41,11 @@ A tibble of assessments for a given IUCN habitat classification code.
 Retrieve IUCN Red List assessments by habitat classification.
 }
 \examples{
+\dontrun{
 # Retrieve available habitat codes
 rl_habitats()
 
 # Retrieve assessments for the Desert
 rl_habitats(code = 8)
-
+}
 }

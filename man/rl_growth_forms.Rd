@@ -45,6 +45,7 @@ If \code{code} is \code{NULL}, this returns the available growth form codes and 
 If a \code{code} (or multiple codes) is provided, retrieves the IUCN assessments for those growth forms.
 }
 \examples{
+\dontrun{
 # List available growth form codes
 rl_growth_forms()
 
@@ -53,5 +54,5 @@ rl_growth_forms(code = "GE")
 
 # Get assessments for multiple growth forms (e.g Hydrophyte, Lithophyte)
 rl_growth_forms(code = c("H", "L"), page = c(1, 2))
-
+}
 }

@@ -43,6 +43,7 @@ If \code{code = NULL}, it returns a list of available use and trade categories.
 If \code{code} is provided, it retrieves assessments for species affected by the specified use/trade category(ies).
 }
 \examples{
+\dontrun{
 # List all use and trade categories
 rl_use_and_trade()
 
@@ -54,5 +55,5 @@ rl_use_and_trade(
   code = "15",
   year_published = 2024
 )
-
+}
 }

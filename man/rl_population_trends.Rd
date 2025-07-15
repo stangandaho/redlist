@@ -55,6 +55,7 @@ If \code{page} is not specified, the function will automatically paginate over a
 available pages for each parameter combination.
 }
 \examples{
+\dontrun{
 # List all available population trend categories
 rl_population_trends()
 
@@ -67,5 +68,5 @@ rl_population_trends(
   year_published = 2020,
   latest = TRUE
 )
-
+}
 }

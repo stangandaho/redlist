@@ -20,6 +20,8 @@ Returns assessment data for a supplied assessment_id.
 Retrieves an assessment
 }
 \examples{
+\dontrun{
 rl_assessement_id(1425064)
+}
 
 }

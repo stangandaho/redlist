@@ -43,6 +43,7 @@ If \code{code = NULL}, it returns a list of available Red List categories.
 If \code{code} is provided, it retrieves assessments for species in the specified category(ies).
 }
 \examples{
+\dontrun{
 # List all Red List categories
 rl_red_list_categories()
 
@@ -54,5 +55,5 @@ rl_red_list_categories(
   code = "VU",
   year_published = 2020
 )
-
+}
 }
