@@ -43,6 +43,9 @@ jobs:
           extra-packages: any::rcmdcheck
           needs: check
 
+      - name: Set REDLIST_API for R session
+        run: echo "Sys.setenv(REDLIST_API = '${{ secrets.REDLIST_API }}')" >> .Rprofile
+
       - uses: r-lib/actions/check-r-package@v2
         with:
           upload-snapshots: true
