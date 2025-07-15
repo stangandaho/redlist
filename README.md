@@ -1,4 +1,5 @@
 <img src="man/figures/logo.png" align="right" height="132" alt="redlist" />
+
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/stangandaho/redlist/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/stangandaho/redlist/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
