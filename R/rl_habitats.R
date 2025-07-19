@@ -1,0 +1,48 @@
+#' Habitats
+#'
+#' Retrieve IUCN Red List assessments by habitat classification.
+#'
+#' @param code Character. One or more habitat classification codes.
+#' Use [rl_habitats()] with no arguments to list available habitat codes.
+#' @inheritParams rl_biogeographical_realms
+#' @return A tibble of assessments for a given IUCN habitat classification code.
+#'
+#' @examples \dontrun{
+#' # Retrieve available habitat codes
+#' rl_habitats()
+#'
+#' # Retrieve assessments for the Desert
+#' rl_habitats(code = 8)
+#'}
+#' @export
+rl_habitats <- function(code = NULL,
+                        year_published = NULL,
+                        latest = NULL,
+                        possibly_extinct = NULL,
+                        possibly_extinct_in_the_wild = NULL,
+                        scope_code = NULL,
+                        page = 1,
+                        pad_with_na = FALSE) {
+  base_url <- "https://api.iucnredlist.org/api/v4/habitats"
+
+  if (is.null(code)) {
+    resp <- perform_request(base_url = base_url) |>
+      httr2::resp_body_json()
+    return(json_to_df(resp, pad_with_na = pad_with_na))
+  }
+
+  rl_paginated_query(
+    param_list = list(
+      code = code,
+      year_published = year_published %||% NA,
+      latest = latest %||% NA,
+      possibly_extinct = possibly_extinct %||% NA,
+      possibly_extinct_in_the_wild = possibly_extinct_in_the_wild %||% NA,
+      scope_code = scope_code %||% NA,
+      page = page %||% NA
+    ),
+    base_url = base_url,
+    endpoint_name = "code",
+    pad_with_na = pad_with_na
+  )
+}

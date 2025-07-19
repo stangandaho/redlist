@@ -2,6 +2,7 @@
 importFrom("utils", "write.csv")
 
 export(rl_set_api)
+export(rl_check_api)
 export(rl_total_records)
 export(rl_assessement_id)
 export(rl_biogeographical_realms)
