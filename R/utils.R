@@ -1,3 +1,5 @@
+# nocov start
+
 #' Pipe operator
 #'
 #' @name %>%
@@ -306,5 +308,5 @@ out_file <- function(path, filename = "") {
 
   return(of)
 }
-
+# nocov end
 

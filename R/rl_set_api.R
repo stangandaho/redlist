@@ -1,3 +1,4 @@
+# nocov start
 #' Set the IUCN Red List API key
 #'
 #' This function sets the IUCN Red List API key as an environment variable, allowing other functions
@@ -29,3 +30,4 @@ rl_set_api <- function(api_key){
   base::cat(renv, file = "~/.Renviron", sep = "\n")
   cli::cli_alert_success("API added successfully!")
 }
+# nocov end

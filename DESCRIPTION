@@ -1,6 +1,6 @@
 Package: redlist
 Type: Package
-Title: Access IUCN Red List data
+Title: Access IUCN Red List Data
 Version: 0.2.0
 Authors@R: c(
     person(given = "Stanislas Mahussi", family = "Gandaho", email = "stangandaho@gmail.com", role = c("aut", "cre"),
