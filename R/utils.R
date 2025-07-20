@@ -255,7 +255,12 @@ rl_paginated_query <- function(param_list,
   cli::cli_alert_success("Downloads done.")
   # End of request
 
-  return(multiple_out_df %>% dplyr::as_tibble())
+  call_out <- multiple_out_df %>%
+    dplyr::as_tibble() %>%
+    dplyr::mutate(across(.cols = dplyr::everything(),
+                         .fns = fill_na_with_previous))
+
+  return(call_out)
 
 }
 
@@ -276,6 +281,16 @@ out_file <- function(path, filename = "") {
   }
 
   return(of)
+}
+
+fill_na_with_previous <- function(x) {
+  for (i in seq_along(x)) {
+    if(is.na(x[i])){
+      x[i] <- x[i-1]
+    }
+  }
+
+  return(x)
 }
 # nocov end
 
