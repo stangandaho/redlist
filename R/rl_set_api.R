@@ -53,7 +53,7 @@ rl_check_api <- function(){
   redlist_api <- Sys.getenv("REDLIST_API")
 
   if (redlist_api == "") {
-    cli::cli_abort("Any redlist API available. Use `rl_set_api()` function to set an API", call = NULL)
+    cli::cli_abort("Any redlist API available. Go to {.url https://api.iucnredlist.org/users/edit} to get one, and then use `rl_set_api()` function to set.", call = NULL)
   }else{
     # Check the API is working
     api_response <- tryCatch({paste0("https://api.iucnredlist.org/api/v4/assessment/17946182") %>%
