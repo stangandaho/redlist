@@ -1,0 +1,55 @@
+{
+    "threat": {
+        "description": {
+            "en": "Residential & commercial development"
+        },
+        "code": "1"
+    },
+    "assessments": [
+        {
+            "year_published": "2016",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 107250449,
+            "url": "https://www.iucnredlist.org/species/107250449/107302977",
+            "taxon_scientific_name": "Eryngium fluminense",
+            "red_list_category_code": "VU",
+            "assessment_id": 107302977,
+            "code": "1",
+            "code_type": "threat",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2016",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 107250519,
+            "url": "https://www.iucnredlist.org/species/107250519/107303047",
+            "taxon_scientific_name": "Aspidosperma compactinervium",
+            "red_list_category_code": "DD",
+            "assessment_id": 107303047,
+            "code": "1",
+            "code_type": "threat",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        }
+    ],
+    "filters": {
+
+    }
+}

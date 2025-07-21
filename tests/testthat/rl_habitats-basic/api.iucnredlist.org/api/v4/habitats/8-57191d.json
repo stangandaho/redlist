@@ -1,0 +1,244 @@
+{
+    "habitat": {
+        "description": {
+            "en": "Desert"
+        },
+        "code": "8"
+    },
+    "assessments": [
+        {
+            "year_published": "2010",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 165470,
+            "url": "https://www.iucnredlist.org/species/165470/6025351",
+            "taxon_scientific_name": "Orthetrum sabina",
+            "red_list_category_code": "NA",
+            "assessment_id": 6025351,
+            "code": "8",
+            "code_type": "habitat",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Western Africa"
+                    },
+                    "code": "8"
+                }
+            ]
+        },
+        {
+            "year_published": "2008",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 22054,
+            "url": "https://www.iucnredlist.org/species/22054/9353554",
+            "taxon_scientific_name": "Tragelaphus strepsiceros",
+            "red_list_category_code": "LC",
+            "assessment_id": 9353554,
+            "code": "8",
+            "code_type": "habitat",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2008",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 41680,
+            "url": "https://www.iucnredlist.org/species/41680/10508712",
+            "taxon_scientific_name": "Bassariscus astutus",
+            "red_list_category_code": "LC",
+            "assessment_id": 10508712,
+            "code": "8",
+            "code_type": "habitat",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2008",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 6294,
+            "url": "https://www.iucnredlist.org/species/6294/12599937",
+            "taxon_scientific_name": "Dasyurus geoffroii",
+            "red_list_category_code": "NT",
+            "assessment_id": 12599937,
+            "code": "8",
+            "code_type": "habitat",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2019",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 6294,
+            "url": "https://www.iucnredlist.org/species/6294/21947461",
+            "taxon_scientific_name": "Dasyurus geoffroii",
+            "red_list_category_code": "NT",
+            "assessment_id": 21947461,
+            "code": "8",
+            "code_type": "habitat",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2017",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 90389138,
+            "url": "https://www.iucnredlist.org/species/90389138/22288134",
+            "taxon_scientific_name": "Suncus etruscus",
+            "red_list_category_code": "LC",
+            "assessment_id": 22288134,
+            "code": "8",
+            "code_type": "habitat",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2016",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 41680,
+            "url": "https://www.iucnredlist.org/species/41680/45215881",
+            "taxon_scientific_name": "Bassariscus astutus",
+            "red_list_category_code": "LC",
+            "assessment_id": 45215881,
+            "code": "8",
+            "code_type": "habitat",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2016",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 22054,
+            "url": "https://www.iucnredlist.org/species/22054/50196734",
+            "taxon_scientific_name": "Tragelaphus strepsiceros",
+            "red_list_category_code": "LC",
+            "assessment_id": 50196734,
+            "code": "8",
+            "code_type": "habitat",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2020",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 22054,
+            "url": "https://www.iucnredlist.org/species/22054/166487759",
+            "taxon_scientific_name": "Tragelaphus strepsiceros",
+            "red_list_category_code": "LC",
+            "assessment_id": 166487759,
+            "code": "8",
+            "code_type": "habitat",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 90389138,
+            "url": "https://www.iucnredlist.org/species/90389138/221340889",
+            "taxon_scientific_name": "Suncus etruscus",
+            "red_list_category_code": "LC",
+            "assessment_id": 221340889,
+            "code": "8",
+            "code_type": "habitat",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2025",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 6294,
+            "url": "https://www.iucnredlist.org/species/6294/258659510",
+            "taxon_scientific_name": "Dasyurus geoffroii",
+            "red_list_category_code": "NT",
+            "assessment_id": 258659510,
+            "code": "8",
+            "code_type": "habitat",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        }
+    ],
+    "filters": {
+
+    }
+}

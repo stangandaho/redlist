@@ -1,0 +1,1925 @@
+{
+    "assessments": [
+        {
+            "year_published": "1996",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11509,
+            "url": "https://www.iucnredlist.org/species/11509/3287766",
+            "taxon_scientific_name": "Leopardus pardalis",
+            "red_list_category_code": "LR/lc",
+            "assessment_id": 3287766,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1982",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11509,
+            "url": "https://www.iucnredlist.org/species/11509/3287786",
+            "taxon_scientific_name": "Leopardus pardalis",
+            "red_list_category_code": "V",
+            "assessment_id": 3287786,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2008",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11509,
+            "url": "https://www.iucnredlist.org/species/11509/3287809",
+            "taxon_scientific_name": "Leopardus pardalis",
+            "red_list_category_code": "LC",
+            "assessment_id": 3287809,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2002",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11509,
+            "url": "https://www.iucnredlist.org/species/11509/3288207",
+            "taxon_scientific_name": "Leopardus pardalis",
+            "red_list_category_code": "LC",
+            "assessment_id": 3288207,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1990",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11509,
+            "url": "https://www.iucnredlist.org/species/11509/3288399",
+            "taxon_scientific_name": "Leopardus pardalis",
+            "red_list_category_code": "V",
+            "assessment_id": 3288399,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1986",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11509,
+            "url": "https://www.iucnredlist.org/species/11509/3288418",
+            "taxon_scientific_name": "Leopardus pardalis",
+            "red_list_category_code": "V",
+            "assessment_id": 3288418,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1988",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11509,
+            "url": "https://www.iucnredlist.org/species/11509/3288437",
+            "taxon_scientific_name": "Leopardus pardalis",
+            "red_list_category_code": "V",
+            "assessment_id": 3288437,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1996",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11511,
+            "url": "https://www.iucnredlist.org/species/11511/3290158",
+            "taxon_scientific_name": "Leopardus wiedii",
+            "red_list_category_code": "LR/lc",
+            "assessment_id": 3290158,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1982",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11511,
+            "url": "https://www.iucnredlist.org/species/11511/3290178",
+            "taxon_scientific_name": "Leopardus wiedii",
+            "red_list_category_code": "V",
+            "assessment_id": 3290178,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2008",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11511,
+            "url": "https://www.iucnredlist.org/species/11511/3290201",
+            "taxon_scientific_name": "Leopardus wiedii",
+            "red_list_category_code": "NT",
+            "assessment_id": 3290201,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2002",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11511,
+            "url": "https://www.iucnredlist.org/species/11511/3290574",
+            "taxon_scientific_name": "Leopardus wiedii",
+            "red_list_category_code": "LC",
+            "assessment_id": 3290574,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1990",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11511,
+            "url": "https://www.iucnredlist.org/species/11511/3290740",
+            "taxon_scientific_name": "Leopardus wiedii",
+            "red_list_category_code": "V",
+            "assessment_id": 3290740,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1994",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11511,
+            "url": "https://www.iucnredlist.org/species/11511/3290759",
+            "taxon_scientific_name": "Leopardus wiedii",
+            "red_list_category_code": "K",
+            "assessment_id": 3290759,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1986",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11511,
+            "url": "https://www.iucnredlist.org/species/11511/3290776",
+            "taxon_scientific_name": "Leopardus wiedii",
+            "red_list_category_code": "V",
+            "assessment_id": 3290776,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1988",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11511,
+            "url": "https://www.iucnredlist.org/species/11511/3290795",
+            "taxon_scientific_name": "Leopardus wiedii",
+            "red_list_category_code": "V",
+            "assessment_id": 3290795,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2002",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11638,
+            "url": "https://www.iucnredlist.org/species/11638/3298935",
+            "taxon_scientific_name": "Leptailurus serval",
+            "red_list_category_code": "LC",
+            "assessment_id": 3298935,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1996",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11638,
+            "url": "https://www.iucnredlist.org/species/11638/3299223",
+            "taxon_scientific_name": "Leptailurus serval",
+            "red_list_category_code": "LR/lc",
+            "assessment_id": 3299223,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2010",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11638,
+            "url": "https://www.iucnredlist.org/species/11638/3299247",
+            "taxon_scientific_name": "Leptailurus serval",
+            "red_list_category_code": "CR",
+            "assessment_id": 3299247,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Mediterranean"
+                    },
+                    "code": "4"
+                }
+            ]
+        },
+        {
+            "year_published": "2008",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11638,
+            "url": "https://www.iucnredlist.org/species/11638/3299635",
+            "taxon_scientific_name": "Leptailurus serval",
+            "red_list_category_code": "LC",
+            "assessment_id": 3299635,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1996",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12518,
+            "url": "https://www.iucnredlist.org/species/12518/3349859",
+            "taxon_scientific_name": "Lynx canadensis",
+            "red_list_category_code": "LR/lc",
+            "assessment_id": 3349859,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2008",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12518,
+            "url": "https://www.iucnredlist.org/species/12518/3349883",
+            "taxon_scientific_name": "Lynx canadensis",
+            "red_list_category_code": "LC",
+            "assessment_id": 3349883,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2002",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12518,
+            "url": "https://www.iucnredlist.org/species/12518/3350121",
+            "taxon_scientific_name": "Lynx canadensis",
+            "red_list_category_code": "LC",
+            "assessment_id": 3350121,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2008",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12519,
+            "url": "https://www.iucnredlist.org/species/12519/3350193",
+            "taxon_scientific_name": "Lynx lynx",
+            "red_list_category_code": "LC",
+            "assessment_id": 3350193,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2002",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12519,
+            "url": "https://www.iucnredlist.org/species/12519/3350681",
+            "taxon_scientific_name": "Lynx lynx",
+            "red_list_category_code": "NT",
+            "assessment_id": 3350681,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2010",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12519,
+            "url": "https://www.iucnredlist.org/species/12519/3350985",
+            "taxon_scientific_name": "Lynx lynx",
+            "red_list_category_code": "EN",
+            "assessment_id": 3350985,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Mediterranean"
+                    },
+                    "code": "4"
+                }
+            ]
+        },
+        {
+            "year_published": "2007",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12519,
+            "url": "https://www.iucnredlist.org/species/12519/3351478",
+            "taxon_scientific_name": "Lynx lynx",
+            "red_list_category_code": "LC",
+            "assessment_id": 3351478,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "1996",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12519,
+            "url": "https://www.iucnredlist.org/species/12519/3351804",
+            "taxon_scientific_name": "Lynx lynx",
+            "red_list_category_code": "LR/lc",
+            "assessment_id": 3351804,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1996",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12520,
+            "url": "https://www.iucnredlist.org/species/12520/3351904",
+            "taxon_scientific_name": "Lynx pardinus",
+            "red_list_category_code": "EN",
+            "assessment_id": 3351904,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1965",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12520,
+            "url": "https://www.iucnredlist.org/species/12520/3351927",
+            "taxon_scientific_name": "Lynx pardinus",
+            "red_list_category_code": "N/A",
+            "assessment_id": 3351927,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2008",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12520,
+            "url": "https://www.iucnredlist.org/species/12520/3351949",
+            "taxon_scientific_name": "Lynx pardinus",
+            "red_list_category_code": "CR",
+            "assessment_id": 3351949,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                },
+                {
+                    "description": {
+                        "en": "Mediterranean"
+                    },
+                    "code": "4"
+                }
+            ]
+        },
+        {
+            "year_published": "2002",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12520,
+            "url": "https://www.iucnredlist.org/species/12520/3352152",
+            "taxon_scientific_name": "Lynx pardinus",
+            "red_list_category_code": "CR",
+            "assessment_id": 3352152,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1994",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12520,
+            "url": "https://www.iucnredlist.org/species/12520/3352243",
+            "taxon_scientific_name": "Lynx pardinus",
+            "red_list_category_code": "E",
+            "assessment_id": 3352243,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1988",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12520,
+            "url": "https://www.iucnredlist.org/species/12520/3352262",
+            "taxon_scientific_name": "Lynx pardinus",
+            "red_list_category_code": "E",
+            "assessment_id": 3352262,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1986",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12520,
+            "url": "https://www.iucnredlist.org/species/12520/3352281",
+            "taxon_scientific_name": "Lynx pardinus",
+            "red_list_category_code": "E",
+            "assessment_id": 3352281,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1990",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12520,
+            "url": "https://www.iucnredlist.org/species/12520/3352300",
+            "taxon_scientific_name": "Lynx pardinus",
+            "red_list_category_code": "E",
+            "assessment_id": 3352300,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2006",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12520,
+            "url": "https://www.iucnredlist.org/species/12520/3352319",
+            "taxon_scientific_name": "Lynx pardinus",
+            "red_list_category_code": "CR",
+            "assessment_id": 3352319,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "1996",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12521,
+            "url": "https://www.iucnredlist.org/species/12521/3352482",
+            "taxon_scientific_name": "Lynx rufus",
+            "red_list_category_code": "LR/lc",
+            "assessment_id": 3352482,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2008",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12521,
+            "url": "https://www.iucnredlist.org/species/12521/3352506",
+            "taxon_scientific_name": "Lynx rufus",
+            "red_list_category_code": "LC",
+            "assessment_id": 3352506,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2002",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12521,
+            "url": "https://www.iucnredlist.org/species/12521/3352960",
+            "taxon_scientific_name": "Lynx rufus",
+            "red_list_category_code": "LC",
+            "assessment_id": 3352960,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2008",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 136603,
+            "url": "https://www.iucnredlist.org/species/136603/4317155",
+            "taxon_scientific_name": "Neofelis diardi",
+            "red_list_category_code": "VU",
+            "assessment_id": 4317155,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1996",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 14519,
+            "url": "https://www.iucnredlist.org/species/14519/4440777",
+            "taxon_scientific_name": "Neofelis nebulosa",
+            "red_list_category_code": "VU",
+            "assessment_id": 4440777,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1986",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 14519,
+            "url": "https://www.iucnredlist.org/species/14519/4440798",
+            "taxon_scientific_name": "Neofelis nebulosa",
+            "red_list_category_code": "V",
+            "assessment_id": 4440798,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2008",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 14519,
+            "url": "https://www.iucnredlist.org/species/14519/4440819",
+            "taxon_scientific_name": "Neofelis nebulosa",
+            "red_list_category_code": "VU",
+            "assessment_id": 4440819,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2002",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 14519,
+            "url": "https://www.iucnredlist.org/species/14519/4441190",
+            "taxon_scientific_name": "Neofelis nebulosa",
+            "red_list_category_code": "VU",
+            "assessment_id": 4441190,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1994",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 14519,
+            "url": "https://www.iucnredlist.org/species/14519/4441334",
+            "taxon_scientific_name": "Neofelis nebulosa",
+            "red_list_category_code": "V",
+            "assessment_id": 4441334,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1988",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 14519,
+            "url": "https://www.iucnredlist.org/species/14519/4441351",
+            "taxon_scientific_name": "Neofelis nebulosa",
+            "red_list_category_code": "V",
+            "assessment_id": 4441351,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1990",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 14519,
+            "url": "https://www.iucnredlist.org/species/14519/4441368",
+            "taxon_scientific_name": "Neofelis nebulosa",
+            "red_list_category_code": "V",
+            "assessment_id": 4441368,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1996",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15309,
+            "url": "https://www.iucnredlist.org/species/15309/4511753",
+            "taxon_scientific_name": "Leopardus colocolo",
+            "red_list_category_code": "LR/lc",
+            "assessment_id": 4511753,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1994",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15309,
+            "url": "https://www.iucnredlist.org/species/15309/4511776",
+            "taxon_scientific_name": "Leopardus colocolo",
+            "red_list_category_code": "I",
+            "assessment_id": 4511776,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2008",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15309,
+            "url": "https://www.iucnredlist.org/species/15309/4511796",
+            "taxon_scientific_name": "Leopardus colocolo",
+            "red_list_category_code": "NT",
+            "assessment_id": 4511796,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2002",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15309,
+            "url": "https://www.iucnredlist.org/species/15309/4512068",
+            "taxon_scientific_name": "Leopardus colocolo",
+            "red_list_category_code": "NT",
+            "assessment_id": 4512068,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1996",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15310,
+            "url": "https://www.iucnredlist.org/species/15310/4512187",
+            "taxon_scientific_name": "Leopardus geoffroyi",
+            "red_list_category_code": "LR/lc",
+            "assessment_id": 4512187,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2008",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15310,
+            "url": "https://www.iucnredlist.org/species/15310/4512210",
+            "taxon_scientific_name": "Leopardus geoffroyi",
+            "red_list_category_code": "NT",
+            "assessment_id": 4512210,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2002",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15310,
+            "url": "https://www.iucnredlist.org/species/15310/4512452",
+            "taxon_scientific_name": "Leopardus geoffroyi",
+            "red_list_category_code": "NT",
+            "assessment_id": 4512452,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1996",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15311,
+            "url": "https://www.iucnredlist.org/species/15311/4512550",
+            "taxon_scientific_name": "Leopardus guigna",
+            "red_list_category_code": "VU",
+            "assessment_id": 4512550,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1994",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15311,
+            "url": "https://www.iucnredlist.org/species/15311/4512574",
+            "taxon_scientific_name": "Leopardus guigna",
+            "red_list_category_code": "I",
+            "assessment_id": 4512574,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2008",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15311,
+            "url": "https://www.iucnredlist.org/species/15311/4512594",
+            "taxon_scientific_name": "Leopardus guigna",
+            "red_list_category_code": "VU",
+            "assessment_id": 4512594,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2002",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15311,
+            "url": "https://www.iucnredlist.org/species/15311/4512769",
+            "taxon_scientific_name": "Leopardus guigna",
+            "red_list_category_code": "VU",
+            "assessment_id": 4512769,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1996",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15452,
+            "url": "https://www.iucnredlist.org/species/15452/4586944",
+            "taxon_scientific_name": "Leopardus jacobita",
+            "red_list_category_code": "VU",
+            "assessment_id": 4586944,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1982",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15452,
+            "url": "https://www.iucnredlist.org/species/15452/4586968",
+            "taxon_scientific_name": "Leopardus jacobita",
+            "red_list_category_code": "R",
+            "assessment_id": 4586968,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2008",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15452,
+            "url": "https://www.iucnredlist.org/species/15452/4586989",
+            "taxon_scientific_name": "Leopardus jacobita",
+            "red_list_category_code": "EN",
+            "assessment_id": 4586989,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2002",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15452,
+            "url": "https://www.iucnredlist.org/species/15452/4587193",
+            "taxon_scientific_name": "Leopardus jacobita",
+            "red_list_category_code": "EN",
+            "assessment_id": 4587193,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1990",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15452,
+            "url": "https://www.iucnredlist.org/species/15452/4587269",
+            "taxon_scientific_name": "Leopardus jacobita",
+            "red_list_category_code": "R",
+            "assessment_id": 4587269,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1994",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15452,
+            "url": "https://www.iucnredlist.org/species/15452/4587290",
+            "taxon_scientific_name": "Leopardus jacobita",
+            "red_list_category_code": "K",
+            "assessment_id": 4587290,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1986",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15452,
+            "url": "https://www.iucnredlist.org/species/15452/4587310",
+            "taxon_scientific_name": "Leopardus jacobita",
+            "red_list_category_code": "R",
+            "assessment_id": 4587310,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1988",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15452,
+            "url": "https://www.iucnredlist.org/species/15452/4587331",
+            "taxon_scientific_name": "Leopardus jacobita",
+            "red_list_category_code": "R",
+            "assessment_id": 4587331,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1996",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15640,
+            "url": "https://www.iucnredlist.org/species/15640/4938869",
+            "taxon_scientific_name": "Otocolobus manul",
+            "red_list_category_code": "LR/lc",
+            "assessment_id": 4938869,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1994",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15640,
+            "url": "https://www.iucnredlist.org/species/15640/4938891",
+            "taxon_scientific_name": "Otocolobus manul",
+            "red_list_category_code": "K",
+            "assessment_id": 4938891,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2008",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15640,
+            "url": "https://www.iucnredlist.org/species/15640/4938910",
+            "taxon_scientific_name": "Otocolobus manul",
+            "red_list_category_code": "NT",
+            "assessment_id": 4938910,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2002",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15640,
+            "url": "https://www.iucnredlist.org/species/15640/4939295",
+            "taxon_scientific_name": "Otocolobus manul",
+            "red_list_category_code": "NT",
+            "assessment_id": 4939295,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2004",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15951,
+            "url": "https://www.iucnredlist.org/species/15951/5325584",
+            "taxon_scientific_name": "Panthera leo",
+            "red_list_category_code": "VU",
+            "assessment_id": 5325584,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2002",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15951,
+            "url": "https://www.iucnredlist.org/species/15951/5325967",
+            "taxon_scientific_name": "Panthera leo",
+            "red_list_category_code": "VU",
+            "assessment_id": 5325967,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2010",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15951,
+            "url": "https://www.iucnredlist.org/species/15951/5325996",
+            "taxon_scientific_name": "Panthera leo",
+            "red_list_category_code": "RE",
+            "assessment_id": 5325996,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Mediterranean"
+                    },
+                    "code": "4"
+                }
+            ]
+        },
+        {
+            "year_published": "2008",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15951,
+            "url": "https://www.iucnredlist.org/species/15951/5326576",
+            "taxon_scientific_name": "Panthera leo",
+            "red_list_category_code": "VU",
+            "assessment_id": 5326576,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1996",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15951,
+            "url": "https://www.iucnredlist.org/species/15951/5327163",
+            "taxon_scientific_name": "Panthera leo",
+            "red_list_category_code": "VU",
+            "assessment_id": 5327163,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1996",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15953,
+            "url": "https://www.iucnredlist.org/species/15953/5327425",
+            "taxon_scientific_name": "Panthera onca",
+            "red_list_category_code": "LR/nt",
+            "assessment_id": 5327425,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1982",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15953,
+            "url": "https://www.iucnredlist.org/species/15953/5327445",
+            "taxon_scientific_name": "Panthera onca",
+            "red_list_category_code": "V",
+            "assessment_id": 5327445,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2008",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15953,
+            "url": "https://www.iucnredlist.org/species/15953/5327466",
+            "taxon_scientific_name": "Panthera onca",
+            "red_list_category_code": "NT",
+            "assessment_id": 5327466,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2002",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15953,
+            "url": "https://www.iucnredlist.org/species/15953/5327840",
+            "taxon_scientific_name": "Panthera onca",
+            "red_list_category_code": "NT",
+            "assessment_id": 5327840,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1990",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15953,
+            "url": "https://www.iucnredlist.org/species/15953/5328020",
+            "taxon_scientific_name": "Panthera onca",
+            "red_list_category_code": "V",
+            "assessment_id": 5328020,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1986",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15953,
+            "url": "https://www.iucnredlist.org/species/15953/5328037",
+            "taxon_scientific_name": "Panthera onca",
+            "red_list_category_code": "V",
+            "assessment_id": 5328037,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1988",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15953,
+            "url": "https://www.iucnredlist.org/species/15953/5328054",
+            "taxon_scientific_name": "Panthera onca",
+            "red_list_category_code": "V",
+            "assessment_id": 5328054,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2002",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15954,
+            "url": "https://www.iucnredlist.org/species/15954/5328071",
+            "taxon_scientific_name": "Panthera pardus",
+            "red_list_category_code": "LC",
+            "assessment_id": 5328071,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1996",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15954,
+            "url": "https://www.iucnredlist.org/species/15954/5328571",
+            "taxon_scientific_name": "Panthera pardus",
+            "red_list_category_code": "LR/lc",
+            "assessment_id": 5328571,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2010",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15954,
+            "url": "https://www.iucnredlist.org/species/15954/5328595",
+            "taxon_scientific_name": "Panthera pardus",
+            "red_list_category_code": "CR",
+            "assessment_id": 5328595,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Mediterranean"
+                    },
+                    "code": "4"
+                }
+            ]
+        },
+        {
+            "year_published": "2008",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15954,
+            "url": "https://www.iucnredlist.org/species/15954/5329380",
+            "taxon_scientific_name": "Panthera pardus",
+            "red_list_category_code": "NT",
+            "assessment_id": 5329380,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1990",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15954,
+            "url": "https://www.iucnredlist.org/species/15954/5330166",
+            "taxon_scientific_name": "Panthera pardus",
+            "red_list_category_code": "T",
+            "assessment_id": 5330166,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1986",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15954,
+            "url": "https://www.iucnredlist.org/species/15954/5330183",
+            "taxon_scientific_name": "Panthera pardus",
+            "red_list_category_code": "V",
+            "assessment_id": 5330183,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1988",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15954,
+            "url": "https://www.iucnredlist.org/species/15954/5330200",
+            "taxon_scientific_name": "Panthera pardus",
+            "red_list_category_code": "T",
+            "assessment_id": 5330200,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2002",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15955,
+            "url": "https://www.iucnredlist.org/species/15955/5330217",
+            "taxon_scientific_name": "Panthera tigris",
+            "red_list_category_code": "EN",
+            "assessment_id": 5330217,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1996",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15955,
+            "url": "https://www.iucnredlist.org/species/15955/5330451",
+            "taxon_scientific_name": "Panthera tigris",
+            "red_list_category_code": "EN",
+            "assessment_id": 5330451,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2010",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15955,
+            "url": "https://www.iucnredlist.org/species/15955/5330476",
+            "taxon_scientific_name": "Panthera tigris",
+            "red_list_category_code": "RE",
+            "assessment_id": 5330476,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Mediterranean"
+                    },
+                    "code": "4"
+                }
+            ]
+        },
+        {
+            "year_published": "2008",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15955,
+            "url": "https://www.iucnredlist.org/species/15955/5331153",
+            "taxon_scientific_name": "Panthera tigris",
+            "red_list_category_code": "EN",
+            "assessment_id": 5331153,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1990",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15955,
+            "url": "https://www.iucnredlist.org/species/15955/5331849",
+            "taxon_scientific_name": "Panthera tigris",
+            "red_list_category_code": "E",
+            "assessment_id": 5331849,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1994",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15955,
+            "url": "https://www.iucnredlist.org/species/15955/5331866",
+            "taxon_scientific_name": "Panthera tigris",
+            "red_list_category_code": "E",
+            "assessment_id": 5331866,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1986",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15955,
+            "url": "https://www.iucnredlist.org/species/15955/5331883",
+            "taxon_scientific_name": "Panthera tigris",
+            "red_list_category_code": "E",
+            "assessment_id": 5331883,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1988",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15955,
+            "url": "https://www.iucnredlist.org/species/15955/5331900",
+            "taxon_scientific_name": "Panthera tigris",
+            "red_list_category_code": "E",
+            "assessment_id": 5331900,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2010",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15955,
+            "url": "https://www.iucnredlist.org/species/15955/5331917",
+            "taxon_scientific_name": "Panthera tigris",
+            "red_list_category_code": "EN",
+            "assessment_id": 5331917,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2011",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15955,
+            "url": "https://www.iucnredlist.org/species/15955/5332619",
+            "taxon_scientific_name": "Panthera tigris",
+            "red_list_category_code": "EN",
+            "assessment_id": 5332619,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1996",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 16218,
+            "url": "https://www.iucnredlist.org/species/16218/5553913",
+            "taxon_scientific_name": "Pardofelis marmorata",
+            "red_list_category_code": "DD",
+            "assessment_id": 5553913,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        }
+    ],
+    "filters": {
+        "family_name": "Felidae"
+    }
+}

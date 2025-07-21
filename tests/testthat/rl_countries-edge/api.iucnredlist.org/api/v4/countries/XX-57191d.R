@@ -1,0 +1,12 @@
+structure(list(method = "GET", url = "https://api.iucnredlist.org/api/v4/countries/XX?page=1", 
+    status_code = 404L, headers = structure(list(Date = "Mon, 21 Jul 2025 12:55:03 GMT", 
+        `Content-Type` = "application/json", `Transfer-Encoding` = "chunked", 
+        Connection = "keep-alive", `Cache-Control` = "no-cache", 
+        `X-Request-Id` = "c983d95d-e234-4521-b77e-75a5caef8f31", 
+        `X-Runtime` = "0.014244", `Cf-Cache-Status` = "DYNAMIC", 
+        Nel = "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}", 
+        `Speculation-Rules` = "\"/cdn-cgi/speculation\"", `Report-To` = "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=sSn7FzorWT1bGqdMuSQdYqksoQciayDHpxNKHqyO9J2xahLhREHTN%2BFfrUMlVIdWewP8Grf0y6Ftr3q15ZvfUod%2BnTu5GnvsZQ0%2FcS%2FKbn30RBk%3D\"}]}", 
+        `Content-Encoding` = "gzip", Server = "cloudflare", `CF-RAY` = "962ad9b3acb563c9-LHR", 
+        `alt-svc` = "h3=\":443\"; ma=86400"), redact = character(0), class = "httr2_headers"), 
+    body = charToRaw("{\"error\":\"Country code XX not found\"}"), 
+    cache = new.env(parent = emptyenv())), class = "httr2_response")

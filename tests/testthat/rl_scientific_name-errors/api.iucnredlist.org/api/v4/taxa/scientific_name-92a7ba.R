@@ -1,0 +1,11 @@
+structure(list(method = "GET", url = "https://api.iucnredlist.org/api/v4/taxa/scientific_name?genus_name=Panthera&species_name=TRUE", 
+    status_code = 404L, headers = structure(list(Date = "Mon, 21 Jul 2025 12:58:00 GMT", 
+        `Content-Type` = "application/json", `Transfer-Encoding` = "chunked", 
+        Connection = "keep-alive", `Cache-Control` = "no-cache", 
+        `X-Request-Id` = "a5430d85-404a-41ea-8ac3-ffdaefbbc63d", 
+        `X-Runtime` = "0.299007", `Cf-Cache-Status` = "DYNAMIC", 
+        Nel = "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}", 
+        `Speculation-Rules` = "\"/cdn-cgi/speculation\"", `Report-To` = "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=YbdYLWpuGEafZ0UK%2BwK0xZRW9nzxWD64CYQUQWtt3IdCc78R0TxYDrK4L4vRoVC5tajFukjtuyA0aAnwHkSAAPUrSHH7r%2BliIjP3pPVxz4pklbs%3D\"}]}", 
+        `Content-Encoding` = "gzip", Server = "cloudflare", `CF-RAY` = "962ade05ea3163c9-LHR", 
+        `alt-svc` = "h3=\":443\"; ma=86400"), redact = character(0), class = "httr2_headers"), 
+    body = charToRaw("{\"error\":\"Not found\"}"), cache = new.env(parent = emptyenv())), class = "httr2_response")

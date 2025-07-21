@@ -17,14 +17,14 @@ LazyData: true
 RoxygenNote: 7.3.1
 Roxygen: list(markdown = TRUE)
 Imports: 
-    cli,
-    dplyr,
-    httr2,
-    magrittr,
-    fs,
-    rvest
+    cli (>= 3.6.3),
+    dplyr (>= 1.1.4),
+    httr2 (>= 1.1.2),
+    magrittr (>= 2.0.3),
+    rvest (>= 1.0.4)
 URL: https://github.com/yourusername/redlist
 BugReports: https://github.com/yourusername/redlist/issues
 Suggests: 
+    httptest2 (>= 1.1.0),
     testthat (>= 3.0.0)
 Config/testthat/edition: 3

@@ -1,0 +1,1908 @@
+{
+    "assessments": [
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 158031,
+            "url": "https://www.iucnredlist.org/species/158031/757902",
+            "taxon_scientific_name": "Lasiodiscus pervillei",
+            "red_list_category_code": "LC",
+            "assessment_id": 757902,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 35173,
+            "url": "https://www.iucnredlist.org/species/35173/758688",
+            "taxon_scientific_name": "Karomia gigas",
+            "red_list_category_code": "CR",
+            "assessment_id": 758688,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 158317,
+            "url": "https://www.iucnredlist.org/species/158317/771847",
+            "taxon_scientific_name": "Erica mafiensis",
+            "red_list_category_code": "VU",
+            "assessment_id": 771847,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 165444,
+            "url": "https://www.iucnredlist.org/species/165444/1082712",
+            "taxon_scientific_name": "Tamarix jordanis",
+            "red_list_category_code": "NT",
+            "assessment_id": 1082712,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 165446,
+            "url": "https://www.iucnredlist.org/species/165446/1082726",
+            "taxon_scientific_name": "Tamarix palaestina",
+            "red_list_category_code": "DD",
+            "assessment_id": 1082726,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173386,
+            "url": "https://www.iucnredlist.org/species/173386/1382524",
+            "taxon_scientific_name": "Diospyros sumatrana",
+            "red_list_category_code": "DD",
+            "assessment_id": 1382524,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173427,
+            "url": "https://www.iucnredlist.org/species/173427/1384767",
+            "taxon_scientific_name": "Diospyros whitfordii",
+            "red_list_category_code": "EN",
+            "assessment_id": 1384767,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173439,
+            "url": "https://www.iucnredlist.org/species/173439/1385157",
+            "taxon_scientific_name": "Diospyros grex",
+            "red_list_category_code": "EN",
+            "assessment_id": 1385157,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173447,
+            "url": "https://www.iucnredlist.org/species/173447/1385482",
+            "taxon_scientific_name": "Diospyros acapulcensis",
+            "red_list_category_code": "LC",
+            "assessment_id": 1385482,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173449,
+            "url": "https://www.iucnredlist.org/species/173449/1385581",
+            "taxon_scientific_name": "Diospyros caribaea",
+            "red_list_category_code": "LC",
+            "assessment_id": 1385581,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173450,
+            "url": "https://www.iucnredlist.org/species/173450/1385616",
+            "taxon_scientific_name": "Diospyros suaveolens",
+            "red_list_category_code": "LC",
+            "assessment_id": 1385616,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173451,
+            "url": "https://www.iucnredlist.org/species/173451/1385655",
+            "taxon_scientific_name": "Diospyros quiloensis",
+            "red_list_category_code": "LC",
+            "assessment_id": 1385655,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173455,
+            "url": "https://www.iucnredlist.org/species/173455/1385822",
+            "taxon_scientific_name": "Diospyros monbuttensis",
+            "red_list_category_code": "LC",
+            "assessment_id": 1385822,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173471,
+            "url": "https://www.iucnredlist.org/species/173471/1386521",
+            "taxon_scientific_name": "Diospyros heudelotii",
+            "red_list_category_code": "LC",
+            "assessment_id": 1386521,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173481,
+            "url": "https://www.iucnredlist.org/species/173481/1386933",
+            "taxon_scientific_name": "Diospyros dolmen",
+            "red_list_category_code": "EN",
+            "assessment_id": 1386933,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173489,
+            "url": "https://www.iucnredlist.org/species/173489/1387207",
+            "taxon_scientific_name": "Diospyros canaliculata",
+            "red_list_category_code": "LC",
+            "assessment_id": 1387207,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173490,
+            "url": "https://www.iucnredlist.org/species/173490/1387318",
+            "taxon_scientific_name": "Diospyros panguana",
+            "red_list_category_code": "EN",
+            "assessment_id": 1387318,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173507,
+            "url": "https://www.iucnredlist.org/species/173507/1387970",
+            "taxon_scientific_name": "Diospyros brainii",
+            "red_list_category_code": "CR",
+            "assessment_id": 1387970,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173508,
+            "url": "https://www.iucnredlist.org/species/173508/1387999",
+            "taxon_scientific_name": "Lissocarpa guianensis",
+            "red_list_category_code": "NT",
+            "assessment_id": 1387999,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173511,
+            "url": "https://www.iucnredlist.org/species/173511/1388086",
+            "taxon_scientific_name": "Diospyros sanza-minika",
+            "red_list_category_code": "LC",
+            "assessment_id": 1388086,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173513,
+            "url": "https://www.iucnredlist.org/species/173513/1388220",
+            "taxon_scientific_name": "Diospyros ottohuberi",
+            "red_list_category_code": "CR",
+            "assessment_id": 1388220,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173524,
+            "url": "https://www.iucnredlist.org/species/173524/1388562",
+            "taxon_scientific_name": "Diospyros hoyleana",
+            "red_list_category_code": "LC",
+            "assessment_id": 1388562,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173526,
+            "url": "https://www.iucnredlist.org/species/173526/1388679",
+            "taxon_scientific_name": "Lissocarpa tetramera",
+            "red_list_category_code": "VU",
+            "assessment_id": 1388679,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173537,
+            "url": "https://www.iucnredlist.org/species/173537/1389060",
+            "taxon_scientific_name": "Diospyros natalensis",
+            "red_list_category_code": "LC",
+            "assessment_id": 1389060,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173542,
+            "url": "https://www.iucnredlist.org/species/173542/1389350",
+            "taxon_scientific_name": "Diospyros bernieriana",
+            "red_list_category_code": "LC",
+            "assessment_id": 1389350,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173545,
+            "url": "https://www.iucnredlist.org/species/173545/1389441",
+            "taxon_scientific_name": "Diospyros diversifolia",
+            "red_list_category_code": "EN",
+            "assessment_id": 1389441,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173554,
+            "url": "https://www.iucnredlist.org/species/173554/1389852",
+            "taxon_scientific_name": "Diospyros tepu",
+            "red_list_category_code": "CR",
+            "assessment_id": 1389852,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173569,
+            "url": "https://www.iucnredlist.org/species/173569/1390501",
+            "taxon_scientific_name": "Diospyros juruensis",
+            "red_list_category_code": "LC",
+            "assessment_id": 1390501,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173575,
+            "url": "https://www.iucnredlist.org/species/173575/1390701",
+            "taxon_scientific_name": "Diospyros obliquifolia",
+            "red_list_category_code": "LC",
+            "assessment_id": 1390701,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173579,
+            "url": "https://www.iucnredlist.org/species/173579/1390912",
+            "taxon_scientific_name": "Diospyros polystemon",
+            "red_list_category_code": "LC",
+            "assessment_id": 1390912,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173601,
+            "url": "https://www.iucnredlist.org/species/173601/1391667",
+            "taxon_scientific_name": "Diospyros melocarpa",
+            "red_list_category_code": "LC",
+            "assessment_id": 1391667,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173604,
+            "url": "https://www.iucnredlist.org/species/173604/1391804",
+            "taxon_scientific_name": "Diospyros relit",
+            "red_list_category_code": "EN",
+            "assessment_id": 1391804,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173607,
+            "url": "https://www.iucnredlist.org/species/173607/1391879",
+            "taxon_scientific_name": "Diospyros kanizur",
+            "red_list_category_code": "CR",
+            "assessment_id": 1391879,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173609,
+            "url": "https://www.iucnredlist.org/species/173609/1391943",
+            "taxon_scientific_name": "Diospyros gabunensis",
+            "red_list_category_code": "LC",
+            "assessment_id": 1391943,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173618,
+            "url": "https://www.iucnredlist.org/species/173618/1392301",
+            "taxon_scientific_name": "Lissocarpa ronliesneri",
+            "red_list_category_code": "LC",
+            "assessment_id": 1392301,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173626,
+            "url": "https://www.iucnredlist.org/species/173626/1392646",
+            "taxon_scientific_name": "Diospyros thomasii",
+            "red_list_category_code": "LC",
+            "assessment_id": 1392646,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173640,
+            "url": "https://www.iucnredlist.org/species/173640/1393229",
+            "taxon_scientific_name": "Diospyros nanay",
+            "red_list_category_code": "VU",
+            "assessment_id": 1393229,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173651,
+            "url": "https://www.iucnredlist.org/species/173651/1393637",
+            "taxon_scientific_name": "Diospyros mannii",
+            "red_list_category_code": "LC",
+            "assessment_id": 1393637,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173658,
+            "url": "https://www.iucnredlist.org/species/173658/1393944",
+            "taxon_scientific_name": "Diospyros inconstans",
+            "red_list_category_code": "LC",
+            "assessment_id": 1393944,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173663,
+            "url": "https://www.iucnredlist.org/species/173663/1394199",
+            "taxon_scientific_name": "Diospyros gracilipes",
+            "red_list_category_code": "LC",
+            "assessment_id": 1394199,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173667,
+            "url": "https://www.iucnredlist.org/species/173667/1394325",
+            "taxon_scientific_name": "Diospyros analamerensis",
+            "red_list_category_code": "EN",
+            "assessment_id": 1394325,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173670,
+            "url": "https://www.iucnredlist.org/species/173670/1394463",
+            "taxon_scientific_name": "Diospyros chevalieri",
+            "red_list_category_code": "LC",
+            "assessment_id": 1394463,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173678,
+            "url": "https://www.iucnredlist.org/species/173678/1394773",
+            "taxon_scientific_name": "Diospyros pseudoxylopia",
+            "red_list_category_code": "LC",
+            "assessment_id": 1394773,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173686,
+            "url": "https://www.iucnredlist.org/species/173686/1395093",
+            "taxon_scientific_name": "Diospyros crockerensis",
+            "red_list_category_code": "EN",
+            "assessment_id": 1395093,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173693,
+            "url": "https://www.iucnredlist.org/species/173693/1395318",
+            "taxon_scientific_name": "Diospyros chrysocarpa",
+            "red_list_category_code": "EN",
+            "assessment_id": 1395318,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173700,
+            "url": "https://www.iucnredlist.org/species/173700/1395584",
+            "taxon_scientific_name": "Diospyros elliotii",
+            "red_list_category_code": "LC",
+            "assessment_id": 1395584,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173708,
+            "url": "https://www.iucnredlist.org/species/173708/1396011",
+            "taxon_scientific_name": "Diospyros soubreana",
+            "red_list_category_code": "LC",
+            "assessment_id": 1396011,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173718,
+            "url": "https://www.iucnredlist.org/species/173718/1396435",
+            "taxon_scientific_name": "Diospyros urep",
+            "red_list_category_code": "EN",
+            "assessment_id": 1396435,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173720,
+            "url": "https://www.iucnredlist.org/species/173720/1396565",
+            "taxon_scientific_name": "Diospyros physocalycina",
+            "red_list_category_code": "LC",
+            "assessment_id": 1396565,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173728,
+            "url": "https://www.iucnredlist.org/species/173728/1396906",
+            "taxon_scientific_name": "Diospyros vignei",
+            "red_list_category_code": "LC",
+            "assessment_id": 1396906,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173730,
+            "url": "https://www.iucnredlist.org/species/173730/1396988",
+            "taxon_scientific_name": "Diospyros gracilescens",
+            "red_list_category_code": "LC",
+            "assessment_id": 1396988,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173739,
+            "url": "https://www.iucnredlist.org/species/173739/1397401",
+            "taxon_scientific_name": "Diospyros rotok",
+            "red_list_category_code": "CR",
+            "assessment_id": 1397401,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173761,
+            "url": "https://www.iucnredlist.org/species/173761/1398301",
+            "taxon_scientific_name": "Diospyros gallo",
+            "red_list_category_code": "VU",
+            "assessment_id": 1398301,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173767,
+            "url": "https://www.iucnredlist.org/species/173767/1398578",
+            "taxon_scientific_name": "Diospyros whyteana",
+            "red_list_category_code": "LC",
+            "assessment_id": 1398578,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173769,
+            "url": "https://www.iucnredlist.org/species/173769/1398771",
+            "taxon_scientific_name": "Diospyros manu",
+            "red_list_category_code": "VU",
+            "assessment_id": 1398771,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173781,
+            "url": "https://www.iucnredlist.org/species/173781/1399232",
+            "taxon_scientific_name": "Diospyros preussii",
+            "red_list_category_code": "LC",
+            "assessment_id": 1399232,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173790,
+            "url": "https://www.iucnredlist.org/species/173790/1399650",
+            "taxon_scientific_name": "Diospyros fenal",
+            "red_list_category_code": "CR",
+            "assessment_id": 1399650,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173803,
+            "url": "https://www.iucnredlist.org/species/173803/1400172",
+            "taxon_scientific_name": "Diospyros pseudomespilus",
+            "red_list_category_code": "LC",
+            "assessment_id": 1400172,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173818,
+            "url": "https://www.iucnredlist.org/species/173818/1400741",
+            "taxon_scientific_name": "Diospyros tetrandra",
+            "red_list_category_code": "LC",
+            "assessment_id": 1400741,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173822,
+            "url": "https://www.iucnredlist.org/species/173822/1400903",
+            "taxon_scientific_name": "Diospyros rabiensis",
+            "red_list_category_code": "VU",
+            "assessment_id": 1400903,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173825,
+            "url": "https://www.iucnredlist.org/species/173825/1401032",
+            "taxon_scientific_name": "Lissocarpa uyat",
+            "red_list_category_code": "NT",
+            "assessment_id": 1401032,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173829,
+            "url": "https://www.iucnredlist.org/species/173829/1401136",
+            "taxon_scientific_name": "Diospyros cordata",
+            "red_list_category_code": "DD",
+            "assessment_id": 1401136,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173846,
+            "url": "https://www.iucnredlist.org/species/173846/1401774",
+            "taxon_scientific_name": "Diospyros egleri",
+            "red_list_category_code": "LC",
+            "assessment_id": 1401774,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173851,
+            "url": "https://www.iucnredlist.org/species/173851/1401929",
+            "taxon_scientific_name": "Lissocarpa kating",
+            "red_list_category_code": "NT",
+            "assessment_id": 1401929,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173854,
+            "url": "https://www.iucnredlist.org/species/173854/1402040",
+            "taxon_scientific_name": "Lissocarpa stenocarpa",
+            "red_list_category_code": "VU",
+            "assessment_id": 1402040,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173860,
+            "url": "https://www.iucnredlist.org/species/173860/1402235",
+            "taxon_scientific_name": "Diospyros kamerunensis",
+            "red_list_category_code": "LC",
+            "assessment_id": 1402235,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173869,
+            "url": "https://www.iucnredlist.org/species/173869/1402664",
+            "taxon_scientific_name": "Diospyros cooperi",
+            "red_list_category_code": "LC",
+            "assessment_id": 1402664,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173882,
+            "url": "https://www.iucnredlist.org/species/173882/1403152",
+            "taxon_scientific_name": "Diospyros villosa",
+            "red_list_category_code": "LC",
+            "assessment_id": 1403152,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173891,
+            "url": "https://www.iucnredlist.org/species/173891/1403517",
+            "taxon_scientific_name": "Diospyros senensis",
+            "red_list_category_code": "LC",
+            "assessment_id": 1403517,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173903,
+            "url": "https://www.iucnredlist.org/species/173903/1403997",
+            "taxon_scientific_name": "Diospyros domingensis",
+            "red_list_category_code": "NT",
+            "assessment_id": 1403997,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173907,
+            "url": "https://www.iucnredlist.org/species/173907/1404137",
+            "taxon_scientific_name": "Diospyros consolatae",
+            "red_list_category_code": "LC",
+            "assessment_id": 1404137,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173913,
+            "url": "https://www.iucnredlist.org/species/173913/1404395",
+            "taxon_scientific_name": "Diospyros troupinii",
+            "red_list_category_code": "EN",
+            "assessment_id": 1404395,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173920,
+            "url": "https://www.iucnredlist.org/species/173920/1404671",
+            "taxon_scientific_name": "Diospyros sintenisii",
+            "red_list_category_code": "EN",
+            "assessment_id": 1404671,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173964,
+            "url": "https://www.iucnredlist.org/species/173964/1406645",
+            "taxon_scientific_name": "Diospyros liberiensis",
+            "red_list_category_code": "NT",
+            "assessment_id": 1406645,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173967,
+            "url": "https://www.iucnredlist.org/species/173967/1406816",
+            "taxon_scientific_name": "Diospyros mespiliformis",
+            "red_list_category_code": "LC",
+            "assessment_id": 1406816,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173973,
+            "url": "https://www.iucnredlist.org/species/173973/1407370",
+            "taxon_scientific_name": "Diospyros truncatifolia",
+            "red_list_category_code": "LC",
+            "assessment_id": 1407370,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173982,
+            "url": "https://www.iucnredlist.org/species/173982/1407975",
+            "taxon_scientific_name": "Diospyros matheriana",
+            "red_list_category_code": "LC",
+            "assessment_id": 1407975,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173992,
+            "url": "https://www.iucnredlist.org/species/173992/1408594",
+            "taxon_scientific_name": "Diospyros platycalyx",
+            "red_list_category_code": "LC",
+            "assessment_id": 1408594,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 174000,
+            "url": "https://www.iucnredlist.org/species/174000/1408916",
+            "taxon_scientific_name": "Diospyros gilletii",
+            "red_list_category_code": "LC",
+            "assessment_id": 1408916,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 174006,
+            "url": "https://www.iucnredlist.org/species/174006/1409169",
+            "taxon_scientific_name": "Diospyros mapingo",
+            "red_list_category_code": "LC",
+            "assessment_id": 1409169,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 174014,
+            "url": "https://www.iucnredlist.org/species/174014/1409468",
+            "taxon_scientific_name": "Diospyros britannoborneensis",
+            "red_list_category_code": "NT",
+            "assessment_id": 1409468,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 174023,
+            "url": "https://www.iucnredlist.org/species/174023/1409759",
+            "taxon_scientific_name": "Diospyros sparsirama",
+            "red_list_category_code": "DD",
+            "assessment_id": 1409759,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 174028,
+            "url": "https://www.iucnredlist.org/species/174028/1409969",
+            "taxon_scientific_name": "Lissocarpa jensonii",
+            "red_list_category_code": "EN",
+            "assessment_id": 1409969,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 174032,
+            "url": "https://www.iucnredlist.org/species/174032/1410119",
+            "taxon_scientific_name": "Diospyros wagemansii",
+            "red_list_category_code": "EN",
+            "assessment_id": 1410119,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 174040,
+            "url": "https://www.iucnredlist.org/species/174040/1410363",
+            "taxon_scientific_name": "Diospyros dalyom",
+            "red_list_category_code": "EN",
+            "assessment_id": 1410363,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 174042,
+            "url": "https://www.iucnredlist.org/species/174042/1410421",
+            "taxon_scientific_name": "Diospyros scabrida",
+            "red_list_category_code": "LC",
+            "assessment_id": 1410421,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 174043,
+            "url": "https://www.iucnredlist.org/species/174043/1410481",
+            "taxon_scientific_name": "Diospyros venosa",
+            "red_list_category_code": "LC",
+            "assessment_id": 1410481,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 175212,
+            "url": "https://www.iucnredlist.org/species/175212/1419302",
+            "taxon_scientific_name": "Semecarpus kathalekanensis",
+            "red_list_category_code": "CR",
+            "assessment_id": 1419302,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 179295,
+            "url": "https://www.iucnredlist.org/species/179295/1574309",
+            "taxon_scientific_name": "Vitex ugogoensis",
+            "red_list_category_code": "EN",
+            "assessment_id": 1574309,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 179298,
+            "url": "https://www.iucnredlist.org/species/179298/1574482",
+            "taxon_scientific_name": "Rotheca kissakensis",
+            "red_list_category_code": "VU",
+            "assessment_id": 1574482,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 179302,
+            "url": "https://www.iucnredlist.org/species/179302/1574546",
+            "taxon_scientific_name": "Rotheca rupicola",
+            "red_list_category_code": "EN",
+            "assessment_id": 1574546,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 179327,
+            "url": "https://www.iucnredlist.org/species/179327/1575329",
+            "taxon_scientific_name": "Rotheca commiphoroides",
+            "red_list_category_code": "EN",
+            "assessment_id": 1575329,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 179345,
+            "url": "https://www.iucnredlist.org/species/179345/1575713",
+            "taxon_scientific_name": "Premna gracillima",
+            "red_list_category_code": "VU",
+            "assessment_id": 1575713,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 179513,
+            "url": "https://www.iucnredlist.org/species/179513/1581016",
+            "taxon_scientific_name": "Sophora inhambanensis",
+            "red_list_category_code": "LC",
+            "assessment_id": 1581016,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 179547,
+            "url": "https://www.iucnredlist.org/species/179547/1582393",
+            "taxon_scientific_name": "Ampelocissus africana",
+            "red_list_category_code": "LC",
+            "assessment_id": 1582393,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 179563,
+            "url": "https://www.iucnredlist.org/species/179563/1582769",
+            "taxon_scientific_name": "Euphorbia buruana",
+            "red_list_category_code": "VU",
+            "assessment_id": 1582769,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 179592,
+            "url": "https://www.iucnredlist.org/species/179592/1583544",
+            "taxon_scientific_name": "Chlorophytum goetzei",
+            "red_list_category_code": "EN",
+            "assessment_id": 1583544,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 179768,
+            "url": "https://www.iucnredlist.org/species/179768/1589381",
+            "taxon_scientific_name": "Rotheca makanjana",
+            "red_list_category_code": "LC",
+            "assessment_id": 1589381,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 179775,
+            "url": "https://www.iucnredlist.org/species/179775/1589728",
+            "taxon_scientific_name": "Clerodendrum tricholobum",
+            "red_list_category_code": "NT",
+            "assessment_id": 1589728,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 179780,
+            "url": "https://www.iucnredlist.org/species/179780/1589850",
+            "taxon_scientific_name": "Premna velutina",
+            "red_list_category_code": "NT",
+            "assessment_id": 1589850,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        }
+    ],
+    "filters": {
+        "year_published": "2021",
+        "kingdom_name": "Plantae"
+    }
+}

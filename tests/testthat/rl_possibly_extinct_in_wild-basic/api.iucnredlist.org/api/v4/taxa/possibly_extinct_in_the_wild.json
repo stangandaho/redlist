@@ -1,0 +1,396 @@
+{
+    "assessments": [
+        {
+            "year_published": "2020",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": true,
+            "sis_taxon_id": 157997,
+            "url": "https://www.iucnredlist.org/species/157997/756253",
+            "taxon_scientific_name": "Celosia patentiloba",
+            "red_list_category_code": "CR",
+            "assessment_id": 756253,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2013",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": true,
+            "sis_taxon_id": 184177,
+            "url": "https://www.iucnredlist.org/species/184177/1750659",
+            "taxon_scientific_name": "Discocactus subterraneo-proliferans",
+            "red_list_category_code": "CR",
+            "assessment_id": 1750659,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2019",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": true,
+            "sis_taxon_id": 191129,
+            "url": "https://www.iucnredlist.org/species/191129/1970666",
+            "taxon_scientific_name": "Chirostoma aculeatum",
+            "red_list_category_code": "CR",
+            "assessment_id": 1970666,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2020",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": true,
+            "sis_taxon_id": 191480,
+            "url": "https://www.iucnredlist.org/species/191480/1984964",
+            "taxon_scientific_name": "Quercus albicaulis",
+            "red_list_category_code": "CR",
+            "assessment_id": 1984964,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2019",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": true,
+            "sis_taxon_id": 191705,
+            "url": "https://www.iucnredlist.org/species/191705/1999656",
+            "taxon_scientific_name": "Chapalichthys pardalis",
+            "red_list_category_code": "CR",
+            "assessment_id": 1999656,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2019",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": true,
+            "sis_taxon_id": 191825,
+            "url": "https://www.iucnredlist.org/species/191825/2006883",
+            "taxon_scientific_name": "Gobiesox juniperoserrai",
+            "red_list_category_code": "CR",
+            "assessment_id": 2006883,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2020",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": true,
+            "sis_taxon_id": 194057,
+            "url": "https://www.iucnredlist.org/species/194057/2295604",
+            "taxon_scientific_name": "Quercus argyrotricha",
+            "red_list_category_code": "CR",
+            "assessment_id": 2295604,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": true,
+            "sis_taxon_id": 38877,
+            "url": "https://www.iucnredlist.org/species/38877/2884829",
+            "taxon_scientific_name": "Magnolia wolfii",
+            "red_list_category_code": "CR",
+            "assessment_id": 2884829,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2020",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": true,
+            "sis_taxon_id": 4183,
+            "url": "https://www.iucnredlist.org/species/4183/45813838",
+            "taxon_scientific_name": "Ceratotherium simum ssp. cottoni",
+            "red_list_category_code": "CR",
+            "assessment_id": 45813838,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2019",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": true,
+            "sis_taxon_id": 61221,
+            "url": "https://www.iucnredlist.org/species/61221/47240724",
+            "taxon_scientific_name": "Nothobranchius steinforti",
+            "red_list_category_code": "CR",
+            "assessment_id": 47240724,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Eastern Africa"
+                    },
+                    "code": "18"
+                },
+                {
+                    "description": {
+                        "en": "Pan-Africa"
+                    },
+                    "code": "10"
+                }
+            ]
+        },
+        {
+            "year_published": "2022",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": true,
+            "sis_taxon_id": 41885,
+            "url": "https://www.iucnredlist.org/species/41885/50905617",
+            "taxon_scientific_name": "Encephalartos dolomiticus",
+            "red_list_category_code": "CR",
+            "assessment_id": 50905617,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2022",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": true,
+            "sis_taxon_id": 41889,
+            "url": "https://www.iucnredlist.org/species/41889/51056445",
+            "taxon_scientific_name": "Encephalartos hirsutus",
+            "red_list_category_code": "CR",
+            "assessment_id": 51056445,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2019",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": true,
+            "sis_taxon_id": 54563,
+            "url": "https://www.iucnredlist.org/species/54563/54341110",
+            "taxon_scientific_name": "Atelopus zeteki",
+            "red_list_category_code": "CR",
+            "assessment_id": 54341110,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": true,
+            "sis_taxon_id": 56301925,
+            "url": "https://www.iucnredlist.org/species/56301925/56301947",
+            "taxon_scientific_name": "Costus vinosus",
+            "red_list_category_code": "CR",
+            "assessment_id": 56301947,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2019",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": true,
+            "sis_taxon_id": 77149902,
+            "url": "https://www.iucnredlist.org/species/77149902/77151067",
+            "taxon_scientific_name": "Poecilozonites circumfirmatus",
+            "red_list_category_code": "CR",
+            "assessment_id": 77151067,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2015",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": true,
+            "sis_taxon_id": 78777144,
+            "url": "https://www.iucnredlist.org/species/78777144/78777147",
+            "taxon_scientific_name": "Cyanea grimesiana subsp. grimesiana",
+            "red_list_category_code": "CR",
+            "assessment_id": 78777147,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2016",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": true,
+            "sis_taxon_id": 78777234,
+            "url": "https://www.iucnredlist.org/species/78777234/78777243",
+            "taxon_scientific_name": "Cyanea lobata subsp. lobata",
+            "red_list_category_code": "CR",
+            "assessment_id": 78777243,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2015",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": true,
+            "sis_taxon_id": 79862837,
+            "url": "https://www.iucnredlist.org/species/79862837/79862844",
+            "taxon_scientific_name": "Delissea rhytidosperma",
+            "red_list_category_code": "CR",
+            "assessment_id": 79862844,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2018",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": true,
+            "sis_taxon_id": 80174419,
+            "url": "https://www.iucnredlist.org/species/80174419/80174429",
+            "taxon_scientific_name": "Phyllostegia mannii",
+            "red_list_category_code": "CR",
+            "assessment_id": 80174429,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2015",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": true,
+            "sis_taxon_id": 80174575,
+            "url": "https://www.iucnredlist.org/species/80174575/80174614",
+            "taxon_scientific_name": "Phyllostegia parviflora var. lydgatei",
+            "red_list_category_code": "CR",
+            "assessment_id": 80174614,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+structure(list(method = "GET", url = "https://api.iucnredlist.org/api/v4/growth_forms/INVALID?page=1", 
+    status_code = 404L, headers = structure(list(Date = "Mon, 21 Jul 2025 12:56:07 GMT", 
+        `Content-Type` = "application/json", `Transfer-Encoding` = "chunked", 
+        Connection = "keep-alive", `Cache-Control` = "no-cache", 
+        `X-Request-Id` = "5b355d99-fed6-496c-8941-e1d86917e0fd", 
+        `X-Runtime` = "0.012114", `Cf-Cache-Status` = "DYNAMIC", 
+        Nel = "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}", 
+        `Speculation-Rules` = "\"/cdn-cgi/speculation\"", `Report-To` = "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=xkKYYGZ4NVDwNQdoevY9lWmjLgR4e9zDatwRZWViLeqBJ0BHrrFt4LGiMD2OaFOFVn%2FIjg%2FyLY0Htk6HdRpXdgC3WifhVVSbFRxvftVHs2EolA8%3D\"}]}", 
+        `Content-Encoding` = "gzip", Server = "cloudflare", `CF-RAY` = "962adb46e94563c9-LHR", 
+        `alt-svc` = "h3=\":443\"; ma=86400"), redact = character(0), class = "httr2_headers"), 
+    body = charToRaw("{\"error\":\"Growth Form code INVALID not found\"}"), 
+    cache = new.env(parent = emptyenv())), class = "httr2_response")

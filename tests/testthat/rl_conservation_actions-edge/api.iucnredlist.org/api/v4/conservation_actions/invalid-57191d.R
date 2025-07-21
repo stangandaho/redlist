@@ -1,0 +1,12 @@
+structure(list(method = "GET", url = "https://api.iucnredlist.org/api/v4/conservation_actions/invalid?page=1", 
+    status_code = 404L, headers = structure(list(Date = "Mon, 21 Jul 2025 12:54:46 GMT", 
+        `Content-Type` = "application/json", `Transfer-Encoding` = "chunked", 
+        Connection = "keep-alive", `Cache-Control` = "no-cache", 
+        `X-Request-Id` = "4907ab17-a033-4ec9-9307-868bf881f7bf", 
+        `X-Runtime` = "0.011397", `Cf-Cache-Status` = "DYNAMIC", 
+        Nel = "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}", 
+        `Speculation-Rules` = "\"/cdn-cgi/speculation\"", `Report-To` = "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=FeJLymxKvCEZp0ZZQLHXPmM9%2BsFDES4EOpuvq%2FWc0%2BfEM9g5Q4aqw6kDOHC6eUXtHo2QPuHW3x4RWd4i8hJKsUAZ8UQS%2FhaeF2C3P1PTe8eGv7I%3D\"}]}", 
+        `Content-Encoding` = "gzip", Server = "cloudflare", `CF-RAY` = "962ad94e9ad463c9-LHR", 
+        `alt-svc` = "h3=\":443\"; ma=86400"), redact = character(0), class = "httr2_headers"), 
+    body = charToRaw("{\"error\":\"Conservation Action code invalid not found\"}"), 
+    cache = new.env(parent = emptyenv())), class = "httr2_response")

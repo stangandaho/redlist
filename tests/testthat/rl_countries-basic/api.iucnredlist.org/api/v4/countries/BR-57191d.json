@@ -1,0 +1,2113 @@
+{
+    "country": {
+        "description": {
+            "en": "Brazil"
+        },
+        "code": "BR"
+    },
+    "assessments": [
+        {
+            "year_published": "2020",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 10030,
+            "url": "https://www.iucnredlist.org/species/10030/495630",
+            "taxon_scientific_name": "Hexanchus griseus",
+            "red_list_category_code": "NT",
+            "assessment_id": 495630,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2019",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11200,
+            "url": "https://www.iucnredlist.org/species/11200/500969",
+            "taxon_scientific_name": "Lamna nasus",
+            "red_list_category_code": "VU",
+            "assessment_id": 500969,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2016",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12416,
+            "url": "https://www.iucnredlist.org/species/12416/506350",
+            "taxon_scientific_name": "Lutjanus analis",
+            "red_list_category_code": "NT",
+            "assessment_id": 506350,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2016",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12417,
+            "url": "https://www.iucnredlist.org/species/12417/506633",
+            "taxon_scientific_name": "Lutjanus cyanopterus",
+            "red_list_category_code": "VU",
+            "assessment_id": 506633,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2015",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 1308,
+            "url": "https://www.iucnredlist.org/species/1308/512141",
+            "taxon_scientific_name": "Anisotremus moricandi",
+            "red_list_category_code": "LC",
+            "assessment_id": 512141,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 135726,
+            "url": "https://www.iucnredlist.org/species/135726/515582",
+            "taxon_scientific_name": "Bokermannohyla itapoty",
+            "red_list_category_code": "LC",
+            "assessment_id": 515582,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 135794,
+            "url": "https://www.iucnredlist.org/species/135794/515757",
+            "taxon_scientific_name": "Pseudis platensis",
+            "red_list_category_code": "LC",
+            "assessment_id": 515757,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137070,
+            "url": "https://www.iucnredlist.org/species/137070/519435",
+            "taxon_scientific_name": "Deltochilum icarus",
+            "red_list_category_code": "LC",
+            "assessment_id": 519435,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137079,
+            "url": "https://www.iucnredlist.org/species/137079/519628",
+            "taxon_scientific_name": "Anomiopus parallelus",
+            "red_list_category_code": "LC",
+            "assessment_id": 519628,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137083,
+            "url": "https://www.iucnredlist.org/species/137083/519678",
+            "taxon_scientific_name": "Ateuchus latus",
+            "red_list_category_code": "LC",
+            "assessment_id": 519678,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137095,
+            "url": "https://www.iucnredlist.org/species/137095/519876",
+            "taxon_scientific_name": "Canthon divinator",
+            "red_list_category_code": "DD",
+            "assessment_id": 519876,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137099,
+            "url": "https://www.iucnredlist.org/species/137099/519932",
+            "taxon_scientific_name": "Anomiopus bonariensis",
+            "red_list_category_code": "LC",
+            "assessment_id": 519932,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137106,
+            "url": "https://www.iucnredlist.org/species/137106/520010",
+            "taxon_scientific_name": "Anisocanthon pygmaeus",
+            "red_list_category_code": "DD",
+            "assessment_id": 520010,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2013",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137111,
+            "url": "https://www.iucnredlist.org/species/137111/520080",
+            "taxon_scientific_name": "Dichotomius schiffleri",
+            "red_list_category_code": "EN",
+            "assessment_id": 520080,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137121,
+            "url": "https://www.iucnredlist.org/species/137121/520220",
+            "taxon_scientific_name": "Scatonomus xanthopygus",
+            "red_list_category_code": "DD",
+            "assessment_id": 520220,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2013",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137131,
+            "url": "https://www.iucnredlist.org/species/137131/520414",
+            "taxon_scientific_name": "Canthon corpulentus",
+            "red_list_category_code": "VU",
+            "assessment_id": 520414,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137150,
+            "url": "https://www.iucnredlist.org/species/137150/520658",
+            "taxon_scientific_name": "Anomiopus smaragdinus",
+            "red_list_category_code": "LC",
+            "assessment_id": 520658,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137160,
+            "url": "https://www.iucnredlist.org/species/137160/520792",
+            "taxon_scientific_name": "Canthon podagricus",
+            "red_list_category_code": "LC",
+            "assessment_id": 520792,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137163,
+            "url": "https://www.iucnredlist.org/species/137163/520834",
+            "taxon_scientific_name": "Dichotomius nimuendaju",
+            "red_list_category_code": "LC",
+            "assessment_id": 520834,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137169,
+            "url": "https://www.iucnredlist.org/species/137169/520965",
+            "taxon_scientific_name": "Coprophanaeus terrali",
+            "red_list_category_code": "DD",
+            "assessment_id": 520965,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137172,
+            "url": "https://www.iucnredlist.org/species/137172/521007",
+            "taxon_scientific_name": "Dichotomius worontzowi",
+            "red_list_category_code": "LC",
+            "assessment_id": 521007,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137187,
+            "url": "https://www.iucnredlist.org/species/137187/521191",
+            "taxon_scientific_name": "Canthidium viride",
+            "red_list_category_code": "LC",
+            "assessment_id": 521191,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137195,
+            "url": "https://www.iucnredlist.org/species/137195/521289",
+            "taxon_scientific_name": "Canthon simulans",
+            "red_list_category_code": "DD",
+            "assessment_id": 521289,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137205,
+            "url": "https://www.iucnredlist.org/species/137205/521415",
+            "taxon_scientific_name": "Canthon coloratus",
+            "red_list_category_code": "DD",
+            "assessment_id": 521415,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137214,
+            "url": "https://www.iucnredlist.org/species/137214/521583",
+            "taxon_scientific_name": "Bdelyrus paraensis",
+            "red_list_category_code": "DD",
+            "assessment_id": 521583,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137222,
+            "url": "https://www.iucnredlist.org/species/137222/521689",
+            "taxon_scientific_name": "Canthidium erythropterum",
+            "red_list_category_code": "DD",
+            "assessment_id": 521689,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137241,
+            "url": "https://www.iucnredlist.org/species/137241/522020",
+            "taxon_scientific_name": "Canthidium angulicolle",
+            "red_list_category_code": "DD",
+            "assessment_id": 522020,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137252,
+            "url": "https://www.iucnredlist.org/species/137252/522174",
+            "taxon_scientific_name": "Anomiopus howdeni",
+            "red_list_category_code": "DD",
+            "assessment_id": 522174,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137274,
+            "url": "https://www.iucnredlist.org/species/137274/522503",
+            "taxon_scientific_name": "Canthon luctuosus",
+            "red_list_category_code": "LC",
+            "assessment_id": 522503,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137293,
+            "url": "https://www.iucnredlist.org/species/137293/522816",
+            "taxon_scientific_name": "Deltorrhinum batesi",
+            "red_list_category_code": "DD",
+            "assessment_id": 522816,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137294,
+            "url": "https://www.iucnredlist.org/species/137294/522830",
+            "taxon_scientific_name": "Canthidium bokermanni",
+            "red_list_category_code": "LC",
+            "assessment_id": 522830,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137302,
+            "url": "https://www.iucnredlist.org/species/137302/522942",
+            "taxon_scientific_name": "Dichotomius glaucus",
+            "red_list_category_code": "LC",
+            "assessment_id": 522942,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137303,
+            "url": "https://www.iucnredlist.org/species/137303/522956",
+            "taxon_scientific_name": "Phanaeus bispinus",
+            "red_list_category_code": "LC",
+            "assessment_id": 522956,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137336,
+            "url": "https://www.iucnredlist.org/species/137336/523423",
+            "taxon_scientific_name": "Dichotomius crinicollis",
+            "red_list_category_code": "LC",
+            "assessment_id": 523423,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137340,
+            "url": "https://www.iucnredlist.org/species/137340/523506",
+            "taxon_scientific_name": "Oxysternon macleayi",
+            "red_list_category_code": "LC",
+            "assessment_id": 523506,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137352,
+            "url": "https://www.iucnredlist.org/species/137352/523746",
+            "taxon_scientific_name": "Canthidium flabellatum",
+            "red_list_category_code": "DD",
+            "assessment_id": 523746,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137368,
+            "url": "https://www.iucnredlist.org/species/137368/524012",
+            "taxon_scientific_name": "Anomiopus nigrocoeruleus",
+            "red_list_category_code": "LC",
+            "assessment_id": 524012,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137406,
+            "url": "https://www.iucnredlist.org/species/137406/524692",
+            "taxon_scientific_name": "Canthon lituratus",
+            "red_list_category_code": "LC",
+            "assessment_id": 524692,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137427,
+            "url": "https://www.iucnredlist.org/species/137427/524980",
+            "taxon_scientific_name": "Coprophanaeus gamezi",
+            "red_list_category_code": "LC",
+            "assessment_id": 524980,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137431,
+            "url": "https://www.iucnredlist.org/species/137431/525036",
+            "taxon_scientific_name": "Ontherus dentatus",
+            "red_list_category_code": "LC",
+            "assessment_id": 525036,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137465,
+            "url": "https://www.iucnredlist.org/species/137465/525513",
+            "taxon_scientific_name": "Canthon quinquemaculatus",
+            "red_list_category_code": "LC",
+            "assessment_id": 525513,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137468,
+            "url": "https://www.iucnredlist.org/species/137468/525541",
+            "taxon_scientific_name": "Uroxys pygmaeus",
+            "red_list_category_code": "DD",
+            "assessment_id": 525541,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137476,
+            "url": "https://www.iucnredlist.org/species/137476/525653",
+            "taxon_scientific_name": "Canthon smaragdulus",
+            "red_list_category_code": "LC",
+            "assessment_id": 525653,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137485,
+            "url": "https://www.iucnredlist.org/species/137485/525773",
+            "taxon_scientific_name": "Dichotomius apicalis",
+            "red_list_category_code": "LC",
+            "assessment_id": 525773,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137496,
+            "url": "https://www.iucnredlist.org/species/137496/525977",
+            "taxon_scientific_name": "Anomiopus pictus",
+            "red_list_category_code": "DD",
+            "assessment_id": 525977,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137498,
+            "url": "https://www.iucnredlist.org/species/137498/526005",
+            "taxon_scientific_name": "Canthidium flavipes",
+            "red_list_category_code": "DD",
+            "assessment_id": 526005,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137501,
+            "url": "https://www.iucnredlist.org/species/137501/526047",
+            "taxon_scientific_name": "Canthon edentulus",
+            "red_list_category_code": "LC",
+            "assessment_id": 526047,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137505,
+            "url": "https://www.iucnredlist.org/species/137505/526103",
+            "taxon_scientific_name": "Coprophanaeus pertyi",
+            "red_list_category_code": "LC",
+            "assessment_id": 526103,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137507,
+            "url": "https://www.iucnredlist.org/species/137507/526131",
+            "taxon_scientific_name": "Ateuchus murrayi",
+            "red_list_category_code": "LC",
+            "assessment_id": 526131,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137532,
+            "url": "https://www.iucnredlist.org/species/137532/526651",
+            "taxon_scientific_name": "Canthon laminatus",
+            "red_list_category_code": "LC",
+            "assessment_id": 526651,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137542,
+            "url": "https://www.iucnredlist.org/species/137542/526849",
+            "taxon_scientific_name": "Ontherus azteca",
+            "red_list_category_code": "LC",
+            "assessment_id": 526849,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137546,
+            "url": "https://www.iucnredlist.org/species/137546/526905",
+            "taxon_scientific_name": "Cryptocanthon campbellorum",
+            "red_list_category_code": "LC",
+            "assessment_id": 526905,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137563,
+            "url": "https://www.iucnredlist.org/species/137563/527129",
+            "taxon_scientific_name": "Zonocopris machadoi",
+            "red_list_category_code": "DD",
+            "assessment_id": 527129,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137565,
+            "url": "https://www.iucnredlist.org/species/137565/527157",
+            "taxon_scientific_name": "Ontherus raptor",
+            "red_list_category_code": "LC",
+            "assessment_id": 527157,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137566,
+            "url": "https://www.iucnredlist.org/species/137566/527171",
+            "taxon_scientific_name": "Trichillidium quadridens",
+            "red_list_category_code": "LC",
+            "assessment_id": 527171,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137573,
+            "url": "https://www.iucnredlist.org/species/137573/527269",
+            "taxon_scientific_name": "Ontherus laminifer",
+            "red_list_category_code": "LC",
+            "assessment_id": 527269,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137574,
+            "url": "https://www.iucnredlist.org/species/137574/527283",
+            "taxon_scientific_name": "Canthidium femoratum",
+            "red_list_category_code": "LC",
+            "assessment_id": 527283,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2013",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137584,
+            "url": "https://www.iucnredlist.org/species/137584/527397",
+            "taxon_scientific_name": "Canthon quadripunctatus",
+            "red_list_category_code": "VU",
+            "assessment_id": 527397,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137594,
+            "url": "https://www.iucnredlist.org/species/137594/527531",
+            "taxon_scientific_name": "Canthon corruscus",
+            "red_list_category_code": "DD",
+            "assessment_id": 527531,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137607,
+            "url": "https://www.iucnredlist.org/species/137607/527819",
+            "taxon_scientific_name": "Canthon lividus",
+            "red_list_category_code": "LC",
+            "assessment_id": 527819,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137617,
+            "url": "https://www.iucnredlist.org/species/137617/528030",
+            "taxon_scientific_name": "Anomiopus laetus",
+            "red_list_category_code": "DD",
+            "assessment_id": 528030,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137622,
+            "url": "https://www.iucnredlist.org/species/137622/528100",
+            "taxon_scientific_name": "Onthophagus janthinus",
+            "red_list_category_code": "LC",
+            "assessment_id": 528100,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137654,
+            "url": "https://www.iucnredlist.org/species/137654/528667",
+            "taxon_scientific_name": "Canthidium magnum",
+            "red_list_category_code": "DD",
+            "assessment_id": 528667,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137659,
+            "url": "https://www.iucnredlist.org/species/137659/528801",
+            "taxon_scientific_name": "Anomiopus birai",
+            "red_list_category_code": "DD",
+            "assessment_id": 528801,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137663,
+            "url": "https://www.iucnredlist.org/species/137663/528857",
+            "taxon_scientific_name": "Ontherus erosioides",
+            "red_list_category_code": "LC",
+            "assessment_id": 528857,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137666,
+            "url": "https://www.iucnredlist.org/species/137666/528899",
+            "taxon_scientific_name": "Canthon heyrovskyi",
+            "red_list_category_code": "LC",
+            "assessment_id": 528899,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2013",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137667,
+            "url": "https://www.iucnredlist.org/species/137667/528913",
+            "taxon_scientific_name": "Holocephalus sculptus",
+            "red_list_category_code": "NT",
+            "assessment_id": 528913,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137677,
+            "url": "https://www.iucnredlist.org/species/137677/529053",
+            "taxon_scientific_name": "Gromphas aeruginosa",
+            "red_list_category_code": "LC",
+            "assessment_id": 529053,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137720,
+            "url": "https://www.iucnredlist.org/species/137720/529774",
+            "taxon_scientific_name": "Deltochilum carinatum",
+            "red_list_category_code": "LC",
+            "assessment_id": 529774,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137760,
+            "url": "https://www.iucnredlist.org/species/137760/530509",
+            "taxon_scientific_name": "Canthidium aurichalceum",
+            "red_list_category_code": "DD",
+            "assessment_id": 530509,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137761,
+            "url": "https://www.iucnredlist.org/species/137761/530523",
+            "taxon_scientific_name": "Anomiopus lauropalui",
+            "red_list_category_code": "DD",
+            "assessment_id": 530523,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137765,
+            "url": "https://www.iucnredlist.org/species/137765/530579",
+            "taxon_scientific_name": "Dichotomius nutans",
+            "red_list_category_code": "DD",
+            "assessment_id": 530579,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137772,
+            "url": "https://www.iucnredlist.org/species/137772/530677",
+            "taxon_scientific_name": "Ateuchus carbonarius",
+            "red_list_category_code": "LC",
+            "assessment_id": 530677,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137803,
+            "url": "https://www.iucnredlist.org/species/137803/531124",
+            "taxon_scientific_name": "Canthidium sladeni",
+            "red_list_category_code": "LC",
+            "assessment_id": 531124,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137804,
+            "url": "https://www.iucnredlist.org/species/137804/531138",
+            "taxon_scientific_name": "Ontherus brevicollis",
+            "red_list_category_code": "LC",
+            "assessment_id": 531138,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137811,
+            "url": "https://www.iucnredlist.org/species/137811/531230",
+            "taxon_scientific_name": "Canthon brunnipennis",
+            "red_list_category_code": "DD",
+            "assessment_id": 531230,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137852,
+            "url": "https://www.iucnredlist.org/species/137852/532129",
+            "taxon_scientific_name": "Canthon nigellus",
+            "red_list_category_code": "DD",
+            "assessment_id": 532129,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2013",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137853,
+            "url": "https://www.iucnredlist.org/species/137853/532143",
+            "taxon_scientific_name": "Ontherus irinus",
+            "red_list_category_code": "NT",
+            "assessment_id": 532143,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137861,
+            "url": "https://www.iucnredlist.org/species/137861/532255",
+            "taxon_scientific_name": "Canthidium cavifrons",
+            "red_list_category_code": "LC",
+            "assessment_id": 532255,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137872,
+            "url": "https://www.iucnredlist.org/species/137872/532476",
+            "taxon_scientific_name": "Canthidium abbreviatum",
+            "red_list_category_code": "DD",
+            "assessment_id": 532476,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137879,
+            "url": "https://www.iucnredlist.org/species/137879/532574",
+            "taxon_scientific_name": "Ateuchus laevicolle",
+            "red_list_category_code": "DD",
+            "assessment_id": 532574,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137901,
+            "url": "https://www.iucnredlist.org/species/137901/533070",
+            "taxon_scientific_name": "Deltochilum rubripenne",
+            "red_list_category_code": "LC",
+            "assessment_id": 533070,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137916,
+            "url": "https://www.iucnredlist.org/species/137916/533266",
+            "taxon_scientific_name": "Canthidium manni",
+            "red_list_category_code": "LC",
+            "assessment_id": 533266,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137918,
+            "url": "https://www.iucnredlist.org/species/137918/533288",
+            "taxon_scientific_name": "Sylvicanthon obscurus",
+            "red_list_category_code": "DD",
+            "assessment_id": 533288,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137936,
+            "url": "https://www.iucnredlist.org/species/137936/533572",
+            "taxon_scientific_name": "Ontherus virescens",
+            "red_list_category_code": "LC",
+            "assessment_id": 533572,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137943,
+            "url": "https://www.iucnredlist.org/species/137943/533671",
+            "taxon_scientific_name": "Ateuchus romani",
+            "red_list_category_code": "DD",
+            "assessment_id": 533671,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137954,
+            "url": "https://www.iucnredlist.org/species/137954/533895",
+            "taxon_scientific_name": "Canthon virens",
+            "red_list_category_code": "LC",
+            "assessment_id": 533895,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137958,
+            "url": "https://www.iucnredlist.org/species/137958/533951",
+            "taxon_scientific_name": "Canthidium aterrimum",
+            "red_list_category_code": "DD",
+            "assessment_id": 533951,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137959,
+            "url": "https://www.iucnredlist.org/species/137959/533965",
+            "taxon_scientific_name": "Besourenga horacioi",
+            "red_list_category_code": "LC",
+            "assessment_id": 533965,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137974,
+            "url": "https://www.iucnredlist.org/species/137974/534228",
+            "taxon_scientific_name": "Canthon tetraodon",
+            "red_list_category_code": "LC",
+            "assessment_id": 534228,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137980,
+            "url": "https://www.iucnredlist.org/species/137980/534315",
+            "taxon_scientific_name": "Isocopris tarsalis",
+            "red_list_category_code": "LC",
+            "assessment_id": 534315,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 137990,
+            "url": "https://www.iucnredlist.org/species/137990/534455",
+            "taxon_scientific_name": "Uroxys catharinensis",
+            "red_list_category_code": "DD",
+            "assessment_id": 534455,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 138001,
+            "url": "https://www.iucnredlist.org/species/138001/534609",
+            "taxon_scientific_name": "Deltochilum guyanense",
+            "red_list_category_code": "LC",
+            "assessment_id": 534609,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 138009,
+            "url": "https://www.iucnredlist.org/species/138009/534715",
+            "taxon_scientific_name": "Canthon septemmaculatus",
+            "red_list_category_code": "LC",
+            "assessment_id": 534715,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 138015,
+            "url": "https://www.iucnredlist.org/species/138015/534799",
+            "taxon_scientific_name": "Dichotomius tristis",
+            "red_list_category_code": "LC",
+            "assessment_id": 534799,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 138018,
+            "url": "https://www.iucnredlist.org/species/138018/534841",
+            "taxon_scientific_name": "Canthidium glabricolle",
+            "red_list_category_code": "DD",
+            "assessment_id": 534841,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2013",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 138026,
+            "url": "https://www.iucnredlist.org/species/138026/534925",
+            "taxon_scientific_name": "Ateuchus squalidus",
+            "red_list_category_code": "VU",
+            "assessment_id": 534925,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 138033,
+            "url": "https://www.iucnredlist.org/species/138033/535083",
+            "taxon_scientific_name": "Gromphas amazonica",
+            "red_list_category_code": "LC",
+            "assessment_id": 535083,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2013",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 138041,
+            "url": "https://www.iucnredlist.org/species/138041/535247",
+            "taxon_scientific_name": "Oxysternon pteroderum",
+            "red_list_category_code": "NT",
+            "assessment_id": 535247,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 138043,
+            "url": "https://www.iucnredlist.org/species/138043/535275",
+            "taxon_scientific_name": "Phanaeus sororibispinus",
+            "red_list_category_code": "LC",
+            "assessment_id": 535275,
+            "code": "BR",
+            "code_type": "country",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        }
+    ],
+    "filters": {
+
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "systems": [
+        {
+            "description": {
+                "en": "Terrestrial"
+            },
+            "code": "0"
+        },
+        {
+            "description": {
+                "en": "Freshwater (=Inland waters)"
+            },
+            "code": "1"
+        },
+        {
+            "description": {
+                "en": "Marine"
+            },
+            "code": "2"
+        }
+    ]
+}

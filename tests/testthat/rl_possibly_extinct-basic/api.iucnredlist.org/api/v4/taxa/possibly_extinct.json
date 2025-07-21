@@ -1,0 +1,390 @@
+{
+    "assessments": [
+        {
+            "year_published": "2012",
+            "latest": true,
+            "possibly_extinct": true,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11058,
+            "url": "https://www.iucnredlist.org/species/11058/500479",
+            "taxon_scientific_name": "Kubaryia pilikia",
+            "red_list_category_code": "CR",
+            "assessment_id": 500479,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2012",
+            "latest": true,
+            "possibly_extinct": true,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11256,
+            "url": "https://www.iucnredlist.org/species/11256/502298",
+            "taxon_scientific_name": "Obovaria haddletoni",
+            "red_list_category_code": "CR",
+            "assessment_id": 502298,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2020",
+            "latest": true,
+            "possibly_extinct": true,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12953,
+            "url": "https://www.iucnredlist.org/species/12953/510761",
+            "taxon_scientific_name": "Megalagrion jugorum",
+            "red_list_category_code": "CR",
+            "assessment_id": 510761,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2020",
+            "latest": true,
+            "possibly_extinct": true,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 158002,
+            "url": "https://www.iucnredlist.org/species/158002/756416",
+            "taxon_scientific_name": "Cordia trichocladophylla",
+            "red_list_category_code": "CR",
+            "assessment_id": 756416,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2020",
+            "latest": true,
+            "possibly_extinct": true,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 158003,
+            "url": "https://www.iucnredlist.org/species/158003/756495",
+            "taxon_scientific_name": "Plumbago ciliata",
+            "red_list_category_code": "CR",
+            "assessment_id": 756495,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2020",
+            "latest": true,
+            "possibly_extinct": true,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 158021,
+            "url": "https://www.iucnredlist.org/species/158021/757412",
+            "taxon_scientific_name": "Tragia pogostemonoides",
+            "red_list_category_code": "CR",
+            "assessment_id": 757412,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2020",
+            "latest": true,
+            "possibly_extinct": true,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 158053,
+            "url": "https://www.iucnredlist.org/species/158053/758841",
+            "taxon_scientific_name": "Ochna polyarthra",
+            "red_list_category_code": "CR",
+            "assessment_id": 758841,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2020",
+            "latest": true,
+            "possibly_extinct": true,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 158060,
+            "url": "https://www.iucnredlist.org/species/158060/759189",
+            "taxon_scientific_name": "Phyllanthus schliebenii",
+            "red_list_category_code": "CR",
+            "assessment_id": 759189,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2020",
+            "latest": true,
+            "possibly_extinct": true,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 158098,
+            "url": "https://www.iucnredlist.org/species/158098/760778",
+            "taxon_scientific_name": "Ochna citrina",
+            "red_list_category_code": "CR",
+            "assessment_id": 760778,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2019",
+            "latest": true,
+            "possibly_extinct": true,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 158149,
+            "url": "https://www.iucnredlist.org/species/158149/762967",
+            "taxon_scientific_name": "Impatiens saliensis",
+            "red_list_category_code": "CR",
+            "assessment_id": 762967,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2020",
+            "latest": true,
+            "possibly_extinct": true,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 158157,
+            "url": "https://www.iucnredlist.org/species/158157/763372",
+            "taxon_scientific_name": "Gutenbergia oppositifolia",
+            "red_list_category_code": "CR",
+            "assessment_id": 763372,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2020",
+            "latest": true,
+            "possibly_extinct": true,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 158167,
+            "url": "https://www.iucnredlist.org/species/158167/763742",
+            "taxon_scientific_name": "Ochna schliebenii",
+            "red_list_category_code": "CR",
+            "assessment_id": 763742,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2020",
+            "latest": true,
+            "possibly_extinct": true,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 158189,
+            "url": "https://www.iucnredlist.org/species/158189/765782",
+            "taxon_scientific_name": "Sphaeranthus cristatus",
+            "red_list_category_code": "CR",
+            "assessment_id": 765782,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2020",
+            "latest": true,
+            "possibly_extinct": true,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 158222,
+            "url": "https://www.iucnredlist.org/species/158222/767182",
+            "taxon_scientific_name": "Ochna braunii",
+            "red_list_category_code": "CR",
+            "assessment_id": 767182,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2020",
+            "latest": true,
+            "possibly_extinct": true,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 158253,
+            "url": "https://www.iucnredlist.org/species/158253/768885",
+            "taxon_scientific_name": "Impatiens humifusa",
+            "red_list_category_code": "CR",
+            "assessment_id": 768885,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2020",
+            "latest": true,
+            "possibly_extinct": true,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 158254,
+            "url": "https://www.iucnredlist.org/species/158254/768968",
+            "taxon_scientific_name": "Impatiens tricaudata",
+            "red_list_category_code": "CR",
+            "assessment_id": 768968,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2020",
+            "latest": true,
+            "possibly_extinct": true,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 158411,
+            "url": "https://www.iucnredlist.org/species/158411/775893",
+            "taxon_scientific_name": "Heliotropium pectinatum subsp. mkomaziense",
+            "red_list_category_code": "CR",
+            "assessment_id": 775893,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2022",
+            "latest": true,
+            "possibly_extinct": true,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 158425,
+            "url": "https://www.iucnredlist.org/species/158425/776506",
+            "taxon_scientific_name": "Ipomoea lapathifolia var. bussei",
+            "red_list_category_code": "CR",
+            "assessment_id": 776506,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2013",
+            "latest": true,
+            "possibly_extinct": true,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 15886,
+            "url": "https://www.iucnredlist.org/species/15886/788917",
+            "taxon_scientific_name": "Palaemonetes cummingi",
+            "red_list_category_code": "CR",
+            "assessment_id": 788917,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": true,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 164808,
+            "url": "https://www.iucnredlist.org/species/164808/1075123",
+            "taxon_scientific_name": "Islamia pseudorientalica",
+            "red_list_category_code": "CR",
+            "assessment_id": 1075123,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Mediterranean"
+                    },
+                    "code": "4"
+                }
+            ]
+        }
+    ]
+}

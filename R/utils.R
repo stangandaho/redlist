@@ -264,25 +264,6 @@ rl_paginated_query <- function(param_list,
 
 }
 
-
-#' Set download output file
-#' @keywords internal
-#' @noRd
-out_file <- function(path, filename = "") {
-
-  if (fs::is_dir(path)) {
-    filename <- ifelse(nchar(filename), filename,
-                       paste0("redlist_", Sys.Date()))
-    of <- fs::path(path, fs::path_ext_remove(filename), ext = "csv")
-  } else if (fs::is_file(path)) {
-    of <- fs::path(fs::path_ext_remove(path),  ext = "csv")
-  }else{
-    of <- fs::path(getwd(), path,  ext = "csv")
-  }
-
-  return(of)
-}
-
 fill_na_with_previous <- function(x) {
   for (i in seq_along(x)) {
     if(is.na(x[i])){

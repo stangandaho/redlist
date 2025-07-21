@@ -1,0 +1,112 @@
+{
+    "use_and_trade": [
+        {
+            "description": {
+                "en": "Food - human"
+            },
+            "code": "1"
+        },
+        {
+            "description": {
+                "en": "Food - animal"
+            },
+            "code": "2"
+        },
+        {
+            "description": {
+                "en": "Medicine - human & veterinary"
+            },
+            "code": "3"
+        },
+        {
+            "description": {
+                "en": "Poisons"
+            },
+            "code": "4"
+        },
+        {
+            "description": {
+                "en": "Manufacturing chemicals"
+            },
+            "code": "5"
+        },
+        {
+            "description": {
+                "en": "Other chemicals"
+            },
+            "code": "6"
+        },
+        {
+            "description": {
+                "en": "Fuels"
+            },
+            "code": "7"
+        },
+        {
+            "description": {
+                "en": "Fibre"
+            },
+            "code": "8"
+        },
+        {
+            "description": {
+                "en": "Construction or structural materials"
+            },
+            "code": "9"
+        },
+        {
+            "description": {
+                "en": "Wearing apparel, accessories"
+            },
+            "code": "10"
+        },
+        {
+            "description": {
+                "en": "Other household goods"
+            },
+            "code": "11"
+        },
+        {
+            "description": {
+                "en": "Handicrafts, jewellery, etc."
+            },
+            "code": "12"
+        },
+        {
+            "description": {
+                "en": "Pets/display animals, horticulture"
+            },
+            "code": "13"
+        },
+        {
+            "description": {
+                "en": "Research"
+            },
+            "code": "14"
+        },
+        {
+            "description": {
+                "en": "Sport hunting/specimen collecting"
+            },
+            "code": "15"
+        },
+        {
+            "description": {
+                "en": "Establishing ex-situ production *"
+            },
+            "code": "16"
+        },
+        {
+            "description": {
+                "en": "Other (free text)"
+            },
+            "code": "17"
+        },
+        {
+            "description": {
+                "en": "Unknown"
+            },
+            "code": "18"
+        }
+    ]
+}

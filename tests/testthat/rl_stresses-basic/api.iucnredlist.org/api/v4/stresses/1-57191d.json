@@ -1,0 +1,412 @@
+{
+    "stress": {
+        "description": {
+            "en": "Ecosystem stresses"
+        },
+        "code": "1"
+    },
+    "assessments": [
+        {
+            "year_published": "2023",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 165302,
+            "url": "https://www.iucnredlist.org/species/165302/1080229",
+            "taxon_scientific_name": "Potamotrygon constellata",
+            "red_list_category_code": "DD",
+            "assessment_id": 1080229,
+            "code": "1",
+            "code_type": "stress",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2017",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 170863,
+            "url": "https://www.iucnredlist.org/species/170863/1317864",
+            "taxon_scientific_name": "Zonites labiosus",
+            "red_list_category_code": "EN",
+            "assessment_id": 1317864,
+            "code": "1",
+            "code_type": "stress",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2019",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 8432,
+            "url": "https://www.iucnredlist.org/species/8432/3145753",
+            "taxon_scientific_name": "Evarra eigenmanni",
+            "red_list_category_code": "EX",
+            "assessment_id": 3145753,
+            "code": "1",
+            "code_type": "stress",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2013",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 59494,
+            "url": "https://www.iucnredlist.org/species/59494/16943488",
+            "taxon_scientific_name": "Boulengerula boulengeri",
+            "red_list_category_code": "LC",
+            "assessment_id": 16943488,
+            "code": "1",
+            "code_type": "stress",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2019",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 13165092,
+            "url": "https://www.iucnredlist.org/species/13165092/18610018",
+            "taxon_scientific_name": "Desmazeria sicula",
+            "red_list_category_code": "NT",
+            "assessment_id": 18610018,
+            "code": "1",
+            "code_type": "stress",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Mediterranean"
+                    },
+                    "code": "4"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 19199781,
+            "url": "https://www.iucnredlist.org/species/19199781/21142397",
+            "taxon_scientific_name": "Anthidium septemspinosum",
+            "red_list_category_code": "DD",
+            "assessment_id": 21142397,
+            "code": "1",
+            "code_type": "stress",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 19198702,
+            "url": "https://www.iucnredlist.org/species/19198702/21142506",
+            "taxon_scientific_name": "Anthidium undulatiforme",
+            "red_list_category_code": "NT",
+            "assessment_id": 21142506,
+            "code": "1",
+            "code_type": "stress",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2019",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 56963,
+            "url": "https://www.iucnredlist.org/species/56963/85884818",
+            "taxon_scientific_name": "Pristimantis silverstonei",
+            "red_list_category_code": "VU",
+            "assessment_id": 85884818,
+            "code": "1",
+            "code_type": "stress",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2018",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 190984,
+            "url": "https://www.iucnredlist.org/species/190984/89223541",
+            "taxon_scientific_name": "Qosqophryne gymnotis",
+            "red_list_category_code": "LC",
+            "assessment_id": 89223541,
+            "code": "1",
+            "code_type": "stress",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 56804,
+            "url": "https://www.iucnredlist.org/species/56804/98652200",
+            "taxon_scientific_name": "Pristimantis ocreatus",
+            "red_list_category_code": "EN",
+            "assessment_id": 98652200,
+            "code": "1",
+            "code_type": "stress",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2018",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 101313145,
+            "url": "https://www.iucnredlist.org/species/101313145/101313187",
+            "taxon_scientific_name": "Botanophila fonsecai",
+            "red_list_category_code": "EN",
+            "assessment_id": 101313187,
+            "code": "1",
+            "code_type": "stress",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2017",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 162138,
+            "url": "https://www.iucnredlist.org/species/162138/103545575",
+            "taxon_scientific_name": "Convolvulus fernandesii",
+            "red_list_category_code": "EN",
+            "assessment_id": 103545575,
+            "code": "1",
+            "code_type": "stress",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2020",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 181710,
+            "url": "https://www.iucnredlist.org/species/181710/134745281",
+            "taxon_scientific_name": "Micralestes pabrensis",
+            "red_list_category_code": "LC",
+            "assessment_id": 134745281,
+            "code": "1",
+            "code_type": "stress",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Pan-Africa"
+                    },
+                    "code": "10"
+                },
+                {
+                    "description": {
+                        "en": "Western Africa"
+                    },
+                    "code": "8"
+                }
+            ]
+        },
+        {
+            "year_published": "2022",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 103889265,
+            "url": "https://www.iucnredlist.org/species/103889265/209060851",
+            "taxon_scientific_name": "Thryophilus sernai",
+            "red_list_category_code": "VU",
+            "assessment_id": 209060851,
+            "code": "1",
+            "code_type": "stress",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 170863,
+            "url": "https://www.iucnredlist.org/species/170863/229931536",
+            "taxon_scientific_name": "Zonites labiosus",
+            "red_list_category_code": "NT",
+            "assessment_id": 229931536,
+            "code": "1",
+            "code_type": "stress",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                },
+                {
+                    "description": {
+                        "en": "Mediterranean"
+                    },
+                    "code": "4"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 22699757,
+            "url": "https://www.iucnredlist.org/species/22699757/240170447",
+            "taxon_scientific_name": "Lathrotriccus griseipectus",
+            "red_list_category_code": "LC",
+            "assessment_id": 240170447,
+            "code": "1",
+            "code_type": "stress",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 22712616,
+            "url": "https://www.iucnredlist.org/species/22712616/260306457",
+            "taxon_scientific_name": "Microtarsus melanoleucos",
+            "red_list_category_code": "NT",
+            "assessment_id": 260306457,
+            "code": "1",
+            "code_type": "stress",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        }
+    ],
+    "filters": {
+
+    }
+}

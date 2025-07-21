@@ -1,0 +1,14 @@
+{
+    "comprehensive_group": {
+        "high": true,
+        "comp": true,
+        "name": "amphibians",
+        "higher_name": "amphibians"
+    },
+    "assessments": [
+
+    ],
+    "filters": {
+        "year_published": "invalid"
+    }
+}

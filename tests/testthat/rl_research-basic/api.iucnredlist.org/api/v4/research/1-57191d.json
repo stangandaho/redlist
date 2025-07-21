@@ -1,0 +1,97 @@
+{
+    "research": {
+        "description": {
+            "en": "Research"
+        },
+        "code": "1"
+    },
+    "assessments": [
+        {
+            "year_published": "2019",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 122380888,
+            "url": "https://www.iucnredlist.org/species/122380888/122414905",
+            "taxon_scientific_name": "Xerochlamys itremoensis",
+            "red_list_category_code": "EN",
+            "assessment_id": 122414905,
+            "code": "1",
+            "code_type": "research",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2019",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 122381060,
+            "url": "https://www.iucnredlist.org/species/122381060/122416635",
+            "taxon_scientific_name": "Helichrysum itremense",
+            "red_list_category_code": "CR",
+            "assessment_id": 122416635,
+            "code": "1",
+            "code_type": "research",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2019",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 122380890,
+            "url": "https://www.iucnredlist.org/species/122380890/122416920",
+            "taxon_scientific_name": "Cynanchum itremense",
+            "red_list_category_code": "EN",
+            "assessment_id": 122416920,
+            "code": "1",
+            "code_type": "research",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2019",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 154777288,
+            "url": "https://www.iucnredlist.org/species/154777288/154783690",
+            "taxon_scientific_name": "Cyathea cicatricosa",
+            "red_list_category_code": "DD",
+            "assessment_id": 154783690,
+            "code": "1",
+            "code_type": "research",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        }
+    ],
+    "filters": {
+
+    }
+}

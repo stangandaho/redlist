@@ -1,0 +1,12 @@
+structure(list(method = "GET", url = "https://api.iucnredlist.org/api/v4/faos/TRUE?page=1", 
+    status_code = 404L, headers = structure(list(Date = "Mon, 21 Jul 2025 12:55:35 GMT", 
+        `Content-Type` = "application/json", `Transfer-Encoding` = "chunked", 
+        Connection = "keep-alive", `Cache-Control` = "no-cache", 
+        `X-Request-Id` = "b8d211c1-2f3b-4259-b010-c8128a519393", 
+        `X-Runtime` = "0.012471", `Cf-Cache-Status` = "DYNAMIC", 
+        Nel = "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}", 
+        `Speculation-Rules` = "\"/cdn-cgi/speculation\"", `Report-To` = "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=ybC%2FBTOpR1CsUzUdZnb36ddT226MIp7wvl818N6%2Bpar5NojProGjh6CytK16Aq%2F6cjwbs%2BVpIOSqHCUsDI0hQjPMkjbNjy3VRW4T7SK3v%2F87BFo%3D\"}]}", 
+        `Content-Encoding` = "gzip", Server = "cloudflare", `CF-RAY` = "962ada7e48d163c9-LHR", 
+        `alt-svc` = "h3=\":443\"; ma=86400"), redact = character(0), class = "httr2_headers"), 
+    body = charToRaw("{\"error\":\"FAO code TRUE not found\"}"), 
+    cache = new.env(parent = emptyenv())), class = "httr2_response")

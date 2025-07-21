@@ -1,0 +1,27 @@
+{
+    "assessments": [
+        {
+            "year_published": "2025",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 200278757,
+            "url": "https://www.iucnredlist.org/species/200278757/271968105",
+            "taxon_scientific_name": "Campylopterus diamantinensis",
+            "red_list_category_code": "NT",
+            "assessment_id": 271968105,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        }
+    ],
+    "filters": {
+        "year_published": "2025",
+        "class_name": "Aves"
+    }
+}

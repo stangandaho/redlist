@@ -1,0 +1,2593 @@
+{
+    "scope": {
+        "description": {
+            "en": "Europe"
+        },
+        "code": "2"
+    },
+    "assessments": [
+        {
+            "year_published": "2021",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 196003,
+            "url": "https://www.iucnredlist.org/species/196003/2441322",
+            "taxon_scientific_name": "Darevskia lindholmi",
+            "red_list_category_code": "LC",
+            "assessment_id": 2441322,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 20492,
+            "url": "https://www.iucnredlist.org/species/20492/95536261",
+            "taxon_scientific_name": "Spermophilus suslicus",
+            "red_list_category_code": "NT",
+            "assessment_id": 95536261,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 161583,
+            "url": "https://www.iucnredlist.org/species/161583/124510538",
+            "taxon_scientific_name": "Scymnodalatias garricki",
+            "red_list_category_code": "DD",
+            "assessment_id": 124510538,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 136267812,
+            "url": "https://www.iucnredlist.org/species/136267812/136268557",
+            "taxon_scientific_name": "Bellevalia dubia",
+            "red_list_category_code": "LC",
+            "assessment_id": 136268557,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                },
+                {
+                    "description": {
+                        "en": "Mediterranean"
+                    },
+                    "code": "4"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149115143,
+            "url": "https://www.iucnredlist.org/species/149115143/149115145",
+            "taxon_scientific_name": "Merodon aberrans",
+            "red_list_category_code": "LC",
+            "assessment_id": 149115145,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149115153,
+            "url": "https://www.iucnredlist.org/species/149115153/149115155",
+            "taxon_scientific_name": "Merodon albifasciatus",
+            "red_list_category_code": "LC",
+            "assessment_id": 149115155,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149115163,
+            "url": "https://www.iucnredlist.org/species/149115163/149115165",
+            "taxon_scientific_name": "Merodon adriaticus",
+            "red_list_category_code": "EN",
+            "assessment_id": 149115165,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149115173,
+            "url": "https://www.iucnredlist.org/species/149115173/149115176",
+            "taxon_scientific_name": "Merodon abruzzensis",
+            "red_list_category_code": "EN",
+            "assessment_id": 149115176,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                },
+                {
+                    "description": {
+                        "en": "Mediterranean"
+                    },
+                    "code": "4"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149115186,
+            "url": "https://www.iucnredlist.org/species/149115186/149115188",
+            "taxon_scientific_name": "Merodon aerarius",
+            "red_list_category_code": "LC",
+            "assessment_id": 149115188,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149115196,
+            "url": "https://www.iucnredlist.org/species/149115196/149115198",
+            "taxon_scientific_name": "Merodon alagoezicus",
+            "red_list_category_code": "EN",
+            "assessment_id": 149115198,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149115206,
+            "url": "https://www.iucnredlist.org/species/149115206/149115208",
+            "taxon_scientific_name": "Merodon albifrons",
+            "red_list_category_code": "LC",
+            "assessment_id": 149115208,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149115216,
+            "url": "https://www.iucnredlist.org/species/149115216/149115218",
+            "taxon_scientific_name": "Merodon ambiguus",
+            "red_list_category_code": "EN",
+            "assessment_id": 149115218,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149115226,
+            "url": "https://www.iucnredlist.org/species/149115226/149115228",
+            "taxon_scientific_name": "Merodon alexandri",
+            "red_list_category_code": "VU",
+            "assessment_id": 149115228,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163215,
+            "url": "https://www.iucnredlist.org/species/149163215/149163217",
+            "taxon_scientific_name": "Merodon aureus",
+            "red_list_category_code": "LC",
+            "assessment_id": 149163217,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163227,
+            "url": "https://www.iucnredlist.org/species/149163227/149163229",
+            "taxon_scientific_name": "Eumerus gibbosus",
+            "red_list_category_code": "EN",
+            "assessment_id": 149163229,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                },
+                {
+                    "description": {
+                        "en": "Mediterranean"
+                    },
+                    "code": "4"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163237,
+            "url": "https://www.iucnredlist.org/species/149163237/149163239",
+            "taxon_scientific_name": "Eumerus funeralis",
+            "red_list_category_code": "LC",
+            "assessment_id": 149163239,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163247,
+            "url": "https://www.iucnredlist.org/species/149163247/149163249",
+            "taxon_scientific_name": "Eumerus etnensis",
+            "red_list_category_code": "VU",
+            "assessment_id": 149163249,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                },
+                {
+                    "description": {
+                        "en": "Mediterranean"
+                    },
+                    "code": "4"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163257,
+            "url": "https://www.iucnredlist.org/species/149163257/149163259",
+            "taxon_scientific_name": "Eumerus crassus",
+            "red_list_category_code": "VU",
+            "assessment_id": 149163259,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163267,
+            "url": "https://www.iucnredlist.org/species/149163267/149163269",
+            "taxon_scientific_name": "Eumerus consimilis",
+            "red_list_category_code": "LC",
+            "assessment_id": 149163269,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163277,
+            "url": "https://www.iucnredlist.org/species/149163277/149163279",
+            "taxon_scientific_name": "Eumerus clavatus",
+            "red_list_category_code": "LC",
+            "assessment_id": 149163279,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163287,
+            "url": "https://www.iucnredlist.org/species/149163287/149163289",
+            "taxon_scientific_name": "Eumerus claripennis",
+            "red_list_category_code": "EN",
+            "assessment_id": 149163289,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                },
+                {
+                    "description": {
+                        "en": "Mediterranean"
+                    },
+                    "code": "4"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163297,
+            "url": "https://www.iucnredlist.org/species/149163297/149163299",
+            "taxon_scientific_name": "Eumerus canariensis",
+            "red_list_category_code": "EN",
+            "assessment_id": 149163299,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163317,
+            "url": "https://www.iucnredlist.org/species/149163317/149163319",
+            "taxon_scientific_name": "Eumerus basalis",
+            "red_list_category_code": "LC",
+            "assessment_id": 149163319,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163327,
+            "url": "https://www.iucnredlist.org/species/149163327/149163329",
+            "taxon_scientific_name": "Eumerus amoenus",
+            "red_list_category_code": "LC",
+            "assessment_id": 149163329,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163337,
+            "url": "https://www.iucnredlist.org/species/149163337/149163339",
+            "taxon_scientific_name": "Eumerus alpinus",
+            "red_list_category_code": "LC",
+            "assessment_id": 149163339,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163348,
+            "url": "https://www.iucnredlist.org/species/149163348/149163351",
+            "taxon_scientific_name": "Pipiza quadrimaculata",
+            "red_list_category_code": "LC",
+            "assessment_id": 149163351,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163359,
+            "url": "https://www.iucnredlist.org/species/149163359/149163362",
+            "taxon_scientific_name": "Pipiza noctiluca",
+            "red_list_category_code": "LC",
+            "assessment_id": 149163362,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163370,
+            "url": "https://www.iucnredlist.org/species/149163370/149163372",
+            "taxon_scientific_name": "Pipiza luteitarsis",
+            "red_list_category_code": "LC",
+            "assessment_id": 149163372,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163380,
+            "url": "https://www.iucnredlist.org/species/149163380/149163382",
+            "taxon_scientific_name": "Pipiza luteibarba",
+            "red_list_category_code": "EN",
+            "assessment_id": 149163382,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163390,
+            "url": "https://www.iucnredlist.org/species/149163390/149163392",
+            "taxon_scientific_name": "Pipiza lugubris",
+            "red_list_category_code": "LC",
+            "assessment_id": 149163392,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163400,
+            "url": "https://www.iucnredlist.org/species/149163400/149163402",
+            "taxon_scientific_name": "Pipiza laurusi",
+            "red_list_category_code": "EN",
+            "assessment_id": 149163402,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163410,
+            "url": "https://www.iucnredlist.org/species/149163410/149163412",
+            "taxon_scientific_name": "Pipiza fasciata",
+            "red_list_category_code": "LC",
+            "assessment_id": 149163412,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163435,
+            "url": "https://www.iucnredlist.org/species/149163435/149163437",
+            "taxon_scientific_name": "Pipiza carbonaria",
+            "red_list_category_code": "EN",
+            "assessment_id": 149163437,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163445,
+            "url": "https://www.iucnredlist.org/species/149163445/149163450",
+            "taxon_scientific_name": "Pipiza austriaca",
+            "red_list_category_code": "LC",
+            "assessment_id": 149163450,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163465,
+            "url": "https://www.iucnredlist.org/species/149163465/149163467",
+            "taxon_scientific_name": "Katara connexa",
+            "red_list_category_code": "CR",
+            "assessment_id": 149163467,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                },
+                {
+                    "description": {
+                        "en": "Mediterranean"
+                    },
+                    "code": "4"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163476,
+            "url": "https://www.iucnredlist.org/species/149163476/149163479",
+            "taxon_scientific_name": "Heringia adpropinquans",
+            "red_list_category_code": "EN",
+            "assessment_id": 149163479,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163488,
+            "url": "https://www.iucnredlist.org/species/149163488/149163491",
+            "taxon_scientific_name": "Cheilosia vicina",
+            "red_list_category_code": "LC",
+            "assessment_id": 149163491,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163499,
+            "url": "https://www.iucnredlist.org/species/149163499/149163502",
+            "taxon_scientific_name": "Cheilosia vernalis",
+            "red_list_category_code": "LC",
+            "assessment_id": 149163502,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163510,
+            "url": "https://www.iucnredlist.org/species/149163510/149163512",
+            "taxon_scientific_name": "Cheilosia venosa",
+            "red_list_category_code": "EN",
+            "assessment_id": 149163512,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163520,
+            "url": "https://www.iucnredlist.org/species/149163520/149163530",
+            "taxon_scientific_name": "Cheilosia velutina",
+            "red_list_category_code": "LC",
+            "assessment_id": 149163530,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163538,
+            "url": "https://www.iucnredlist.org/species/149163538/149163540",
+            "taxon_scientific_name": "Cheilosia varnensis",
+            "red_list_category_code": "CR",
+            "assessment_id": 149163540,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163548,
+            "url": "https://www.iucnredlist.org/species/149163548/149163550",
+            "taxon_scientific_name": "Cheilosia vangaveri",
+            "red_list_category_code": "EN",
+            "assessment_id": 149163550,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163558,
+            "url": "https://www.iucnredlist.org/species/149163558/149163561",
+            "taxon_scientific_name": "Cheilosia urbana",
+            "red_list_category_code": "LC",
+            "assessment_id": 149163561,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163569,
+            "url": "https://www.iucnredlist.org/species/149163569/149163571",
+            "taxon_scientific_name": "Cheilosia tonsa",
+            "red_list_category_code": "EN",
+            "assessment_id": 149163571,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163579,
+            "url": "https://www.iucnredlist.org/species/149163579/149163581",
+            "taxon_scientific_name": "Cheilosia marginata",
+            "red_list_category_code": "NT",
+            "assessment_id": 149163581,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163589,
+            "url": "https://www.iucnredlist.org/species/149163589/149163591",
+            "taxon_scientific_name": "Cheilosia pini",
+            "red_list_category_code": "EN",
+            "assessment_id": 149163591,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163774,
+            "url": "https://www.iucnredlist.org/species/149163774/149163776",
+            "taxon_scientific_name": "Cheilosia rodgersi",
+            "red_list_category_code": "EN",
+            "assessment_id": 149163776,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163784,
+            "url": "https://www.iucnredlist.org/species/149163784/149163786",
+            "taxon_scientific_name": "Cheilosia rhynchops",
+            "red_list_category_code": "LC",
+            "assessment_id": 149163786,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163811,
+            "url": "https://www.iucnredlist.org/species/149163811/149163813",
+            "taxon_scientific_name": "Cheilosia rhodiolae",
+            "red_list_category_code": "DD",
+            "assessment_id": 149163813,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163821,
+            "url": "https://www.iucnredlist.org/species/149163821/149163823",
+            "taxon_scientific_name": "Cheilosia reniformis",
+            "red_list_category_code": "VU",
+            "assessment_id": 149163823,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163831,
+            "url": "https://www.iucnredlist.org/species/149163831/149163833",
+            "taxon_scientific_name": "Cheilosia redi",
+            "red_list_category_code": "LC",
+            "assessment_id": 149163833,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163841,
+            "url": "https://www.iucnredlist.org/species/149163841/149163843",
+            "taxon_scientific_name": "Cheilosia ranunculi",
+            "red_list_category_code": "LC",
+            "assessment_id": 149163843,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163851,
+            "url": "https://www.iucnredlist.org/species/149163851/149163854",
+            "taxon_scientific_name": "Cheilosia pubera",
+            "red_list_category_code": "LC",
+            "assessment_id": 149163854,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163862,
+            "url": "https://www.iucnredlist.org/species/149163862/149163864",
+            "taxon_scientific_name": "Cheilosia psilophthalma",
+            "red_list_category_code": "LC",
+            "assessment_id": 149163864,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163872,
+            "url": "https://www.iucnredlist.org/species/149163872/149163874",
+            "taxon_scientific_name": "Cheilosia personata",
+            "red_list_category_code": "LC",
+            "assessment_id": 149163874,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163882,
+            "url": "https://www.iucnredlist.org/species/149163882/149163884",
+            "taxon_scientific_name": "Cheilosia pedemontana",
+            "red_list_category_code": "EN",
+            "assessment_id": 149163884,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163892,
+            "url": "https://www.iucnredlist.org/species/149163892/149163894",
+            "taxon_scientific_name": "Cheilosia pascuorum",
+            "red_list_category_code": "LC",
+            "assessment_id": 149163894,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163902,
+            "url": "https://www.iucnredlist.org/species/149163902/149163904",
+            "taxon_scientific_name": "Cheilosia paralobi",
+            "red_list_category_code": "EN",
+            "assessment_id": 149163904,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163912,
+            "url": "https://www.iucnredlist.org/species/149163912/149163915",
+            "taxon_scientific_name": "Cheilosia pagana",
+            "red_list_category_code": "LC",
+            "assessment_id": 149163915,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163923,
+            "url": "https://www.iucnredlist.org/species/149163923/149163925",
+            "taxon_scientific_name": "Cheilosia orthotricha",
+            "red_list_category_code": "LC",
+            "assessment_id": 149163925,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163933,
+            "url": "https://www.iucnredlist.org/species/149163933/149163936",
+            "taxon_scientific_name": "Cheilosia nigripes",
+            "red_list_category_code": "LC",
+            "assessment_id": 149163936,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163944,
+            "url": "https://www.iucnredlist.org/species/149163944/149163946",
+            "taxon_scientific_name": "Cheilosia nebulosa",
+            "red_list_category_code": "LC",
+            "assessment_id": 149163946,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163954,
+            "url": "https://www.iucnredlist.org/species/149163954/149163956",
+            "taxon_scientific_name": "Cheilosia naruska",
+            "red_list_category_code": "NT",
+            "assessment_id": 149163956,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163964,
+            "url": "https://www.iucnredlist.org/species/149163964/149163967",
+            "taxon_scientific_name": "Cheilosia mutabilis",
+            "red_list_category_code": "LC",
+            "assessment_id": 149163967,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163975,
+            "url": "https://www.iucnredlist.org/species/149163975/149163977",
+            "taxon_scientific_name": "Cheilosia montana",
+            "red_list_category_code": "EN",
+            "assessment_id": 149163977,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163985,
+            "url": "https://www.iucnredlist.org/species/149163985/149163987",
+            "taxon_scientific_name": "Cheilosia melanura",
+            "red_list_category_code": "LC",
+            "assessment_id": 149163987,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149163995,
+            "url": "https://www.iucnredlist.org/species/149163995/149163997",
+            "taxon_scientific_name": "Cheilosia lucense",
+            "red_list_category_code": "EN",
+            "assessment_id": 149163997,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                },
+                {
+                    "description": {
+                        "en": "Mediterranean"
+                    },
+                    "code": "4"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149164005,
+            "url": "https://www.iucnredlist.org/species/149164005/149164008",
+            "taxon_scientific_name": "Cheilosia longula",
+            "red_list_category_code": "LC",
+            "assessment_id": 149164008,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149164033,
+            "url": "https://www.iucnredlist.org/species/149164033/149164035",
+            "taxon_scientific_name": "Cheilosia limbicornis",
+            "red_list_category_code": "EN",
+            "assessment_id": 149164035,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                },
+                {
+                    "description": {
+                        "en": "Mediterranean"
+                    },
+                    "code": "4"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149164043,
+            "url": "https://www.iucnredlist.org/species/149164043/149164045",
+            "taxon_scientific_name": "Cheilosia lenta",
+            "red_list_category_code": "EN",
+            "assessment_id": 149164045,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149164053,
+            "url": "https://www.iucnredlist.org/species/149164053/149164055",
+            "taxon_scientific_name": "Cheilosia latigenis",
+            "red_list_category_code": "EN",
+            "assessment_id": 149164055,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149164063,
+            "url": "https://www.iucnredlist.org/species/149164063/149164065",
+            "taxon_scientific_name": "Cheilosia laticornis",
+            "red_list_category_code": "LC",
+            "assessment_id": 149164065,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149164073,
+            "url": "https://www.iucnredlist.org/species/149164073/149164075",
+            "taxon_scientific_name": "Cheilosia lasiopa",
+            "red_list_category_code": "LC",
+            "assessment_id": 149164075,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149164083,
+            "url": "https://www.iucnredlist.org/species/149164083/149164085",
+            "taxon_scientific_name": "Cheilosia laeviventris",
+            "red_list_category_code": "EN",
+            "assessment_id": 149164085,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149164093,
+            "url": "https://www.iucnredlist.org/species/149164093/149164095",
+            "taxon_scientific_name": "Cheilosia laeviseta",
+            "red_list_category_code": "EN",
+            "assessment_id": 149164095,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149164103,
+            "url": "https://www.iucnredlist.org/species/149164103/149164105",
+            "taxon_scientific_name": "Cheilosia gorodkovi",
+            "red_list_category_code": "EN",
+            "assessment_id": 149164105,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149164113,
+            "url": "https://www.iucnredlist.org/species/149164113/149164115",
+            "taxon_scientific_name": "Cheilosia kerteszi",
+            "red_list_category_code": "EN",
+            "assessment_id": 149164115,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149164123,
+            "url": "https://www.iucnredlist.org/species/149164123/149164125",
+            "taxon_scientific_name": "Cheilosia katara",
+            "red_list_category_code": "CR",
+            "assessment_id": 149164125,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                },
+                {
+                    "description": {
+                        "en": "Mediterranean"
+                    },
+                    "code": "4"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149164133,
+            "url": "https://www.iucnredlist.org/species/149164133/149164135",
+            "taxon_scientific_name": "Cheilosia insignis",
+            "red_list_category_code": "EN",
+            "assessment_id": 149164135,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149164143,
+            "url": "https://www.iucnredlist.org/species/149164143/149164145",
+            "taxon_scientific_name": "Cheilosia ingerae",
+            "red_list_category_code": "EN",
+            "assessment_id": 149164145,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149164153,
+            "url": "https://www.iucnredlist.org/species/149164153/149164155",
+            "taxon_scientific_name": "Cheilosia impudens",
+            "red_list_category_code": "EN",
+            "assessment_id": 149164155,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149164163,
+            "url": "https://www.iucnredlist.org/species/149164163/149164165",
+            "taxon_scientific_name": "Cheilosia impressa",
+            "red_list_category_code": "LC",
+            "assessment_id": 149164165,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149164173,
+            "url": "https://www.iucnredlist.org/species/149164173/149164176",
+            "taxon_scientific_name": "Cheilosia illustrata",
+            "red_list_category_code": "LC",
+            "assessment_id": 149164176,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149164184,
+            "url": "https://www.iucnredlist.org/species/149164184/149164186",
+            "taxon_scientific_name": "Cheilosia iberica",
+            "red_list_category_code": "EN",
+            "assessment_id": 149164186,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                },
+                {
+                    "description": {
+                        "en": "Mediterranean"
+                    },
+                    "code": "4"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149164194,
+            "url": "https://www.iucnredlist.org/species/149164194/149164196",
+            "taxon_scientific_name": "Cheilosia hypena",
+            "red_list_category_code": "LC",
+            "assessment_id": 149164196,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149164204,
+            "url": "https://www.iucnredlist.org/species/149164204/149164207",
+            "taxon_scientific_name": "Cheilosia himantopa",
+            "red_list_category_code": "LC",
+            "assessment_id": 149164207,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149164215,
+            "url": "https://www.iucnredlist.org/species/149164215/149164217",
+            "taxon_scientific_name": "Cheilosia hercyniae",
+            "red_list_category_code": "EN",
+            "assessment_id": 149164217,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149164225,
+            "url": "https://www.iucnredlist.org/species/149164225/149164227",
+            "taxon_scientific_name": "Cheilosia herculana",
+            "red_list_category_code": "EN",
+            "assessment_id": 149164227,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149164235,
+            "url": "https://www.iucnredlist.org/species/149164235/149164237",
+            "taxon_scientific_name": "Cheilosia grisella",
+            "red_list_category_code": "LC",
+            "assessment_id": 149164237,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149164245,
+            "url": "https://www.iucnredlist.org/species/149164245/149164247",
+            "taxon_scientific_name": "Cheilosia griseifacies",
+            "red_list_category_code": "EN",
+            "assessment_id": 149164247,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149164255,
+            "url": "https://www.iucnredlist.org/species/149164255/149164257",
+            "taxon_scientific_name": "Cheilosia gagatea",
+            "red_list_category_code": "EN",
+            "assessment_id": 149164257,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149164265,
+            "url": "https://www.iucnredlist.org/species/149164265/149164268",
+            "taxon_scientific_name": "Cheilosia fraterna",
+            "red_list_category_code": "LC",
+            "assessment_id": 149164268,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149164276,
+            "url": "https://www.iucnredlist.org/species/149164276/149164278",
+            "taxon_scientific_name": "Cheilosia flavissima",
+            "red_list_category_code": "LC",
+            "assessment_id": 149164278,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149164286,
+            "url": "https://www.iucnredlist.org/species/149164286/149164288",
+            "taxon_scientific_name": "Cheilosia faucis",
+            "red_list_category_code": "EN",
+            "assessment_id": 149164288,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149164296,
+            "url": "https://www.iucnredlist.org/species/149164296/149164298",
+            "taxon_scientific_name": "Cheilosia derasa",
+            "red_list_category_code": "LC",
+            "assessment_id": 149164298,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149164309,
+            "url": "https://www.iucnredlist.org/species/149164309/149164311",
+            "taxon_scientific_name": "Cheilosia cynocephala",
+            "red_list_category_code": "LC",
+            "assessment_id": 149164311,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149164319,
+            "url": "https://www.iucnredlist.org/species/149164319/149164321",
+            "taxon_scientific_name": "Cheilosia cumanica",
+            "red_list_category_code": "LC",
+            "assessment_id": 149164321,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149164329,
+            "url": "https://www.iucnredlist.org/species/149164329/149164331",
+            "taxon_scientific_name": "Cheilosia crassiseta",
+            "red_list_category_code": "EN",
+            "assessment_id": 149164331,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149164339,
+            "url": "https://www.iucnredlist.org/species/149164339/149164341",
+            "taxon_scientific_name": "Cheilosia clausseni",
+            "red_list_category_code": "EN",
+            "assessment_id": 149164341,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 149164349,
+            "url": "https://www.iucnredlist.org/species/149164349/149164351",
+            "taxon_scientific_name": "Cheilosia clama",
+            "red_list_category_code": "EN",
+            "assessment_id": 149164351,
+            "code": "2",
+            "code_type": "scope",
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        }
+    ],
+    "filters": {
+        "year_published": "2021"
+    }
+}

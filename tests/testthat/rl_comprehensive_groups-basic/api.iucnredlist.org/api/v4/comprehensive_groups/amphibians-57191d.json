@@ -1,0 +1,2447 @@
+{
+    "comprehensive_group": {
+        "high": true,
+        "comp": true,
+        "name": "amphibians",
+        "higher_name": "amphibians"
+    },
+    "assessments": [
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 114139495,
+            "url": "https://www.iucnredlist.org/species/114139495/227223836",
+            "taxon_scientific_name": "Pelodytes atlanticus",
+            "red_list_category_code": "LC",
+            "assessment_id": 227223836,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 58581,
+            "url": "https://www.iucnredlist.org/species/58581/227225745",
+            "taxon_scientific_name": "Pelophylax cretensis",
+            "red_list_category_code": "EN",
+            "assessment_id": 227225745,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                },
+                {
+                    "description": {
+                        "en": "Mediterranean"
+                    },
+                    "code": "4"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 58567,
+            "url": "https://www.iucnredlist.org/species/58567/229002159",
+            "taxon_scientific_name": "Pelophylax cerigensis",
+            "red_list_category_code": "EN",
+            "assessment_id": 229002159,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                },
+                {
+                    "description": {
+                        "en": "Mediterranean"
+                    },
+                    "code": "4"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 55270,
+            "url": "https://www.iucnredlist.org/species/55270/200187939",
+            "taxon_scientific_name": "Discoglossus pictus",
+            "red_list_category_code": "LC",
+            "assessment_id": 200187939,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 2865,
+            "url": "https://www.iucnredlist.org/species/2865/67862807",
+            "taxon_scientific_name": "Bombina bombina",
+            "red_list_category_code": "LC",
+            "assessment_id": 67862807,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 22212,
+            "url": "https://www.iucnredlist.org/species/22212/200183152",
+            "taxon_scientific_name": "Triturus cristatus",
+            "red_list_category_code": "LC",
+            "assessment_id": 200183152,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 88316072,
+            "url": "https://www.iucnredlist.org/species/88316072/200188858",
+            "taxon_scientific_name": "Bufo bufo",
+            "red_list_category_code": "LC",
+            "assessment_id": 200188858,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 88316046,
+            "url": "https://www.iucnredlist.org/species/88316046/200190036",
+            "taxon_scientific_name": "Bufo spinosus",
+            "red_list_category_code": "LC",
+            "assessment_id": 200190036,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 182525327,
+            "url": "https://www.iucnredlist.org/species/182525327/200191612",
+            "taxon_scientific_name": "Bufotes boulengeri",
+            "red_list_category_code": "LC",
+            "assessment_id": 200191612,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 182530066,
+            "url": "https://www.iucnredlist.org/species/182530066/200192160",
+            "taxon_scientific_name": "Bufotes viridis",
+            "red_list_category_code": "LC",
+            "assessment_id": 200192160,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173109790,
+            "url": "https://www.iucnredlist.org/species/173109790/200196698",
+            "taxon_scientific_name": "Hyla meridionalis",
+            "red_list_category_code": "LC",
+            "assessment_id": 200196698,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 88103927,
+            "url": "https://www.iucnredlist.org/species/88103927/200745594",
+            "taxon_scientific_name": "Triturus ivanbureschi",
+            "red_list_category_code": "LC",
+            "assessment_id": 200745594,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 211146190,
+            "url": "https://www.iucnredlist.org/species/211146190/200746759",
+            "taxon_scientific_name": "Triturus karelinii",
+            "red_list_category_code": "LC",
+            "assessment_id": 200746759,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 196236041,
+            "url": "https://www.iucnredlist.org/species/196236041/202020399",
+            "taxon_scientific_name": "Pelobates vespertinus",
+            "red_list_category_code": "LC",
+            "assessment_id": 202020399,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 58565,
+            "url": "https://www.iucnredlist.org/species/58565/202022987",
+            "taxon_scientific_name": "Aquarana catesbeianus",
+            "red_list_category_code": "NA",
+            "assessment_id": 202022987,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 82494309,
+            "url": "https://www.iucnredlist.org/species/82494309/202052085",
+            "taxon_scientific_name": "Hyla orientalis",
+            "red_list_category_code": "LC",
+            "assessment_id": 202052085,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 58054,
+            "url": "https://www.iucnredlist.org/species/58054/207984541",
+            "taxon_scientific_name": "Pelobates varaldii",
+            "red_list_category_code": "NA",
+            "assessment_id": 207984541,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 211757868,
+            "url": "https://www.iucnredlist.org/species/211757868/211757998",
+            "taxon_scientific_name": "Lissotriton schmidtleri",
+            "red_list_category_code": "LC",
+            "assessment_id": 211757998,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 172313717,
+            "url": "https://www.iucnredlist.org/species/172313717/223143581",
+            "taxon_scientific_name": "Pelobates syriacus",
+            "red_list_category_code": "NT",
+            "assessment_id": 223143581,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 55645,
+            "url": "https://www.iucnredlist.org/species/55645/223764163",
+            "taxon_scientific_name": "Hyla sarda",
+            "red_list_category_code": "LC",
+            "assessment_id": 223764163,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                },
+                {
+                    "description": {
+                        "en": "Mediterranean"
+                    },
+                    "code": "4"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 82496838,
+            "url": "https://www.iucnredlist.org/species/82496838/228182338",
+            "taxon_scientific_name": "Hyla arborea",
+            "red_list_category_code": "LC",
+            "assessment_id": 228182338,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 82493101,
+            "url": "https://www.iucnredlist.org/species/82493101/228182906",
+            "taxon_scientific_name": "Hyla molleri",
+            "red_list_category_code": "LC",
+            "assessment_id": 228182906,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 59472,
+            "url": "https://www.iucnredlist.org/species/59472/228183943",
+            "taxon_scientific_name": "Ichthyosaura alpestris",
+            "red_list_category_code": "LC",
+            "assessment_id": 228183943,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 79077482,
+            "url": "https://www.iucnredlist.org/species/79077482/228184805",
+            "taxon_scientific_name": "Lissotriton graecus",
+            "red_list_category_code": "LC",
+            "assessment_id": 228184805,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 196236126,
+            "url": "https://www.iucnredlist.org/species/196236126/228187875",
+            "taxon_scientific_name": "Pelobates fuscus",
+            "red_list_category_code": "LC",
+            "assessment_id": 228187875,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 59476,
+            "url": "https://www.iucnredlist.org/species/59476/229006043",
+            "taxon_scientific_name": "Lissotriton italicus",
+            "red_list_category_code": "LC",
+            "assessment_id": 229006043,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                },
+                {
+                    "description": {
+                        "en": "Mediterranean"
+                    },
+                    "code": "4"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 78928690,
+            "url": "https://www.iucnredlist.org/species/78928690/202052715",
+            "taxon_scientific_name": "Hyla savignyi",
+            "red_list_category_code": "LC",
+            "assessment_id": 202052715,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 977,
+            "url": "https://www.iucnredlist.org/species/977/207979274",
+            "taxon_scientific_name": "Alytes muletensis",
+            "red_list_category_code": "EN",
+            "assessment_id": 207979274,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                },
+                {
+                    "description": {
+                        "en": "Mediterranean"
+                    },
+                    "code": "4"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 6714,
+            "url": "https://www.iucnredlist.org/species/6714/207979535",
+            "taxon_scientific_name": "Discoglossus montalentii",
+            "red_list_category_code": "NT",
+            "assessment_id": 207979535,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                },
+                {
+                    "description": {
+                        "en": "Mediterranean"
+                    },
+                    "code": "4"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 55266,
+            "url": "https://www.iucnredlist.org/species/55266/207980155",
+            "taxon_scientific_name": "Alytes cisternasii",
+            "red_list_category_code": "LC",
+            "assessment_id": 207980155,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                },
+                {
+                    "description": {
+                        "en": "Mediterranean"
+                    },
+                    "code": "4"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 55271,
+            "url": "https://www.iucnredlist.org/species/55271/207980412",
+            "taxon_scientific_name": "Discoglossus sardus",
+            "red_list_category_code": "LC",
+            "assessment_id": 207980412,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                },
+                {
+                    "description": {
+                        "en": "Mediterranean"
+                    },
+                    "code": "4"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173115779,
+            "url": "https://www.iucnredlist.org/species/173115779/207984263",
+            "taxon_scientific_name": "Discoglossus galganoi",
+            "red_list_category_code": "LC",
+            "assessment_id": 207984263,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 8371,
+            "url": "https://www.iucnredlist.org/species/8371/223758127",
+            "taxon_scientific_name": "Euproctus platycephalus",
+            "red_list_category_code": "EN",
+            "assessment_id": 223758127,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                },
+                {
+                    "description": {
+                        "en": "Mediterranean"
+                    },
+                    "code": "4"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 178592041,
+            "url": "https://www.iucnredlist.org/species/178592041/228179002",
+            "taxon_scientific_name": "Alytes almogavarii",
+            "red_list_category_code": "LC",
+            "assessment_id": 228179002,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 979,
+            "url": "https://www.iucnredlist.org/species/979/228179357",
+            "taxon_scientific_name": "Alytes dickhilleni",
+            "red_list_category_code": "EN",
+            "assessment_id": 228179357,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                },
+                {
+                    "description": {
+                        "en": "Mediterranean"
+                    },
+                    "code": "4"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 178591974,
+            "url": "https://www.iucnredlist.org/species/178591974/228179645",
+            "taxon_scientific_name": "Alytes obstetricans",
+            "red_list_category_code": "LC",
+            "assessment_id": 228179645,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 77970289,
+            "url": "https://www.iucnredlist.org/species/77970289/228179967",
+            "taxon_scientific_name": "Bombina variegata",
+            "red_list_category_code": "LC",
+            "assessment_id": 228179967,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 153567,
+            "url": "https://www.iucnredlist.org/species/153567/228180449",
+            "taxon_scientific_name": "Bufotes balearicus",
+            "red_list_category_code": "LC",
+            "assessment_id": 228180449,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 172962880,
+            "url": "https://www.iucnredlist.org/species/172962880/228180876",
+            "taxon_scientific_name": "Bufotes cypriensis",
+            "red_list_category_code": "NT",
+            "assessment_id": 228180876,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 4657,
+            "url": "https://www.iucnredlist.org/species/4657/228181133",
+            "taxon_scientific_name": "Chioglossa lusitanica",
+            "red_list_category_code": "NT",
+            "assessment_id": 228181133,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 54598,
+            "url": "https://www.iucnredlist.org/species/54598/228181470",
+            "taxon_scientific_name": "Epidalea calamita",
+            "red_list_category_code": "LC",
+            "assessment_id": 228181470,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 59449,
+            "url": "https://www.iucnredlist.org/species/59449/228181894",
+            "taxon_scientific_name": "Euproctus montanus",
+            "red_list_category_code": "LC",
+            "assessment_id": 228181894,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                },
+                {
+                    "description": {
+                        "en": "Mediterranean"
+                    },
+                    "code": "4"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 79079411,
+            "url": "https://www.iucnredlist.org/species/79079411/228184459",
+            "taxon_scientific_name": "Lissotriton boscai",
+            "red_list_category_code": "LC",
+            "assessment_id": 228184459,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 59475,
+            "url": "https://www.iucnredlist.org/species/59475/228185144",
+            "taxon_scientific_name": "Lissotriton helveticus",
+            "red_list_category_code": "LC",
+            "assessment_id": 228185144,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 79079357,
+            "url": "https://www.iucnredlist.org/species/79079357/228185515",
+            "taxon_scientific_name": "Lissotriton maltzani",
+            "red_list_category_code": "LC",
+            "assessment_id": 228185515,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                },
+                {
+                    "description": {
+                        "en": "Mediterranean"
+                    },
+                    "code": "4"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 59478,
+            "url": "https://www.iucnredlist.org/species/59478/228185921",
+            "taxon_scientific_name": "Lissotriton montandoni",
+            "red_list_category_code": "LC",
+            "assessment_id": 228185921,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 61918,
+            "url": "https://www.iucnredlist.org/species/61918/228186236",
+            "taxon_scientific_name": "Lyciasalamandra helverseni",
+            "red_list_category_code": "VU",
+            "assessment_id": 228186236,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                },
+                {
+                    "description": {
+                        "en": "Mediterranean"
+                    },
+                    "code": "4"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 172312067,
+            "url": "https://www.iucnredlist.org/species/172312067/228186498",
+            "taxon_scientific_name": "Pelobates balcanicus",
+            "red_list_category_code": "LC",
+            "assessment_id": 228186498,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 58052,
+            "url": "https://www.iucnredlist.org/species/58052/228187495",
+            "taxon_scientific_name": "Pelobates cultripes",
+            "red_list_category_code": "VU",
+            "assessment_id": 228187495,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 55517,
+            "url": "https://www.iucnredlist.org/species/55517/229001009",
+            "taxon_scientific_name": "Hyla intermedia",
+            "red_list_category_code": "LC",
+            "assessment_id": 229001009,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 58892549,
+            "url": "https://www.iucnredlist.org/species/58892549/229002620",
+            "taxon_scientific_name": "Pelophylax cypriensis",
+            "red_list_category_code": "VU",
+            "assessment_id": 229002620,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                },
+                {
+                    "description": {
+                        "en": "Mediterranean"
+                    },
+                    "code": "4"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 58637,
+            "url": "https://www.iucnredlist.org/species/58637/229003815",
+            "taxon_scientific_name": "Pelophylax kurtmuelleri",
+            "red_list_category_code": "LC",
+            "assessment_id": 229003815,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 58605,
+            "url": "https://www.iucnredlist.org/species/58605/229005415",
+            "taxon_scientific_name": "Rana graeca",
+            "red_list_category_code": "LC",
+            "assessment_id": 229005415,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 59448,
+            "url": "https://www.iucnredlist.org/species/59448/229005750",
+            "taxon_scientific_name": "Calotriton asper",
+            "red_list_category_code": "LC",
+            "assessment_id": 229005750,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 79078647,
+            "url": "https://www.iucnredlist.org/species/79078647/229006372",
+            "taxon_scientific_name": "Lissotriton vulgaris",
+            "red_list_category_code": "LC",
+            "assessment_id": 229006372,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 58893474,
+            "url": "https://www.iucnredlist.org/species/58893474/200682549",
+            "taxon_scientific_name": "Pelophylax bedriagae",
+            "red_list_category_code": "LC",
+            "assessment_id": 200682549,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 19156,
+            "url": "https://www.iucnredlist.org/species/19156/227232074",
+            "taxon_scientific_name": "Rana latastei",
+            "red_list_category_code": "VU",
+            "assessment_id": 227232074,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173103952,
+            "url": "https://www.iucnredlist.org/species/173103952/227232549",
+            "taxon_scientific_name": "Rana parvipalmata",
+            "red_list_category_code": "LC",
+            "assessment_id": 227232549,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 19183,
+            "url": "https://www.iucnredlist.org/species/19183/227233345",
+            "taxon_scientific_name": "Rana pyrenaica",
+            "red_list_category_code": "EN",
+            "assessment_id": 227233345,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 58592,
+            "url": "https://www.iucnredlist.org/species/58592/207981785",
+            "taxon_scientific_name": "Pelophylax epeiroticus",
+            "red_list_category_code": "NT",
+            "assessment_id": 207981785,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                },
+                {
+                    "description": {
+                        "en": "Mediterranean"
+                    },
+                    "code": "4"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 58715,
+            "url": "https://www.iucnredlist.org/species/58715/207982996",
+            "taxon_scientific_name": "Pelophylax shqipericus",
+            "red_list_category_code": "VU",
+            "assessment_id": 207982996,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                },
+                {
+                    "description": {
+                        "en": "Mediterranean"
+                    },
+                    "code": "4"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 58622,
+            "url": "https://www.iucnredlist.org/species/58622/227229860",
+            "taxon_scientific_name": "Rana iberica",
+            "red_list_category_code": "VU",
+            "assessment_id": 227229860,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 58624,
+            "url": "https://www.iucnredlist.org/species/58624/227231646",
+            "taxon_scientific_name": "Rana italica",
+            "red_list_category_code": "LC",
+            "assessment_id": 227231646,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                },
+                {
+                    "description": {
+                        "en": "Mediterranean"
+                    },
+                    "code": "4"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 19843,
+            "url": "https://www.iucnredlist.org/species/19843/227233771",
+            "taxon_scientific_name": "Salamandra atra",
+            "red_list_category_code": "LC",
+            "assessment_id": 227233771,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 59465,
+            "url": "https://www.iucnredlist.org/species/59465/227234846",
+            "taxon_scientific_name": "Salamandra corsica",
+            "red_list_category_code": "LC",
+            "assessment_id": 227234846,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                },
+                {
+                    "description": {
+                        "en": "Mediterranean"
+                    },
+                    "code": "4"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 59468,
+            "url": "https://www.iucnredlist.org/species/59468/227235526",
+            "taxon_scientific_name": "Salamandrina terdigitata",
+            "red_list_category_code": "LC",
+            "assessment_id": 227235526,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                },
+                {
+                    "description": {
+                        "en": "Mediterranean"
+                    },
+                    "code": "4"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 20455,
+            "url": "https://www.iucnredlist.org/species/20455/227235866",
+            "taxon_scientific_name": "Speleomantes flavus",
+            "red_list_category_code": "EN",
+            "assessment_id": 227235866,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                },
+                {
+                    "description": {
+                        "en": "Mediterranean"
+                    },
+                    "code": "4"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 20456,
+            "url": "https://www.iucnredlist.org/species/20456/227236143",
+            "taxon_scientific_name": "Speleomantes genei",
+            "red_list_category_code": "VU",
+            "assessment_id": 227236143,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                },
+                {
+                    "description": {
+                        "en": "Mediterranean"
+                    },
+                    "code": "4"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 20457,
+            "url": "https://www.iucnredlist.org/species/20457/227236400",
+            "taxon_scientific_name": "Speleomantes imperialis",
+            "red_list_category_code": "NT",
+            "assessment_id": 227236400,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                },
+                {
+                    "description": {
+                        "en": "Mediterranean"
+                    },
+                    "code": "4"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 58692,
+            "url": "https://www.iucnredlist.org/species/58692/227226945",
+            "taxon_scientific_name": "Pelophylax perezi",
+            "red_list_category_code": "LC",
+            "assessment_id": 227226945,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 18377,
+            "url": "https://www.iucnredlist.org/species/18377/227229041",
+            "taxon_scientific_name": "Proteus anguinus",
+            "red_list_category_code": "VU",
+            "assessment_id": 227229041,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 135825,
+            "url": "https://www.iucnredlist.org/species/135825/227236611",
+            "taxon_scientific_name": "Speleomantes sarrabusensis",
+            "red_list_category_code": "CR",
+            "assessment_id": 227236611,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                },
+                {
+                    "description": {
+                        "en": "Mediterranean"
+                    },
+                    "code": "4"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 22216,
+            "url": "https://www.iucnredlist.org/species/22216/227237457",
+            "taxon_scientific_name": "Triturus dobrogicus",
+            "red_list_category_code": "LC",
+            "assessment_id": 227237457,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 59479,
+            "url": "https://www.iucnredlist.org/species/59479/227238403",
+            "taxon_scientific_name": "Triturus pygmaeus",
+            "red_list_category_code": "NT",
+            "assessment_id": 227238403,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 58055,
+            "url": "https://www.iucnredlist.org/species/58055/227224480",
+            "taxon_scientific_name": "Pelodytes ibericus",
+            "red_list_category_code": "LC",
+            "assessment_id": 227224480,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                },
+                {
+                    "description": {
+                        "en": "Mediterranean"
+                    },
+                    "code": "4"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 20459,
+            "url": "https://www.iucnredlist.org/species/20459/227237010",
+            "taxon_scientific_name": "Speleomantes supramontis",
+            "red_list_category_code": "EN",
+            "assessment_id": 227237010,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                },
+                {
+                    "description": {
+                        "en": "Mediterranean"
+                    },
+                    "code": "4"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 88104000,
+            "url": "https://www.iucnredlist.org/species/88104000/227237916",
+            "taxon_scientific_name": "Triturus macedonicus",
+            "red_list_category_code": "VU",
+            "assessment_id": 227237916,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 58705,
+            "url": "https://www.iucnredlist.org/species/58705/200716374",
+            "taxon_scientific_name": "Pelophylax ridibundus",
+            "red_list_category_code": "LC",
+            "assessment_id": 200716374,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 58707,
+            "url": "https://www.iucnredlist.org/species/58707/200717357",
+            "taxon_scientific_name": "Pelophylax saharicus",
+            "red_list_category_code": "NA",
+            "assessment_id": 200717357,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 58548,
+            "url": "https://www.iucnredlist.org/species/58548/200717774",
+            "taxon_scientific_name": "Rana arvalis",
+            "red_list_category_code": "LC",
+            "assessment_id": 200717774,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 58584,
+            "url": "https://www.iucnredlist.org/species/58584/200718410",
+            "taxon_scientific_name": "Rana dalmatina",
+            "red_list_category_code": "LC",
+            "assessment_id": 200718410,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 173101508,
+            "url": "https://www.iucnredlist.org/species/173101508/200721782",
+            "taxon_scientific_name": "Rana temporaria",
+            "red_list_category_code": "LC",
+            "assessment_id": 200721782,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 59463,
+            "url": "https://www.iucnredlist.org/species/59463/200741141",
+            "taxon_scientific_name": "Pleurodeles waltl",
+            "red_list_category_code": "NT",
+            "assessment_id": 200741141,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 59464,
+            "url": "https://www.iucnredlist.org/species/59464/200741882",
+            "taxon_scientific_name": "Salamandra algira",
+            "red_list_category_code": "NA",
+            "assessment_id": 200741882,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 54703,
+            "url": "https://www.iucnredlist.org/species/54703/202016456",
+            "taxon_scientific_name": "Sclerophrys mauritanica",
+            "red_list_category_code": "NA",
+            "assessment_id": 202016456,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 110466172,
+            "url": "https://www.iucnredlist.org/species/110466172/202022250",
+            "taxon_scientific_name": "Xenopus laevis",
+            "red_list_category_code": "NA",
+            "assessment_id": 202022250,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 136687833,
+            "url": "https://www.iucnredlist.org/species/136687833/202049049",
+            "taxon_scientific_name": "Salamandrella keyserlingii",
+            "red_list_category_code": "LC",
+            "assessment_id": 202049049,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 220668295,
+            "url": "https://www.iucnredlist.org/species/220668295/220668328",
+            "taxon_scientific_name": "Tlalocohyla celeste",
+            "red_list_category_code": "CR",
+            "assessment_id": 220668328,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2022",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 219709082,
+            "url": "https://www.iucnredlist.org/species/219709082/219667057",
+            "taxon_scientific_name": "Theloderma corticale",
+            "red_list_category_code": "LC",
+            "assessment_id": 219667057,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 59467,
+            "url": "https://www.iucnredlist.org/species/59467/219148292",
+            "taxon_scientific_name": "Salamandra salamandra",
+            "red_list_category_code": "VU",
+            "assessment_id": 219148292,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 214696589,
+            "url": "https://www.iucnredlist.org/species/214696589/219149418",
+            "taxon_scientific_name": "Triturus carnifex",
+            "red_list_category_code": "VU",
+            "assessment_id": 219149418,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 59477,
+            "url": "https://www.iucnredlist.org/species/59477/219150517",
+            "taxon_scientific_name": "Triturus marmoratus",
+            "red_list_category_code": "VU",
+            "assessment_id": 219150517,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 214696589,
+            "url": "https://www.iucnredlist.org/species/214696589/264468745",
+            "taxon_scientific_name": "Triturus carnifex",
+            "red_list_category_code": "VU",
+            "assessment_id": 264468745,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2025",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 59477,
+            "url": "https://www.iucnredlist.org/species/59477/270778119",
+            "taxon_scientific_name": "Triturus marmoratus",
+            "red_list_category_code": "VU",
+            "assessment_id": 270778119,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                },
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 136162,
+            "url": "https://www.iucnredlist.org/species/136162/245671083",
+            "taxon_scientific_name": "Atelopus epikeisthos",
+            "red_list_category_code": "CR",
+            "assessment_id": 245671083,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 54523,
+            "url": "https://www.iucnredlist.org/species/54523/245671401",
+            "taxon_scientific_name": "Atelopus lozanoi",
+            "red_list_category_code": "CR",
+            "assessment_id": 245671401,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 54533,
+            "url": "https://www.iucnredlist.org/species/54533/245671681",
+            "taxon_scientific_name": "Atelopus nepiozomus",
+            "red_list_category_code": "CR",
+            "assessment_id": 245671681,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 81646204,
+            "url": "https://www.iucnredlist.org/species/81646204/245672075",
+            "taxon_scientific_name": "Atelopus marinkellei",
+            "red_list_category_code": "CR",
+            "assessment_id": 245672075,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 135809,
+            "url": "https://www.iucnredlist.org/species/135809/245672429",
+            "taxon_scientific_name": "Pristimantis dendrobatoides",
+            "red_list_category_code": "DD",
+            "assessment_id": 245672429,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 54480,
+            "url": "https://www.iucnredlist.org/species/54480/245672668",
+            "taxon_scientific_name": "Ansonia platysoma",
+            "red_list_category_code": "NT",
+            "assessment_id": 245672668,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        }
+    ],
+    "filters": {
+
+    }
+}

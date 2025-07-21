@@ -1,0 +1,1907 @@
+{
+    "assessments": [
+        {
+            "year_published": "2012",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 14018,
+            "url": "https://www.iucnredlist.org/species/14018/544742",
+            "taxon_scientific_name": "Mustela lutreola",
+            "red_list_category_code": "CR",
+            "assessment_id": 544742,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2015",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 17026,
+            "url": "https://www.iucnredlist.org/species/17026/1306343",
+            "taxon_scientific_name": "Phocarctos hookeri",
+            "red_list_category_code": "EN",
+            "assessment_id": 1306343,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1996",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 10274,
+            "url": "https://www.iucnredlist.org/species/10274/3188142",
+            "taxon_scientific_name": "Hyaena hyaena",
+            "red_list_category_code": "LR/lc",
+            "assessment_id": 3188142,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2000",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 10274,
+            "url": "https://www.iucnredlist.org/species/10274/3188162",
+            "taxon_scientific_name": "Hyaena hyaena",
+            "red_list_category_code": "LR/nt",
+            "assessment_id": 3188162,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2010",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 10274,
+            "url": "https://www.iucnredlist.org/species/10274/3188449",
+            "taxon_scientific_name": "Hyaena hyaena",
+            "red_list_category_code": "VU",
+            "assessment_id": 3188449,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Mediterranean"
+                    },
+                    "code": "4"
+                }
+            ]
+        },
+        {
+            "year_published": "2008",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 10274,
+            "url": "https://www.iucnredlist.org/species/10274/3188829",
+            "taxon_scientific_name": "Hyaena hyaena",
+            "red_list_category_code": "NT",
+            "assessment_id": 3188829,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1996",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 10276,
+            "url": "https://www.iucnredlist.org/species/10276/3189399",
+            "taxon_scientific_name": "Parahyaena brunnea",
+            "red_list_category_code": "LR/lc",
+            "assessment_id": 3189399,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1965",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 10276,
+            "url": "https://www.iucnredlist.org/species/10276/3189421",
+            "taxon_scientific_name": "Parahyaena brunnea",
+            "red_list_category_code": "N/A",
+            "assessment_id": 3189421,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2008",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 10276,
+            "url": "https://www.iucnredlist.org/species/10276/3189439",
+            "taxon_scientific_name": "Parahyaena brunnea",
+            "red_list_category_code": "NT",
+            "assessment_id": 3189439,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2000",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 10276,
+            "url": "https://www.iucnredlist.org/species/10276/3189619",
+            "taxon_scientific_name": "Parahyaena brunnea",
+            "red_list_category_code": "LR/nt",
+            "assessment_id": 3189619,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1990",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 10276,
+            "url": "https://www.iucnredlist.org/species/10276/3189709",
+            "taxon_scientific_name": "Parahyaena brunnea",
+            "red_list_category_code": "V",
+            "assessment_id": 3189709,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1994",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 10276,
+            "url": "https://www.iucnredlist.org/species/10276/3189728",
+            "taxon_scientific_name": "Parahyaena brunnea",
+            "red_list_category_code": "V",
+            "assessment_id": 3189728,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1986",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 10276,
+            "url": "https://www.iucnredlist.org/species/10276/3189747",
+            "taxon_scientific_name": "Parahyaena brunnea",
+            "red_list_category_code": "V",
+            "assessment_id": 3189747,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1988",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 10276,
+            "url": "https://www.iucnredlist.org/species/10276/3189766",
+            "taxon_scientific_name": "Parahyaena brunnea",
+            "red_list_category_code": "V",
+            "assessment_id": 3189766,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2008",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 10340,
+            "url": "https://www.iucnredlist.org/species/10340/3194951",
+            "taxon_scientific_name": "Hydrurga leptonyx",
+            "red_list_category_code": "LC",
+            "assessment_id": 3194951,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1996",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 10340,
+            "url": "https://www.iucnredlist.org/species/10340/3195216",
+            "taxon_scientific_name": "Hydrurga leptonyx",
+            "red_list_category_code": "LR/lc",
+            "assessment_id": 3195216,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1996",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11509,
+            "url": "https://www.iucnredlist.org/species/11509/3287766",
+            "taxon_scientific_name": "Leopardus pardalis",
+            "red_list_category_code": "LR/lc",
+            "assessment_id": 3287766,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1982",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11509,
+            "url": "https://www.iucnredlist.org/species/11509/3287786",
+            "taxon_scientific_name": "Leopardus pardalis",
+            "red_list_category_code": "V",
+            "assessment_id": 3287786,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2008",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11509,
+            "url": "https://www.iucnredlist.org/species/11509/3287809",
+            "taxon_scientific_name": "Leopardus pardalis",
+            "red_list_category_code": "LC",
+            "assessment_id": 3287809,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2002",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11509,
+            "url": "https://www.iucnredlist.org/species/11509/3288207",
+            "taxon_scientific_name": "Leopardus pardalis",
+            "red_list_category_code": "LC",
+            "assessment_id": 3288207,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1990",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11509,
+            "url": "https://www.iucnredlist.org/species/11509/3288399",
+            "taxon_scientific_name": "Leopardus pardalis",
+            "red_list_category_code": "V",
+            "assessment_id": 3288399,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1986",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11509,
+            "url": "https://www.iucnredlist.org/species/11509/3288418",
+            "taxon_scientific_name": "Leopardus pardalis",
+            "red_list_category_code": "V",
+            "assessment_id": 3288418,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1988",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11509,
+            "url": "https://www.iucnredlist.org/species/11509/3288437",
+            "taxon_scientific_name": "Leopardus pardalis",
+            "red_list_category_code": "V",
+            "assessment_id": 3288437,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1996",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11511,
+            "url": "https://www.iucnredlist.org/species/11511/3290158",
+            "taxon_scientific_name": "Leopardus wiedii",
+            "red_list_category_code": "LR/lc",
+            "assessment_id": 3290158,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1982",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11511,
+            "url": "https://www.iucnredlist.org/species/11511/3290178",
+            "taxon_scientific_name": "Leopardus wiedii",
+            "red_list_category_code": "V",
+            "assessment_id": 3290178,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2008",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11511,
+            "url": "https://www.iucnredlist.org/species/11511/3290201",
+            "taxon_scientific_name": "Leopardus wiedii",
+            "red_list_category_code": "NT",
+            "assessment_id": 3290201,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2002",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11511,
+            "url": "https://www.iucnredlist.org/species/11511/3290574",
+            "taxon_scientific_name": "Leopardus wiedii",
+            "red_list_category_code": "LC",
+            "assessment_id": 3290574,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1990",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11511,
+            "url": "https://www.iucnredlist.org/species/11511/3290740",
+            "taxon_scientific_name": "Leopardus wiedii",
+            "red_list_category_code": "V",
+            "assessment_id": 3290740,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1994",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11511,
+            "url": "https://www.iucnredlist.org/species/11511/3290759",
+            "taxon_scientific_name": "Leopardus wiedii",
+            "red_list_category_code": "K",
+            "assessment_id": 3290759,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1986",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11511,
+            "url": "https://www.iucnredlist.org/species/11511/3290776",
+            "taxon_scientific_name": "Leopardus wiedii",
+            "red_list_category_code": "V",
+            "assessment_id": 3290776,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1988",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11511,
+            "url": "https://www.iucnredlist.org/species/11511/3290795",
+            "taxon_scientific_name": "Leopardus wiedii",
+            "red_list_category_code": "V",
+            "assessment_id": 3290795,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2002",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11638,
+            "url": "https://www.iucnredlist.org/species/11638/3298935",
+            "taxon_scientific_name": "Leptailurus serval",
+            "red_list_category_code": "LC",
+            "assessment_id": 3298935,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1996",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11638,
+            "url": "https://www.iucnredlist.org/species/11638/3299223",
+            "taxon_scientific_name": "Leptailurus serval",
+            "red_list_category_code": "LR/lc",
+            "assessment_id": 3299223,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2010",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11638,
+            "url": "https://www.iucnredlist.org/species/11638/3299247",
+            "taxon_scientific_name": "Leptailurus serval",
+            "red_list_category_code": "CR",
+            "assessment_id": 3299247,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Mediterranean"
+                    },
+                    "code": "4"
+                }
+            ]
+        },
+        {
+            "year_published": "2008",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11638,
+            "url": "https://www.iucnredlist.org/species/11638/3299635",
+            "taxon_scientific_name": "Leptailurus serval",
+            "red_list_category_code": "LC",
+            "assessment_id": 3299635,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2008",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11696,
+            "url": "https://www.iucnredlist.org/species/11696/3302355",
+            "taxon_scientific_name": "Leptonychotes weddellii",
+            "red_list_category_code": "LC",
+            "assessment_id": 3302355,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1996",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11696,
+            "url": "https://www.iucnredlist.org/species/11696/3302552",
+            "taxon_scientific_name": "Leptonychotes weddellii",
+            "red_list_category_code": "LR/lc",
+            "assessment_id": 3302552,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1988",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11933,
+            "url": "https://www.iucnredlist.org/species/11933/3316443",
+            "taxon_scientific_name": "Liberiictis kuhni",
+            "red_list_category_code": "E",
+            "assessment_id": 3316443,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1990",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11933,
+            "url": "https://www.iucnredlist.org/species/11933/3316460",
+            "taxon_scientific_name": "Liberiictis kuhni",
+            "red_list_category_code": "E",
+            "assessment_id": 3316460,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2008",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11933,
+            "url": "https://www.iucnredlist.org/species/11933/3316477",
+            "taxon_scientific_name": "Liberiictis kuhni",
+            "red_list_category_code": "VU",
+            "assessment_id": 3316477,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1996",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11933,
+            "url": "https://www.iucnredlist.org/species/11933/3316630",
+            "taxon_scientific_name": "Liberiictis kuhni",
+            "red_list_category_code": "EN",
+            "assessment_id": 3316630,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1994",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 11933,
+            "url": "https://www.iucnredlist.org/species/11933/3316686",
+            "taxon_scientific_name": "Liberiictis kuhni",
+            "red_list_category_code": "E",
+            "assessment_id": 3316686,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2008",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12246,
+            "url": "https://www.iucnredlist.org/species/12246/3329399",
+            "taxon_scientific_name": "Lobodon carcinophaga",
+            "red_list_category_code": "LC",
+            "assessment_id": 3329399,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1996",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12246,
+            "url": "https://www.iucnredlist.org/species/12246/3329597",
+            "taxon_scientific_name": "Lobodon carcinophaga",
+            "red_list_category_code": "LR/lc",
+            "assessment_id": 3329597,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2000",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12302,
+            "url": "https://www.iucnredlist.org/species/12302/3332535",
+            "taxon_scientific_name": "Lontra canadensis",
+            "red_list_category_code": "LR/lc",
+            "assessment_id": 3332535,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2000",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12302,
+            "url": "https://www.iucnredlist.org/species/12302/3332555",
+            "taxon_scientific_name": "Lontra canadensis",
+            "red_list_category_code": "LR/lc",
+            "assessment_id": 3332555,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2008",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12302,
+            "url": "https://www.iucnredlist.org/species/12302/3332585",
+            "taxon_scientific_name": "Lontra canadensis",
+            "red_list_category_code": "LC",
+            "assessment_id": 3332585,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2004",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12302,
+            "url": "https://www.iucnredlist.org/species/12302/3333180",
+            "taxon_scientific_name": "Lontra canadensis",
+            "red_list_category_code": "LC",
+            "assessment_id": 3333180,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1996",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12303,
+            "url": "https://www.iucnredlist.org/species/12303/3333961",
+            "taxon_scientific_name": "Lontra felina",
+            "red_list_category_code": "EN",
+            "assessment_id": 3333961,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2000",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12303,
+            "url": "https://www.iucnredlist.org/species/12303/3333984",
+            "taxon_scientific_name": "Lontra felina",
+            "red_list_category_code": "EN",
+            "assessment_id": 3333984,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2008",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12303,
+            "url": "https://www.iucnredlist.org/species/12303/3334015",
+            "taxon_scientific_name": "Lontra felina",
+            "red_list_category_code": "EN",
+            "assessment_id": 3334015,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2004",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12303,
+            "url": "https://www.iucnredlist.org/species/12303/3334288",
+            "taxon_scientific_name": "Lontra felina",
+            "red_list_category_code": "EN",
+            "assessment_id": 3334288,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1988",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12303,
+            "url": "https://www.iucnredlist.org/species/12303/3334573",
+            "taxon_scientific_name": "Lontra felina",
+            "red_list_category_code": "V",
+            "assessment_id": 3334573,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1990",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12303,
+            "url": "https://www.iucnredlist.org/species/12303/3334594",
+            "taxon_scientific_name": "Lontra felina",
+            "red_list_category_code": "V",
+            "assessment_id": 3334594,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1982",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12303,
+            "url": "https://www.iucnredlist.org/species/12303/3334615",
+            "taxon_scientific_name": "Lontra felina",
+            "red_list_category_code": "V",
+            "assessment_id": 3334615,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1986",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12303,
+            "url": "https://www.iucnredlist.org/species/12303/3334636",
+            "taxon_scientific_name": "Lontra felina",
+            "red_list_category_code": "V",
+            "assessment_id": 3334636,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1994",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12303,
+            "url": "https://www.iucnredlist.org/species/12303/3334657",
+            "taxon_scientific_name": "Lontra felina",
+            "red_list_category_code": "V",
+            "assessment_id": 3334657,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1996",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12303,
+            "url": "https://www.iucnredlist.org/species/12303/3334678",
+            "taxon_scientific_name": "Lontra felina",
+            "red_list_category_code": "EN",
+            "assessment_id": 3334678,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1996",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12304,
+            "url": "https://www.iucnredlist.org/species/12304/3334842",
+            "taxon_scientific_name": "Lontra longicaudis",
+            "red_list_category_code": "LR/lc",
+            "assessment_id": 3334842,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2000",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12304,
+            "url": "https://www.iucnredlist.org/species/12304/3334864",
+            "taxon_scientific_name": "Lontra longicaudis",
+            "red_list_category_code": "DD",
+            "assessment_id": 3334864,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2008",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12304,
+            "url": "https://www.iucnredlist.org/species/12304/3334891",
+            "taxon_scientific_name": "Lontra longicaudis",
+            "red_list_category_code": "DD",
+            "assessment_id": 3334891,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2004",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12304,
+            "url": "https://www.iucnredlist.org/species/12304/3335285",
+            "taxon_scientific_name": "Lontra longicaudis",
+            "red_list_category_code": "DD",
+            "assessment_id": 3335285,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1988",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12304,
+            "url": "https://www.iucnredlist.org/species/12304/3335603",
+            "taxon_scientific_name": "Lontra longicaudis",
+            "red_list_category_code": "V",
+            "assessment_id": 3335603,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1990",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12304,
+            "url": "https://www.iucnredlist.org/species/12304/3335624",
+            "taxon_scientific_name": "Lontra longicaudis",
+            "red_list_category_code": "V",
+            "assessment_id": 3335624,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1982",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12304,
+            "url": "https://www.iucnredlist.org/species/12304/3335645",
+            "taxon_scientific_name": "Lontra longicaudis",
+            "red_list_category_code": "V",
+            "assessment_id": 3335645,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1986",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12304,
+            "url": "https://www.iucnredlist.org/species/12304/3335666",
+            "taxon_scientific_name": "Lontra longicaudis",
+            "red_list_category_code": "V",
+            "assessment_id": 3335666,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1994",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12304,
+            "url": "https://www.iucnredlist.org/species/12304/3335687",
+            "taxon_scientific_name": "Lontra longicaudis",
+            "red_list_category_code": "V",
+            "assessment_id": 3335687,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1996",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12305,
+            "url": "https://www.iucnredlist.org/species/12305/3335712",
+            "taxon_scientific_name": "Lontra provocax",
+            "red_list_category_code": "VU",
+            "assessment_id": 3335712,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2000",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12305,
+            "url": "https://www.iucnredlist.org/species/12305/3335737",
+            "taxon_scientific_name": "Lontra provocax",
+            "red_list_category_code": "EN",
+            "assessment_id": 3335737,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2008",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12305,
+            "url": "https://www.iucnredlist.org/species/12305/3335766",
+            "taxon_scientific_name": "Lontra provocax",
+            "red_list_category_code": "EN",
+            "assessment_id": 3335766,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2004",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12305,
+            "url": "https://www.iucnredlist.org/species/12305/3336148",
+            "taxon_scientific_name": "Lontra provocax",
+            "red_list_category_code": "EN",
+            "assessment_id": 3336148,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1988",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12305,
+            "url": "https://www.iucnredlist.org/species/12305/3336493",
+            "taxon_scientific_name": "Lontra provocax",
+            "red_list_category_code": "V",
+            "assessment_id": 3336493,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1990",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12305,
+            "url": "https://www.iucnredlist.org/species/12305/3336514",
+            "taxon_scientific_name": "Lontra provocax",
+            "red_list_category_code": "V",
+            "assessment_id": 3336514,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1982",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12305,
+            "url": "https://www.iucnredlist.org/species/12305/3336535",
+            "taxon_scientific_name": "Lontra provocax",
+            "red_list_category_code": "I",
+            "assessment_id": 3336535,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1986",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12305,
+            "url": "https://www.iucnredlist.org/species/12305/3336556",
+            "taxon_scientific_name": "Lontra provocax",
+            "red_list_category_code": "I",
+            "assessment_id": 3336556,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1994",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12305,
+            "url": "https://www.iucnredlist.org/species/12305/3336577",
+            "taxon_scientific_name": "Lontra provocax",
+            "red_list_category_code": "V",
+            "assessment_id": 3336577,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1996",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12305,
+            "url": "https://www.iucnredlist.org/species/12305/3336598",
+            "taxon_scientific_name": "Lontra provocax",
+            "red_list_category_code": "VU",
+            "assessment_id": 3336598,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2008",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12419,
+            "url": "https://www.iucnredlist.org/species/12419/3341743",
+            "taxon_scientific_name": "Lutra lutra",
+            "red_list_category_code": "NT",
+            "assessment_id": 3341743,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2004",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12419,
+            "url": "https://www.iucnredlist.org/species/12419/3342432",
+            "taxon_scientific_name": "Lutra lutra",
+            "red_list_category_code": "NT",
+            "assessment_id": 3342432,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2010",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12419,
+            "url": "https://www.iucnredlist.org/species/12419/3343205",
+            "taxon_scientific_name": "Lutra lutra",
+            "red_list_category_code": "NT",
+            "assessment_id": 3343205,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Mediterranean"
+                    },
+                    "code": "4"
+                }
+            ]
+        },
+        {
+            "year_published": "2007",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12419,
+            "url": "https://www.iucnredlist.org/species/12419/3343999",
+            "taxon_scientific_name": "Lutra lutra",
+            "red_list_category_code": "NT",
+            "assessment_id": 3343999,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Europe"
+                    },
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "year_published": "2000",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12419,
+            "url": "https://www.iucnredlist.org/species/12419/3344589",
+            "taxon_scientific_name": "Lutra lutra",
+            "red_list_category_code": "VU",
+            "assessment_id": 3344589,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1996",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12419,
+            "url": "https://www.iucnredlist.org/species/12419/3344618",
+            "taxon_scientific_name": "Lutra lutra",
+            "red_list_category_code": "LR/lc",
+            "assessment_id": 3344618,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2000",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12420,
+            "url": "https://www.iucnredlist.org/species/12420/3344644",
+            "taxon_scientific_name": "Hydrictis maculicollis",
+            "red_list_category_code": "VU",
+            "assessment_id": 3344644,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1996",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12420,
+            "url": "https://www.iucnredlist.org/species/12420/3344673",
+            "taxon_scientific_name": "Hydrictis maculicollis",
+            "red_list_category_code": "LR/lc",
+            "assessment_id": 3344673,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2008",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12420,
+            "url": "https://www.iucnredlist.org/species/12420/3344695",
+            "taxon_scientific_name": "Hydrictis maculicollis",
+            "red_list_category_code": "LC",
+            "assessment_id": 3344695,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2004",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12420,
+            "url": "https://www.iucnredlist.org/species/12420/3344979",
+            "taxon_scientific_name": "Hydrictis maculicollis",
+            "red_list_category_code": "LC",
+            "assessment_id": 3344979,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2000",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12421,
+            "url": "https://www.iucnredlist.org/species/12421/3345383",
+            "taxon_scientific_name": "Lutra sumatrana",
+            "red_list_category_code": "DD",
+            "assessment_id": 3345383,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1996",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12421,
+            "url": "https://www.iucnredlist.org/species/12421/3345410",
+            "taxon_scientific_name": "Lutra sumatrana",
+            "red_list_category_code": "VU",
+            "assessment_id": 3345410,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2008",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12421,
+            "url": "https://www.iucnredlist.org/species/12421/3345433",
+            "taxon_scientific_name": "Lutra sumatrana",
+            "red_list_category_code": "EN",
+            "assessment_id": 3345433,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2004",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12421,
+            "url": "https://www.iucnredlist.org/species/12421/3345819",
+            "taxon_scientific_name": "Lutra sumatrana",
+            "red_list_category_code": "DD",
+            "assessment_id": 3345819,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1994",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12421,
+            "url": "https://www.iucnredlist.org/species/12421/3346147",
+            "taxon_scientific_name": "Lutra sumatrana",
+            "red_list_category_code": "K",
+            "assessment_id": 3346147,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1988",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12421,
+            "url": "https://www.iucnredlist.org/species/12421/3346166",
+            "taxon_scientific_name": "Lutra sumatrana",
+            "red_list_category_code": "K",
+            "assessment_id": 3346166,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1990",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12421,
+            "url": "https://www.iucnredlist.org/species/12421/3346185",
+            "taxon_scientific_name": "Lutra sumatrana",
+            "red_list_category_code": "K",
+            "assessment_id": 3346185,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1996",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12427,
+            "url": "https://www.iucnredlist.org/species/12427/3346397",
+            "taxon_scientific_name": "Lutrogale perspicillata",
+            "red_list_category_code": "VU",
+            "assessment_id": 3346397,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2000",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12427,
+            "url": "https://www.iucnredlist.org/species/12427/3346420",
+            "taxon_scientific_name": "Lutrogale perspicillata",
+            "red_list_category_code": "VU",
+            "assessment_id": 3346420,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2008",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12427,
+            "url": "https://www.iucnredlist.org/species/12427/3346449",
+            "taxon_scientific_name": "Lutrogale perspicillata",
+            "red_list_category_code": "VU",
+            "assessment_id": 3346449,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2004",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12427,
+            "url": "https://www.iucnredlist.org/species/12427/3346850",
+            "taxon_scientific_name": "Lutrogale perspicillata",
+            "red_list_category_code": "VU",
+            "assessment_id": 3346850,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1994",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12427,
+            "url": "https://www.iucnredlist.org/species/12427/3347264",
+            "taxon_scientific_name": "Lutrogale perspicillata",
+            "red_list_category_code": "K",
+            "assessment_id": 3347264,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "1988",
+            "latest": false,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 12427,
+            "url": "https://www.iucnredlist.org/species/12427/3347285",
+            "taxon_scientific_name": "Lutrogale perspicillata",
+            "red_list_category_code": "K",
+            "assessment_id": 3347285,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        }
+    ],
+    "filters": {
+        "order_name": "Carnivora"
+    }
+}

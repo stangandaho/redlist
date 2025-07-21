@@ -1,0 +1,12 @@
+structure(list(method = "GET", url = "https://api.iucnredlist.org/api/v4/conservation_actions/999?page=1", 
+    status_code = 404L, headers = structure(list(Date = "Mon, 21 Jul 2025 12:54:47 GMT", 
+        `Content-Type` = "application/json", `Transfer-Encoding` = "chunked", 
+        Connection = "keep-alive", `Cache-Control` = "no-cache", 
+        `X-Request-Id` = "b3b22f76-5711-42c1-b2a8-0861751288bc", 
+        `X-Runtime` = "0.011998", `Cf-Cache-Status` = "DYNAMIC", 
+        Nel = "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}", 
+        `Speculation-Rules` = "\"/cdn-cgi/speculation\"", `Report-To` = "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=vltvl0pm4gNv3uzKsQcZgLPDcxBIo%2BJsoFVZOd6o1SUUKVEpYIgSn7I8fBwnRjdS0dYyRdZMsLzlgA%2FOpIf1C4dpMt94MQldGey1ds0DKzitk4E%3D\"}]}", 
+        `Content-Encoding` = "gzip", Server = "cloudflare", `CF-RAY` = "962ad9549fef63c9-LHR", 
+        `alt-svc` = "h3=\":443\"; ma=86400"), redact = character(0), class = "httr2_headers"), 
+    body = charToRaw("{\"error\":\"Conservation Action code 999 not found\"}"), 
+    cache = new.env(parent = emptyenv())), class = "httr2_response")

@@ -1,0 +1,14 @@
+{
+    "conservation_action": {
+        "description": {
+            "en": "Land/water protection"
+        },
+        "code": "1"
+    },
+    "assessments": [
+
+    ],
+    "filters": {
+        "year_published": "2024"
+    }
+}

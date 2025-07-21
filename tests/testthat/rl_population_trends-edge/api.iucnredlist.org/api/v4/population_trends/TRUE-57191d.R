@@ -1,0 +1,12 @@
+structure(list(method = "GET", url = "https://api.iucnredlist.org/api/v4/population_trends/TRUE?page=1", 
+    status_code = 404L, headers = structure(list(Date = "Mon, 21 Jul 2025 12:57:20 GMT", 
+        `Content-Type` = "application/json", `Transfer-Encoding` = "chunked", 
+        Connection = "keep-alive", `Cache-Control` = "no-cache", 
+        `X-Request-Id` = "15a6d507-6cc2-471e-890d-e81eb4771d16", 
+        `X-Runtime` = "0.011983", `Cf-Cache-Status` = "DYNAMIC", 
+        Nel = "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}", 
+        `Speculation-Rules` = "\"/cdn-cgi/speculation\"", `Report-To` = "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=wtrz%2FfLADb1ldy4uaXkzV4%2Bne2wI5so8yRfn%2BrvLcuyKBbf0fmU65MuWfc3ewE1MZnbRmBNGKmlGkkAsW8y0WnI%2FSxmDoiwxw6AiTKPpJUp05aM%3D\"}]}", 
+        `Content-Encoding` = "gzip", Server = "cloudflare", `CF-RAY` = "962add0c2cd263c9-LHR", 
+        `alt-svc` = "h3=\":443\"; ma=86400"), redact = character(0), class = "httr2_headers"), 
+    body = charToRaw("{\"error\":\"Population Trend code TRUE not found\"}"), 
+    cache = new.env(parent = emptyenv())), class = "httr2_response")

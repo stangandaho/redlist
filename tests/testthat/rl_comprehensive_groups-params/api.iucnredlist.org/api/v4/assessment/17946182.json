@@ -1,0 +1,988 @@
+{
+    "assessment_date": "2016-10-24T00:00:00.000Z",
+    "year_published": "2020",
+    "latest": true,
+    "possibly_extinct": false,
+    "possibly_extinct_in_the_wild": false,
+    "sis_taxon_id": 4217,
+    "criteria": "A2cd+4cd",
+    "url": "https://www.iucnredlist.org/species/4217/17946182",
+    "citation": "Matsuda Goodwin, R., Oates, J.F., Nobimè, G., Segniagbeto, G.H., Ikemeh, R. & Mittermeier, R.A. 2020. Cercopithecus erythrogaster. The IUCN Red List of Threatened Species 2020: e.T4217A17946182. https://dx.doi.org/10.2305/IUCN.UK.2020-2.RLTS.T4217A17946182.en. Accessed on 20 July 2025.",
+    "assessment_id": 17946182,
+    "assessment_points": false,
+    "assessment_ranges": true,
+    "taxon": {
+        "sis_id": 4217,
+        "scientific_name": "Cercopithecus erythrogaster",
+        "species_taxa": [
+
+        ],
+        "subpopulation_taxa": [
+
+        ],
+        "infrarank_taxa": [
+            {
+                "sis_id": 40003,
+                "scientific_name": "Cercopithecus erythrogaster ssp. erythrogaster",
+                "kingdom_name": "ANIMALIA",
+                "phylum_name": "CHORDATA",
+                "class_name": "MAMMALIA",
+                "order_name": "PRIMATES",
+                "family_name": "CERCOPITHECIDAE",
+                "genus_name": "Cercopithecus",
+                "species_name": "erythrogaster",
+                "subpopulation_name": null,
+                "infra_name": "erythrogaster",
+                "authority": "Gray, 1866",
+                "ssc_groups": [
+                    {
+                        "name": "IUCN SSC Primate Specialist Group",
+                        "url": "http://www.primate-sg.org/",
+                        "description": "Chair: Russell Mittermeier (email: rmittermeier@globalwildlife.org)\nRed List Authority Focal Points: \nProsimians, monkeys and smaller apes - Sanjay Molur (email: sanjay@zooreach.org) and Christoph Schwitzer (email: cschwitzer@bristolzoo.org.uk)\nVice-Chair for great apes - Dirck S. Byler (email: dbyler@globalwildlife.org)\nVice-Chair for small apes - Susan M. Cheyne (email: section.small.apes@gmail.com)\nJournals and Newsletters: \nPrimate Conservation: http://www.primate-sg.org/primate_conservation/\nNeotropical Primates: http://www.primate-sg.org/neotropical_primates/\nAsian Primates: http://www.primate-sg.org/asian_primates_newsletter/ and http://www.primate-sg.org/asian_primates_journal/\nLemur News: http://www.primate-sg.org/lemur_news/\nAfrican Primates: http://www.primate-sg.org/african_primates/\n"
+                    }
+                ],
+                "common_names": [
+                    {
+                        "main": false,
+                        "name": "Red-bellied Guenon",
+                        "language": "eng"
+                    },
+                    {
+                        "main": true,
+                        "name": "Red-bellied Monkey",
+                        "language": "eng"
+                    }
+                ],
+                "synonyms": [
+
+                ]
+            },
+            {
+                "sis_id": 40004,
+                "scientific_name": "Cercopithecus erythrogaster ssp. pococki",
+                "kingdom_name": "ANIMALIA",
+                "phylum_name": "CHORDATA",
+                "class_name": "MAMMALIA",
+                "order_name": "PRIMATES",
+                "family_name": "CERCOPITHECIDAE",
+                "genus_name": "Cercopithecus",
+                "species_name": "erythrogaster",
+                "subpopulation_name": null,
+                "infra_name": "pococki",
+                "authority": "Grubb, Lernould &amp; Oates, 2000",
+                "ssc_groups": [
+                    {
+                        "name": "IUCN SSC Primate Specialist Group",
+                        "url": "http://www.primate-sg.org/",
+                        "description": "Chair: Russell Mittermeier (email: rmittermeier@globalwildlife.org)\nRed List Authority Focal Points: \nProsimians, monkeys and smaller apes - Sanjay Molur (email: sanjay@zooreach.org) and Christoph Schwitzer (email: cschwitzer@bristolzoo.org.uk)\nVice-Chair for great apes - Dirck S. Byler (email: dbyler@globalwildlife.org)\nVice-Chair for small apes - Susan M. Cheyne (email: section.small.apes@gmail.com)\nJournals and Newsletters: \nPrimate Conservation: http://www.primate-sg.org/primate_conservation/\nNeotropical Primates: http://www.primate-sg.org/neotropical_primates/\nAsian Primates: http://www.primate-sg.org/asian_primates_newsletter/ and http://www.primate-sg.org/asian_primates_journal/\nLemur News: http://www.primate-sg.org/lemur_news/\nAfrican Primates: http://www.primate-sg.org/african_primates/\n"
+                    }
+                ],
+                "common_names": [
+                    {
+                        "main": false,
+                        "name": "Nigerian White-throated Guenon",
+                        "language": "eng"
+                    },
+                    {
+                        "main": false,
+                        "name": "White-throated Monkey",
+                        "language": "eng"
+                    },
+                    {
+                        "main": true,
+                        "name": "Nigeria White-throated Monkey",
+                        "language": "eng"
+                    }
+                ],
+                "synonyms": [
+
+                ]
+            }
+        ],
+        "kingdom_name": "ANIMALIA",
+        "phylum_name": "CHORDATA",
+        "class_name": "MAMMALIA",
+        "order_name": "PRIMATES",
+        "family_name": "CERCOPITHECIDAE",
+        "genus_name": "Cercopithecus",
+        "species_name": "erythrogaster",
+        "subpopulation_name": null,
+        "infra_name": null,
+        "authority": "Gray, 1866",
+        "species": true,
+        "subpopulation": false,
+        "infrarank": false,
+        "ssc_groups": [
+            {
+                "name": "IUCN SSC Primate Specialist Group",
+                "url": "http://www.primate-sg.org/",
+                "description": "Chair: Russell Mittermeier (email: rmittermeier@globalwildlife.org)\nRed List Authority Focal Points: \nProsimians, monkeys and smaller apes - Sanjay Molur (email: sanjay@zooreach.org) and Christoph Schwitzer (email: cschwitzer@bristolzoo.org.uk)\nVice-Chair for great apes - Dirck S. Byler (email: dbyler@globalwildlife.org)\nVice-Chair for small apes - Susan M. Cheyne (email: section.small.apes@gmail.com)\nJournals and Newsletters: \nPrimate Conservation: http://www.primate-sg.org/primate_conservation/\nNeotropical Primates: http://www.primate-sg.org/neotropical_primates/\nAsian Primates: http://www.primate-sg.org/asian_primates_newsletter/ and http://www.primate-sg.org/asian_primates_journal/\nLemur News: http://www.primate-sg.org/lemur_news/\nAfrican Primates: http://www.primate-sg.org/african_primates/\n"
+            }
+        ],
+        "common_names": [
+            {
+                "main": false,
+                "name": "Red-bellied Guenon",
+                "language": "eng"
+            },
+            {
+                "main": false,
+                "name": "White-throated Guenon",
+                "language": "eng"
+            },
+            {
+                "main": false,
+                "name": "White-throated Monkey",
+                "language": "eng"
+            },
+            {
+                "main": false,
+                "name": "アカハラグエノン",
+                "language": "jpn"
+            },
+            {
+                "main": false,
+                "name": "Cercopiteco de Vientre Rojo",
+                "language": "spa"
+            },
+            {
+                "main": false,
+                "name": "Cercopithèque à ventre rouge",
+                "language": "fre"
+            },
+            {
+                "main": false,
+                "name": "Cercopithèque à ventre roux",
+                "language": "fre"
+            },
+            {
+                "main": false,
+                "name": "Rotbauchmeerkatze",
+                "language": "ger"
+            },
+            {
+                "main": false,
+                "name": "赤腹長尾猴",
+                "language": "chi"
+            },
+            {
+                "main": true,
+                "name": "Red-bellied Monkey",
+                "language": "eng"
+            }
+        ],
+        "synonyms": [
+
+        ]
+    },
+    "population_trend": {
+        "description": {
+            "en": "Decreasing"
+        },
+        "code": "1"
+    },
+    "red_list_category": {
+        "version": "3.1",
+        "description": {
+            "en": "Endangered"
+        },
+        "code": "EN"
+    },
+    "supplementary_info": {
+        "upper_elevation_limit": 400,
+        "lower_elevation_limit": 0,
+        "lower_depth_limit": null,
+        "upper_depth_limit": null,
+        "population_size": null,
+        "population_severely_fragmented": null,
+        "population_continuing_decline": "Yes",
+        "generational_length": "9",
+        "congregatory": null,
+        "movement_patterns": "Not a Migrant",
+        "continuing_decline_in_area": "Yes",
+        "conservation_actions_in_place": [
+            {
+                "name": "In-place land/water protection",
+                "actions": [
+                    {
+                        "name": "Conservation sites identified",
+                        "value": "Yes, over entire range"
+                    },
+                    {
+                        "name": "Occurs in at least one protected area",
+                        "value": "Yes"
+                    }
+                ]
+            },
+            {
+                "name": "In-place education",
+                "actions": [
+                    {
+                        "name": "Included in international legislation",
+                        "value": "Yes"
+                    },
+                    {
+                        "name": "Subject to any international management / trade controls",
+                        "value": "Yes"
+                    }
+                ]
+            }
+        ],
+        "identification_information": null,
+        "extreme_fluctuations": "No",
+        "no_of_subpopulations": null,
+        "continuing_decline_in_subpopulations": null,
+        "extreme_fluctuations_in_subpopulations": null,
+        "all_individuals_in_one_subpopulation": null,
+        "no_of_individuals_in_largest_subpopulation": null,
+        "estimated_area_of_occupancy": null,
+        "continuing_decline_in_area_of_occupancy": "Yes",
+        "extreme_fluctuations_in_area_of_occupancy": "No",
+        "estimated_extent_of_occurence": "136250",
+        "continuing_decline_in_extent_of_occurence": "Yes",
+        "extreme_fluctuations_in_extent_of_occurence": "No",
+        "continuing_decline_in_number_of_locations": null,
+        "extreme_fluctuations_in_number_of_locations": null
+    },
+    "documentation": {
+        "range": "This species occurs in scattered populations in isolated forest patches in southwestern Nigeria and the Niger Delta, in southern Benin perhaps as far as Banon at 8°29' N (Campbell <em>et al.<\/em> 2008), and in the Togodo Faunal Reserve and Godjin-Godjè sacred forest in Togo (Segniagbeto <em>et al<\/em>. 2017, 2018). In the Niger Delta, this species reaches east of the Orashi River where it has a narrow zone of hybridization and overlap with Sclater’s Guenon (<em>Cercopithecus sclateri<\/em>) (Oates 2011). There are two subspecies: <em>C. e. erythrogaster<\/em> ranges from the southwestern-most corner of Nigeria close to the Nigeria-Benin border (Matsuda Goodwin <em>et al<\/em>. 2017a), southern Benin including the Lama Classified Forest (Fôret Classée), Lokoli, Bonou, and Togbota Forests (Nobimè <em>et al.<\/em> 2011), and in the Togodo National Park and Godjin-Godjè sacred forest in eastern Togo (Segniagbeto <em>et al<\/em>. 2017, 2018). <em>Cercopithecus e. pococki<\/em> is found only in the forest zone of southwestern Nigeria and in the Niger Delta. The boundary between the two subspecies and the extent of any admixture between them is unclear, and may now be difficult to determine given intensifying agriculture and expanding urbanization in the far southwestern corner of Nigeria where their populations meet.",
+        "population": "<p><em>Cercopithecus erythrogaster<\/em> has a scattered distribution throughout its range, but it can be locally abundant. In Nigeria, it is present in Okomu National Park and in low numbers in a number of forest reserves (e.g., Akure Ofosu, Gilli-Gilli, Ohosu, Omo, Oluwa, Idanre, Ifon, Sapoba, Taylor Creek, Udo and Taylor Creek). It is present in the Lama Forest in Benin and in the Togodo Forest in Togo, but law enforcement efforts against poaching are mostly weak (Nobime <em>et al.<\/em> 2011; Segniagbeto et al. 2017, 2018). Outside the protected areas and forest reserves, this species is able to persist in wetland forest where access by humans is limited (e.g., Lokoli Forest, Togbota Forest, Gnanhouizounmè Forest in Benin, and many parts of the Niger Delta), and in some seasonally inundated young forest/farm bush areas as long as hunting pressure is low (Nobimè <em>et al<\/em>. 2011, Oates 2011, R. Matsuda Goodwin pers. obs. 2015).<br/><br/>The rate of population decline in this species is inferred from forest loss data for 1990–2015: in Benin over this period there was a 25.4% decline of natural regenerating forest from 57,510 to 42,880 <a style=\"\">km²&#160;<\/a>(there is almost no primary forest in Benin); in Togo, there was a 78.5% decline of natural regenerating forest (there is almost no primary forest in Togo) from 6,610 to 1,420 km²; and in Nigeria, regenerating forest was reduced from 154,270 to 65,530 km² (57.5% decline), and primary forest from 15,660 to 200 km² (98.7% decline) (FAO 2015). Furthermore, there has been an accelerating rate of forest loss in Nigeria, to 5% per year in 2010–2015 (FAO 2015). In particular, between 1987 and 2011, the Niger Delta lost 38.8%, 14.6%, and 15.4% of lowland rainforest, freshwater forest, and mangrove forest, respectively (Ayanlade and Drake 2016).<br/><br/>The steep rate of population decline in the species as a whole is reflected in the data from several sites. In the Lama Forest of Benin, where there has been continuing low-grade, but constant, hunting, there has been a 55.5% reduction in the encounter rate of the red-bellied guenon (<em>C. erythrogaster erythrogaster<\/em>) from 0.09 group/km in 1995-1997 to 0.04 group/km in 2014-2015 (Matsuda Goodwin et al. 2017b). In Okomu National Park in Nigeria, the encounter rate of the white-throated monkey (<em>C. erythrogaster pococki<\/em>) declined by 26.7% between 1982 and 2010 (Oates 1985; Akinsorotan et al. 2011). Also, surveys conducted in the Niger Delta have shown continuous declines in encounter rates of primate species including <em>C. e. pococki<\/em> &#160;(Oates et al. 2008; Ikemeh 2009, 2015).<br/><br/>Although <em>C. erythrogaster<\/em> is confined to quite small, scattered forest patches in southern Benin and Togo, it occupies a much larger total area of forest in Nigeria. It is estimated that the total loss of habitat for <em>C. erythrogaster<\/em> has been ≥50% in the last 25 years (almost three generations), and this rate of habitat loss is expected to increase during the next decade. It is suspected that the population is declining at a similar rate (at least 50% reduction over the past 25 years, which is expected to continue into the future).<\/p>",
+        "habitats": "This species is found in primary, secondary and riverine lowland moist forest, semi-deciduous forest, and in swamp forest (Oates 2011). The secondary forest it inhabits includes seasonally-inundated forest (e.g., Eggua Royal Forest and Bola Camp in Nigeria; Lama Forest) and wetland forest (e.g., Togbota Forest, Benin) (Matsuda Goodwin 2007, pers. obs. 2015). The habitat of this species in Togodo Forest in Togo is mainly the relic forest dominated by large trees and lianas (Segniagbeto et al. 2017, 2018). The average group size is 5-9.6 in Benin (Campbell 2005, Kassa 2001, Matsuda Goodwin 2007), but was 10-20 (range 10-30) in southwestern Nigeria in the 1980s (Oates 1985); a more recent study in Okomu National Park, <a>Nigeria<\/a>&#160;by Akinsorotan et al. (2011) reported a smaller group size of 5-6. This species forms one-male multi-female groups. It is often<span class=\"MsoCommentReference\">&#160;found in mixed-species groups with <em>C. mona<\/em> and sometimes found with the Olive Colobus (<em>Procolobus verus<\/em>) in the Lama Forest (Matsuda Goodwin 2007) and <em>C. mona<\/em> and <em>C. nictitans<\/em> in Okomu NP (Oates 1985). Most of the locomotion of <em>C. erythrogaster<\/em> is a combination of quadrupedal walking, running, and leaping. This species uses lower canopy levels and small to medium-sized supports (Oates 2011). In the Lama Forest, this species mainly feeds on ripe fruits, but during the dry season, it incorporates more unripe fruits (Matsuda Goodwin 2007).",
+        "threats": "<p>Most of the forest habitat in the range of this species has been heavily exploited and degraded, with much of it now converted to agricultural land (Sinsin <em>et al.<\/em> 2002, Oates 2011). Many of the forest areas where it still occurs are threatened by conversion in the relatively near future, and climate change could exacerbate the problem (FAO 2015). In the Niger Delta, forest degradation is mainly through large-scale artisanal extraction of commercial trees, rather than widespread conversion to farms. As larger-bodied monkeys such as the Niger Delta Red Colobus (<em>Piliocolobus epieni<\/em>), the White-thighed Colobus (<em>Colobus vellerosus<\/em>), and the Red-capped Mangabey (<em>Cercocebus torquatus<\/em>) are being depleted in the forests within the distribution range of this species, this small-bodied primate is now <a>increasingly hunted<\/a><span class=\"MsoCommentReference\">&#160;for meat, although its secretive nature and habit of lurking in thick growth, especially in wetland habitat, provide it with some protection. A substantial increase in human population in the last three decades in the range countries <a>has led to <\/a>an increasing demand for bushmeat. Between 1990 and 2018, human population size increased by 131%, 106%, and 109%, in Benin, Nigeria, and Togo, respectively. The annual rate of increase in human population size in these countries between 1990 and 2016 varied from 3.5%-2.0% (World Bank 2019).<br/><br/><a>The 147 MW Adjarala storage hydropower project on the Mono River is now threatening the future of this species in Togodo Forest in Togo; approximately 2,315 hectares of the forest will be submerged underwater. Togolese Association for Nature Conservation (AGBO-ZEGUE) is currently making an effort to block this plan. In all areas, strict protection of remaining forest habitat and hunting restrictions are needed (G. Segniagbeto pers. comm. 2016).<\/a><\/p>",
+        "measures": "<p>Only a handful of Protected Areas harbour this species: In Nigeria, Okomu National Park, Ise Forest Reserve, Idanre Forest Reserve, Omo Forest Reserve, Oluwa Forest Reserve, Shasha Forest Reserve, Akure-Ofosu Forest Reserve, and the Akure Forest Reserve; in Benin, the Lama Forest and in Togo, Togodo National Park. This species is listed on Appendix II of CITES and Class A of the African Convention on the Conservation of Nature and Natural Resources. Within the distribution range of this species, forested areas have been either converted to agricultural lands or plantations and much of the remaining forests are fragmented and degraded. Throughout its distribution range, uncontrolled hunting – nowadays hunters’ groups organize large-scale hunting parties via social media on their cell phones to go hunting for any moving animals they can hunt (R. Matsuda Goodwin pers. obs. 2018 in Nigeria). In the southwestern edge of Nigeria, larger-bodied primates like the mangabey and the white-thighed colobus have already gone locally extinct so that smaller-bodied primates are increasingly hunted for meat, although its secretive nature and the preference for liana tangles provide it with some protection (Oates 1985). To protect the species. We recommend strengthening anti-poaching law enforcement in the protected areas in all three habitat countries and also the Lama Forest be elevated to the National Park status and financial assistance be provided.<br/><br/>This species is listed on Appendix II of CITES and on Class A of the African Convention on the Conservation of Nature and Natural Resources.<\/p>",
+        "use_trade": "As larger-bodied monkeys such as the Niger Delta Red Colobus (<em>Piliocolobus epieni<\/em>), the White-thighed Colobus (<em>Colobus vellerosus<\/em>), and the Red-capped Mangabey (<em>Cercocebus torquatus<\/em>) are being depleted in the forests within the distribution range of this species, this small-bodied primate is now <a>increasingly hunted <\/a>for meat, although its secretive nature and habit of lurking in thick growth, especially in wetland habitat, provide it with some protection. A substantial increase in human population in the last three decades in the range countries <a>has led to <\/a>an increasing demand for bushmeat. Between 1990 and 2018, human population size increased by 131 %, 106%, and 109%,&#160; in Benin, Nigeria, and Togo, respectively. The annual rate of increase in human population size in these countries between 1990 and 2016 varied from 3.5%-2.0% (World Bank 2019).",
+        "rationale": "<p>Red-bellied Monkey is listed as Endangered since populations of the species are estimated to have declined by ≥50% in the past three generations (27 years) as a result of habitat loss and intensive hunting across much of the species’ distribution range. This rate of decline is inferred from forest loss data (≥ 50% decline) in the last 25 years (almost three generations) and the declining encounter rates of the species in the Lama Forest of Benin (55.5% reduction), Okomu National Park (26.7% reduction), and in Niger Delta (&gt; 50% reduction) (see Population). A decline of at least 50% is also suspected based on the effects of high regional human population growth; the annual rate of increase in the human populations in Benin, Nigeria, and Togo between 1990 and 2016 was between <a style=\"\">2.0 and 3.5%&#160;<\/a>(World Bank Group 2019). This rising human population has increased habitat loss and hunting pressure. The rate of population decline in the <em>C. erythrogaster<\/em> population is expected to increase during the next decade unless major new conservation initiatives are taken.<\/p>",
+        "trend_justification": null,
+        "taxonomic_notes": "Groves (2001) and Grubb <em>et al.<\/em> (2003) recognize two subspecies: <em>Cercopithecus erythrogaster erythrogaster<\/em> and <em>C. e. pococki. <\/em>It belongs to the <em>Cercopithecus cephus<\/em> species group."
+    },
+    "biogeographical_realms": [
+        {
+            "description": {
+                "en": "Afrotropical"
+            },
+            "code": "0"
+        }
+    ],
+    "conservation_actions": [
+        {
+            "note": "",
+            "code": "2_1",
+            "description": {
+                "en": "Site/area management"
+            }
+        },
+        {
+            "note": "",
+            "code": "1_1",
+            "description": {
+                "en": "Site/area protection"
+            }
+        },
+        {
+            "note": "",
+            "code": "4_3",
+            "description": {
+                "en": "Awareness & communications"
+            }
+        },
+        {
+            "note": "",
+            "code": "5_4_2",
+            "description": {
+                "en": "National level"
+            }
+        },
+        {
+            "note": "",
+            "code": "5_4_3",
+            "description": {
+                "en": "Sub-national level"
+            }
+        },
+        {
+            "note": "",
+            "code": "3_1_1",
+            "description": {
+                "en": "Harvest management"
+            }
+        },
+        {
+            "note": "",
+            "code": "4_2",
+            "description": {
+                "en": "Training"
+            }
+        },
+        {
+            "note": "",
+            "code": "5_1_2",
+            "description": {
+                "en": "National level"
+            }
+        },
+        {
+            "note": "",
+            "code": "5_1_3",
+            "description": {
+                "en": "Sub-national level"
+            }
+        },
+        {
+            "note": "",
+            "code": "1_2",
+            "description": {
+                "en": "Resource & habitat protection"
+            }
+        },
+        {
+            "note": "",
+            "code": "2_3",
+            "description": {
+                "en": "Habitat & natural process restoration"
+            }
+        }
+    ],
+    "faos": [
+
+    ],
+    "habitats": [
+        {
+            "majorImportance": "Yes",
+            "season": "Resident",
+            "suitability": "Suitable",
+            "description": {
+                "en": "Forest - Subtropical/Tropical Moist Lowland"
+            },
+            "code": "1_6"
+        },
+        {
+            "majorImportance": null,
+            "season": null,
+            "suitability": "Marginal",
+            "description": {
+                "en": "Artificial/Terrestrial - Subtropical/Tropical Heavily Degraded Former Forest"
+            },
+            "code": "14_6"
+        },
+        {
+            "majorImportance": "Yes",
+            "season": null,
+            "suitability": "Suitable",
+            "description": {
+                "en": "Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls)"
+            },
+            "code": "5_1"
+        },
+        {
+            "majorImportance": "Yes",
+            "season": null,
+            "suitability": "Suitable",
+            "description": {
+                "en": "Wetlands (inland) - Seasonal/Intermittent/Irregular Rivers/Streams/Creeks"
+            },
+            "code": "5_2"
+        },
+        {
+            "majorImportance": "Yes",
+            "season": null,
+            "suitability": "Suitable",
+            "description": {
+                "en": "Forest - Subtropical/Tropical Dry"
+            },
+            "code": "1_5"
+        },
+        {
+            "majorImportance": "Yes",
+            "season": null,
+            "suitability": "Suitable",
+            "description": {
+                "en": "Forest - Subtropical/Tropical Mangrove Vegetation Above High Tide Level"
+            },
+            "code": "1_7"
+        },
+        {
+            "majorImportance": "Yes",
+            "season": null,
+            "suitability": "Suitable",
+            "description": {
+                "en": "Forest - Subtropical/Tropical Swamp"
+            },
+            "code": "1_8"
+        }
+    ],
+    "locations": [
+        {
+            "is_endemic": false,
+            "formerlyBred": null,
+            "origin": "Native",
+            "presence": "Extant",
+            "seasonality": [
+                "Resident"
+            ],
+            "description": {
+                "en": "Nigeria"
+            },
+            "code": "NG"
+        },
+        {
+            "is_endemic": false,
+            "formerlyBred": null,
+            "origin": "Native",
+            "presence": "Extant",
+            "seasonality": [
+                "Resident"
+            ],
+            "description": {
+                "en": "Benin"
+            },
+            "code": "BJ"
+        },
+        {
+            "is_endemic": false,
+            "formerlyBred": null,
+            "origin": "Native",
+            "presence": "Extant",
+            "seasonality": [
+                "Resident"
+            ],
+            "description": {
+                "en": "Togo"
+            },
+            "code": "TG"
+        }
+    ],
+    "researches": [
+        {
+            "note": "",
+            "code": "1_2",
+            "description": {
+                "en": "Population size, distribution & trends"
+            }
+        },
+        {
+            "note": "",
+            "code": "2_2",
+            "description": {
+                "en": "Area-based Management Plan"
+            }
+        },
+        {
+            "note": "",
+            "code": "3_1",
+            "description": {
+                "en": "Population trends"
+            }
+        },
+        {
+            "note": "",
+            "code": "3_2",
+            "description": {
+                "en": "Harvest level trends"
+            }
+        },
+        {
+            "note": "",
+            "code": "3_4",
+            "description": {
+                "en": "Habitat trends"
+            }
+        },
+        {
+            "note": "",
+            "code": "1_1",
+            "description": {
+                "en": "Taxonomy"
+            }
+        },
+        {
+            "note": "",
+            "code": "1_3",
+            "description": {
+                "en": "Life history & ecology"
+            }
+        },
+        {
+            "note": "",
+            "code": "1_4",
+            "description": {
+                "en": "Harvest, use & livelihoods"
+            }
+        },
+        {
+            "note": "",
+            "code": "1_5",
+            "description": {
+                "en": "Threats"
+            }
+        },
+        {
+            "note": "",
+            "code": "2_1",
+            "description": {
+                "en": "Species Action/Recovery Plan"
+            }
+        }
+    ],
+    "use_and_trade": [
+        {
+            "international": null,
+            "national": true,
+            "other": null,
+            "subsistence": true,
+            "description": {
+                "en": "Food - human"
+            },
+            "code": "1"
+        }
+    ],
+    "threats": [
+        {
+            "scope": "Majority (50-90%)",
+            "timing": "Ongoing",
+            "internationalTrade": null,
+            "score": "Medium Impact: 6",
+            "severity": "Slow, Significant Declines",
+            "ancestry": null,
+            "virus": null,
+            "ias": null,
+            "text": null,
+            "description": {
+                "en": "Small-holder farming"
+            },
+            "code": "2_1_2"
+        },
+        {
+            "scope": "Minority (<50%)",
+            "timing": "Ongoing",
+            "internationalTrade": "No",
+            "score": "Medium Impact: 6",
+            "severity": "Rapid Declines",
+            "ancestry": null,
+            "virus": null,
+            "ias": null,
+            "text": null,
+            "description": {
+                "en": "Intentional use (species is the target)"
+            },
+            "code": "5_1_1"
+        },
+        {
+            "scope": "Majority (50-90%)",
+            "timing": "Ongoing",
+            "internationalTrade": null,
+            "score": "Medium Impact: 7",
+            "severity": "Rapid Declines",
+            "ancestry": null,
+            "virus": null,
+            "ias": null,
+            "text": null,
+            "description": {
+                "en": "Nomadic grazing"
+            },
+            "code": "2_3_1"
+        },
+        {
+            "scope": "Minority (<50%)",
+            "timing": "Ongoing",
+            "internationalTrade": null,
+            "score": "Medium Impact: 6",
+            "severity": "Rapid Declines",
+            "ancestry": null,
+            "virus": null,
+            "ias": null,
+            "text": null,
+            "description": {
+                "en": "Small-holder grazing, ranching or farming"
+            },
+            "code": "2_3_2"
+        },
+        {
+            "scope": "Majority (50-90%)",
+            "timing": "Ongoing",
+            "internationalTrade": null,
+            "score": "Medium Impact: 6",
+            "severity": "Slow, Significant Declines",
+            "ancestry": null,
+            "virus": null,
+            "ias": null,
+            "text": null,
+            "description": {
+                "en": "Shifting agriculture"
+            },
+            "code": "2_1_1"
+        },
+        {
+            "scope": "Majority (50-90%)",
+            "timing": "Future",
+            "internationalTrade": null,
+            "score": "Medium Impact: 6",
+            "severity": "Very Rapid Declines",
+            "ancestry": null,
+            "virus": null,
+            "ias": null,
+            "text": null,
+            "description": {
+                "en": "Large dams"
+            },
+            "code": "7_2_10"
+        }
+    ],
+    "credits": [
+        {
+            "credit_type_name": "assessor",
+            "full": "Matsuda Goodwin, R., Oates, J.F., Nobimè, G., Segniagbeto, G.H., Ikemeh, R. & Mittermeier, R.A.",
+            "value": [
+                "Reiko Matsuda Goodwin",
+                "John Oates",
+                "Rachel Ikemeh",
+                "Russell A. Mittermeier (Conservation International)",
+                "Georges Nobimè (Université d’Abomey-Calavi)",
+                "Gabriel Segniagbeto"
+            ]
+        },
+        {
+            "credit_type_name": "evaluator",
+            "full": "Williamson, E.A. & Reuter, K.E.",
+            "value": [
+                "Elizabeth A. Williamson (University of Stirling)",
+                "Kim Reuter (IUCN SSC Primate SG)"
+            ]
+        },
+        {
+            "credit_type_name": "contributor",
+            "full": "Gippoliti, S. & Bearder, S.",
+            "value": [
+                "Simon Bearder (Oxford Brookes University)",
+                "Spartaco Gippoliti"
+            ]
+        },
+        {
+            "credit_type_name": "facilitators",
+            "full": "Reuter, K.E.",
+            "value": [
+                "Kim Reuter (IUCN SSC Primate SG)"
+            ]
+        }
+    ],
+    "errata": [
+
+    ],
+    "references": [
+        {
+            "citation": "Groves C.P. 2001. <i>Primate Taxonomy<\/i>. Smithsonian Institution Press, Washington, DC, USA.",
+            "year": "2001",
+            "title": "Primate Taxonomy",
+            "author": "Groves C.P.",
+            "citation_short": ""
+        },
+        {
+            "citation": "Pacifici, M., Santini, L., Di Marco, M., Baisero, D., Francucci, L., Grottolo Marasini, G., Visconti, P. and Rondinini, C. 2013. Generation length for mammals. <i>Nature Conservation<\/i> 5: 87–94.",
+            "year": "2013",
+            "title": "Generation length for mammals",
+            "author": "Pacifici, M., Santini, L., Di Marco, M., Baisero, D., Francucci, L., Grottolo Marasini, G., Visconti, P. and Rondinini, C.",
+            "citation_short": ""
+        },
+        {
+            "citation": "Grubb, P., Butynski, T.M., Oates, J.F., Bearder, S.K., Disotell, T.R., Groves, C.P. and Struhsaker, T.T. 2003. Assessment of the diversity of African primates. <i>International Journal of Primatology<\/i> 24(6): 1301-1357.",
+            "year": "2003",
+            "title": "Assessment of the diversity of African primates",
+            "author": "Grubb, P., Butynski, T.M., Oates, J.F., Bearder, S.K., Disotell, T.R., Groves, C.P. and Struhsaker, T.T.",
+            "citation_short": ""
+        },
+        {
+            "citation": "Campbell, G., Teichroeb, J. and Paterson, J.D. 2008. Distribution of diurnal primate species in Togo and Bénin. <i>Folia Primatologica<\/i> 79: 15–30.",
+            "year": "2008",
+            "title": "Distribution of diurnal primate species in Togo and Bénin",
+            "author": "Campbell, G., Teichroeb, J. and Paterson, J.D.",
+            "citation_short": ""
+        },
+        {
+            "citation": "Grubb, P., Lernould, J.-M. and Oates, J. F. 1999. Validation of <i>Cercopithecus erythrogaster pococki<\/i> as the name for the Nigerian white-throated guenon. <i>Mammalia<\/i> 63(3): 389-392.",
+            "year": "1999",
+            "title": "Validation of <i>Cercopithecus erythrogaster pococki<\/i> as the name for the Nigerian white-throated guenon",
+            "author": "Grubb, P., Lernould, J.-M. and Oates, J. F.",
+            "citation_short": null
+        },
+        {
+            "citation": "Sinsin, B., Nobimè, G., Téhou, A., Bekhuis, P. and Tchibozo, S. 2002. Past and present distribution of the red-bellied monkey <i>Cercopithecus erythrogaster erythrogaster<\/i> in Benin. <i>Folia Primatologica<\/i> 73: 116-123.",
+            "year": "2002",
+            "title": "Past and present distribution of the red-bellied monkey <i>Cercopithecus erythrogaster erythrogaster<\/i> in Benin",
+            "author": "Sinsin, B., Nobimè, G., Téhou, A., Bekhuis, P. and Tchibozo, S.",
+            "citation_short": null
+        },
+        {
+            "citation": "Oates, J.F. 2011. <i>Primates of West Africa: A Field Guide and Natural History<\/i>. Conservation International, Arlington, VA.",
+            "year": "2011",
+            "title": "Primates of West Africa: A Field Guide and Natural History",
+            "author": "Oates, J.F.",
+            "citation_short": ""
+        },
+        {
+            "citation": "FAO. 2015. Global Forest Resources Assessment. 2015. Food and Agriculture Organization of the United Nations, Rome, Italy.",
+            "year": "2015",
+            "title": "Global Forest Resources Assessment. 2015",
+            "author": "FAO",
+            "citation_short": ""
+        },
+        {
+            "citation": "Nobimè, G., Sinsin, B. and Neuenschwander, P. 2011. Primates.  In: P. Neuenschwander, B. Sinsin, G. Goergen (ed.), Protection de la nature en Afrique de l’Ouest: Une Liste Rouge pour le Bénin, Nature Conservation in West Africa: Red List for Benin. IITA, Ibadan, Nigeria.",
+            "year": "2011",
+            "title": "Primates",
+            "author": "Nobimè, G., Sinsin, B. and Neuenschwander, P.",
+            "citation_short": null
+        },
+        {
+            "citation": "Ikemeh, R. A. 2009. Status of Idanre Forest Reserve in Ondo State, Nigeria. Leventis Foundation, Nigerian Conservation Foundation and the Ondo State Ministry of Natural Resources.",
+            "year": "2009",
+            "title": "Status of Idanre Forest Reserve in Ondo State, Nigeria",
+            "author": "Ikemeh, R. A.",
+            "citation_short": null
+        },
+        {
+            "citation": "IUCN. 2020. The IUCN Red List of Threatened Species. Version 2020-2. Available at: <a href=\"www.iucnredlist.org\">www.iucnredlist.org<\/a>. (Accessed: 13 June 2020).",
+            "year": "2020",
+            "title": "The IUCN Red List of Threatened Species. Version 2020-2",
+            "author": "IUCN",
+            "citation_short": "IUCN 2020-2"
+        },
+        {
+            "citation": "World Bank Group (IBRD IDA). 2019. The World Bank Data. Available at: <a href=\"https://data.worldbank.org/indicator\">https://data.worldbank.org/indicator<\/a>. ",
+            "year": "2019",
+            "title": "The World Bank Data",
+            "author": "World Bank Group (IBRD IDA)",
+            "citation_short": null
+        },
+        {
+            "citation": "Akinsorotan, O.A., Ogunjemite, B.G. and Afolayan, T.A. 2011. Assessment of the Large Mammals of Arakhuan Range, Okomu National Park, Nigeria. <i>Ethiopian Journal of Environmental Studies and Management<\/i> 4: 25-37.",
+            "year": "2011",
+            "title": "Assessment of the Large Mammals of Arakhuan Range, Okomu National Park, Nigeria",
+            "author": "Akinsorotan, O.A., Ogunjemite, B.G. and Afolayan, T.A.",
+            "citation_short": ""
+        },
+        {
+            "citation": "Ayanlade, A. and Drake, N. 2016. Forest loss in different ecological zones of the Niger Delta, Nigeria: evidence from remote sensing. <i>GeoJournal<\/i> 81(5): 717-735.",
+            "year": "2016",
+            "title": "Forest loss in different ecological zones of the Niger Delta, Nigeria: evidence from remote sensing",
+            "author": "Ayanlade, A. and Drake, N.",
+            "citation_short": null
+        },
+        {
+            "citation": "Campbell, C.J. 2005. Distribution, census and habitat Preferences of primate species in the Dahomey Gap (West Africa), with particular emphasis on the red-bellied guenon (Cercopithecus erythrogaster erythrogaster). University of Calgary.",
+            "year": "2005",
+            "title": "Distribution, census and habitat Preferences of primate species in the Dahomey Gap (West Africa), with particular emphasis on the red-bellied guenon (Cercopithecus erythrogaster erythrogaster)",
+            "author": "Campbell, C.J.",
+            "citation_short": null
+        },
+        {
+            "citation": "Ikemeh, R.A. 2015. Into the land of oil and wood: Conserving the critically endangered Niger Delta red colobus monkey. <i>Explorers Journal<\/i> Spring 2015: 28-32.",
+            "year": "2015",
+            "title": "Into the land of oil and wood: Conserving the critically endangered Niger Delta red colobus monkey",
+            "author": "Ikemeh, R.A. ",
+            "citation_short": null
+        },
+        {
+            "citation": "Kassa, B. 2001. Techniques de Denombrement et Facteurs Determinant la Modelisation de La Dynamique de la Faune Sauvage dans La Forêt de La Lama. Diplome d'Etudes Superiures, Université d’Abomey-Calavi.",
+            "year": "2001",
+            "title": "Techniques de Denombrement et Facteurs Determinant la Modelisation de La Dynamique de la Faune Sauvage dans La Forêt de La Lama",
+            "author": "Kassa, B.",
+            "citation_short": null
+        },
+        {
+            "citation": "Matsuda Goodwin, R. 2007. Behavior and ecology of the mona monkey in the seasonally dry Lama Forest, Republic of Benin. PhD dissertation, CUNY Graduate School.",
+            "year": "2007",
+            "title": "Behavior and ecology of the mona monkey in the seasonally dry Lama Forest, Republic of Benin",
+            "author": "Matsuda Goodwin, R.",
+            "citation_short": null
+        },
+        {
+            "citation": "Matsuda Goodwin, R. Orimaye, J.O. Okosodo, FE, Houngbedji, MG, Ogunjemite, BG, and E. Akpla. 2017. Surveys of threatened anthropoids in the Lama Forest, Old Oyo National Park, and along the Benin-Nigeria Border and conservation recommendations. <i>IPS Bulletin<\/i> 42(2): 25-30.",
+            "year": "2017",
+            "title": "Surveys of threatened anthropoids in the Lama Forest, Old Oyo National Park, and along the Benin-Nigeria Border and conservation recommendations",
+            "author": "Matsuda Goodwin, R. Orimaye, J.O. Okosodo, FE, Houngbedji, MG, Ogunjemite, BG, and E. Akpla",
+            "citation_short": null
+        },
+        {
+            "citation": "Matsuda Goodwin, R, Orimaye, J.O., Okosodo, F.E., Ogunjemite, B.G. and Houngbedji, M.G. 2017. The first sightings of the red-bellied guenon (Cercopithecus erythrogaster erythrogaster) on the Western edge of southwestern Nigeria. <i>African Primates<\/i> 12: 37-54.",
+            "year": "2017",
+            "title": "The first sightings of the red-bellied guenon (Cercopithecus erythrogaster erythrogaster) on the Western edge of southwestern Nigeria",
+            "author": "Matsuda Goodwin, R, Orimaye, J.O., Okosodo, F.E., Ogunjemite, B.G. and Houngbedji, M.G.",
+            "citation_short": null
+        },
+        {
+            "citation": "Oates, J.F. 1985. The Nigerian guenon, Cercopithecus erythrogaster: Ecological, behavioral, systematic and historical observations. <i>Folia Primatologica<\/i> 45: 25-43.",
+            "year": "1985",
+            "title": "The Nigerian guenon, Cercopithecus erythrogaster: Ecological, behavioral, systematic and historical observations",
+            "author": "Oates, J.F.",
+            "citation_short": null
+        },
+        {
+            "citation": "Oates, J. F., Ikemeh, R. A., Adedamola, O. and Bergl, R. A., 2008. A survey of rain forests in Ogun, Ondo and Osun States in southwestern Nigeria to assess options for their sustainable conservation. Nigerian Conservation Foundation, Lagos, Nigeria.",
+            "year": "2008",
+            "title": "A survey of rain forests in Ogun, Ondo and Osun States in southwestern Nigeria to assess options for their sustainable conservation",
+            "author": "Oates, J. F., Ikemeh, R. A., Adedamola, O. and Bergl, R. A.,",
+            "citation_short": null
+        }
+    ],
+    "growth_forms": [
+
+    ],
+    "lmes": [
+
+    ],
+    "scopes": [
+        {
+            "description": {
+                "en": "Global"
+            },
+            "code": "1"
+        }
+    ],
+    "stresses": [
+        {
+            "description": {
+                "en": "Ecosystem conversion"
+            },
+            "code": "1_1"
+        },
+        {
+            "description": {
+                "en": "Ecosystem conversion"
+            },
+            "code": "1_1"
+        },
+        {
+            "description": {
+                "en": "Ecosystem conversion"
+            },
+            "code": "1_1"
+        },
+        {
+            "description": {
+                "en": "Ecosystem conversion"
+            },
+            "code": "1_1"
+        },
+        {
+            "description": {
+                "en": "Ecosystem conversion"
+            },
+            "code": "1_1"
+        },
+        {
+            "description": {
+                "en": "Ecosystem degradation"
+            },
+            "code": "1_2"
+        },
+        {
+            "description": {
+                "en": "Ecosystem degradation"
+            },
+            "code": "1_2"
+        },
+        {
+            "description": {
+                "en": "Ecosystem degradation"
+            },
+            "code": "1_2"
+        },
+        {
+            "description": {
+                "en": "Ecosystem degradation"
+            },
+            "code": "1_2"
+        },
+        {
+            "description": {
+                "en": "Ecosystem degradation"
+            },
+            "code": "1_2"
+        },
+        {
+            "description": {
+                "en": "Ecosystem degradation"
+            },
+            "code": "1_2"
+        },
+        {
+            "description": {
+                "en": "Indirect ecosystem effects"
+            },
+            "code": "1_3"
+        },
+        {
+            "description": {
+                "en": "Species mortality"
+            },
+            "code": "2_1"
+        },
+        {
+            "description": {
+                "en": "Species mortality"
+            },
+            "code": "2_1"
+        },
+        {
+            "description": {
+                "en": "Species disturbance"
+            },
+            "code": "2_2"
+        },
+        {
+            "description": {
+                "en": "Species disturbance"
+            },
+            "code": "2_2"
+        },
+        {
+            "description": {
+                "en": "Species disturbance"
+            },
+            "code": "2_2"
+        },
+        {
+            "description": {
+                "en": "Loss of pollinator"
+            },
+            "code": "2_3_4"
+        },
+        {
+            "description": {
+                "en": "Loss of pollinator"
+            },
+            "code": "2_3_4"
+        },
+        {
+            "description": {
+                "en": "Reduced reproductive success"
+            },
+            "code": "2_3_7"
+        },
+        {
+            "description": {
+                "en": "Reduced reproductive success"
+            },
+            "code": "2_3_7"
+        },
+        {
+            "description": {
+                "en": "Reduced reproductive success"
+            },
+            "code": "2_3_7"
+        },
+        {
+            "description": {
+                "en": "Reduced reproductive success"
+            },
+            "code": "2_3_7"
+        }
+    ],
+    "systems": [
+        {
+            "description": {
+                "en": "Terrestrial"
+            },
+            "code": "0"
+        }
+    ]
+}

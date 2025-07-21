@@ -1,0 +1,14 @@
+{
+    "habitat": {
+        "description": {
+            "en": "Forest"
+        },
+        "code": "1"
+    },
+    "assessments": [
+
+    ],
+    "filters": {
+        "latest": "true"
+    }
+}

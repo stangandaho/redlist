@@ -1,0 +1,12 @@
+structure(list(method = "GET", url = "https://api.iucnredlist.org/api/v4/habitats/999?page=1", 
+    status_code = 404L, headers = structure(list(Date = "Mon, 21 Jul 2025 12:55:55 GMT", 
+        `Content-Type` = "application/json", `Transfer-Encoding` = "chunked", 
+        Connection = "keep-alive", `Cache-Control` = "no-cache", 
+        `X-Request-Id` = "8db54a9c-d306-46f8-a0bc-43bff3261362", 
+        `X-Runtime` = "0.012041", `Cf-Cache-Status` = "DYNAMIC", 
+        Nel = "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}", 
+        `Speculation-Rules` = "\"/cdn-cgi/speculation\"", `Report-To` = "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=q74eW2jSg9shM0k4uACYHeB8m2XG1RiS8szVFwSTS6q4VnetdB1pzYaeitB%2FKea7Yl%2F1h3GWT1ZrbMzGpp32F9imJfFdnAlDmBIccd0RFQ%2BvH2c%3D\"}]}", 
+        `Content-Encoding` = "gzip", Server = "cloudflare", `CF-RAY` = "962adafe09db63c9-LHR", 
+        `alt-svc` = "h3=\":443\"; ma=86400"), redact = character(0), class = "httr2_headers"), 
+    body = charToRaw("{\"error\":\"Habitat code 999 not found\"}"), 
+    cache = new.env(parent = emptyenv())), class = "httr2_response")

@@ -1,0 +1,14 @@
+{
+    "habitat": {
+        "description": {
+            "en": "Desert"
+        },
+        "code": "8"
+    },
+    "assessments": [
+
+    ],
+    "filters": {
+        "latest": "true"
+    }
+}

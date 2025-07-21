@@ -1,0 +1,106 @@
+{
+    "research": [
+        {
+            "description": {
+                "en": "Research"
+            },
+            "code": "1"
+        },
+        {
+            "description": {
+                "en": "Taxonomy"
+            },
+            "code": "1_1"
+        },
+        {
+            "description": {
+                "en": "Population size, distribution & trends"
+            },
+            "code": "1_2"
+        },
+        {
+            "description": {
+                "en": "Life history & ecology"
+            },
+            "code": "1_3"
+        },
+        {
+            "description": {
+                "en": "Harvest, use & livelihoods"
+            },
+            "code": "1_4"
+        },
+        {
+            "description": {
+                "en": "Threats"
+            },
+            "code": "1_5"
+        },
+        {
+            "description": {
+                "en": "Actions"
+            },
+            "code": "1_6"
+        },
+        {
+            "description": {
+                "en": "Conservation Planning"
+            },
+            "code": "2"
+        },
+        {
+            "description": {
+                "en": "Species Action/Recovery Plan"
+            },
+            "code": "2_1"
+        },
+        {
+            "description": {
+                "en": "Area-based Management Plan"
+            },
+            "code": "2_2"
+        },
+        {
+            "description": {
+                "en": "Harvest & Trade Management Plan"
+            },
+            "code": "2_3"
+        },
+        {
+            "description": {
+                "en": "Monitoring"
+            },
+            "code": "3"
+        },
+        {
+            "description": {
+                "en": "Population trends"
+            },
+            "code": "3_1"
+        },
+        {
+            "description": {
+                "en": "Harvest level trends"
+            },
+            "code": "3_2"
+        },
+        {
+            "description": {
+                "en": "Trade trends"
+            },
+            "code": "3_3"
+        },
+        {
+            "description": {
+                "en": "Habitat trends"
+            },
+            "code": "3_4"
+        },
+        {
+            "description": {
+                "en": "Other"
+            },
+            "code": "4"
+        }
+    ]
+}

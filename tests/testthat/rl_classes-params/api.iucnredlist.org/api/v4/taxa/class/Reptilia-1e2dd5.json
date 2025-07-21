@@ -1,0 +1,1908 @@
+{
+    "assessments": [
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 164676,
+            "url": "https://www.iucnredlist.org/species/164676/1066581",
+            "taxon_scientific_name": "Laudakia melanura",
+            "red_list_category_code": "LC",
+            "assessment_id": 1066581,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 164677,
+            "url": "https://www.iucnredlist.org/species/164677/1066663",
+            "taxon_scientific_name": "Mesalina watsonana",
+            "red_list_category_code": "LC",
+            "assessment_id": 1066663,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 164678,
+            "url": "https://www.iucnredlist.org/species/164678/1066758",
+            "taxon_scientific_name": "Acanthodactylus scutellatus",
+            "red_list_category_code": "LC",
+            "assessment_id": 1066758,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 164680,
+            "url": "https://www.iucnredlist.org/species/164680/1066944",
+            "taxon_scientific_name": "Ophiomorus brevipes",
+            "red_list_category_code": "LC",
+            "assessment_id": 1066944,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 164681,
+            "url": "https://www.iucnredlist.org/species/164681/1067033",
+            "taxon_scientific_name": "Calotes versicolor",
+            "red_list_category_code": "LC",
+            "assessment_id": 1067033,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 164684,
+            "url": "https://www.iucnredlist.org/species/164684/1067703",
+            "taxon_scientific_name": "Ophiomorus tridactylus",
+            "red_list_category_code": "LC",
+            "assessment_id": 1067703,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 164685,
+            "url": "https://www.iucnredlist.org/species/164685/1067773",
+            "taxon_scientific_name": "Platyceps ventromaculatus",
+            "red_list_category_code": "LC",
+            "assessment_id": 1067773,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 164692,
+            "url": "https://www.iucnredlist.org/species/164692/1068143",
+            "taxon_scientific_name": "Laudakia nupta",
+            "red_list_category_code": "LC",
+            "assessment_id": 1068143,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 164694,
+            "url": "https://www.iucnredlist.org/species/164694/1068235",
+            "taxon_scientific_name": "Echis carinatus",
+            "red_list_category_code": "LC",
+            "assessment_id": 1068235,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2012",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 164695,
+            "url": "https://www.iucnredlist.org/species/164695/1068584",
+            "taxon_scientific_name": "Acanthodactylus schmidti",
+            "red_list_category_code": "LC",
+            "assessment_id": 1068584,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 164696,
+            "url": "https://www.iucnredlist.org/species/164696/1068703",
+            "taxon_scientific_name": "Gloydius intermedius",
+            "red_list_category_code": "LC",
+            "assessment_id": 1068703,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 164700,
+            "url": "https://www.iucnredlist.org/species/164700/1069087",
+            "taxon_scientific_name": "Eirenis persicus",
+            "red_list_category_code": "LC",
+            "assessment_id": 1069087,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 164701,
+            "url": "https://www.iucnredlist.org/species/164701/1069218",
+            "taxon_scientific_name": "Oligodon taeniolatus",
+            "red_list_category_code": "LC",
+            "assessment_id": 1069218,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2017",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 164703,
+            "url": "https://www.iucnredlist.org/species/164703/1069502",
+            "taxon_scientific_name": "Tenuidactylus longipes",
+            "red_list_category_code": "LC",
+            "assessment_id": 1069502,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 164704,
+            "url": "https://www.iucnredlist.org/species/164704/1069614",
+            "taxon_scientific_name": "Psammophis schokari",
+            "red_list_category_code": "LC",
+            "assessment_id": 1069614,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 164709,
+            "url": "https://www.iucnredlist.org/species/164709/1070000",
+            "taxon_scientific_name": "Eristicophis macmahoni",
+            "red_list_category_code": "LC",
+            "assessment_id": 1070000,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 164712,
+            "url": "https://www.iucnredlist.org/species/164712/1070093",
+            "taxon_scientific_name": "Eryx elegans",
+            "red_list_category_code": "LC",
+            "assessment_id": 1070093,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2017",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 164714,
+            "url": "https://www.iucnredlist.org/species/164714/1070236",
+            "taxon_scientific_name": "Eremias lineolata",
+            "red_list_category_code": "LC",
+            "assessment_id": 1070236,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2017",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 164715,
+            "url": "https://www.iucnredlist.org/species/164715/1070344",
+            "taxon_scientific_name": "Teratoscincus bedriagai",
+            "red_list_category_code": "LC",
+            "assessment_id": 1070344,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 164718,
+            "url": "https://www.iucnredlist.org/species/164718/1070432",
+            "taxon_scientific_name": "Bunopus tuberculatus",
+            "red_list_category_code": "LC",
+            "assessment_id": 1070432,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2012",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 164724,
+            "url": "https://www.iucnredlist.org/species/164724/1070603",
+            "taxon_scientific_name": "Acanthodactylus robustus",
+            "red_list_category_code": "LC",
+            "assessment_id": 1070603,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 164726,
+            "url": "https://www.iucnredlist.org/species/164726/1070941",
+            "taxon_scientific_name": "Eurylepis taeniolatus",
+            "red_list_category_code": "LC",
+            "assessment_id": 1070941,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 164727,
+            "url": "https://www.iucnredlist.org/species/164727/1071076",
+            "taxon_scientific_name": "Trapelus rubrigularis",
+            "red_list_category_code": "DD",
+            "assessment_id": 1071076,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 164728,
+            "url": "https://www.iucnredlist.org/species/164728/1071123",
+            "taxon_scientific_name": "Mesalina brevirostris",
+            "red_list_category_code": "LC",
+            "assessment_id": 1071123,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 164731,
+            "url": "https://www.iucnredlist.org/species/164731/1071589",
+            "taxon_scientific_name": "Teratoscincus microlepis",
+            "red_list_category_code": "LC",
+            "assessment_id": 1071589,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 164733,
+            "url": "https://www.iucnredlist.org/species/164733/1071806",
+            "taxon_scientific_name": "Eryx johnii",
+            "red_list_category_code": "NT",
+            "assessment_id": 1071806,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2012",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 164738,
+            "url": "https://www.iucnredlist.org/species/164738/1072189",
+            "taxon_scientific_name": "Eryx jayakari",
+            "red_list_category_code": "LC",
+            "assessment_id": 1072189,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 164745,
+            "url": "https://www.iucnredlist.org/species/164745/1072324",
+            "taxon_scientific_name": "Eublepharis macularius",
+            "red_list_category_code": "LC",
+            "assessment_id": 1072324,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2017",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 164746,
+            "url": "https://www.iucnredlist.org/species/164746/1072458",
+            "taxon_scientific_name": "Eremias intermedia",
+            "red_list_category_code": "LC",
+            "assessment_id": 1072458,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 164747,
+            "url": "https://www.iucnredlist.org/species/164747/1072569",
+            "taxon_scientific_name": "Ablepharus pannonicus",
+            "red_list_category_code": "LC",
+            "assessment_id": 1072569,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 164748,
+            "url": "https://www.iucnredlist.org/species/164748/1072727",
+            "taxon_scientific_name": "Cyrtopodion scabrum",
+            "red_list_category_code": "LC",
+            "assessment_id": 1072727,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 164750,
+            "url": "https://www.iucnredlist.org/species/164750/1073080",
+            "taxon_scientific_name": "Rhinogekko femoralis",
+            "red_list_category_code": "LC",
+            "assessment_id": 1073080,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 164755,
+            "url": "https://www.iucnredlist.org/species/164755/1073135",
+            "taxon_scientific_name": "Crossobamon eversmanni",
+            "red_list_category_code": "LC",
+            "assessment_id": 1073135,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2012",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 164758,
+            "url": "https://www.iucnredlist.org/species/164758/1073251",
+            "taxon_scientific_name": "Platyceps rogersi",
+            "red_list_category_code": "LC",
+            "assessment_id": 1073251,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 164760,
+            "url": "https://www.iucnredlist.org/species/164760/1073556",
+            "taxon_scientific_name": "Walterinnesia morgani",
+            "red_list_category_code": "LC",
+            "assessment_id": 1073556,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 164761,
+            "url": "https://www.iucnredlist.org/species/164761/1073709",
+            "taxon_scientific_name": "Ophiomorus blanfordi",
+            "red_list_category_code": "LC",
+            "assessment_id": 1073709,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2017",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 164764,
+            "url": "https://www.iucnredlist.org/species/164764/1073774",
+            "taxon_scientific_name": "Eremias nigrocellata",
+            "red_list_category_code": "LC",
+            "assessment_id": 1073774,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2013",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 164769,
+            "url": "https://www.iucnredlist.org/species/164769/1074038",
+            "taxon_scientific_name": "Lytorhynchus diadema",
+            "red_list_category_code": "LC",
+            "assessment_id": 1074038,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 164772,
+            "url": "https://www.iucnredlist.org/species/164772/1074288",
+            "taxon_scientific_name": "Myriopholis macrorhyncha",
+            "red_list_category_code": "LC",
+            "assessment_id": 1074288,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 164775,
+            "url": "https://www.iucnredlist.org/species/164775/1074478",
+            "taxon_scientific_name": "Eryx tataricus",
+            "red_list_category_code": "LC",
+            "assessment_id": 1074478,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2019",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 164777,
+            "url": "https://www.iucnredlist.org/species/164777/1074719",
+            "taxon_scientific_name": "Trapelus sanguinolentus",
+            "red_list_category_code": "LC",
+            "assessment_id": 1074719,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 135458600,
+            "url": "https://www.iucnredlist.org/species/135458600/1076984",
+            "taxon_scientific_name": "Pelochelys cantorii",
+            "red_list_category_code": "CR",
+            "assessment_id": 1076984,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2020",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 16503,
+            "url": "https://www.iucnredlist.org/species/16503/1077288",
+            "taxon_scientific_name": "Pelochelys bibroni",
+            "red_list_category_code": "VU",
+            "assessment_id": 1077288,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 169678,
+            "url": "https://www.iucnredlist.org/species/169678/1280046",
+            "taxon_scientific_name": "Loxocemus bicolor",
+            "red_list_category_code": "LC",
+            "assessment_id": 1280046,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2012",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 169685,
+            "url": "https://www.iucnredlist.org/species/169685/1280150",
+            "taxon_scientific_name": "Etheridgeum pulchrum",
+            "red_list_category_code": "DD",
+            "assessment_id": 1280150,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2019",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 170365,
+            "url": "https://www.iucnredlist.org/species/170365/1312539",
+            "taxon_scientific_name": "Acanthocercus cyanogaster",
+            "red_list_category_code": "LC",
+            "assessment_id": 1312539,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2013",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 170381,
+            "url": "https://www.iucnredlist.org/species/170381/1312752",
+            "taxon_scientific_name": "Monilesaurus ellioti",
+            "red_list_category_code": "LC",
+            "assessment_id": 1312752,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2013",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 170420,
+            "url": "https://www.iucnredlist.org/species/170420/1312963",
+            "taxon_scientific_name": "Psammophilus dorsalis",
+            "red_list_category_code": "LC",
+            "assessment_id": 1312963,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 170504,
+            "url": "https://www.iucnredlist.org/species/170504/1315080",
+            "taxon_scientific_name": "Cyclemys atripons",
+            "red_list_category_code": "EN",
+            "assessment_id": 1315080,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 170505,
+            "url": "https://www.iucnredlist.org/species/170505/1315402",
+            "taxon_scientific_name": "Cyclemys enigmatica",
+            "red_list_category_code": "NT",
+            "assessment_id": 1315402,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 170506,
+            "url": "https://www.iucnredlist.org/species/170506/1315427",
+            "taxon_scientific_name": "Cyclemys fusca",
+            "red_list_category_code": "LC",
+            "assessment_id": 1315427,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 170507,
+            "url": "https://www.iucnredlist.org/species/170507/1315452",
+            "taxon_scientific_name": "Cyclemys gemeli",
+            "red_list_category_code": "NT",
+            "assessment_id": 1315452,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 170508,
+            "url": "https://www.iucnredlist.org/species/170508/1315477",
+            "taxon_scientific_name": "Cyclemys pulchristriata",
+            "red_list_category_code": "EN",
+            "assessment_id": 1315477,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 170509,
+            "url": "https://www.iucnredlist.org/species/170509/1315502",
+            "taxon_scientific_name": "Malayemys macrocephala",
+            "red_list_category_code": "LC",
+            "assessment_id": 1315502,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2024",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 170510,
+            "url": "https://www.iucnredlist.org/species/170510/1315527",
+            "taxon_scientific_name": "Rhinoclemmys diademata",
+            "red_list_category_code": "EN",
+            "assessment_id": 1315527,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2021",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 170525,
+            "url": "https://www.iucnredlist.org/species/170525/1316195",
+            "taxon_scientific_name": "Chitra vandijki",
+            "red_list_category_code": "CR",
+            "assessment_id": 1316195,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2018",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 170526,
+            "url": "https://www.iucnredlist.org/species/170526/1316202",
+            "taxon_scientific_name": "Pelochelys signifera",
+            "red_list_category_code": "VU",
+            "assessment_id": 1316202,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2018",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 172024,
+            "url": "https://www.iucnredlist.org/species/172024/1339018",
+            "taxon_scientific_name": "Phrynops williamsi",
+            "red_list_category_code": "VU",
+            "assessment_id": 1339018,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 172520,
+            "url": "https://www.iucnredlist.org/species/172520/1344134",
+            "taxon_scientific_name": "Rieppeleon brevicaudatus",
+            "red_list_category_code": "LC",
+            "assessment_id": 1344134,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 172521,
+            "url": "https://www.iucnredlist.org/species/172521/1344151",
+            "taxon_scientific_name": "Trioceros tempeli",
+            "red_list_category_code": "LC",
+            "assessment_id": 1344151,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 172522,
+            "url": "https://www.iucnredlist.org/species/172522/1344168",
+            "taxon_scientific_name": "Trioceros schoutedeni",
+            "red_list_category_code": "DD",
+            "assessment_id": 1344168,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 172523,
+            "url": "https://www.iucnredlist.org/species/172523/1344185",
+            "taxon_scientific_name": "Rhampholeon boulengeri",
+            "red_list_category_code": "LC",
+            "assessment_id": 1344185,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 172524,
+            "url": "https://www.iucnredlist.org/species/172524/1344202",
+            "taxon_scientific_name": "Rhampholeon acuminatus",
+            "red_list_category_code": "CR",
+            "assessment_id": 1344202,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 172525,
+            "url": "https://www.iucnredlist.org/species/172525/1344219",
+            "taxon_scientific_name": "Kinyongia vosseleri",
+            "red_list_category_code": "EN",
+            "assessment_id": 1344219,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2015",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 172526,
+            "url": "https://www.iucnredlist.org/species/172526/1344263",
+            "taxon_scientific_name": "Chamaeleo anchietae",
+            "red_list_category_code": "LC",
+            "assessment_id": 1344263,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 172527,
+            "url": "https://www.iucnredlist.org/species/172527/1344348",
+            "taxon_scientific_name": "Trioceros ntunte",
+            "red_list_category_code": "DD",
+            "assessment_id": 1344348,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 172529,
+            "url": "https://www.iucnredlist.org/species/172529/1344396",
+            "taxon_scientific_name": "Rhampholeon temporalis",
+            "red_list_category_code": "EN",
+            "assessment_id": 1344396,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 172530,
+            "url": "https://www.iucnredlist.org/species/172530/1344413",
+            "taxon_scientific_name": "Nadzikambia mlanjensis",
+            "red_list_category_code": "EN",
+            "assessment_id": 1344413,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 172532,
+            "url": "https://www.iucnredlist.org/species/172532/1344495",
+            "taxon_scientific_name": "Rhampholeon platyceps",
+            "red_list_category_code": "EN",
+            "assessment_id": 1344495,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 172533,
+            "url": "https://www.iucnredlist.org/species/172533/1344512",
+            "taxon_scientific_name": "Kinyongia vanheygeni",
+            "red_list_category_code": "LC",
+            "assessment_id": 1344512,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 172534,
+            "url": "https://www.iucnredlist.org/species/172534/1344539",
+            "taxon_scientific_name": "Trioceros rudis",
+            "red_list_category_code": "LC",
+            "assessment_id": 1344539,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 172535,
+            "url": "https://www.iucnredlist.org/species/172535/1344556",
+            "taxon_scientific_name": "Rieppeleon kerstenii",
+            "red_list_category_code": "LC",
+            "assessment_id": 1344556,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 172536,
+            "url": "https://www.iucnredlist.org/species/172536/1344573",
+            "taxon_scientific_name": "Chamaeleo gracilis",
+            "red_list_category_code": "LC",
+            "assessment_id": 1344573,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 172537,
+            "url": "https://www.iucnredlist.org/species/172537/1344615",
+            "taxon_scientific_name": "Kinyongia uluguruensis",
+            "red_list_category_code": "LC",
+            "assessment_id": 1344615,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 172538,
+            "url": "https://www.iucnredlist.org/species/172538/1344662",
+            "taxon_scientific_name": "Kinyongia magomberae",
+            "red_list_category_code": "EN",
+            "assessment_id": 1344662,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 172539,
+            "url": "https://www.iucnredlist.org/species/172539/1344724",
+            "taxon_scientific_name": "Trioceros schubotzi",
+            "red_list_category_code": "NT",
+            "assessment_id": 1344724,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 172541,
+            "url": "https://www.iucnredlist.org/species/172541/1344796",
+            "taxon_scientific_name": "Trioceros deremensis",
+            "red_list_category_code": "LC",
+            "assessment_id": 1344796,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 172542,
+            "url": "https://www.iucnredlist.org/species/172542/1344815",
+            "taxon_scientific_name": "Chamaeleo laevigatus",
+            "red_list_category_code": "LC",
+            "assessment_id": 1344815,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2013",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 172543,
+            "url": "https://www.iucnredlist.org/species/172543/1344832",
+            "taxon_scientific_name": "Chamaeleo necasi",
+            "red_list_category_code": "DD",
+            "assessment_id": 1344832,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 172544,
+            "url": "https://www.iucnredlist.org/species/172544/1344860",
+            "taxon_scientific_name": "Kinyongia tavetana",
+            "red_list_category_code": "NT",
+            "assessment_id": 1344860,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 172545,
+            "url": "https://www.iucnredlist.org/species/172545/1344917",
+            "taxon_scientific_name": "Kinyongia matschiei",
+            "red_list_category_code": "EN",
+            "assessment_id": 1344917,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 172546,
+            "url": "https://www.iucnredlist.org/species/172546/1344969",
+            "taxon_scientific_name": "Kinyongia xenorhina",
+            "red_list_category_code": "NT",
+            "assessment_id": 1344969,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 172547,
+            "url": "https://www.iucnredlist.org/species/172547/1345013",
+            "taxon_scientific_name": "Trioceros werneri",
+            "red_list_category_code": "LC",
+            "assessment_id": 1345013,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 172548,
+            "url": "https://www.iucnredlist.org/species/172548/1345030",
+            "taxon_scientific_name": "Rieppeleon brachyurus",
+            "red_list_category_code": "LC",
+            "assessment_id": 1345030,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 172549,
+            "url": "https://www.iucnredlist.org/species/172549/1345047",
+            "taxon_scientific_name": "Rhampholeon beraduccii",
+            "red_list_category_code": "VU",
+            "assessment_id": 1345047,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 172550,
+            "url": "https://www.iucnredlist.org/species/172550/1345066",
+            "taxon_scientific_name": "Rhampholeon moyeri",
+            "red_list_category_code": "LC",
+            "assessment_id": 1345066,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 172552,
+            "url": "https://www.iucnredlist.org/species/172552/1345100",
+            "taxon_scientific_name": "Kinyongia tenuis",
+            "red_list_category_code": "EN",
+            "assessment_id": 1345100,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2013",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 172553,
+            "url": "https://www.iucnredlist.org/species/172553/1345148",
+            "taxon_scientific_name": "Trioceros wiedersheimi",
+            "red_list_category_code": "DD",
+            "assessment_id": 1345148,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 172554,
+            "url": "https://www.iucnredlist.org/species/172554/1345274",
+            "taxon_scientific_name": "Kinyongia carpenteri",
+            "red_list_category_code": "NT",
+            "assessment_id": 1345274,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 172555,
+            "url": "https://www.iucnredlist.org/species/172555/1345291",
+            "taxon_scientific_name": "Rhampholeon uluguruensis",
+            "red_list_category_code": "LC",
+            "assessment_id": 1345291,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 172556,
+            "url": "https://www.iucnredlist.org/species/172556/1345308",
+            "taxon_scientific_name": "Trioceros bitaeniatus",
+            "red_list_category_code": "LC",
+            "assessment_id": 1345308,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 172558,
+            "url": "https://www.iucnredlist.org/species/172558/1345358",
+            "taxon_scientific_name": "Trioceros goetzei",
+            "red_list_category_code": "LC",
+            "assessment_id": 1345358,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 172560,
+            "url": "https://www.iucnredlist.org/species/172560/1345406",
+            "taxon_scientific_name": "Trioceros narraioca",
+            "red_list_category_code": "NT",
+            "assessment_id": 1345406,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 172561,
+            "url": "https://www.iucnredlist.org/species/172561/1345423",
+            "taxon_scientific_name": "Trioceros sternfeldi",
+            "red_list_category_code": "LC",
+            "assessment_id": 1345423,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 172562,
+            "url": "https://www.iucnredlist.org/species/172562/1345440",
+            "taxon_scientific_name": "Rhampholeon nchisiensis",
+            "red_list_category_code": "LC",
+            "assessment_id": 1345440,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 172563,
+            "url": "https://www.iucnredlist.org/species/172563/1345457",
+            "taxon_scientific_name": "Kinyongia uthmoelleri",
+            "red_list_category_code": "LC",
+            "assessment_id": 1345457,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 172564,
+            "url": "https://www.iucnredlist.org/species/172564/1345493",
+            "taxon_scientific_name": "Kinyongia boehmei",
+            "red_list_category_code": "NT",
+            "assessment_id": 1345493,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 172565,
+            "url": "https://www.iucnredlist.org/species/172565/1345554",
+            "taxon_scientific_name": "Kinyongia fischeri",
+            "red_list_category_code": "NT",
+            "assessment_id": 1345554,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 172566,
+            "url": "https://www.iucnredlist.org/species/172566/1345604",
+            "taxon_scientific_name": "Trioceros marsabitensis",
+            "red_list_category_code": "NT",
+            "assessment_id": 1345604,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2014",
+            "latest": true,
+            "possibly_extinct": false,
+            "possibly_extinct_in_the_wild": false,
+            "sis_taxon_id": 172569,
+            "url": "https://www.iucnredlist.org/species/172569/1345671",
+            "taxon_scientific_name": "Kinyongia excubitor",
+            "red_list_category_code": "VU",
+            "assessment_id": 1345671,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        }
+    ],
+    "filters": {
+        "latest": "true",
+        "class_name": "Reptilia"
+    }
+}
