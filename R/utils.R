@@ -257,7 +257,7 @@ rl_paginated_query <- function(param_list,
 
   call_out <- multiple_out_df %>%
     dplyr::as_tibble() %>%
-    dplyr::mutate(across(.cols = dplyr::everything(),
+    dplyr::mutate(dplyr::across(.cols = dplyr::everything(),
                          .fns = fill_na_with_previous))
 
   return(call_out)
