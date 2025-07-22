@@ -1,0 +1,171 @@
+url: https://stangandaho.github.io/redlist/
+template:
+  bootstrap: 5
+  light-switch: yes
+  bslib:
+    base_font:
+      google: Montserrat
+    heading_font:
+      google: Montserrat
+    code_font:
+      google: JetBrains Mono
+  math-rendering: mathjax
+navbar:
+  structure:
+    left:
+    - intro
+    - reference
+    - articles
+    - news
+    right:
+    - search
+    - github
+    - linkedin
+    - lightswitch
+  components:
+    intro:
+      text: Home
+      icon: fa-home
+      href: index.html
+      aria-label: Home
+    reference:
+      text: Functions
+      icon: fa-code
+      href: reference/index.html
+    articles:
+      text: Ressources
+      icon: fa-blog
+      menu:
+      - text: 1. Get Data
+        href: articles/get_data.html
+      - text: 2. Data Visualisation
+        href: articles/data_viz.html
+    news:
+      text: News
+      icon: fa-face-smile
+      href: news/index.html
+    github:
+      href: https://github.com/stangandaho/redlist
+      aria-label: GitHub
+      icon: fa-github
+    linkedin:
+      href: https://www.linkedin.com/in/stangandaho/
+      aria-label: LinkedIn
+      icon: fa-linkedin
+component:
+  home: ~
+reference:
+- title: Set
+  desc: |
+    Set and check IUCN red list API key.
+  contents:
+  - rl_set_api
+  - rl_check_api
+- title: Assessment
+  desc: |
+    Function to retrieve assessment data for a specific assessment_id.
+  contents:
+  - rl_assessment_id
+- title: Biogeographical Realms
+  desc: |
+    Function to list and query biogeographical realms and their assessments.
+  contents:
+  - rl_biogeographical_realms
+- title: Comprehensive Groups
+  desc: |
+    Function to list and query comprehensive groups and their assessments.
+  contents:
+  - rl_comprehensive_groups
+- title: Conservation Actions
+  desc: |
+    Function to list and query conservation actions and their assessments.
+  contents:
+  - rl_conservation_actions
+- title: Countries
+  desc: |
+    Function to list countries and query assessments by country code.
+  contents:
+  - rl_countries
+- title: FAOs
+  desc: |
+    Function to list FAOs and query assessments by FAO code.
+  contents:
+  - rl_faos
+- title: Growth Forms
+  desc: |
+    Function to list growth forms and query assessments by growth form code.
+  contents:
+  - rl_growth_forms
+- title: Green Status
+  desc: |
+    Function to list all Green Status assessments.
+  contents:
+  - rl_green_status
+- title: Habitats
+  desc: |
+    Function to list habitat codes and query assessments by habitat code.
+  contents:
+  - rl_habitats
+- title: Information
+  desc: |
+    Function to retrieve API and Red List version information.
+  contents:
+  - rl_version
+- title: Population Trends
+  desc: |
+    Function to list population trends and query assessments by trend code.
+  contents:
+  - rl_population_trends
+- title: Red List Categories
+  desc: |
+    Function to list Red List categories and query assessments by category code.
+  contents:
+  - rl_red_list_categories
+- title: Research
+  desc: |
+    Function to list research codes and query assessments by research code.
+  contents:
+  - rl_research
+- title: Scopes
+  desc: |
+    Functions to list scopes and query assessments by scope code.
+  contents:
+  - rl_scopes
+- title: Statistics
+  desc: |
+    Function to retrieve aggregated statistics.
+  contents:
+  - rl_statistics
+- title: Stresses
+  desc: |
+    Function to list stressors and query assessments by stress code.
+  contents:
+  - rl_stresses
+- title: Systems
+  desc: |
+    Function to list systems and query assessments by system code.
+  contents:
+  - rl_systems
+- title: Taxa
+  desc: |
+    Functions to retrieve summary assessment data at species and higher taxonomic levels.
+  contents:
+  - rl_sis
+  - rl_scientific_name
+  - rl_kingdoms
+  - rl_phylum
+  - rl_classes
+  - rl_orders
+  - rl_family
+  - rl_possibly_extinct
+  - rl_possibly_extinct_in_wild
+- title: Threats
+  desc: |
+    Function to list threat codes and query assessments by threat code.
+  contents:
+  - rl_threats
+- title: Use and Trade
+  desc: |
+    Function to list use and trade codes and query assessments by code.
+  contents:
+  - rl_use_and_trade

@@ -159,7 +159,7 @@ json_to_df <- function(json_resp, pad_with_na = FALSE) {
 #'
 #' @return A numeric value representing the total number of species assessed.
 #'
-#' @export
+#' @noRd
 rl_total_records <- function(url){
   suppressMessages(rl_check_api())
 

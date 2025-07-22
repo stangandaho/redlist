@@ -11,11 +11,11 @@
 #'
 #' @examples
 #' \dontrun{
-#' rl_assessement_id(1425064)
+#' rl_assessment_id(1425064)
 #' }
 #'
 #' @export
-rl_assessement_id <- function(assessment_id = 1425064, pad_with_na = FALSE) {
+rl_assessment_id <- function(assessment_id = 1425064, pad_with_na = FALSE) {
   suppressMessages(rl_check_api())
 
   base_url <- paste0("https://api.iucnredlist.org/api/v4/assessment/", assessment_id)
