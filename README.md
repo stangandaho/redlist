@@ -1,5 +1,5 @@
 # IUCN Red List R Package
-<a href="https://stangandaho.github.io/redlist/"><img src="man/figures/logo.png" align="right" height="132" alt="redlist logo" /></a>
+# <img src="man/figures/logo.png" align="right" />
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/stangandaho/redlist/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/stangandaho/redlist/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
