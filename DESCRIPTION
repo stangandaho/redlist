@@ -25,6 +25,7 @@ Imports:
 URL: https://github.com/stangandaho/redlist, https://stangandaho.github.io/redlist/
 BugReports: https://github.com/stangandaho/redlist/issues
 Suggests:
+    ggplot2 (>= 3.5.2),
     httptest2 (>= 1.1.0),
     knitr (>= 1.50),
     rmarkdown (>= 2.29),

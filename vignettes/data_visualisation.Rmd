@@ -1,0 +1,114 @@
+---
+title: "IUCN red list data visualisation"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{IUCN red list data visualisation}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.align = "center",
+  fig.width = 8,
+  fig.height = 5
+)
+library(dplyr)
+library(ggplot2)
+library(redlist)
+```
+
+
+# Introduction
+In this vignette, I will examine assessments specific to **Benin**. I will walk through three types of visualizations:
+
+* Total number of assessments per year
+* Proportional breakdown of IUCN categories
+* Trends over time for **threatened** categories (CR, EN, VU)
+
+Refer to [this vignette](https://stangandaho.github.io/redlist/articles/get_data.html) to learn more about how to access the data.
+
+# Query Data
+```{r eval=FALSE}
+# Load the package
+library(redlist)
+# Get all data on Benin
+benin_rl <- rl_countries(code = "BJ", page = NA)
+
+```
+
+```{r echo=FALSE}
+benin_rl <- readRDS("benin_full_data.rds")
+```
+
+
+```{r}
+# Basic overview
+glimpse(benin_rl)
+```
+The dataset includes **all species** assessed in Benin across various taxonomic groups — including **plants, animals, fungi**, and other organisms.
+
+# Number of Assessments per Year
+
+Understanding the volume of assessments over time gives insight into conservation attention and effort.
+
+```{r plot-assessments-per-year}
+benin_rl %>%
+  count(assessments_year_published) %>%
+  ggplot(aes(x = assessments_year_published, y = n)) +
+  geom_line(color = "steelblue") +
+  geom_point(color = "darkblue") +
+  labs(
+    title = "Number of assessments per year in Benin",
+    x = "Year",
+    y = "Number of assessments"
+  ) +
+  theme_minimal()
+```
+
+
+# Proportion of Red List Categories
+
+Most species in Benin fall under **Least Concern (LC)**, but some are classified as threatened. This chart highlights the proportion of assessments by category.
+
+```{r plot-category-proportions}
+benin_rl %>%
+  filter(!is.na(assessments_red_list_category_code)) %>%
+  count(assessments_red_list_category_code) %>%
+  mutate(prop = n / sum(n)) %>%
+  ggplot(aes(x = reorder(assessments_red_list_category_code, -prop), y = prop)) +
+  geom_col(fill = "salmon") +
+  scale_y_continuous(labels = scales::percent_format()) +
+  labs(
+    title = "Proportion of red list categories in Benin",
+    x = "Red List Category",
+    y = "Proportion"
+  ) +
+  theme_minimal()
+```
+
+
+# Trends in Threatened Categories Over Time
+
+Focusing on **Critically Endangered (CR)**, **Endangered (EN)**, and **Vulnerable (VU)** species helps track biodiversity risk.
+
+```{r plot-threatened-trends}
+benin_rl %>%
+  filter(assessments_red_list_category_code %in% c("CR", "EN", "VU")) %>%
+  count(assessments_year_published, assessments_red_list_category_code) %>%
+  ggplot(aes(x = assessments_year_published, y = n,
+             color = assessments_red_list_category_code)) +
+  geom_line() +
+  geom_point() +
+  labs(
+    title = "Trends of Threatened Categories (CR, EN, VU) Over Time",
+    x = "Year",
+    y = "Number of Assessments",
+    color = "Category"
+  ) +
+  theme_minimal()
+```
+
