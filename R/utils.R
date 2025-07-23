@@ -131,6 +131,11 @@ json_to_df <- function(json_resp) {
     df
   }) %>% dplyr::bind_cols() %>% dplyr::as_tibble()
 
+  parsed <-  parsed %>%
+    dplyr::mutate(dplyr::across(.cols = dplyr::everything(),
+                                .fns = fill_na_with_previous)) %>%
+    dplyr::distinct(.keep_all = TRUE)
+
   return(parsed)
 }
 
@@ -179,17 +184,6 @@ rl_paginated_query <- function(param_list,
                                base_url,
                                pad_with_na = FALSE) {
   suppressMessages(rl_check_api())
-
-  # Build param list for expand.grid
-  # param_list <- list(
-  #   code = code,
-  #   year_published = year_published %||% NA,
-  #   latest = latest %||% NA,
-  #   possibly_extinct = possibly_extinct %||% NA,
-  #   possibly_extinct_in_the_wild = possibly_extinct_in_the_wild %||% NA,
-  #   scope_code = scope_code %||% NA,
-  #   page = page %||% NA
-  # )
 
   multiple_out_df <- data.frame()
   ## Handle total page query
@@ -240,13 +234,7 @@ rl_paginated_query <- function(param_list,
   cli::cli_alert_success("Downloads done.")
   # End of request
 
-  call_out <- multiple_out_df %>%
-    dplyr::as_tibble() %>%
-    dplyr::mutate(dplyr::across(.cols = dplyr::everything(),
-                                .fns = fill_na_with_previous)) %>%
-    dplyr::distinct(.keep_all = TRUE)
-
-  return(call_out)
+  return(multiple_out_df)
 
 }
 
