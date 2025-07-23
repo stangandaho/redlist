@@ -66,14 +66,16 @@ remove_null <- function(x){
 perform_request <- function(base_url, params = NULL) {
 
   suppressMessages(rl_check_api())
+  user_agent <- "redlist R package (https://stangandaho.github.io/redlist)"
 
   if (is.null(params)) {
     rp <- base_url %>%
       httr2::request() %>%
       httr2::req_headers(
         accept = "application/json",
-        Authorization = Sys.getenv("redlist_api")
+        Authorization = Sys.getenv("REDLIST_API")
       ) %>%
+      httr2::req_user_agent(user_agent) %>%
       httr2::req_perform(error_call = NULL)
   }else{
     rp <- base_url %>%
@@ -81,8 +83,9 @@ perform_request <- function(base_url, params = NULL) {
       httr2::req_url_query(!!!params) %>%
       httr2::req_headers(
         accept = "application/json",
-        Authorization = Sys.getenv("redlist_api")
+        Authorization = Sys.getenv("REDLIST_API")
       ) %>%
+      httr2::req_user_agent(user_agent) %>%
       httr2::req_perform(error_call = NULL)
   }
 
@@ -92,16 +95,10 @@ perform_request <- function(base_url, params = NULL) {
 #' JSON to data frame
 #'
 #' Coerce JSON arrays containing only records (JSON objects) into a data frame.
-#' Extracts and cleans text content using HTML parsing. When elements of the JSON
-#' are of unequal lengths, columns can optionally be padded with NA to ensure the
-#' resulting data frame has uniform row lengths.
+#' Extracts and cleans text content using HTML parsing.
 #'
 #' @param json_resp A nested list or parsed JSON structure (e.g., from `jsonlite::fromJSON`)
 #'        that represents an array of JSON objects.
-#' @param pad_with_na Logical; if `TRUE`, columns with unequal lengths will be padded with `NA`
-#'        so that all columns have the same number of rows. If `FALSE`, each column will retain
-#'        its raw structure, and content will be collapsed only when necessary.
-#'
 #' @return A tibble where each column represents a field extracted from the JSON objects.
 #' @noRd
 json_to_df <- function(json_resp) {
@@ -175,14 +172,12 @@ rl_total_records <- function(url){
 #' @param key_values Vector. One or more values to substitute for the key_param in the path.
 #' @param query_params Named list of additional query parameters to expand via expand.grid.
 #' @param auto_page Logical. If `TRUE` and no `page` parameter is provided, auto-paginates based on total records.
-#' @param pad_with_na Logical. Whether to pad inconsistent JSON structures with NA during binding.
 #'
 #' @return A tibble with the combined results of all parameterized API queries.
 #' @noRd
 rl_paginated_query <- function(param_list,
                                endpoint_name,
-                               base_url,
-                               pad_with_na = FALSE) {
+                               base_url) {
   suppressMessages(rl_check_api())
 
   multiple_out_df <- data.frame()
@@ -228,7 +223,7 @@ rl_paginated_query <- function(param_list,
 
     cli::cli_status_update(id = sb,
                            "{cli::symbol$arrow_right} Got {r} request{?s}, retrieving {paste0(round(r*100/nrow(param_grid), 1), '%')}")
-
+  Sys.sleep(0.25)
   }
   cli::cli_status_clear(id = sb)
   cli::cli_alert_success("Downloads done.")

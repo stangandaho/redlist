@@ -22,14 +22,29 @@
 #' @export
 rl_set_api <- function(api_key){
   renv <- base::readLines("~/.Renviron")
-  duplicated <- renv[renv == paste0("REDLIST_API=", api_key)]
+  existing <- grepl("REDLIST_API", renv)
 
-  if (length(duplicated) > 0) {
-    renv <- renv[renv != paste0("REDLIST_API=", api_key)]
+  if (any(existing)) {
+    overwrite <- ask_overwrite()
+    yes <- c("1", "yes", "y")
+    no <- c("2", "no", "n")
+
+    while (!tolower(overwrite) %in% c(yes, no)) {
+      overwrite <- ask_overwrite()
+    }
+
+    if (tolower(overwrite) %in% yes) {
+      renv <- renv[!existing]
+    }else{
+      cli::cli_text("{cli::symbol$cross} Process canceled!")
+      return(invisible(NULL))
+    }
   }
+
   renv[[length(renv) + 1]] <- paste0("REDLIST_API=", api_key)
   base::cat(renv, file = "~/.Renviron", sep = "\n")
   cli::cli_alert_success("API added successfully!")
+
 }
 
 #' Check IUCN Red List API Status
@@ -53,30 +68,41 @@ rl_check_api <- function(){
   redlist_api <- Sys.getenv("REDLIST_API")
 
   if (redlist_api == "") {
-    cli::cli_abort("Any redlist API available. Go to {.url https://api.iucnredlist.org/users/edit} to get one, and then use `rl_set_api()` function to set.", call = NULL)
+    cli::cli_abort("No Redlist API key found. Go to {.url https://api.iucnredlist.org/users/edit} to get one, and then use `rl_set_api()` to set.", call = NULL)
   }else{
-    # Check the API is working
-    api_response <- tryCatch({paste0("https://api.iucnredlist.org/api/v4/assessment/17946182") %>%
+    resp <- tryCatch({
+      paste0("https://api.iucnredlist.org/api/v4/assessment/17946182") %>%
         httr2::request() %>%
         httr2::req_headers(
           accept = "application/json",
           Authorization = redlist_api
         ) %>%
         httr2::req_perform()},
-        error = function(e){tolower(paste0(e))})
-
-    if (any(grepl("401 unauthorized", api_response))) {
-      cli::cli_abort("Your API is not working. Ckeck out! \n\n{symbol$arrow_right} Or go to {.url https://api.iucnredlist.org/users/edit} and recycle.",
-                     call = NULL)
-    }
-
-    cli::cli_alert_success(
-      paste0("Your API is working ", sample(c("\U0001F44D", "\u2728", "\U0001F389", "\U0001F38A"), 1))
-    )
+      httr2_http_401 = function(e){cli::cli_abort("Your API is not working. Ckeck it! Or go to {.url https://api.iucnredlist.org/users/edit} and renew it.",
+                                                  call = NULL)},
+      httr2_http_error = function(e) {
+        cli::cli_abort(e$message, call = NULL)
+      },
+      error = function(e) {
+        cli::cli_abort(e$message, call = NULL)
+      }
+      )
   }
 
+  cli::cli_alert_success(
+    paste0("Your API is working ", sample(c("\U0001F44D", "\u2728", "\U0001F389", "\U0001F38A"), 1))
+  )
   return(invisible(TRUE))
 
+}
+
+#' Overwrite option
+#' Ask to overwrite the API
+#' @noRd
+ask_overwrite <- function() {
+  message("Existing API key found.\n1. Yes\n2. No")
+  overwrite <- readline('Overwrite?: ')
+  return(overwrite)
 }
 
 # nocov end
