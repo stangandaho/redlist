@@ -4,12 +4,10 @@
 \alias{rl_sis}
 \title{IUCN Red List taxa by SIS ID}
 \usage{
-rl_sis(sis_id = 179359, pad_with_na = FALSE)
+rl_sis(sis_id = 179359)
 }
 \arguments{
 \item{sis_id}{Numeric. One or more SIS identifiers for taxa.}
-
-\item{pad_with_na}{Logical. If \code{TRUE}, pad shorter columns with \code{NA}.}
 }
 \value{
 A tibble containing assessment data for the specified SIS ID(s).

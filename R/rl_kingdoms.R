@@ -28,15 +28,14 @@ rl_kingdoms <- function(kingdom_name = NULL,
                         year_published = NULL,
                         latest = NULL,
                         scope_code = NULL,
-                        page = 1,
-                        pad_with_na = FALSE) {
+                        page = 1) {
 
   base_url <- "https://api.iucnredlist.org/api/v4/taxa/kingdom"
 
   if (is.null(kingdom_name)) {
     resp <- perform_request(base_url = base_url) %>%
       httr2::resp_body_json()%>%
-      json_to_df(pad_with_na = pad_with_na) %>%
+      json_to_df() %>%
       t() %>% as.data.frame()
     colnames(resp) <- "kingdom_names"
     rownames(resp) <- NULL
@@ -50,6 +49,5 @@ rl_kingdoms <- function(kingdom_name = NULL,
                       scope_code = scope_code %||% NA,
                       page = page %||% NA),
     base_url = base_url,
-    endpoint_name = "kingdom_name",
-    pad_with_na = pad_with_na)
+    endpoint_name = "kingdom_name")
 }

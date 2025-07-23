@@ -4,10 +4,7 @@
 \alias{rl_green_status}
 \title{Green status}
 \usage{
-rl_green_status(pad_with_na = FALSE)
-}
-\arguments{
-\item{pad_with_na}{Logical. If \code{TRUE}, pad shorter columns with \code{NA} for consistent binding.}
+rl_green_status()
 }
 \value{
 A tibble of Green Status assessments.

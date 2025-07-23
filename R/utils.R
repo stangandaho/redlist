@@ -104,47 +104,46 @@ perform_request <- function(base_url, params = NULL) {
 #'
 #' @return A tibble where each column represents a field extracted from the JSON objects.
 #' @noRd
-json_to_df <- function(json_resp, pad_with_na = FALSE) {
+json_to_df <- function(json_resp) {
+  # Coerce character to numeric or boolean
+  coerce_char <- function(x){
+    x <- suppressWarnings({
+      if (!all(is.na(as.logical(x)))) {
+        as.logical(x)
+      }else if(!all(is.na(as.numeric(x)))){
+        as.numeric(x)
+      }else{
+        x
+      }
+    })
+    return(x)
+  }
+  #
   unlisted <- unlist(json_resp)
   unlisted_names <- names(unlisted)
 
-  if (pad_with_na) {
-    parsed <- lapply(unique(unlisted_names), function(u_name){
+  out_data <- lapply(unique(unlisted_names), function(u_name){
+    value_to_parse <- unlisted[which(unlisted_names == u_name)]
+    value <- lapply(value_to_parse, function(v){
+      rvest::read_html(paste0("<html><body>", v, "</body></html>")) %>%
+        rvest::html_text(trim = TRUE)
+    }) %>% unlist()
 
-      value <- unlisted[which(unlisted_names == u_name)]
-      value <- paste0(value, collapse = "; ")
-      value <- rvest::read_html(paste0("<html><body>", value, "</body></html>")) %>%
-          rvest::html_text(trim = TRUE)
-      index_df <- data.frame(i = value)
-      colnames(index_df) <- gsub("\\.", "_", u_name)
-      index_df
-    }) %>% dplyr::bind_cols() %>% dplyr::as_tibble()
-  }
-  else{
-    out_data <- lapply(unique(unlisted_names), function(u_name){
+    index_df <- data.frame(i = coerce_char(value))
+    colnames(index_df) <- gsub("\\.", "_", u_name)
+    index_df
+  })
+  # Find the max number of rows
+  max_rows <- max(sapply(out_data, nrow))
 
-      value <- unlisted[which(unlisted_names == u_name)]
-      value <- lapply(value, function(v){
-        rvest::read_html(paste0("<html><body>", v, "</body></html>")) %>%
-          rvest::html_text(trim = TRUE)
-      }) %>% unlist()
-
-      index_df <- data.frame(i = value)
-      colnames(index_df) <- gsub("\\.", "_", u_name)
-      index_df
-    })
-    # Find the max number of rows
-    max_rows <- max(sapply(out_data, nrow))
-    # Pad each dataframe with NA if necessary
-    parsed <- lapply(out_data, function(df) {
-      n_missing <- max_rows - nrow(df)
-      if (n_missing > 0) {
-        df[(nrow(df) + 1):max_rows, ] <- NA
-      }
-      df
-    }) %>% dplyr::bind_cols() %>% dplyr::as_tibble()
-
-  }
+  # Pad each dataframe with NA if necessary
+  parsed <- lapply(out_data, function(df) {
+    n_missing <- max_rows - nrow(df)
+    if (n_missing > 0) {
+      df[(nrow(df) + 1):max_rows, ] <- NA
+    }
+    df
+  }) %>% dplyr::bind_cols() %>% dplyr::as_tibble()
 
   return(parsed)
 }
@@ -243,7 +242,7 @@ rl_paginated_query <- function(param_list,
 
     out <- parsed_url %>%
       httr2::resp_body_json() %>%
-      json_to_df(pad_with_na = pad_with_na)
+      json_to_df()
 
     multiple_out_df <- bind_rows(multiple_out_df, out)
 
@@ -258,7 +257,8 @@ rl_paginated_query <- function(param_list,
   call_out <- multiple_out_df %>%
     dplyr::as_tibble() %>%
     dplyr::mutate(dplyr::across(.cols = dplyr::everything(),
-                         .fns = fill_na_with_previous))
+                                .fns = fill_na_with_previous)) %>%
+    dplyr::distinct(.keep_all = TRUE)
 
   return(call_out)
 

@@ -4,7 +4,7 @@
 \alias{rl_possibly_extinct_in_wild}
 \title{IUCN Red List possibly extinct in the wild taxa}
 \usage{
-rl_possibly_extinct_in_wild(pad_with_na = FALSE)
+rl_possibly_extinct_in_wild()
 }
 \arguments{
 \item{pad_with_na}{Logical. If \code{TRUE}, pad shorter columns with \code{NA}.}

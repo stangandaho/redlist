@@ -19,7 +19,6 @@
 #' @param scope_code Optional. Character. One or more scope codes to filter assessments.
 #' @param page Optional. Integer vector. Specify one or more page numbers to fetch.
 #' If `NULL` or `NA`, all pages will be fetched automatically.
-#' @param pad_with_na Logical. If `TRUE`, pad shorter columns with `NA` for consistent binding.
 #'
 #' @return Tibble of biogeographical realms depending on parameters.
 #'
@@ -45,8 +44,7 @@ rl_biogeographical_realms <- function(code = NULL,
                                       possibly_extinct = NULL,
                                       possibly_extinct_in_the_wild = NULL,
                                       scope_code = NULL,
-                                      page = 1,
-                                      pad_with_na = FALSE) {
+                                      page = 1) {
   suppressMessages(rl_check_api())
 
   base_url <- "https://api.iucnredlist.org/api/v4/biogeographical_realms"
@@ -54,7 +52,7 @@ rl_biogeographical_realms <- function(code = NULL,
   if (is.null(code)) {
     resp <- perform_request(base_url = base_url) %>%
       httr2::resp_body_json()
-    return(json_to_df(resp, pad_with_na = pad_with_na))
+    return(json_to_df(resp))
   }
 
   # Build param list for expand.grid
@@ -67,8 +65,7 @@ rl_biogeographical_realms <- function(code = NULL,
                       scope_code = scope_code %||% NA,
                       page = page %||% NA),
     base_url = base_url,
-    endpoint_name = "name",
-    pad_with_na = pad_with_na)
+    endpoint_name = "name")
 
 }
 

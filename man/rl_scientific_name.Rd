@@ -8,8 +8,7 @@ rl_scientific_name(
   genus_name,
   species_name,
   infra_name = NULL,
-  subpopulation_name = NULL,
-  pad_with_na = FALSE
+  subpopulation_name = NULL
 )
 }
 \arguments{
@@ -20,8 +19,6 @@ rl_scientific_name(
 \item{infra_name}{Character. The infraspecific name (optional).}
 
 \item{subpopulation_name}{Character. The subpopulation name (optional).}
-
-\item{pad_with_na}{Logical. If \code{TRUE}, pad shorter columns with \code{NA}.}
 }
 \value{
 A tibble containing assessment data for the specified taxon.

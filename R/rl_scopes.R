@@ -29,15 +29,14 @@ rl_scopes <- function(code = NULL,
                       possibly_extinct = NULL,
                       possibly_extinct_in_the_wild = NULL,
                       scope_code = scope_code %||% NA,
-                      page = 1,
-                      pad_with_na = FALSE) {
+                      page = 1) {
 
   base_url <- "https://api.iucnredlist.org/api/v4/scopes"
 
   if (is.null(code)) {
     resp <- perform_request(base_url = base_url) %>%
       httr2::resp_body_json()
-    return(json_to_df(resp, pad_with_na = pad_with_na))
+    return(json_to_df(resp))
   }
 
   rl_paginated_query(
@@ -48,7 +47,6 @@ rl_scopes <- function(code = NULL,
                       possibly_extinct_in_the_wild = possibly_extinct_in_the_wild %||% NA,
                       page = page %||% NA),
     base_url = base_url,
-    endpoint_name = "code",
-    pad_with_na = pad_with_na)
+    endpoint_name = "code")
 }
 

@@ -4,14 +4,10 @@
 \alias{rl_assessment_id}
 \title{IUCN Red List assessment}
 \usage{
-rl_assessment_id(assessment_id = 1425064, pad_with_na = FALSE)
+rl_assessment_id(assessment_id = 1425064)
 }
 \arguments{
 \item{assessment_id}{Appeasement ID}
-
-\item{pad_with_na}{Logical; if \code{TRUE}, columns with unequal lengths will be padded with \code{NA}
-so that all columns have the same number of rows. If \code{FALSE}, each column will retain
-its raw structure, and content will be collapsed only when necessary.}
 }
 \value{
 Returns assessment data for a supplied assessment_id.

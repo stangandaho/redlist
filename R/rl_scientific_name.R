@@ -7,7 +7,6 @@
 #' @param species_name Character. The species name (required).
 #' @param infra_name Character. The infraspecific name (optional).
 #' @param subpopulation_name Character. The subpopulation name (optional).
-#' @param pad_with_na Logical. If `TRUE`, pad shorter columns with `NA`.
 #'
 #' @return A tibble containing assessment data for the specified taxon.
 #'
@@ -19,8 +18,7 @@
 rl_scientific_name <- function(genus_name,
                                species_name,
                                infra_name = NULL,
-                               subpopulation_name = NULL,
-                               pad_with_na = FALSE) {
+                               subpopulation_name = NULL) {
 
   base_url <- "https://api.iucnredlist.org/api/v4/taxa/scientific_name"
 
@@ -35,5 +33,5 @@ rl_scientific_name <- function(genus_name,
   resp <- perform_request(base_url = base_url, params = query_params) %>%
     httr2::resp_body_json()
 
-  return(json_to_df(resp, pad_with_na = pad_with_na))
+  return(json_to_df(resp))
 }

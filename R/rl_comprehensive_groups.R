@@ -23,14 +23,13 @@ rl_comprehensive_groups <- function(name = NULL,
                                     possibly_extinct = NULL,
                                     possibly_extinct_in_the_wild = NULL,
                                     scope_code = NULL,
-                                    page = 1,
-                                    pad_with_na = FALSE) {
+                                    page = 1) {
   base_url <- "https://api.iucnredlist.org/api/v4/comprehensive_groups"
 
   if (is.null(name)) {
     resp <- perform_request(base_url = base_url) %>%
       httr2::resp_body_json()
-    return(json_to_df(resp, pad_with_na = pad_with_na))
+    return(json_to_df(resp))
   }
 
   rl_paginated_query(
@@ -42,7 +41,6 @@ rl_comprehensive_groups <- function(name = NULL,
                       scope_code = scope_code %||% NA,
                       page = page %||% NA),
     base_url = base_url,
-    endpoint_name = "name",
-    pad_with_na = pad_with_na)
+    endpoint_name = "name")
 
 }

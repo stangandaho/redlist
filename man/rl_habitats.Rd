@@ -11,8 +11,7 @@ rl_habitats(
   possibly_extinct = NULL,
   possibly_extinct_in_the_wild = NULL,
   scope_code = NULL,
-  page = 1,
-  pad_with_na = FALSE
+  page = 1
 )
 }
 \arguments{
@@ -31,8 +30,6 @@ Use \code{\link[=rl_habitats]{rl_habitats()}} with no arguments to list availabl
 
 \item{page}{Optional. Integer vector. Specify one or more page numbers to fetch.
 If \code{NULL} or \code{NA}, all pages will be fetched automatically.}
-
-\item{pad_with_na}{Logical. If \code{TRUE}, pad shorter columns with \code{NA} for consistent binding.}
 }
 \value{
 A tibble of assessments for a given IUCN habitat classification code.

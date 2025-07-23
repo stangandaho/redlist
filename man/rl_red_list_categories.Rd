@@ -11,8 +11,7 @@ rl_red_list_categories(
   possibly_extinct = NULL,
   possibly_extinct_in_the_wild = NULL,
   scope_code = NULL,
-  page = 1,
-  pad_with_na = FALSE
+  page = 1
 )
 }
 \arguments{
@@ -31,8 +30,6 @@ Use \code{\link[=rl_red_list_categories]{rl_red_list_categories()}} to list avai
 
 \item{page}{Optional. Integer vector. Specify one or more page numbers to fetch.
 If \code{NULL} or \code{NA}, all pages will be fetched automatically.}
-
-\item{pad_with_na}{Logical. If \code{TRUE}, pad shorter columns with \code{NA} for consistent binding.}
 }
 \value{
 A tibble containing Red List categories or species assessments.
