@@ -129,12 +129,12 @@ json_to_df <- function(json_resp) {
       df[(nrow(df) + 1):max_rows, ] <- NA
     }
     df
-  }) %>% dplyr::bind_cols() %>% dplyr::as_tibble()
-
-  parsed <-  parsed %>%
+  }) %>%
+    dplyr::bind_cols() %>%
     dplyr::mutate(dplyr::across(.cols = dplyr::everything(),
                                 .fns = fill_na_with_previous)) %>%
-    dplyr::distinct(.keep_all = TRUE)
+    dplyr::distinct(.keep_all = TRUE) %>%
+    dplyr::as_tibble()
 
   return(parsed)
 }
@@ -234,7 +234,13 @@ rl_paginated_query <- function(param_list,
   cli::cli_alert_success("Downloads done.")
   # End of request
 
-  return(multiple_out_df)
+  call_out <- multiple_out_df %>%
+    dplyr::as_tibble() %>%
+    dplyr::mutate(dplyr::across(.cols = dplyr::everything(),
+                                .fns = coerce_char)) %>%
+    dplyr::distinct(.keep_all = TRUE)
+
+  return(call_out)
 
 }
 
@@ -245,24 +251,26 @@ fill_na_with_previous <- function(x) {
     }
   }
 
-  # Coerce character to numeric or boolean
-  coerce_char <- function(x) {
-    # Try to convert to logical (TRUE/FALSE)
-    logical_vals <- tolower(x)
-    if (all(logical_vals %in% c("true", "false", "na"), na.rm = TRUE)) {
-      return(as.logical(logical_vals))
-    }
-    # Try to convert to numeric
-    suppressWarnings(num_x <- as.numeric(x))
-    if (all(!is.na(num_x) | is.na(x))) {
-      return(num_x)
-    }
-    # Return as-is (character)
-    return(x)
-  }
-
-
-  return(coerce_char(x))
+  return(x)
 }
+
+
+# Coerce character to numeric or boolean
+coerce_char <- function(x) {
+  # Try to convert to logical (TRUE/FALSE)
+  logical_vals <- tolower(x)
+  if (all(logical_vals %in% c("true", "false", "na"), na.rm = TRUE)) {
+    return(as.logical(logical_vals))
+  }
+  # Try to convert to numeric
+  suppressWarnings(num_x <- as.numeric(x))
+  if (all(!is.na(num_x) | is.na(x))) {
+    return(num_x)
+  }
+  # Return as-is (character)
+  return(x)
+}
+
+
 # nocov end
 
