@@ -258,18 +258,21 @@ fill_na_with_previous <- function(x) {
   }
 
   # Coerce character to numeric or boolean
-  coerce_char <- function(x){
-    x <- suppressWarnings({
-      if (!all(is.na(as.logical(x)))) {
-        as.logical(x)
-      }else if(!all(is.na(as.numeric(x)))){
-        as.numeric(x)
-      }else{
-        x
-      }
-    })
+  coerce_char <- function(x) {
+    # Try to convert to logical (TRUE/FALSE)
+    logical_vals <- tolower(x)
+    if (all(logical_vals %in% c("true", "false", "na"), na.rm = TRUE)) {
+      return(as.logical(logical_vals))
+    }
+    # Try to convert to numeric
+    suppressWarnings(num_x <- as.numeric(x))
+    if (all(!is.na(num_x) | is.na(x))) {
+      return(num_x)
+    }
+    # Return as-is (character)
     return(x)
   }
+
 
   return(coerce_char(x))
 }
