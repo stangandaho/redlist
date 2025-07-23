@@ -1,11 +1,9 @@
+# IUCN Red List R Package
 <a href="https://stangandaho.github.io/redlist/"><img src="man/figures/logo.png" align="right" height="132" alt="redlist logo" /></a>
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/stangandaho/redlist/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/stangandaho/redlist/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 [![codecov](https://codecov.io/gh/stangandaho/redlist/graph/badge.svg?token=AS6SSJ8F1N)](https://codecov.io/gh/stangandaho/redlist)
-
-
-# IUCN Red List R Package
 
 ## About This Project
 
@@ -38,8 +36,7 @@ an API key before using any of the package functions. Just follow these two simp
 1. Visit the official IUCN Red List API website [here](https://api.iucnredlist.org/users/edit). 
 Create an account if you don't already have one. Once logged in, you can generate your API key.  
 2. Copy your API key and set it using the `rl_set_api()` function, like this `rl_set_api("xxAx9x..xe")`.  
-You can then run `rl_check_api()` again to confirm that your API key is set successfully.
-
+You can then run `rl_check_api()` again to confirm that your API key is set successfully.  
 
 ## Code of conduct
 Please note that this project is based on the [Contributor Covenant v2.1](https://github.com/stangandaho/redlist/blob/main/CODE_OF_CONDUCT.md). 
