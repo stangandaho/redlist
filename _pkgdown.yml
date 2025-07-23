@@ -39,7 +39,7 @@ navbar:
       - text: 1. Get Data
         href: articles/get_data.html
       - text: 2. Data Visualisation
-        href: articles/data_viz.html
+        href: articles/data_visualisation.html
     news:
       text: News
       icon: fa-face-smile

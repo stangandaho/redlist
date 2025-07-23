@@ -3,8 +3,6 @@
 #' Retrieve species assessments flagged as possibly extinct in the wild.
 #' Returns all latest global assessments for taxa that are possibly extinct in the wild.
 #'
-#' @param pad_with_na Logical. If `TRUE`, pad shorter columns with `NA`.
-#'
 #' @return A tibble containing species assessments marked as possibly extinct in the wild.
 #'
 #' @examples \dontrun{

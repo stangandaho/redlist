@@ -105,20 +105,6 @@ perform_request <- function(base_url, params = NULL) {
 #' @return A tibble where each column represents a field extracted from the JSON objects.
 #' @noRd
 json_to_df <- function(json_resp) {
-  # Coerce character to numeric or boolean
-  coerce_char <- function(x){
-    x <- suppressWarnings({
-      if (!all(is.na(as.logical(x)))) {
-        as.logical(x)
-      }else if(!all(is.na(as.numeric(x)))){
-        as.numeric(x)
-      }else{
-        x
-      }
-    })
-    return(x)
-  }
-  #
   unlisted <- unlist(json_resp)
   unlisted_names <- names(unlisted)
 
@@ -129,7 +115,7 @@ json_to_df <- function(json_resp) {
         rvest::html_text(trim = TRUE)
     }) %>% unlist()
 
-    index_df <- data.frame(i = coerce_char(value))
+    index_df <- data.frame(i = value)
     colnames(index_df) <- gsub("\\.", "_", u_name)
     index_df
   })
@@ -271,7 +257,21 @@ fill_na_with_previous <- function(x) {
     }
   }
 
-  return(x)
+  # Coerce character to numeric or boolean
+  coerce_char <- function(x){
+    x <- suppressWarnings({
+      if (!all(is.na(as.logical(x)))) {
+        as.logical(x)
+      }else if(!all(is.na(as.numeric(x)))){
+        as.numeric(x)
+      }else{
+        x
+      }
+    })
+    return(x)
+  }
+
+  return(coerce_char(x))
 }
 # nocov end
 

@@ -6,9 +6,6 @@
 \usage{
 rl_possibly_extinct_in_wild()
 }
-\arguments{
-\item{pad_with_na}{Logical. If \code{TRUE}, pad shorter columns with \code{NA}.}
-}
 \value{
 A tibble containing species assessments marked as possibly extinct in the wild.
 }
