@@ -7,7 +7,7 @@ Authors@R: c(
            comment = c(ORCID = "0009-0003-4969-1252", affiliation = "Laboratory of Applied Ecology, University of Abomey-Calavi, Benin (LAE/UAC)")
            )
     )
-Maintainer: Stanislas Mahussi Gandaho <gandahostanmah@gmail.com>
+Maintainer: Stanislas Mahussi Gandaho <stangandaho@gmail.com>
 Description: Provides an interface to access data from the International Union 
     for Conservation of Nature (IUCN) Red List. It allows users to retrieve up-to-date 
     information on species' conservation status, supporting biodiversity research 
@@ -28,9 +28,10 @@ BugReports: https://github.com/stangandaho/redlist/issues
 Suggests:
     ggplot2 (>= 3.5.2),
     httptest2 (>= 1.1.0),
+    kableExtra (>= 1.4.0),
     knitr (>= 1.50),
     rmarkdown (>= 2.29),
-    kableExtra (>= 1.4.0),
+    scales (>= 1.4.0),
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Config/Needs/website: rmarkdown
