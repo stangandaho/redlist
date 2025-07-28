@@ -26,17 +26,10 @@ rl_set_api <- function(api_key){
 
   if (any(existing)) {
     overwrite <- ask_overwrite()
-    yes <- c("1", "yes", "y")
-    no <- c("2", "no", "n")
-
-    while (!tolower(overwrite) %in% c(yes, no)) {
-      overwrite <- ask_overwrite()
-    }
-
-    if (tolower(overwrite) %in% yes) {
+    if (overwrite) {
       renv <- renv[!existing]
     }else{
-      cli::cli_text("{cli::symbol$cross} Process canceled!")
+      cli::cli_alert_danger("API key setting canceled!")
       return(invisible(NULL))
     }
   }
@@ -44,7 +37,7 @@ rl_set_api <- function(api_key){
   renv[[length(renv) + 1]] <- paste0("REDLIST_API=", api_key)
   base::cat(renv, file = "~/.Renviron", sep = "\n")
   cli::cli_alert_success("API added successfully!")
-
+  return(invisible(NULL))
 }
 
 #' Check IUCN Red List API Status
@@ -100,9 +93,11 @@ rl_check_api <- function(){
 #' Ask to overwrite the API
 #' @noRd
 ask_overwrite <- function() {
-  message("Existing API key found.\n1. Yes\n2. No")
-  overwrite <- readline('Overwrite?: ')
-  return(overwrite)
+  overwrite <- utils::menu(
+    title = "Do you want to overwrite the existing API key?",
+    choices = c("Yes", "No")
+  )
+  return(overwrite == 1)
 }
 
 # nocov end

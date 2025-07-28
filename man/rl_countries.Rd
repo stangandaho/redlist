@@ -15,7 +15,7 @@ rl_countries(
 )
 }
 \arguments{
-\item{code}{Character. One or more countries codes
+\item{code}{Character. One or more countries codes.
 Use \code{\link[=rl_countries]{rl_countries()}} to list available countries codes.}
 
 \item{year_published}{Optional. Single or numeric vector of years to filter assessments by publication year.}

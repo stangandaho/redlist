@@ -40,7 +40,7 @@ library(redlist)
 ```
 
 # Set up an API key
-If you're using this package for the first time, you'll likely need an IUCN Red List API key. You can check whether it's set by running `rl_check_api()`. If this throws an error like '*! Any redlist API available... *', you'll need to set an API key before using any of the package functions. Just follow these two simple steps:  
+If you're using this package for the first time, you'll likely need an IUCN Red List API key. You can check whether it's set by running `rl_check_api()`. If this throws an error like '*! No Redlist API key found... *', you'll need to set an API key before using any of the package functions. Just follow these two simple steps:  
 1. Click [here](https://api.iucnredlist.org/users/edit) to create an account if you don't already have one. Once logged in, you can generate your API key.  
 2. Copy your API key and set it using the `rl_set_api()` function, like this `rl_set_api("2GoWiThmYrEDlitApiThatWorkS4me")`.  
 You can then run `rl_check_api()` again to confirm that your API key is set successfully.  

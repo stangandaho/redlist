@@ -3,7 +3,7 @@
 #' Retrieves the species assessed by the IUCN for a specified countries.
 #' See `code` argument for available countries codes
 #'
-#' @param code Character. One or more countries codes
+#' @param code Character. One or more countries codes.
 #' Use [rl_countries()] to list available countries codes.
 #' @inheritParams rl_biogeographical_realms
 #'

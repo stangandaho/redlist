@@ -1,6 +1,6 @@
 Package: redlist
 Type: Package
-Title: Access IUCN Red List Data
+Title: Interface to the IUCN Red List Data
 Version: 0.2.0
 Authors@R: c(
     person(given = "Stanislas Mahussi", family = "Gandaho", email = "stangandaho@gmail.com", role = c("aut", "cre"),
@@ -8,9 +8,10 @@ Authors@R: c(
            )
     )
 Maintainer: Stanislas Mahussi Gandaho <gandahostanmah@gmail.com>
-Description: Provides interface to access data from the IUCN Red List, designed to support 
-    conservation efforts and biodiversity research by enabling users to programmatically 
-    access up-to-date Red List data.
+Description: Provides an interface to access data from the International Union 
+    for Conservation of Nature (IUCN) Red List. It allows users to retrieve up-to-date 
+    information on species' conservation status, supporting biodiversity research 
+    and conservation efforts.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true

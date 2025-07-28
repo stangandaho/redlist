@@ -239,6 +239,9 @@ rl_paginated_query <- function(param_list,
 
 }
 
+#' Fill NA
+#' Fill NA in a vector with previous non-na
+#' @noRd
 fill_na_with_previous <- function(x) {
   for (i in seq_along(x)) {
     if(is.na(x[i])){
