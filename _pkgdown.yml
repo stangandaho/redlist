@@ -163,6 +163,7 @@ reference:
   - rl_family
   - rl_possibly_extinct
   - rl_possibly_extinct_in_wild
+  - rl_open_file
 - title: Threats
   desc: |
     Function to list threat codes and query assessments by threat code.
