@@ -7,8 +7,10 @@
 #' @param kingdom_name Character. The kingdom name (e.g., "Animalia").
 #' Use [rl_kingdoms()] to list available kingdoms.
 #' @inheritParams rl_biogeographical_realms
-#' @return A tibble containing kingdoms or species assessments.
-#'
+#' @return A tibble (class `tbl_df`, `tbl`, `data.frame`) where each column represents a unique API response JSON key. 
+#' If `kingdom_name = NULL`, the tibble contains available kingdom names. 
+#' If `kingdom_name` is provided, the tibble contains assessment data for the specified kingdom, including taxon details, red list category, year, and
+#' other relevant metadata.
 #' @examples \dontrun{
 #' # List all available kingdoms
 #' rl_kingdoms()

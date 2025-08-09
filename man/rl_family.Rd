@@ -20,13 +20,16 @@ Use \code{\link[=rl_family]{rl_family()}} to list available families.}
 
 \item{latest}{Optional. Logical. If \code{TRUE}, return only the latest assessment per species.}
 
-\item{scope_code}{Optional. Character. One or more scope codes to filter assessments.}
+\item{scope_code}{Optional. Integer One or more scope codes to filter assessments.}
 
 \item{page}{Optional. Integer vector. Specify one or more page numbers to fetch.
 If \code{NULL} or \code{NA}, all pages will be fetched automatically.}
 }
 \value{
-A tibble containing families or species assessments.
+A tibble (class \code{tbl_df}, \code{tbl}, \code{data.frame}) where each column represents a unique API response JSON key.
+If \code{family_name = NULL}, the tibble contains available family names.
+If \code{family_name} is provided, the tibble contains assessment data for the specified family, including taxon details,
+red list category, year, and other relevant metadata.
 }
 \description{
 Retrieve species assessments by taxonomic family.

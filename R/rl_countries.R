@@ -3,11 +3,14 @@
 #' Retrieves the species assessed by the IUCN for a specified countries.
 #' See `code` argument for available countries codes
 #'
-#' @param code Character. One or more countries codes.
+#' @param code Character. One or more countries ISO alpha-2 code.
 #' Use [rl_countries()] to list available countries codes.
 #' @inheritParams rl_biogeographical_realms
 #'
-#' @return Tibble of assessments for a given country ISO alpha-2 code.
+#' @return A tibble (class `tbl_df`, `tbl`, `data.frame`) where each column represents a unique API response JSON key. 
+#' If `code = NULL`, the tibble contains available country codes. 
+#' If `code` is provided, the tibble contains assessment data for the specified country code(s), including taxon details, 
+#' red list category, year, and other relevant metadata
 #'
 #' @examples \dontrun{
 #'   # Retrieve assessments for Benin (country code "BJ") for the year 2020

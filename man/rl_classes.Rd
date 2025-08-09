@@ -20,13 +20,16 @@ Use \code{\link[=rl_classes]{rl_classes()}} to list available classes.}
 
 \item{latest}{Optional. Logical. If \code{TRUE}, return only the latest assessment per species.}
 
-\item{scope_code}{Optional. Character. One or more scope codes to filter assessments.}
+\item{scope_code}{Optional. Integer One or more scope codes to filter assessments.}
 
 \item{page}{Optional. Integer vector. Specify one or more page numbers to fetch.
 If \code{NULL} or \code{NA}, all pages will be fetched automatically.}
 }
 \value{
-A tibble containing classes or species assessments.
+A tibble (class \code{tbl_df}, \code{tbl}, \code{data.frame}) where each column represents a unique API response JSON key.
+If \code{class_name = NULL}, the tibble contains available taxonomic classes with a column for class names.
+If \code{class_name} is provided, the tibble contains assessment data for the specified class, including taxon details, red list category, year,
+and other relevant metadata.
 }
 \description{
 Retrieve species assessments by taxonomic class.

@@ -33,6 +33,7 @@ export(rl_threats)
 export(rl_use_and_trade)
 export(`%>%`)
 export(`%<>%`)
+export(rl_open_file)
 
 
 # magrittr

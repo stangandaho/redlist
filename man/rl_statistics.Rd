@@ -7,7 +7,7 @@
 rl_statistics()
 }
 \value{
-A tibble containing the count of assessed species.
+A tibble (class \code{tbl_df}, \code{tbl}, \code{data.frame}) containing count and date of access.
 }
 \description{
 Retrieve count of species with assessments.

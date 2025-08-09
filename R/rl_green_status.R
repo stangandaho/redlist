@@ -1,8 +1,10 @@
 #' Green status
 #'
 #' Retrieve all IUCN Green Status assessments.
-#' @return A tibble of Green Status assessments.
-#'
+#' @return A tibble (class `tbl_df`, `tbl`, `data.frame`) where each column represents a unique API response JSON key. 
+#' The columns include key information about the Green Status assessment, such as year, weights, justification, and
+#' other relevant metadata.
+#' 
 #' @examples \dontrun{
 #' rl_green_status()
 #'}

@@ -7,7 +7,11 @@
 #' @param code Character or Numeric. One or more stress codes (e.g., "1", "2_1").
 #' Use [rl_stresses()] to list available stress categories.
 #' @inheritParams rl_biogeographical_realms
-#' @return A tibble containing stress categories or species assessments.
+#' 
+#' @return A tibble (class `tbl_df`, `tbl`, `data.frame`) containing stress categories or species assessments.
+#' If `code = NULL`, the tibble contains available stress categories with columns such as code and description.
+#' If `code` is provided, the tibble contains assessment data for the specified stress(es), including year, taxon details, 
+#' and other relevant metadata.
 #'
 #' @examples \dontrun{
 #' # List all stress categories

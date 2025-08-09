@@ -7,7 +7,10 @@
 #' @param code Character or Numeric. One or more system codes (e.g., "0", "1", "2").
 #' Use [rl_systems()] to list available ecological systems.
 #' @inheritParams rl_biogeographical_realms
-#' @return A tibble containing ecological systems or species assessments.
+#' @return A tibble (class `tbl_df`, `tbl`, `data.frame`) where each column represents a unique API response JSON key.
+#' If `code = NULL`, the tibble contains available ecological systems with columns such as code and description.
+#' If `code` is provided, the tibble contains assessment data for the specified system(s), including description, 
+#' possible extinct in the wild, scientific name, latest, taxon details, and other relevant metadata.
 #'
 #' @examples \dontrun{
 #' # List all ecological systems

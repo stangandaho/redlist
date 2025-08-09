@@ -7,7 +7,10 @@
 #' @param family_name Character. The family name (e.g., "Felidae").
 #' Use [rl_family()] to list available families.
 #' @inheritParams rl_biogeographical_realms
-#' @return A tibble containing families or species assessments.
+#' @return A tibble (class `tbl_df`, `tbl`, `data.frame`) where each column represents a unique API response JSON key. 
+#' If `family_name = NULL`, the tibble contains available family names. 
+#' If `family_name` is provided, the tibble contains assessment data for the specified family, including taxon details, 
+#' red list category, year, and other relevant metadata.
 #'
 #' @examples \dontrun{
 #' # List all available families

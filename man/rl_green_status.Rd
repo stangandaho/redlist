@@ -7,7 +7,9 @@
 rl_green_status()
 }
 \value{
-A tibble of Green Status assessments.
+A tibble (class \code{tbl_df}, \code{tbl}, \code{data.frame}) where each column represents a unique API response JSON key.
+The columns include key information about the Green Status assessment, such as year, weights, justification, and
+other relevant metadata.
 }
 \description{
 Retrieve all IUCN Green Status assessments.

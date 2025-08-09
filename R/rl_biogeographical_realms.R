@@ -16,11 +16,14 @@
 #' @param latest Optional. Logical. If `TRUE`, return only the latest assessment per species.
 #' @param possibly_extinct Optional. Logical. Filter for species flagged as possibly extinct.
 #' @param possibly_extinct_in_the_wild Optional. Logical. Filter for species possibly extinct in the wild.
-#' @param scope_code Optional. Character. One or more scope codes to filter assessments.
+#' @param scope_code Optional. Integer One or more scope codes to filter assessments.
 #' @param page Optional. Integer vector. Specify one or more page numbers to fetch.
 #' If `NULL` or `NA`, all pages will be fetched automatically.
 #'
-#' @return Tibble of biogeographical realms depending on parameters.
+#' @return A tibble (class `tbl_df``, `tbl`, `data.frame`) where each column represents a unique API response JSON key.
+#' If `code = NULL`, the tibble contains available biogeographical realms with columns such as realm code and name.
+#' If `code` is provided, the tibble contains assessment data for the specified realm(s), including taxon details,
+#' red list category, year, and other relevant metadata.
 #'
 #' @examples \dontrun{
 #' # List all available biogeographical realms

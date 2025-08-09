@@ -6,8 +6,11 @@
 \usage{
 rl_version()
 }
+\value{
+Invisibly returns \code{NULL} after printing the Red List and API versions.
+}
 \description{
-Returns the current version of the IUCN Red List of Threatened Species and API
+Print the current version of the IUCN Red List of Threatened Species and API
 }
 \examples{
 \dontrun{

@@ -7,7 +7,10 @@
 #' @param class_name Character. The class name (e.g., "Mammalia").
 #' Use [rl_classes()] to list available classes.
 #' @inheritParams rl_biogeographical_realms
-#' @return A tibble containing classes or species assessments.
+#' @return A tibble (class `tbl_df`, `tbl`, `data.frame`) where each column represents a unique API response JSON key. 
+#' If `class_name = NULL`, the tibble contains available taxonomic classes with a column for class names. 
+#' If `class_name` is provided, the tibble contains assessment data for the specified class, including taxon details, red list category, year, 
+#' and other relevant metadata.
 #'
 #' @examples \dontrun{
 #' # List all available classes

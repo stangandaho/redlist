@@ -26,13 +26,16 @@ Use \code{\link[=rl_stresses]{rl_stresses()}} to list available stress categorie
 
 \item{possibly_extinct_in_the_wild}{Optional. Logical. Filter for species possibly extinct in the wild.}
 
-\item{scope_code}{Optional. Character. One or more scope codes to filter assessments.}
+\item{scope_code}{Optional. Integer One or more scope codes to filter assessments.}
 
 \item{page}{Optional. Integer vector. Specify one or more page numbers to fetch.
 If \code{NULL} or \code{NA}, all pages will be fetched automatically.}
 }
 \value{
-A tibble containing stress categories or species assessments.
+A tibble (class \code{tbl_df}, \code{tbl}, \code{data.frame}) containing stress categories or species assessments.
+If \code{code = NULL}, the tibble contains available stress categories with columns such as code and description.
+If \code{code} is provided, the tibble contains assessment data for the specified stress(es), including year, taxon details,
+and other relevant metadata.
 }
 \description{
 Retrieve species assessments based on stress categories affecting species.

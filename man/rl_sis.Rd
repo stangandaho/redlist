@@ -10,7 +10,7 @@ rl_sis(sis_id = 179359)
 \item{sis_id}{Numeric. One or more SIS identifiers for taxa.}
 }
 \value{
-A tibble containing assessment data for the specified SIS ID(s).
+A tibble (class \code{tbl_df}, \code{tbl}, \code{data.frame}) containing assessment data for the specified SIS ID(s).
 }
 \description{
 Retrieve species assessments using the Species Information Service (SIS) identifier.

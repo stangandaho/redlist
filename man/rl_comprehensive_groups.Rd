@@ -26,13 +26,16 @@ Use \code{\link[=rl_comprehensive_groups]{rl_comprehensive_groups()}} to list av
 
 \item{possibly_extinct_in_the_wild}{Optional. Logical. Filter for species possibly extinct in the wild.}
 
-\item{scope_code}{Optional. Character. One or more scope codes to filter assessments.}
+\item{scope_code}{Optional. Integer One or more scope codes to filter assessments.}
 
 \item{page}{Optional. Integer vector. Specify one or more page numbers to fetch.
 If \code{NULL} or \code{NA}, all pages will be fetched automatically.}
 }
 \value{
-Tibble of assessments for a comprehensive group name
+A tibble (class \code{tbl_df}, \code{tbl}, \code{data.frame}) where each column represents a unique API response JSON key.
+If \code{name = NULL}, the tibble contains available comprehensive group names.
+If \code{name} is provided, the tibble contains assessment data for the specified group(s), including taxon details, red list category, year,
+and other relevant metadata.
 }
 \description{
 Get assessment data by comprehensive group name (e.g \code{amphibians},

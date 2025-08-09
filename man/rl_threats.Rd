@@ -26,13 +26,15 @@ Use \code{\link[=rl_threats]{rl_threats()}} to list available threat categories.
 
 \item{possibly_extinct_in_the_wild}{Optional. Logical. Filter for species possibly extinct in the wild.}
 
-\item{scope_code}{Optional. Character. One or more scope codes to filter assessments.}
+\item{scope_code}{Optional. Integer One or more scope codes to filter assessments.}
 
 \item{page}{Optional. Integer vector. Specify one or more page numbers to fetch.
 If \code{NULL} or \code{NA}, all pages will be fetched automatically.}
 }
 \value{
-A tibble containing threat categories or species assessments.
+A tibble (class \code{tbl_df}, \code{tbl}, \code{data.frame}) where each column represents a unique API response JSON key.
+If \code{code = NULL}, the tibble contains available threat categories with columns such as code and description.
+If \code{code} is provided, the tibble contains assessment data for the specified threat(s), including threat description, threat code and year.
 }
 \description{
 Retrieve species assessments based on threat categories.

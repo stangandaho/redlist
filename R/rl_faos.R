@@ -9,8 +9,11 @@
 #' Use `rl_faos()` with no arguments to list available FAO region codes.
 #' @inheritParams rl_biogeographical_realms
 #'
-#' @return A tibble of assessments for the specified FAO region(s), or a tibble of available FAO codes and descriptions.
-#'
+#' @return A tibble (class `tbl_df`, `tbl`, `data.frame`) where each column represents a unique API response JSON key. 
+#' If `code = NULL`, the tibble contains available FAO region codes and their descriptions. 
+#' If `code` is provided, the tibble contains assessment data for the specified FAO region(s), including description, taxon details, 
+#' red list category, year, and other relevant metadata.
+#' 
 #' @examples \dontrun{
 #' # List available FAO regions
 #' rl_faos()

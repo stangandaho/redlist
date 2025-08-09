@@ -2,8 +2,9 @@
 #'
 #' Retrieves an assessment
 #'
-#' @param assessment_id Appeasement ID
-#' @return Returns assessment data for a supplied assessment_id.
+#' @param assessment_id Assessment ID
+#' @return A tibble where each column represents a unique API response JSON key for the supplied `assessment_id`. 
+#' The columns include key information about the Red List assessment, such as taxon details, category, year, and other relevant metadata.
 #'
 #' @examples
 #' \dontrun{

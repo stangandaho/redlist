@@ -20,13 +20,15 @@ Use \code{\link[=rl_phylum]{rl_phylum()}} to list available phyla.}
 
 \item{latest}{Optional. Logical. If \code{TRUE}, return only the latest assessment per species.}
 
-\item{scope_code}{Optional. Character. One or more scope codes to filter assessments.}
+\item{scope_code}{Optional. Integer One or more scope codes to filter assessments.}
 
 \item{page}{Optional. Integer vector. Specify one or more page numbers to fetch.
 If \code{NULL} or \code{NA}, all pages will be fetched automatically.}
 }
 \value{
-A tibble containing phyla or species assessments.
+A tibble (class \code{tbl_df}, \code{tbl}, \code{data.frame}) where each column represents a unique API response JSON key.
+If \code{phylum_name = NULL}, the tibble contains available phylum names.
+If \code{phylum_name} is provided, the tibble contains assessment data for the specified phylum, year, latest, possibly extincts, and other relevant metadata.
 }
 \description{
 Retrieve species assessments by phylum.

@@ -7,8 +7,10 @@
 #' Use [rl_conservation_actions()] to list available action codes.
 #' @inheritParams rl_biogeographical_realms
 #'
-#' @return Tibble of assessments for a conservation action code.
-#'
+#' @return A tibble (class `tbl_df`, `tbl`, `data.frame`) where each column represents a unique API response JSON key. 
+#' If `code = NULL`, the tibble contains available conservation action codes. 
+#' If `code` is provided, the tibble contains assessment data for the specified action code(s), including taxon details, red list category, year, and
+#' other relevant metadata.
 #' @examples \dontrun{
 #' rl_conservation_actions(code = 1,
 #'                         year_published = 2024:2025,

@@ -9,8 +9,10 @@
 #' Use [rl_comprehensive_groups()] to list available group names.
 #' @inheritParams rl_biogeographical_realms
 #'
-#' @return Tibble of assessments for a comprehensive group name
-#'
+#' @return A tibble (class `tbl_df`, `tbl`, `data.frame`) where each column represents a unique API response JSON key. 
+#' If `name = NULL`, the tibble contains available comprehensive group names. 
+#' If `name` is provided, the tibble contains assessment data for the specified group(s), including taxon details, red list category, year,
+#'and other relevant metadata.
 #' @examples \dontrun{
 #' rl_comprehensive_groups(name = "amphibians",
 #'                         year_published = 2024:2025,

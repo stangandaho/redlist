@@ -5,7 +5,7 @@
 #'
 #' @param sis_id Numeric. One or more SIS identifiers for taxa.
 #'
-#' @return A tibble containing assessment data for the specified SIS ID(s).
+#' @return A tibble (class `tbl_df`, `tbl`, `data.frame`) containing assessment data for the specified SIS ID(s).
 #'
 #' @examples \dontrun{
 #' # Get assessments for species with SIS ID 179359

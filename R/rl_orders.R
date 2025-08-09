@@ -7,7 +7,10 @@
 #' @param order_name Character. The order name (e.g., "Carnivora").
 #' Use [rl_orders()] to list available orders.
 #' @inheritParams rl_biogeographical_realms
-#' @return A tibble containing orders or species assessments.
+#' @return A tibble (class `tbl_df`, `tbl`, `data.frame`) where each column represents a unique API response JSON key.
+#' If `order_name = NULL`, the tibble contains available taxonomic orders with a column for order names.
+#' If `order_name` is provided, the tibble contains assessment data for the specified order, including year, taxon details, criteria, 
+#' and other relevant metadata.
 #'
 #' @examples \dontrun{
 #' # List all available orders

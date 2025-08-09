@@ -17,6 +17,7 @@ navbar:
     - reference
     - articles
     - news
+    - gallery
     right:
     - search
     - github
@@ -44,6 +45,9 @@ navbar:
       text: News
       icon: fa-face-smile
       href: news/index.html
+    gallery:
+      text: "Gallery"
+      href: articles/gallery.html
     github:
       href: https://github.com/stangandaho/redlist
       aria-label: GitHub

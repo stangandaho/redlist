@@ -15,7 +15,7 @@ rl_countries(
 )
 }
 \arguments{
-\item{code}{Character. One or more countries codes.
+\item{code}{Character. One or more countries ISO alpha-2 code.
 Use \code{\link[=rl_countries]{rl_countries()}} to list available countries codes.}
 
 \item{year_published}{Optional. Single or numeric vector of years to filter assessments by publication year.}
@@ -26,13 +26,16 @@ Use \code{\link[=rl_countries]{rl_countries()}} to list available countries code
 
 \item{possibly_extinct_in_the_wild}{Optional. Logical. Filter for species possibly extinct in the wild.}
 
-\item{scope_code}{Optional. Character. One or more scope codes to filter assessments.}
+\item{scope_code}{Optional. Integer One or more scope codes to filter assessments.}
 
 \item{page}{Optional. Integer vector. Specify one or more page numbers to fetch.
 If \code{NULL} or \code{NA}, all pages will be fetched automatically.}
 }
 \value{
-Tibble of assessments for a given country ISO alpha-2 code.
+A tibble (class \code{tbl_df}, \code{tbl}, \code{data.frame}) where each column represents a unique API response JSON key.
+If \code{code = NULL}, the tibble contains available country codes.
+If \code{code} is provided, the tibble contains assessment data for the specified country code(s), including taxon details,
+red list category, year, and other relevant metadata
 }
 \description{
 Retrieves the species assessed by the IUCN for a specified countries.

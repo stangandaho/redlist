@@ -7,7 +7,9 @@
 #' @param code Character. One or more threat codes (e.g., "1").
 #' Use [rl_threats()] to list available threat categories.
 #' @inheritParams rl_biogeographical_realms
-#' @return A tibble containing threat categories or species assessments.
+#' @return A tibble (class `tbl_df`, `tbl`, `data.frame`) where each column represents a unique API response JSON key.
+#' If `code = NULL`, the tibble contains available threat categories with columns such as code and description.
+#' If `code` is provided, the tibble contains assessment data for the specified threat(s), including threat description, threat code and year.
 #'
 #' @examples \dontrun{
 #' # List all threat categories

@@ -8,7 +8,8 @@
 #' @param infra_name Character. The infraspecific name (optional).
 #' @param subpopulation_name Character. The subpopulation name (optional).
 #'
-#' @return A tibble containing assessment data for the specified taxon.
+#' @return A tibble (class `tbl_df`, `tbl`, `data.frame`) where each column represents a unique API response JSON key.
+#' The tibble contains assessment data for the specified taxon, including taxon details.
 #'
 #' @examples \dontrun{
 #' # Get assessments for Panthera leo (lion)

@@ -17,7 +17,10 @@
 #' Use [rl_population_trends()] to list available trend codes and definition.
 #' @inheritParams rl_biogeographical_realms
 #'
-#' @return Tibble of population trend categories or species assessments depending on parameters.
+#' @return A tibble (class `tbl_df`, `tbl`, `data.frame`) where each column represents a unique API response JSON key.
+#' If `code = NULL`, the tibble contains available population trend categories with columns such as code and description.
+#' If `code` is provided, the tibble contains assessment data for the specified trend(s), including population trend description, 
+#' population trend code, year, latest, and other relevant metadata.
 #'
 #' @examples \dontrun{
 #' # List all available population trend categories

@@ -21,7 +21,8 @@ rl_scientific_name(
 \item{subpopulation_name}{Character. The subpopulation name (optional).}
 }
 \value{
-A tibble containing assessment data for the specified taxon.
+A tibble (class \code{tbl_df}, \code{tbl}, \code{data.frame}) where each column represents a unique API response JSON key.
+The tibble contains assessment data for the specified taxon, including taxon details.
 }
 \description{
 Retrieve species assessments using scientific names (Latin binomials).

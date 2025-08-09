@@ -7,10 +7,11 @@
 rl_assessment_id(assessment_id = 1425064)
 }
 \arguments{
-\item{assessment_id}{Appeasement ID}
+\item{assessment_id}{Assessment ID}
 }
 \value{
-Returns assessment data for a supplied assessment_id.
+A tibble where each column represents a unique API response JSON key for the supplied \code{assessment_id}.
+The columns include key information about the Red List assessment, such as taxon details, category, year, and other relevant metadata.
 }
 \description{
 Retrieves an assessment

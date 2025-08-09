@@ -26,13 +26,16 @@ Use \code{rl_growth_forms()} with no arguments to list available growth form cod
 
 \item{possibly_extinct_in_the_wild}{Optional. Logical. Filter for species possibly extinct in the wild.}
 
-\item{scope_code}{Optional. Character. One or more scope codes to filter assessments.}
+\item{scope_code}{Optional. Integer One or more scope codes to filter assessments.}
 
 \item{page}{Optional. Integer vector. Specify one or more page numbers to fetch.
 If \code{NULL} or \code{NA}, all pages will be fetched automatically.}
 }
 \value{
-A tibble of assessments for the specified growth form(s), or a tibble of available growth form codes and descriptions.
+A tibble (class \code{tbl_df}, \code{tbl}, \code{data.frame}) where each column represents a unique API response JSON key.
+If \code{code = NULL}, the tibble contains available growth form codes and their descriptions.
+If \code{code} is provided, the tibble contains assessment data for the specified growth form(s), including
+year, taxon details, and other relevant metadata.
 }
 \description{
 Retrieve IUCN Red List assessments by growth form.

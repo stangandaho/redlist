@@ -7,7 +7,9 @@
 #' @param phylum_name Character. The phylum name (e.g., "Chordata").
 #' Use [rl_phylum()] to list available phyla.
 #' @inheritParams rl_biogeographical_realms
-#' @return A tibble containing phyla or species assessments.
+#' @return A tibble (class `tbl_df`, `tbl`, `data.frame`) where each column represents a unique API response JSON key.
+#' If `phylum_name = NULL`, the tibble contains available phylum names.
+#' If `phylum_name` is provided, the tibble contains assessment data for the specified phylum, year, latest, possibly extincts, and other relevant metadata.
 #'
 #' @examples \dontrun{
 #' # List all available phyla

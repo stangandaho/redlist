@@ -1,8 +1,10 @@
 
 #' IUCN Red List and API version
 #'
-#' Returns the current version of the IUCN Red List of Threatened Species and API
+#' Print the current version of the IUCN Red List of Threatened Species and API
 #'
+#' @return Invisibly returns `NULL` after printing the Red List and API versions.
+#' 
 #' @examples \dontrun{
 #' rl_version()
 #'}
@@ -22,5 +24,7 @@ rl_version <- function() {
   cli::cli_alert_info("{.strong IUCN Red List version: {rl_version_resp$red_list_version}}")
   cli::cli_div(theme = list (.alert = list(color = "#008C46")))
   cli::cli_alert_info("{.strong API version: {api_version_resp$api_version}}")
+
+  return(invisible(NULL))
 }
 

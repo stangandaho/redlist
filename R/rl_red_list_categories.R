@@ -8,7 +8,10 @@
 #' Use [rl_red_list_categories()] to list available categories.
 #' @inheritParams rl_biogeographical_realms
 #'
-#' @return A tibble containing Red List categories or species assessments.
+#' @return A tibble (class `tbl_df`, `tbl`, `data.frame`) where each column represents a unique API response JSON key.
+#' If `code = NULL`, the tibble contains available Red List categories with columns such as code and description.
+#' If `code` is provided, the tibble contains assessment data for the specified category(ies), including year, taxon details,
+#' and other relevant metadata.
 #'
 #' @examples \dontrun{
 #' # List all Red List categories

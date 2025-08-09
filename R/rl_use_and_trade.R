@@ -7,7 +7,10 @@
 #' @param code Character. One or more use/trade codes (e.g., "1", "5_2").
 #' Use [rl_use_and_trade()] to list available categories.
 #' @inheritParams rl_biogeographical_realms
-#' @return A tibble containing use/trade categories or species assessments.
+#' @return A tibble (class `tbl_df`, `tbl`, `data.frame`) where each column represents a unique API response JSON key.
+#' If `code = NULL`, the tibble contains available use and trade categories with columns such as code and description.
+#' If `code` is provided, the tibble contains assessment data for the specified use/trade category(ies), including 
+#' description, code, year, latest, and other relevant metatdata.
 #'
 #' @examples \dontrun{
 #' # List all use and trade categories

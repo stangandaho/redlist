@@ -3,7 +3,7 @@
 #' Retrieve count of species with assessments.
 #' This endpoint returns the total number of assessed species on the IUCN Red List.
 #'
-#' @return A tibble containing the count of assessed species.
+#' @return A tibble (class `tbl_df`, `tbl`, `data.frame`) containing count and date of access.
 #'
 #' @examples \dontrun{
 #' # Get total count of assessed species

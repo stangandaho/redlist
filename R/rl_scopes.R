@@ -7,7 +7,10 @@
 #' @param code Character or Numeric. One or more scope codes (e.g., "1", "2").
 #' Use [rl_scopes()] to list available scope categories.
 #' @inheritParams rl_biogeographical_realms
-#' @return A tibble containing assessment scopes or species assessments.
+#' @return A tibble (class `tbl_df`, `tbl`, `data.frame`) where each column represents a unique API response JSON key.
+#' If `code = NULL`, the tibble contains available assessment scopes with columns such as code and description.
+#' If `code` is provided, the tibble contains assessment data for the specified scope(s), including, description, year, latest, taxon details,
+#' and other relevant metadata.
 #'
 #' @examples \dontrun{
 #' # List all assessment scopes

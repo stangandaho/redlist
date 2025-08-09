@@ -26,13 +26,16 @@ Use \code{rl_faos()} with no arguments to list available FAO region codes.}
 
 \item{possibly_extinct_in_the_wild}{Optional. Logical. Filter for species possibly extinct in the wild.}
 
-\item{scope_code}{Optional. Character. One or more scope codes to filter assessments.}
+\item{scope_code}{Optional. Integer One or more scope codes to filter assessments.}
 
 \item{page}{Optional. Integer vector. Specify one or more page numbers to fetch.
 If \code{NULL} or \code{NA}, all pages will be fetched automatically.}
 }
 \value{
-A tibble of assessments for the specified FAO region(s), or a tibble of available FAO codes and descriptions.
+A tibble (class \code{tbl_df}, \code{tbl}, \code{data.frame}) where each column represents a unique API response JSON key.
+If \code{code = NULL}, the tibble contains available FAO region codes and their descriptions.
+If \code{code} is provided, the tibble contains assessment data for the specified FAO region(s), including description, taxon details,
+red list category, year, and other relevant metadata.
 }
 \description{
 List or retrieve IUCN Red List assessments for FAO Marine Fishing Areas.

@@ -26,13 +26,14 @@ Use \code{\link[=rl_biogeographical_realms]{rl_biogeographical_realms()}} to lis
 
 \item{possibly_extinct_in_the_wild}{Optional. Logical. Filter for species possibly extinct in the wild.}
 
-\item{scope_code}{Optional. Character. One or more scope codes to filter assessments.}
+\item{scope_code}{Optional. Integer One or more scope codes to filter assessments.}
 
 \item{page}{Optional. Integer vector. Specify one or more page numbers to fetch.
 If \code{NULL} or \code{NA}, all pages will be fetched automatically.}
 }
 \value{
-Tibble of biogeographical realms depending on parameters.
+A tibble (class \verb{tbl_df``, }tbl\verb{, }data.frame\verb{) where each column represents a unique API response JSON key. If }code = NULL\verb{, the tibble contains available biogeographical realms with columns such as realm code and name. If }code` is provided, the tibble contains assessment data for the specified realm(s), including taxon details,
+red list category, year, and other relevant metadata.
 }
 \description{
 Retrieve available biogeographical realms or detailed species assessments for one or more realms.

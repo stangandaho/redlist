@@ -1,52 +1,44 @@
 # nocov start
-
 #' Set the IUCN Red List API key
 #'
-#' This function sets the IUCN Red List API key as an environment variable, allowing other functions
-#' in the package to authenticate requests to the IUCN Red List API.
+#' The function provide steps to set the IUCN Red List API key.
 #'
-#' @param api_key Character. The API key provided by the IUCN Red List to authenticate requests.
-#' You can obtain an API key by registering on the IUCN Red List website https://api.iucnredlist.org/users/sign_in.
+#' @param api_key Character. The API key provided by the IUCN Red List to
+#' authenticate requests, obtainable at \href{https://api.iucnredlist.org/users/sign_in}{IUCN Red List API website}.
 #'
-#' @details
-#' The IUCN Red List API requires an API key to access data. This function sets the provided `api_key`
-#' as an environment variable named `redlist_api`. This environment variable is accessed by other
-#' functions in the package to perform authenticated API requests.
-#'
+#' @return Invisibly returns `NULL` after setting the API key.
 #' @examples
 #' \dontrun{
-#'   # Set the API key for the IUCN Red List
-#'   rl_set_api("your_api_key_here")
+#' # Set the API key for the IUCN Red List
+#' rl_set_api("your_api_key")
 #' }
 #'
 #' @export
-rl_set_api <- function(api_key){
-  renv <- base::readLines("~/.Renviron")
-  existing <- grepl("REDLIST_API", renv)
+rl_set_api <- function(api_key) {
+  bullet <- cli::col_red(cli::symbol$bullet)
 
-  if (any(existing)) {
-    overwrite <- ask_overwrite()
-    if (overwrite) {
-      renv <- renv[!existing]
-    }else{
-      cli::cli_alert_danger("API key setting canceled!")
-      return(invisible(NULL))
-    }
+  if (!methods::hasArg(api_key)) {
+    cli::cli_div(theme = list(span.href = list(color = "#0068e3")))
+    cli::cli_inform("Missing API key! {.strong {.emph {.href [Login or Sign](https://api.iucnredlist.org/)}}} to get one.")
+    return(invisible(NULL))
   }
 
-  renv[[length(renv) + 1]] <- paste0("REDLIST_API=", api_key)
-  base::cat(renv, file = "~/.Renviron", sep = "\n")
-  cli::cli_alert_success("API added successfully!")
+  apikey <- paste0("REDLIST_API=", api_key)
+
+  cli::cli_inform("{.strong {cli::symbol$arrow_down} Steps to set IUCN Red list API key:}")
+  cli::cli_inform("{bullet} Run {.run redlist::rl_open_file()}")
+  cli::cli_inform("{bullet} Add {apikey} to .Renviron file")
+  cli::cli_inform("{bullet} Restart R for changes to take effect")
+  cli::cli_end()
+
   return(invisible(NULL))
 }
 
 #' Check IUCN Red List API Status
 #'
 #' Verifies whether the IUCN Red List API is accessible and the provided API key is valid.
-#' This function checks both the presence of an API key in the environment and its validity.
 #'
-#' @return Invisibly returns `TRUE` if the API is working properly. If not,
-#'   the function will abort with an appropriate error message.
+#' @return Invisibly returns `TRUE` if the API is working properly. If not, the function will abort with an appropriate error message.
 #'
 #' @examples
 #' \dontrun{
@@ -87,17 +79,6 @@ rl_check_api <- function(){
   )
   return(invisible(TRUE))
 
-}
-
-#' Overwrite option
-#' Ask to overwrite the API
-#' @noRd
-ask_overwrite <- function() {
-  overwrite <- utils::menu(
-    title = "Do you want to overwrite the existing API key?",
-    choices = c("Yes", "No")
-  )
-  return(overwrite == 1)
 }
 
 # nocov end

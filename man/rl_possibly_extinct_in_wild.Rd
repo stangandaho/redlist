@@ -7,7 +7,9 @@
 rl_possibly_extinct_in_wild()
 }
 \value{
-A tibble containing species assessments marked as possibly extinct in the wild.
+A tibble (class \code{tbl_df}, \code{tbl}, \code{data.frame}) where each column represents a unique API response JSON key.
+Columns include year, latest, possibly extinct, possibly extinct in the wild, sis taxon id, url, taxon scientific name,
+red list category, assessment id, scopes description, and scopes code
 }
 \description{
 Retrieve species assessments flagged as possibly extinct in the wild.

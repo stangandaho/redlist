@@ -9,7 +9,10 @@
 #' Use `rl_growth_forms()` with no arguments to list available growth form codes.
 #' @inheritParams rl_biogeographical_realms
 #'
-#' @return A tibble of assessments for the specified growth form(s), or a tibble of available growth form codes and descriptions.
+#' @return A tibble (class `tbl_df`, `tbl`, `data.frame`) where each column represents a unique API response JSON key. 
+#' If `code = NULL`, the tibble contains available growth form codes and their descriptions. 
+#' If `code` is provided, the tibble contains assessment data for the specified growth form(s), including 
+#' year, taxon details, and other relevant metadata.
 #'
 #' @examples \dontrun{
 #' # List available growth form codes
