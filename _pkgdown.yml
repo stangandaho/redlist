@@ -46,8 +46,9 @@ navbar:
       icon: fa-face-smile
       href: news/index.html
     gallery:
-      text: "Gallery"
+      text: Gallery
       href: articles/gallery.html
+      icon: fa-layer-group
     github:
       href: https://github.com/stangandaho/redlist
       aria-label: GitHub

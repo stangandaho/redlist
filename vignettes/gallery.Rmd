@@ -5,38 +5,80 @@ output: html_document
 
 ## Plot Gallery
 
-Below are example plots made using this redlist R package. Click on a plot to view the R code on GitHub.
+Below are example plots made using this redlist R package. Click on a plot to view the R code on GitHub.  
+
 
 <div class="gallery-grid">
 
+<div class="gallery-item">
 <a href="https://github.com/stangandaho/redlist/blob/main/plots/scripts/regional_cr_proportion.R" target="_blank">
-  <img src="https://github.com/stangandaho/redlist/blob/main/plots/regional_CR.jpeg" alt="Critically Endangered Distribution" width="250px">
-  <h5>Author: Stanislas Mahussi Gandaho (2025)</h5>
-  <h4>Critically Endangered Distribution</h4>
-  <p>Regional Distribution of Critically Endangered Species Assessed in the Latest IUCN Red List</p>
+<img src="https://raw.githubusercontent.com/stangandaho/redlist/main/plots/regional_CR.jpeg" alt="Critically Endangered Distribution">
 </a>
+<div class="gallery-text">
+<h6>Author: Stanislas Mahussi Gandaho (2025)</h6>
+<h4>Critically Endangered Distribution</h4>
+<p>Regional Distribution of Critically Endangered Species Assessed in the Latest IUCN Red List</p>
+</div>
+</div>
 
+<div class="gallery-item">
 <a href="https://github.com/stangandaho/redlist/blob/main/plots/scripts/global_cr_assessment_trend.R" target="_blank">
-  <img src="https://github.com/stangandaho/redlist/blob/main/plots/globally_CR_trend.jpeg" alt="Critically Endangered assessment trend" width="250px">
-  <h5>Author: Stanislas Mahussi Gandaho (2025)</h5>
-  <h4>Critically Endangered assessment trend</h4>
-  <p>Number of species evaluated each year under Critically Endangered category, based on their most recent published assessment</p>
+<img src="https://raw.githubusercontent.com/stangandaho/redlist/main/plots/globally_CR_trend.jpeg" alt="Critically Endangered assessment trend">
 </a>
+<div class="gallery-text">
+<h6>Author: Stanislas Mahussi Gandaho (2025)</h6>
+<h4>Critically Endangered assessment trend</h4>
+<p>Number of species evaluated each year under Critically Endangered category, based on their most recent published assessment</p>
+</div>
+</div>
 
 </div>
 
+
+
 <style>
 .gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 20px;
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* slightly larger plots */
+gap: 20px;
 }
-.gallery-grid img {
-  border: 1px solid #ddd;
-  border-radius: 8px;
+
+.gallery-item {
+display: flex;
+flex-direction: column;
+align-items: center;
 }
-.gallery-grid p {
-  text-align: center;
-  font-size: 0.9em;
+
+.gallery-item img {
+border: 1px solid #ddd;
+border-radius: 8px;
+width: 300px; /* enlarged image size */
+height: auto;
 }
+
+.gallery-text {
+max-width: 300px; /* matches image width */
+text-align: center;
+}
+
+.gallery-text p {
+text-align: justify;
+font-size: 0.9em;
+margin: 0;
+}
+
+.gallery-text h4,
+.gallery-text h6 {
+    text-align: left;
+}
+
+.gallery-item a {
+text-decoration: none;
+color: inherit;
+}
+.gallery-item a:hover {
+text-decoration: none;
+}
+
+
 </style>
