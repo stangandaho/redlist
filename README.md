@@ -2,8 +2,9 @@
 # <img src="man/figures/logo.png" align="right" height="100" alt="redlist logo"/>
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/stangandaho/redlist/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/stangandaho/redlist/actions/workflows/R-CMD-check.yaml)
+[![CRAN status](https://www.r-pkg.org/badges/version/redlist)](https://CRAN.R-project.org/package=redlist)
 <!-- badges: end -->
-[![codecov](https://codecov.io/gh/stangandaho/redlist/graph/badge.svg?token=AS6SSJ8F1N)](https://codecov.io/gh/stangandaho/redlist)
+[![codecov](https://codecov.io/gh/stangandaho/redlist/graph/badge.svg?token=AS6SSJ8F1N)](https://app.codecov.io/gh/stangandaho/redlist)
 
 ## About This Project
 Started in September 2024, this project originated when [`rredlist`](https://github.com/ropensci/rredlist) 
