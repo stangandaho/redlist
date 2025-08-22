@@ -1,9 +1,11 @@
 ---
 title: "gallery"
 output: html_document
+vignette: >
+  %\VignetteIndexEntry{Plot Gallery}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
 ---
-
-## Plot Gallery
 
 Below are example plots made using this redlist R package. Click on a plot to view the R code on GitHub.  
 

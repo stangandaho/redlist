@@ -23,6 +23,9 @@ These differences mean the packages are not in competition but are complementary
 ### 📦 Installation
 
 ```r
+# Install from CRAN
+install.packages("redlist")
+
 # Install from GitHub
 if (!requireNamespace("pak", quietly = TRUE)) {
   install.packages("pak", dependencies = TRUE)
