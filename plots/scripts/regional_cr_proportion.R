@@ -5,15 +5,12 @@
 
 # PACKAGE INSTALLATION AND LOADING ==========================================
 # Define required packages for data manipulation, visualization, and IUCN data access
-needed_pkg <- c("pak", "dplyr", "ggplot2", "ggtext", "showtext", "redlist")
+needed_pkg <- c("dplyr", "ggplot2", "ggtext", "showtext", "redlist")
 
 # Loop through each package and install if not available, then load it
 for (pkg in needed_pkg) {
   if (!requireNamespace(pkg)) {  # Check if package is installed
-    if (pkg == "pak") {
-      installed.packages("pak")  # Install pak package manager
-    }
-    pak::pkg_install(pkg)  # Use pak to install other packages
+    installed.packages(pkg)
   }
   library(pkg, character.only = TRUE)  # Load the package
 }

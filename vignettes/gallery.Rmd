@@ -37,6 +37,20 @@ Below are example plots made using this redlist R package. Click on a plot to vi
 </div>
 
 
+<div class="gallery-item">
+<a href="https://github.com/stangandaho/redlist/blob/main/plots/scripts/pan_african_chordata_species_distribution.R" target="_blank">
+<img src="https://raw.githubusercontent.com/stangandaho/redlist/main/plots/pan_african_chordata_species_distribution.jpeg" alt="Status of Pan-African Chordata Species">
+</a>
+<div class="gallery-text">
+<h6>Author: Stanislas Mahussi Gandaho (2025)</h6>
+<h4>Distribution of African Chordate Species by IUCN Red List Category</h4>
+<p>Proportional representation of Pan-African chordata species according to their latest IUCN Red List status, emphasizing the relative prevalence of threatened categories.</p>
+</div>
+</div>
+
+</div>
+
+
 
 <style>
 .gallery-grid {
