@@ -10,6 +10,7 @@ vignette: >
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
+  eval=FALSE,
   comment = "#>"
 )
 ```
@@ -43,7 +44,7 @@ for (pkg in packages) {
 
 GBIF allows users to filter occurrence data using predicates, which define specific criteria for the records to retrieve. For this analysis, we establish three predicates to ensure data quality and relevance. We limit records to those from 2000 onwards, restrict the basis of record to human and machine observations to exclude fossil and preserved specimens, and require valid geographic coordinates for spatial analysis.
 
-```{r predicates, eval=FALSE}
+```{r predicates}
 # Temporal filter: records from 2000 onwards
 year_pred <- pred_gte("year", 2000)
 
@@ -59,7 +60,7 @@ has_coordinate <- pred("hasCoordinate", TRUE)
 
 To restrict occurrence data to our study area, we need to prepare the park boundary in a format compatible with GBIF's download API. This involves several spatial processing steps. First, we import the shapefile and verify its geometric validity. Since the boundary consists of multiple polygons representing different park sections, we merge them into a single polygon using `st_union()`. To reduce complexity and file size, we simplify the boundary by retaining vertices at 200-meter intervals.
 
-```{r spatial-prep, eval=FALSE}
+```{r spatial-prep}
 # Import park boundary shapefile
 wama_moko <- read_sf("wama_moko/wari-maro_monts kouffé.shp")
 
@@ -96,7 +97,7 @@ wama_moko_pred <- pred_within(wama_moko_wkt)
 
 Downloading data from GBIF requires a free user account. You need to configure your credentials once by adding them to your `.Rprofile` file. This approach keeps your authentication information secure and persistent across R sessions.
 
-```{r auth-setup, eval=FALSE}
+```{r auth-setup}
 # Open .Rprofile file (uncomment to run)
 # rl_open_file()
 
@@ -112,7 +113,7 @@ Downloading data from GBIF requires a free user account. You need to configure y
 
 With all predicates defined and authentication configured, we submit the download request to GBIF. The download process is asynchronous, meaning GBIF processes the request on their servers while you can continue working. The function returns a download key that you use to check status and retrieve results.
 
-```{r download-request, eval=FALSE}
+```{r download-request}
 # Submit download request
 wama_moko_occ <- occ_download(
   year_pred, 
@@ -126,7 +127,20 @@ wama_moko_occ <- occ_download(
 
 Monitor the download status using the download key provided in the output. Once complete, retrieve and import the data into R.
 
-```{r download-retrieve}
+```{r, warning=FALSE, message=FALSE, eval=TRUE, include=FALSE, echo=FALSE}
+# Define required packages
+packages <- c("rgbif", "redlist", "dplyr", "ggplot2")
+
+# Install missing packages and load all
+for (pkg in packages) {
+  if (!requireNamespace(pkg, quietly = TRUE)) {
+    install.packages(pkg, repos = "https://packagemanager.posit.co/cran/latest", dependencies = TRUE)
+  }
+  library(pkg, character.only = TRUE)
+}
+```
+
+```{r download-retrieve, eval=TRUE}
 # Replace with your actual download key from, wama_moko_occ
 download_key <- "0007614-251120083545085"
 
@@ -142,7 +156,7 @@ wama_moko_df <- occ_download_get(download_key) %>%
 
 For this analysis, we focus on chordate species, which include vertebrates such as mammals, birds, reptiles, amphibians, and fish. We filter the downloaded records to this taxonomic group and remove duplicate records for the same species at identical coordinates, which often represent repeated sampling events rather than distinct occurrences.
 
-```{r data-filtering}
+```{r data-filtering, eval=TRUE}
 species_of_interest <- wama_moko_df %>%
   filter(phylum == "Chordata", species != "") %>%
   distinct(species, decimalLongitude, decimalLatitude, .keep_all = TRUE) %>%
@@ -154,7 +168,7 @@ species_of_interest
 
 The resulting dataset contains `r nrow(species_of_interest)` occurrence records representing `r length(unique(species_of_interest$species))` unique species. We can visualize the temporal distribution of sampling effort to identify patterns in data collection intensity.
 
-```{r temporal-viz, fig.width=7, fig.height=4, fig.alt='Temporal distribution'}
+```{r temporal-viz, fig.width=7, fig.height=4, fig.alt='Temporal distribution', eval=TRUE}
 species_of_interest %>%
   count(year) %>%
   ggplot(aes(x = year, y = n)) +
@@ -179,7 +193,7 @@ The `redlist` package requires an IUCN Red List API token for authentication. De
 
 We systematically query the IUCN Red List API for each unique species in our occurrence dataset. The process includes rate limiting to avoid overwhelming the API and error handling to manage species that are not found in the database. For species with multiple assessments, we retain only the most recent evaluation to reflect current conservation status.
 
-```{r iucn-query, include=FALSE}
+```{r iucn-query, include=FALSE, eval=TRUE}
 # Initialize storage for unfound species
 not_found_sp <- list()
 
@@ -217,7 +231,7 @@ genus_species <- lapply(avail_sp, function(x) {
 
 Some species may not be found in the IUCN database due to taxonomic revisions, synonymy issues, or lack of formal assessment. We document these cases separately while compiling results for successfully matched species.
 
-```{r compile-results}
+```{r compile-results, eval=TRUE}
 # Species not found in IUCN database
 cat("Species without IUCN status (n =", length(not_found_sp), "):\n")
 cat(paste(names(unlist(not_found_sp)), collapse = ", "))
@@ -228,7 +242,7 @@ species_with_iucn <- bind_rows(genus_species)
 
 The conservation status distribution provides insight into the vulnerability of the chordate assemblage within Wari-Maro and Monts Kouffé National Parks. We summarize the frequency of each Red List category to identify the proportion of threatened species requiring conservation attention.
 
-```{r status-summary, eval = FALSE}
+```{r status-summary, eval = TRUE}
 # Summary of IUCN Red List categories
 species_with_iucn %>%
   count(red_list_category_code) %>%
