@@ -24,14 +24,14 @@ The workflow combines spatial filtering of occurrence data with automated querie
 
 We begin by loading the required packages. The `rgbif` package provides access to GBIF data, `redlist` interfaces with the IUCN Red List API, and `sf` handles spatial operations. The `dplyr` and `ggplot2` packages support data manipulation and visualization respectively.
 
-```{r setup, echo=FALSE, warning=FALSE, message=FALSE}
+```{r setup, warning=FALSE, message=FALSE}
 # Define required packages
 packages <- c("rgbif", "redlist", "sf", "dplyr", "ggplot2")
 
 # Install missing packages and load all
 for (pkg in packages) {
   if (!requireNamespace(pkg, quietly = TRUE)) {
-    install.packages(pkg, repos = "https://packagemanager.posit.co/cran/latest")
+    install.packages(pkg, repos = "https://packagemanager.posit.co/cran/latest", dependencies = TRUE)
   }
   library(pkg, character.only = TRUE)
 }
