@@ -1,0 +1,296 @@
+# IUCN Red List R Package
+
+# 
+
+## About This Project
+
+Started in September 2024, this project originated when
+[`rredlist`](https://github.com/ropensci/rredlist) was still tied to the
+deprecated IUCN Red List V3 API. By January 2025, `rredlist` had
+transitioned to support the V4 API, introducing substantial structural
+changes. I continued developing my own approach, which led to
+[`redlist`](https://github.com/stangandaho/redlist) — a standalone
+client designed around consistent tibble outputs and streamlined
+workflows.
+
+In parallel, there is also the official IUCN-supported package
+[`iucnredlist`](https://iucn-uk.github.io/iucnredlist/), which provides
+direct access to the same V4 API. Although these packages all use API
+V4, they differ in design: `redlist` focuses on a fresh, independent
+approach with uniform inputs and outputs for all endpoints, while
+`iucnredlist` represents the official reference implementation.  
+These differences mean the packages are not in competition but are
+complementary, serving different user preferences.
+
+## Get started
+
+### 📦 Installation
+
+``` r
+# Install from CRAN
+install.packages("redlist")
+
+# Install from GitHub
+if (!requireNamespace("pak", quietly = TRUE)) {
+  install.packages("pak", dependencies = TRUE)
+}
+pak::pkg_install("stangandaho/redlist")
+
+# Load
+library(redlist)
+```
+
+### 🔑 Set Your API Key
+
+If you’re using this package for the first time, you’ll likely need an
+IUCN Red List API key.  
+You can check whether it’s set by running
+[`rl_check_api()`](https://stangandaho.github.io/redlist/reference/rl_check_api.md).  
+If this throws an error like ‘*! No Redlist API key found…* ’, you’ll
+need to set an API key before using any of the package functions. Just
+follow these two simple steps:  
+1. Visit the official IUCN Red List API website
+[here](https://api.iucnredlist.org/users/edit). Create an account if you
+don’t already have one. Once logged in, you can request your API key.  
+2. Copy your API key and set it using the
+[`rl_set_api()`](https://stangandaho.github.io/redlist/reference/rl_set_api.md)
+function, like this `rl_set_api("2GoWiThmYrEDlitApiThatWorkS4me")`.  
+You can then run
+[`rl_check_api()`](https://stangandaho.github.io/redlist/reference/rl_check_api.md)
+again to confirm that your API key is set successfully.
+
+> *Please ensure that you have read and agreed to the [API key terms of
+> use](https://www.iucnredlist.org/terms/terms-of-use) and have complied
+> with them during your usage.*
+
+## Usage
+
+The `redlist` package offers simple functions to retrieve and explore
+IUCN Red List data.
+
+``` r
+# Retrieve Red List data for Benin (country code "BJ"), first page by default
+benin_redlist <- rl_countries(code = "BJ")  # Get first 100 records
+head(benin_redlist)                         # Preview the data
+
+# Retrieve data from first 5 pages (up to 500 records)
+benin_redlist_pages <- rl_countries(code = "BJ", page = 1:5)
+
+# Retrieve data from first 5 pages, filtered by year published 2023
+benin_redlist_2023 <- rl_countries(code = "BJ", page = 1:5, year_published = 2023)
+
+# Retrieve all available data for Benin (no page limit)
+benin_redlist_all <- rl_countries(code = "BJ", page = NA)
+
+# Get detailed species info by passing a species sis_id (example: 137286)
+species_info <- rl_sis(sis_id = 137286)
+
+# Get detailed assessment info by passing an assessment_id (example: 522738)
+assessment_info <- rl_assessment_id(assessment_id = 522738)
+
+# Loop through multiple assessment_ids to collect detailed data for all species
+all_species_details <- lapply(benin_redlist$assessments_assessment_id, function(id) {
+  rl_assessment_id(assessment_id = id)
+}) %>% dplyr::bind_rows()
+```
+
+**For a full overview of all available functions, please visit the
+[redlist
+website](https://stangandaho.github.io/redlist/reference/index.html)**
+
+## Code of conduct
+
+Please note that this project is based on the [Contributor Covenant
+v2.1](https://github.com/stangandaho/redlist/blob/main/CODE_OF_CONDUCT.md).
+By participating in this project you agree to abide by its terms.
+
+## Getting help
+
+If you encounter a clear bug, please file an
+[issue](https://github.com/stangandaho/redlist/issues) with a minimal
+reproducible example. For questions and other discussion, please use
+[relevant section](https://github.com/stangandaho/redlist/discussions).
+
+# Package index
+
+## Set
+
+Set and check IUCN red list API key.
+
+- [`rl_set_api()`](https://stangandaho.github.io/redlist/reference/rl_set_api.md)
+  : Set the IUCN Red List API key
+- [`rl_check_api()`](https://stangandaho.github.io/redlist/reference/rl_check_api.md)
+  : Check IUCN Red List API Status
+
+## Assessment
+
+Function to retrieve assessment data for a specific assessment_id.
+
+- [`rl_assessment_id()`](https://stangandaho.github.io/redlist/reference/rl_assessment_id.md)
+  : IUCN Red List assessment
+
+## Biogeographical Realms
+
+Function to list and query biogeographical realms and their assessments.
+
+- [`rl_biogeographical_realms()`](https://stangandaho.github.io/redlist/reference/rl_biogeographical_realms.md)
+  : IUCN Red List biogeographical realms
+
+## Comprehensive Groups
+
+Function to list and query comprehensive groups and their assessments.
+
+- [`rl_comprehensive_groups()`](https://stangandaho.github.io/redlist/reference/rl_comprehensive_groups.md)
+  : IUCN Red List Comprehensive groups
+
+## Conservation Actions
+
+Function to list and query conservation actions and their assessments.
+
+- [`rl_conservation_actions()`](https://stangandaho.github.io/redlist/reference/rl_conservation_actions.md)
+  : IUCN Red List conservation action
+
+## Countries
+
+Function to list countries and query assessments by country code.
+
+- [`rl_countries()`](https://stangandaho.github.io/redlist/reference/rl_countries.md)
+  : Retrieve IUCN Red List assessments by country
+
+## FAOs
+
+Function to list FAOs and query assessments by FAO code.
+
+- [`rl_faos()`](https://stangandaho.github.io/redlist/reference/rl_faos.md)
+  : FAO marine fishing areas
+
+## Growth Forms
+
+Function to list growth forms and query assessments by growth form code.
+
+- [`rl_growth_forms()`](https://stangandaho.github.io/redlist/reference/rl_growth_forms.md)
+  : Growth forms
+
+## Green Status
+
+Function to list all Green Status assessments.
+
+- [`rl_green_status()`](https://stangandaho.github.io/redlist/reference/rl_green_status.md)
+  : Green status
+
+## Habitats
+
+Function to list habitat codes and query assessments by habitat code.
+
+- [`rl_habitats()`](https://stangandaho.github.io/redlist/reference/rl_habitats.md)
+  : Habitats
+
+## Information
+
+Function to retrieve API and Red List version information.
+
+- [`rl_version()`](https://stangandaho.github.io/redlist/reference/rl_version.md)
+  : IUCN Red List and API version
+
+## Population Trends
+
+Function to list population trends and query assessments by trend code.
+
+- [`rl_population_trends()`](https://stangandaho.github.io/redlist/reference/rl_population_trends.md)
+  : IUCN Red List population trends
+
+## Red List Categories
+
+Function to list Red List categories and query assessments by category
+code.
+
+- [`rl_red_list_categories()`](https://stangandaho.github.io/redlist/reference/rl_red_list_categories.md)
+  : IUCN Red List Categories
+
+## Research
+
+Function to list research codes and query assessments by research code.
+
+- [`rl_research()`](https://stangandaho.github.io/redlist/reference/rl_research.md)
+  : IUCN Red List research categories
+
+## Scopes
+
+Functions to list scopes and query assessments by scope code.
+
+- [`rl_scopes()`](https://stangandaho.github.io/redlist/reference/rl_scopes.md)
+  : IUCN Red List assessment scopes
+
+## Statistics
+
+Function to retrieve aggregated statistics.
+
+- [`rl_statistics()`](https://stangandaho.github.io/redlist/reference/rl_statistics.md)
+  : IUCN Red List statistics
+
+## Stresses
+
+Function to list stressors and query assessments by stress code.
+
+- [`rl_stresses()`](https://stangandaho.github.io/redlist/reference/rl_stresses.md)
+  : IUCN Red List stress categories
+
+## Systems
+
+Function to list systems and query assessments by system code.
+
+- [`rl_systems()`](https://stangandaho.github.io/redlist/reference/rl_systems.md)
+  : IUCN Red List ecological systems
+
+## Taxa
+
+Functions to retrieve summary assessment data at species and higher
+taxonomic levels.
+
+- [`rl_sis()`](https://stangandaho.github.io/redlist/reference/rl_sis.md)
+  : IUCN Red List taxa by SIS ID
+- [`rl_scientific_name()`](https://stangandaho.github.io/redlist/reference/rl_scientific_name.md)
+  : IUCN Red List taxa by scientific name
+- [`rl_kingdoms()`](https://stangandaho.github.io/redlist/reference/rl_kingdoms.md)
+  : IUCN Red List taxa by kingdom
+- [`rl_phylum()`](https://stangandaho.github.io/redlist/reference/rl_phylum.md)
+  : IUCN Red List taxa by phylum
+- [`rl_classes()`](https://stangandaho.github.io/redlist/reference/rl_classes.md)
+  : IUCN Red List taxa by class
+- [`rl_orders()`](https://stangandaho.github.io/redlist/reference/rl_orders.md)
+  : IUCN Red List taxa by order
+- [`rl_family()`](https://stangandaho.github.io/redlist/reference/rl_family.md)
+  : IUCN Red List taxa by family
+- [`rl_possibly_extinct()`](https://stangandaho.github.io/redlist/reference/rl_possibly_extinct.md)
+  : IUCN Red List possibly extinct taxa
+- [`rl_possibly_extinct_in_wild()`](https://stangandaho.github.io/redlist/reference/rl_possibly_extinct_in_wild.md)
+  : IUCN Red List possibly extinct in the wild taxa
+- [`rl_open_file()`](https://stangandaho.github.io/redlist/reference/rl_open_file.md)
+  : Open file for editing
+
+## Threats
+
+Function to list threat codes and query assessments by threat code.
+
+- [`rl_threats()`](https://stangandaho.github.io/redlist/reference/rl_threats.md)
+  : IUCN Red List threat categories
+
+## Use and Trade
+
+Function to list use and trade codes and query assessments by code.
+
+- [`rl_use_and_trade()`](https://stangandaho.github.io/redlist/reference/rl_use_and_trade.md)
+  : IUCN Red List use and trade categories
+
+# Articles
+
+### All vignettes
+
+- [IUCN red list data
+  visualisation](https://stangandaho.github.io/redlist/articles/data_visualisation.md):
+- [gallery](https://stangandaho.github.io/redlist/articles/gallery.md):
+- [Retrieving Species Occurrence Data and IUCN Red List Status for
+  Protected
+  Areas](https://stangandaho.github.io/redlist/articles/GBIF-and-IUCN-Red-List.md):
+- [Get IUCN red list data with redlist R
+  package](https://stangandaho.github.io/redlist/articles/get_data.md):
