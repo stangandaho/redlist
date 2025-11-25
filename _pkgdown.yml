@@ -42,7 +42,7 @@ navbar:
       - text: 2. Data Visualisation
         href: articles/data_visualisation.html
       - text: 3. GBIF and IUCN Red List
-        href: articles/GBIF and IUCN Red List.html
+        href: articles/GBIF-and-IUCN-Red-List.html
     news:
       text: News
       icon: fa-face-smile
