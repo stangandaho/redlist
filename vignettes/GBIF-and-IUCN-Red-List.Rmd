@@ -99,15 +99,16 @@ Downloading data from GBIF requires a free user account. You need to configure y
 
 ```{r auth-setup}
 # Open .Rprofile file (uncomment to run)
-# rl_open_file()
-
-# Add these lines to .Rprofile (replace with your actual credentials):
-# gbif_user = "your_username"
-# gbif_pwd = "your_password"
-# gbif_email = "your_email@example.com"
-
-# Save the file and restart R/RStudio
+rl_open_file()
 ```
+
+Add these lines to .Rprofile (replace with your actual credentials):  
+```
+gbif_user = "your_username"
+gbif_pwd = "your_password"
+gbif_email = "your_email@example.com"
+```
+Save the file and restart R/RStudio
 
 ### Submitting and Retrieving the Download
 
@@ -193,7 +194,7 @@ The `redlist` package requires an IUCN Red List API token for authentication. De
 
 We systematically query the IUCN Red List API for each unique species in our occurrence dataset. The process includes rate limiting to avoid overwhelming the API and error handling to manage species that are not found in the database. For species with multiple assessments, we retain only the most recent evaluation to reflect current conservation status.
 
-```{r iucn-query, include=FALSE, eval=TRUE}
+```{r iucn-query, eval=TRUE}
 # Initialize storage for unfound species
 not_found_sp <- list()
 
@@ -201,8 +202,8 @@ avail_sp <- unique(species_of_interest$species)
 # Query IUCN status for each species
 genus_species <- lapply(avail_sp, function(x) {
   # Display progress
-  progress <- round(which(avail_sp == x) * 100 / length(avail_sp), 2)
-  message(paste0(progress, "%"))
+  #progress <- round(which(avail_sp == x) * 100 / length(avail_sp), 2)
+  #message(paste0(progress, "%"))
   
   # Rate limiting to respect API constraints
   Sys.sleep(0.5)
@@ -242,7 +243,7 @@ species_with_iucn <- bind_rows(genus_species)
 
 The conservation status distribution provides insight into the vulnerability of the chordate assemblage within Wari-Maro and Monts Kouffé National Parks. We summarize the frequency of each Red List category to identify the proportion of threatened species requiring conservation attention.
 
-```{r status-summary, eval = TRUE}
+```{r status-summary, eval=TRUE}
 # Summary of IUCN Red List categories
 species_with_iucn %>%
   count(red_list_category_code) %>%
@@ -251,4 +252,4 @@ species_with_iucn %>%
 
 ## Conclusion
 
-Our analysis of chordate species in Wari-Maro and Monts Kouffé National Park revealed 54 species with available IUCN assessments. The majority (83%) are classified as Least Concern, indicating relatively stable populations. However, the presence of threatened species warrants attention: two species are Endangered (*Loxodonta africana*, and *Terathopius ecaudatus*), one is Vulnerable (*Panthera leo*), and five are Near Threatened, together representing 15% of the assessed assemblage. One species remains Data Deficient, highlighting ongoing knowledge gaps. This distribution suggests that while the parks harbor predominantly common species, they also provide critical habitat for species facing elevated extinction risk. It is important to note that since our data spans from 2000 onwards, some recorded species may no longer be present in the parks; however, their historical occurrence indicates that suitable habitat conditions existed and potentially remain, suggesting these areas could support recolonization or continued persistence if populations remain viable.
+The nalysis of chordate species in Wari-Maro and Monts Kouffé National Park revealed 54 species with available IUCN assessments. The majority (83%) are classified as Least Concern, indicating relatively stable populations. However, the presence of threatened species warrants attention: two species are Endangered (*Loxodonta africana*, and *Terathopius ecaudatus*), one is Vulnerable (*Panthera leo*), and five are Near Threatened, together representing 15% of the assessed assemblage. One species remains Data Deficient, highlighting ongoing knowledge gaps. This distribution suggests that while the parks harbor predominantly common species, they also provide critical habitat for species facing elevated extinction risk. It is important to note that since our data spans from 2000 onwards, some recorded species may no longer be present in the parks; however, their historical occurrence indicates that suitable habitat conditions existed and potentially remain, suggesting these areas could support recolonization or continued persistence if populations remain viable.
