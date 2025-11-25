@@ -55,7 +55,7 @@ The dataset includes **all species** assessed in Benin across various taxonomic 
 
 Understanding the volume of assessments over time gives insight into conservation attention and effort.
 
-```{r plot-assessments-per-year}
+```{r plot-assessments-per-year, fig.alt='Assessments over time'}
 benin_rl %>%
   count(assessments_year_published) %>%
   ggplot(aes(x = assessments_year_published, y = n)) +

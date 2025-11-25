@@ -228,7 +228,7 @@ species_with_iucn <- bind_rows(genus_species)
 
 The conservation status distribution provides insight into the vulnerability of the chordate assemblage within Wari-Maro and Monts Kouffé National Parks. We summarize the frequency of each Red List category to identify the proportion of threatened species requiring conservation attention.
 
-```{r status-summary}
+```{r status-summary, eval = FALSE}
 # Summary of IUCN Red List categories
 species_with_iucn %>%
   count(red_list_category_code) %>%
