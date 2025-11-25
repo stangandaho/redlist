@@ -7,6 +7,13 @@ vignette: >
   %\VignetteEncoding{UTF-8}
 ---
 
+
+```{r echo=FALSE,include=FALSE}
+library(redlist)
+library(kableExtra)
+library(dplyr)
+```
+
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
@@ -98,7 +105,7 @@ wama_moko_pred <- pred_within(wama_moko_wkt)
 Downloading data from GBIF requires a free user account. You need to configure your credentials once by adding them to your `.Rprofile` file. This approach keeps your authentication information secure and persistent across R sessions.
 
 ```{r auth-setup}
-# Open .Rprofile file (uncomment to run)
+# Open .Rprofile file
 rl_open_file()
 ```
 
@@ -128,20 +135,7 @@ wama_moko_occ <- occ_download(
 
 Monitor the download status using the download key provided in the output. Once complete, retrieve and import the data into R.
 
-```{r, warning=FALSE, message=FALSE, eval=TRUE, include=FALSE, echo=FALSE}
-# Define required packages
-packages <- c("rgbif", "redlist", "dplyr", "ggplot2")
-
-# Install missing packages and load all
-for (pkg in packages) {
-  if (!requireNamespace(pkg, quietly = TRUE)) {
-    install.packages(pkg, repos = "https://packagemanager.posit.co/cran/latest", dependencies = TRUE)
-  }
-  library(pkg, character.only = TRUE)
-}
-```
-
-```{r download-retrieve, eval=TRUE}
+```{r download-retrieve}
 # Replace with your actual download key from, wama_moko_occ
 download_key <- "0007614-251120083545085"
 
@@ -157,7 +151,7 @@ wama_moko_df <- occ_download_get(download_key) %>%
 
 For this analysis, we focus on chordate species, which include vertebrates such as mammals, birds, reptiles, amphibians, and fish. We filter the downloaded records to this taxonomic group and remove duplicate records for the same species at identical coordinates, which often represent repeated sampling events rather than distinct occurrences.
 
-```{r data-filtering, eval=TRUE}
+```{r data-filtering}
 species_of_interest <- wama_moko_df %>%
   filter(phylum == "Chordata", species != "") %>%
   distinct(species, decimalLongitude, decimalLatitude, .keep_all = TRUE) %>%
@@ -167,7 +161,19 @@ species_of_interest <- wama_moko_df %>%
 species_of_interest
 ```
 
+```{r echo=FALSE, eval=TRUE}
+ species_of_interest <- readRDS("gbif_iucn/wama_moko_species_of_interest.rds")
+```
+
+
 The resulting dataset contains `r nrow(species_of_interest)` occurrence records representing `r length(unique(species_of_interest$species))` unique species. We can visualize the temporal distribution of sampling effort to identify patterns in data collection intensity.
+
+```{r install-ggplot2, warning=FALSE, message=FALSE, include=FALSE, eval=TRUE}
+  if (!requireNamespace("ggplot2", quietly = TRUE)) {
+    install.packages(pkg, dependencies = TRUE)
+  }
+  library(ggplot2)
+```
 
 ```{r temporal-viz, fig.width=7, fig.height=4, fig.alt='Temporal distribution', eval=TRUE}
 species_of_interest %>%
@@ -194,7 +200,7 @@ The `redlist` package requires an IUCN Red List API token for authentication. De
 
 We systematically query the IUCN Red List API for each unique species in our occurrence dataset. The process includes rate limiting to avoid overwhelming the API and error handling to manage species that are not found in the database. For species with multiple assessments, we retain only the most recent evaluation to reflect current conservation status.
 
-```{r iucn-query, eval=TRUE}
+```{r iucn-query}
 # Initialize storage for unfound species
 not_found_sp <- list()
 
@@ -202,8 +208,8 @@ avail_sp <- unique(species_of_interest$species)
 # Query IUCN status for each species
 genus_species <- lapply(avail_sp, function(x) {
   # Display progress
-  #progress <- round(which(avail_sp == x) * 100 / length(avail_sp), 2)
-  #message(paste0(progress, "%"))
+  progress <- round(which(avail_sp == x) * 100 / length(avail_sp), 2)
+  message(paste0(progress, "%"))
   
   # Rate limiting to respect API constraints
   Sys.sleep(0.5)
@@ -226,30 +232,41 @@ genus_species <- lapply(avail_sp, function(x) {
   
   search_result
 })
+
 ```
 
-### Analyzing Conservation Status
+```{r echo=FALSE, eval=TRUE}
+not_found_sp <- readRDS("gbif_iucn/not_found_sp.rds")
+genus_species <- readRDS("gbif_iucn/genus_species.rds")
+```
 
-Some species may not be found in the IUCN database due to taxonomic revisions, synonymy issues, or lack of formal assessment. We document these cases separately while compiling results for successfully matched species.
-
-```{r compile-results, eval=TRUE}
-# Species not found in IUCN database
-cat("Species without IUCN status (n =", length(not_found_sp), "):\n")
-cat(paste(names(unlist(not_found_sp)), collapse = ", "))
-
+```{r eval=TRUE}
 # Compile species with IUCN assessments
 species_with_iucn <- bind_rows(genus_species)
 ```
 
-The conservation status distribution provides insight into the vulnerability of the chordate assemblage within Wari-Maro and Monts Kouffé National Parks. We summarize the frequency of each Red List category to identify the proportion of threatened species requiring conservation attention.
+### Analyzing Conservation Status
 
-```{r status-summary, eval=TRUE}
+Some species may not be found in the IUCN database due to taxonomic revisions, synonymy issues, or lack of formal assessment. Species without IUCN status `r paste0("(n =", length(not_found_sp), "):")` `r paste0("*", paste(names(unlist(not_found_sp)), collapse = ", "), "*")`.
+
+The conservation status distribution provides insight into the vulnerability of the chordate assemblage within Wari-Maro and Monts Kouffé National Parks. We summarize the frequency of each Red List category to identify the proportion of threatened species requiring conservation attention. 
+
+```{r status-summary, eval=TRUE, include=FALSE}
 # Summary of IUCN Red List categories
 species_with_iucn %>%
   count(red_list_category_code) %>%
   arrange(desc(n))
 ```
 
+```{r eval=TRUE, echo=FALSE}
+species_with_iucn %>%
+  count(red_list_category_code) %>%
+  arrange(desc(n)) %>% 
+  kableExtra::kable("html") %>% 
+  kableExtra::kable_styling("striped") %>% 
+  kableExtra::scroll_box(width = "100%")
+```
+
 ## Conclusion
 
-The nalysis of chordate species in Wari-Maro and Monts Kouffé National Park revealed 54 species with available IUCN assessments. The majority (83%) are classified as Least Concern, indicating relatively stable populations. However, the presence of threatened species warrants attention: two species are Endangered (*Loxodonta africana*, and *Terathopius ecaudatus*), one is Vulnerable (*Panthera leo*), and five are Near Threatened, together representing 15% of the assessed assemblage. One species remains Data Deficient, highlighting ongoing knowledge gaps. This distribution suggests that while the parks harbor predominantly common species, they also provide critical habitat for species facing elevated extinction risk. It is important to note that since our data spans from 2000 onwards, some recorded species may no longer be present in the parks; however, their historical occurrence indicates that suitable habitat conditions existed and potentially remain, suggesting these areas could support recolonization or continued persistence if populations remain viable.
+The alysis of chordate species in Wari-Maro and Monts Kouffé National Park revealed 54 species with available IUCN assessments. The majority (83%) are classified as Least Concern, indicating relatively stable populations. However, the presence of threatened species warrants attention: two species are Endangered (*Loxodonta africana*, and *Terathopius ecaudatus*), one is Vulnerable (*Panthera leo*), and five are Near Threatened, together representing 15% of the assessed assemblage. One species remains Data Deficient, highlighting ongoing knowledge gaps. This distribution suggests that while the parks harbor predominantly common species, they also provide critical habitat for species facing elevated extinction risk. It is important to note that since our data spans from 2000 onwards, some recorded species may no longer be present in the parks; however, their historical occurrence indicates that suitable habitat conditions existed and potentially remain, suggesting these areas could support recolonization or continued persistence if populations remain viable.
