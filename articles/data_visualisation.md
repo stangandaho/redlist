@@ -16,6 +16,7 @@ to learn more about how to access the data.
 ## Query Data
 
 ``` r
+
 # Load the package
 library(redlist)
 # Get all data on Benin
@@ -23,6 +24,7 @@ benin_rl <- rl_countries(code = "BJ", page = NA)
 ```
 
 ``` r
+
 # Basic overview
 glimpse(benin_rl)
 #> Rows: 9,786
@@ -54,6 +56,7 @@ Understanding the volume of assessments over time gives insight into
 conservation attention and effort.
 
 ``` r
+
 benin_rl %>%
   count(assessments_year_published) %>%
   ggplot(aes(x = assessments_year_published, y = n)) +
@@ -77,6 +80,7 @@ classified as threatened. This chart highlights the proportion of
 assessments by category.
 
 ``` r
+
 benin_rl %>%
   filter(!is.na(assessments_red_list_category_code)) %>%
   count(assessments_red_list_category_code) %>%
@@ -92,7 +96,9 @@ benin_rl %>%
   theme_minimal()
 ```
 
-![](data_visualisation_files/figure-html/plot-category-proportions-1.png)
+![Bar chart of the proportion of IUCN Red List categories among species
+assessed in
+Benin](data_visualisation_files/figure-html/plot-category-proportions-1.png)
 
 ## Trends in Threatened Categories Over Time
 
@@ -100,6 +106,7 @@ Focusing on **Critically Endangered (CR)**, **Endangered (EN)**, and
 **Vulnerable (VU)** species helps track biodiversity risk.
 
 ``` r
+
 benin_rl %>%
   filter(assessments_red_list_category_code %in% c("CR", "EN", "VU")) %>%
   count(assessments_year_published, assessments_red_list_category_code) %>%
@@ -116,4 +123,6 @@ benin_rl %>%
   theme_minimal()
 ```
 
-![](data_visualisation_files/figure-html/plot-threatened-trends-1.png)
+![Line chart of the number of Critically Endangered, Endangered and
+Vulnerable assessments in Benin over
+time](data_visualisation_files/figure-html/plot-threatened-trends-1.png)

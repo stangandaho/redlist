@@ -18,8 +18,8 @@
     }
   };
 </script><script src="lightswitch.js"></script><script src="deps/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link href="deps/bootstrap-5.3.1/bootstrap.min.css" rel="stylesheet">
-<script src="deps/bootstrap-5.3.1/bootstrap.bundle.min.js"></script><link href="deps/Montserrat-0.4.10/font.css" rel="stylesheet">
+<link href="deps/bootstrap-5.3.8/bootstrap.min.css" rel="stylesheet">
+<script src="deps/bootstrap-5.3.8/bootstrap.bundle.min.js"></script><link href="deps/Montserrat-0.4.10/font.css" rel="stylesheet">
 <link href="deps/JetBrains_Mono-0.4.10/font.css" rel="stylesheet">
 <link href="deps/font-awesome-6.5.2/css/all.min.css" rel="stylesheet">
 <link href="deps/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet">
@@ -53,6 +53,7 @@
 <li><a class="dropdown-item" href="articles/get_data.html">1. Get Data</a></li>
     <li><a class="dropdown-item" href="articles/data_visualisation.html">2. Data Visualisation</a></li>
     <li><a class="dropdown-item" href="articles/GBIF-and-IUCN-Red-List.html">3. GBIF and IUCN Red List</a></li>
+    <li><a class="dropdown-item" href="articles/profile-of-extinction.html">4. Portrait of Extinction</a></li>
   </ul>
 </li>
 <li class="nav-item"><a class="nav-link" href="news/index.html"><span class="fa fa-face-smile"></span> News</a></li>
@@ -100,7 +101,7 @@ These differences mean the packages are not in competition but are complementary
 <h2 id="get-started">Get started<a class="anchor" aria-label="anchor" href="#get-started"></a>
 </h2>
 <div class="section level3">
-<h3 id="id_-installation">📦 Installation<a class="anchor" aria-label="anchor" href="#id_-installation"></a>
+<h3 id="package-installation">📦 Installation<a class="anchor" aria-label="anchor" href="#package-installation"></a>
 </h3>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co"># Install from CRAN</span></span>
@@ -116,7 +117,7 @@ These differences mean the packages are not in competition but are complementary
 <span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/stangandaho/redlist" class="external-link">redlist</a></span><span class="op">)</span></span></code></pre></div>
 </div>
 <div class="section level3">
-<h3 id="id_-set-your-api-key">🔑 Set Your API Key<a class="anchor" aria-label="anchor" href="#id_-set-your-api-key"></a>
+<h3 id="key-set-your-api-key">🔑 Set Your API Key<a class="anchor" aria-label="anchor" href="#key-set-your-api-key"></a>
 </h3>
 <p>If you’re using this package for the first time, you’ll likely need an IUCN Red List API key.<br>
 You can check whether it’s set by running <code><a href="reference/rl_check_api.html">rl_check_api()</a></code>.<br>
@@ -215,6 +216,7 @@ You can then run <code><a href="reference/rl_check_api.html">rl_check_api()</a><
 <ul class="list-unstyled">
 <li><a href="https://github.com/stangandaho/redlist/actions/workflows/R-CMD-check.yaml" class="external-link"><img src="https://github.com/stangandaho/redlist/actions/workflows/R-CMD-check.yaml/badge.svg" alt="R-CMD-check"></a></li>
 <li><a href="https://CRAN.R-project.org/package=redlist" class="external-link"><img src="https://www.r-pkg.org/badges/version/redlist" alt="CRAN status"></a></li>
+<li><a href="https://cran.r-project.org/package=redlist" class="external-link"><img src="https://cranlogs.r-pkg.org/badges/grand-total/redlist" alt="CRAN downloads"></a></li>
 <li><a href="https://app.codecov.io/gh/stangandaho/redlist" class="external-link"><img src="https://codecov.io/gh/stangandaho/redlist/graph/badge.svg?token=AS6SSJ8F1N" alt="codecov"></a></li>
 </ul>
 </div>
@@ -228,7 +230,7 @@ You can then run <code><a href="reference/rl_check_api.html">rl_check_api()</a><
 </div>
 
 <div class="pkgdown-footer-right">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.2.0.</p>
+  <p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.2.1.</p>
 </div>
 
     </footer>

@@ -23,6 +23,7 @@ dependencies automatically, supports parallel downloads. Alternately is
 {devtool} or *remotes*. I prefered to use *pak*.
 
 ``` r
+
 # Install pak if not available
 if (!requireNamespace("pak", quietly = TRUE)) {
   install.packages("pak")
@@ -65,18 +66,19 @@ threatened species that have been assessed in
 [Benin](https://fr.wikipedia.org/wiki/B%C3%A9nin).
 
 ``` r
+
 benin_redlist <- rl_countries(code = "BJ")
 head(benin_redlist)
 ```
 
-| country_description_en | country_code | assessments_year_published | assessments_latest | assessments_possibly_extinct | assessments_possibly_extinct_in_the_wild | assessments_sis_taxon_id | assessments_url                                     | assessments_taxon_scientific_name | assessments_red_list_category_code | assessments_assessment_id | assessments_code | assessments_code_type | assessments_scopes_description_en | assessments_scopes_code |
-|:-----------------------|:-------------|---------------------------:|:-------------------|:-----------------------------|:-----------------------------------------|-------------------------:|:----------------------------------------------------|:----------------------------------|:-----------------------------------|--------------------------:|:-----------------|:----------------------|:----------------------------------|------------------------:|
-| Benin                  | BJ           |                       2013 | FALSE              | FALSE                        | FALSE                                    |                   137286 | <https://www.iucnredlist.org/species/137286/522738> | Caccobius ferrugineus             | LC                                 |                    522738 | BJ               | country               | Global                            |                       1 |
-| Benin                  | BJ           |                       2025 | TRUE               | FALSE                        | FALSE                                    |                   137829 | <https://www.iucnredlist.org/species/137829/531737> | Garreta laetus                    | LC                                 |                    531737 | BJ               | country               | Global                            |                       1 |
-| Benin                  | BJ           |                       2014 | TRUE               | FALSE                        | FALSE                                    |                   137859 | <https://www.iucnredlist.org/species/137859/532227> | Pedaria estellae                  | LC                                 |                    532227 | BJ               | country               | Global                            |                       1 |
-| Benin                  | BJ           |                       2013 | TRUE               | FALSE                        | FALSE                                    |                   137957 | <https://www.iucnredlist.org/species/137957/533937> | Trichonthophagus juvencus         | LC                                 |                    533937 | BJ               | country               | Global                            |                       1 |
-| Benin                  | BJ           |                       2014 | TRUE               | FALSE                        | FALSE                                    |                   138000 | <https://www.iucnredlist.org/species/138000/534595> | Pedaria criberrima                | LC                                 |                    534595 | BJ               | country               | Global                            |                       1 |
-| Benin                  | BJ           |                       2013 | TRUE               | FALSE                        | FALSE                                    |                   138301 | <https://www.iucnredlist.org/species/138301/539328> | Latodrepanus laticollis           | LC                                 |                    539328 | BJ               | country               | Global                            |                       1 |
+| country_description_en | country_code | assessments_year_published | assessments_latest | assessments_possibly_extinct | assessments_possibly_extinct_in_the_wild | assessments_sis_taxon_id | assessments_url | assessments_taxon_scientific_name | assessments_red_list_category_code | assessments_assessment_id | assessments_code | assessments_code_type | assessments_scopes_description_en | assessments_scopes_code |
+|:---|:---|---:|:---|:---|:---|---:|:---|:---|:---|---:|:---|:---|:---|---:|
+| Benin | BJ | 2013 | FALSE | FALSE | FALSE | 137286 | <https://www.iucnredlist.org/species/137286/522738> | Caccobius ferrugineus | LC | 522738 | BJ | country | Global | 1 |
+| Benin | BJ | 2025 | TRUE | FALSE | FALSE | 137829 | <https://www.iucnredlist.org/species/137829/531737> | Garreta laetus | LC | 531737 | BJ | country | Global | 1 |
+| Benin | BJ | 2014 | TRUE | FALSE | FALSE | 137859 | <https://www.iucnredlist.org/species/137859/532227> | Pedaria estellae | LC | 532227 | BJ | country | Global | 1 |
+| Benin | BJ | 2013 | TRUE | FALSE | FALSE | 137957 | <https://www.iucnredlist.org/species/137957/533937> | Trichonthophagus juvencus | LC | 533937 | BJ | country | Global | 1 |
+| Benin | BJ | 2014 | TRUE | FALSE | FALSE | 138000 | <https://www.iucnredlist.org/species/138000/534595> | Pedaria criberrima | LC | 534595 | BJ | country | Global | 1 |
+| Benin | BJ | 2013 | TRUE | FALSE | FALSE | 138301 | <https://www.iucnredlist.org/species/138301/539328> | Latodrepanus laticollis | LC | 539328 | BJ | country | Global | 1 |
 
 By default, the function retrieves the first page of results, which
 includes the first 100 records across various years. You can specify one
@@ -85,6 +87,7 @@ accordingly. If you want to retrieve all available data without
 restricting by page, you can set the page argument to `NA` or `NULL`.
 
 ``` r
+
 # Get data from five first pages
 benin_redlist <- rl_countries(code = "BJ", page = 1:5)
 # Get data from two first pages specifically for 2023
@@ -117,6 +120,7 @@ through the `assessments_assessment_id` column and combine the data row
 by row.
 
 ``` r
+
 all_species_details <- lapply(benin_redlist$assessments_assessment_id, function(x){
   rl_assessment_id(id)
 }) %>% 

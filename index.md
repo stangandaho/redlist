@@ -27,6 +27,7 @@ complementary, serving different user preferences.
 ### 📦 Installation
 
 ``` r
+
 # Install from CRAN
 install.packages("redlist")
 
@@ -69,6 +70,7 @@ The `redlist` package offers simple functions to retrieve and explore
 IUCN Red List data.
 
 ``` r
+
 # Retrieve Red List data for Benin (country code "BJ"), first page by default
 benin_redlist <- rl_countries(code = "BJ")  # Get first 100 records
 head(benin_redlist)                         # Preview the data

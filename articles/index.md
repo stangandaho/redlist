@@ -10,3 +10,5 @@
   Areas](https://stangandaho.github.io/redlist/articles/GBIF-and-IUCN-Red-List.md):
 - [Get IUCN red list data with redlist R
   package](https://stangandaho.github.io/redlist/articles/get_data.md):
+- [A Portrait of Extinction: profiling the world's lost species with
+  redlist](https://stangandaho.github.io/redlist/articles/profile-of-extinction.md):

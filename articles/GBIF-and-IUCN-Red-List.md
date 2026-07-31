@@ -23,13 +23,14 @@ and `sf` handles spatial operations. The `dplyr` and `ggplot2` packages
 support data manipulation and visualization respectively.
 
 ``` r
+
 # Define required packages
 packages <- c("rgbif", "redlist", "sf", "dplyr", "ggplot2")
 
 # Install missing packages and load all
 for (pkg in packages) {
   if (!requireNamespace(pkg, quietly = TRUE)) {
-    install.packages(pkg, repos = "https://packagemanager.posit.co/cran/latest", dependencies = TRUE)
+    install.packages(pkg, repos = "https://packagemanager.posit.co/cran/latest")
   }
   library(pkg, character.only = TRUE)
 }
@@ -48,6 +49,7 @@ specimens, and require valid geographic coordinates for spatial
 analysis.
 
 ``` r
+
 # Temporal filter: records from 2000 onwards
 year_pred <- pred_gte("year", 2000)
 
@@ -71,6 +73,7 @@ size, we simplify the boundary by retaining vertices at 200-meter
 intervals.
 
 ``` r
+
 # Import park boundary shapefile
 wama_moko <- read_sf("wama_moko/wari-maro_monts kouffé.shp")
 
@@ -89,6 +92,7 @@ coordinate reference system and transform it to WGS 84 (EPSG:4326), the
 standard geographic coordinate system.
 
 ``` r
+
 # Check current CRS
 st_crs(wama_moko_single)$input
 
@@ -100,6 +104,7 @@ Finally, we convert the polygon to Well-Known Text (WKT) format, which
 GBIF uses to define spatial predicates.
 
 ``` r
+
 # Convert to WKT format for GBIF
 wama_moko_wkt <- st_as_text(wama_moko_single)
 
@@ -115,6 +120,7 @@ This approach keeps your authentication information secure and
 persistent across R sessions.
 
 ``` r
+
 # Open .Rprofile file
 rl_open_file()
 ```
@@ -136,6 +142,7 @@ working. The function returns a download key that you use to check
 status and retrieve results.
 
 ``` r
+
 # Submit download request
 wama_moko_occ <- occ_download(
   year_pred, 
@@ -150,6 +157,7 @@ Monitor the download status using the download key provided in the
 output. Once complete, retrieve and import the data into R.
 
 ``` r
+
 # Replace with your actual download key from, wama_moko_occ
 download_key <- "0007614-251120083545085"
 
@@ -171,6 +179,7 @@ often represent repeated sampling events rather than distinct
 occurrences.
 
 ``` r
+
 species_of_interest <- wama_moko_df %>%
   filter(phylum == "Chordata", species != "") %>%
   distinct(species, decimalLongitude, decimalLatitude, .keep_all = TRUE) %>%
@@ -185,6 +194,7 @@ unique species. We can visualize the temporal distribution of sampling
 effort to identify patterns in data collection intensity.
 
 ``` r
+
 species_of_interest %>%
   count(year) %>%
   ggplot(aes(x = year, y = n)) +
@@ -220,6 +230,7 @@ found in the database. For species with multiple assessments, we retain
 only the most recent evaluation to reflect current conservation status.
 
 ``` r
+
 # Initialize storage for unfound species
 not_found_sp <- list()
 
@@ -254,6 +265,7 @@ genus_species <- lapply(avail_sp, function(x) {
 ```
 
 ``` r
+
 # Compile species with IUCN assessments
 species_with_iucn <- bind_rows(genus_species)
 ```
