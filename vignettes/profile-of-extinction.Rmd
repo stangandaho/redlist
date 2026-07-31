@@ -17,9 +17,6 @@ knitr::opts_chunk$set(
 )
 
 library(dplyr)
-library(tidyr)
-library(stringr)
-library(forcats)
 library(ggplot2)
 library(scales)
 library(kableExtra)
@@ -151,7 +148,7 @@ ex <- ex %>%
       taxon_kingdom_name == "PLANTAE" ~ "Other plants",
       TRUE ~ "Other invertebrates"
     ),
-    kingdom = str_to_title(taxon_kingdom_name),
+    kingdom = tools::toTitleCase(tolower(taxon_kingdom_name)),
     branch = case_when(
       group %in% c("Mammals", "Birds", "Amphibians", "Reptiles", "Fishes") ~ "Vertebrates",
       taxon_kingdom_name == "PLANTAE" ~ "Plants",
@@ -223,7 +220,7 @@ sorts the catalogue into major groups.
 ```{r groups, fig.width = 8, fig.height = 5.5, fig.alt = "Number of Extinct species by major taxonomic group"}
 group_tbl <- ex %>%
   count(group, branch, name = "species") %>%
-  mutate(group = fct_reorder(group, species))
+  mutate(group = reorder(group, species))
 
 ggplot(group_tbl, aes(species, group, colour = branch)) +
   geom_segment(aes(x = 0, xend = species, y = group, yend = group),
@@ -329,10 +326,13 @@ both kingdoms.
 ```{r decade-table}
 ex %>%
   mutate(decade = paste0(floor(year_published / 10) * 10, "s")) %>%
-  count(decade, kingdom) %>%
-  pivot_wider(names_from = kingdom, values_from = n, values_fill = 0) %>%
-  mutate(Total = Animalia + Plantae) %>%
-  rename(Decade = decade, Animals = Animalia, Plants = Plantae) %>%
+  group_by(Decade = decade) %>%
+  summarise(
+    Animals = sum(kingdom == "Animalia"),
+    Plants  = sum(kingdom == "Plantae"),
+    Total   = n(),
+    .groups = "drop"
+  ) %>%
   kable(align = c("l", "r", "r", "r"),
         caption = "Extinct listings by publication decade and kingdom") %>%
   kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover"))
@@ -347,7 +347,7 @@ again and again, and each is a well known tragedy of modern conservation.
 top_genera <- ex %>%
   count(genus, group, name = "species") %>%
   slice_max(species, n = 12) %>%
-  mutate(genus = fct_reorder(genus, species))
+  mutate(genus = reorder(genus, species))
 
 ggplot(top_genera, aes(species, genus, fill = group)) +
   geom_col(width = 0.7) +
