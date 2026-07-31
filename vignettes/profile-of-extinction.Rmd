@@ -181,7 +181,7 @@ were published between **`r yr_min`** and **`r yr_max`**.
 ## The scale of loss at a glance
 
 ```{r overview-table}
-tibble::tibble(
+dplyr::tibble(
   Measure = c(
     "Assessment records returned",
     "Distinct Extinct species (latest listing)",
