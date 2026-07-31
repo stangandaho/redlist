@@ -39,7 +39,7 @@ packages <- c("rgbif", "redlist", "sf", "dplyr", "ggplot2")
 # Install missing packages and load all
 for (pkg in packages) {
   if (!requireNamespace(pkg, quietly = TRUE)) {
-    install.packages(pkg, repos = "https://packagemanager.posit.co/cran/latest", dependencies = TRUE)
+    install.packages(pkg, repos = "https://packagemanager.posit.co/cran/latest")
   }
   library(pkg, character.only = TRUE)
 }

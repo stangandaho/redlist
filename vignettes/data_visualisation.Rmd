@@ -74,7 +74,7 @@ benin_rl %>%
 
 Most species in Benin fall under **Least Concern (LC)**, but some are classified as threatened. This chart highlights the proportion of assessments by category.
 
-```{r plot-category-proportions}
+```{r plot-category-proportions, fig.alt='Bar chart of the proportion of IUCN Red List categories among species assessed in Benin'}
 benin_rl %>%
   filter(!is.na(assessments_red_list_category_code)) %>%
   count(assessments_red_list_category_code) %>%
@@ -95,7 +95,7 @@ benin_rl %>%
 
 Focusing on **Critically Endangered (CR)**, **Endangered (EN)**, and **Vulnerable (VU)** species helps track biodiversity risk.
 
-```{r plot-threatened-trends}
+```{r plot-threatened-trends, fig.alt='Line chart of the number of Critically Endangered, Endangered and Vulnerable assessments in Benin over time'}
 benin_rl %>%
   filter(assessments_red_list_category_code %in% c("CR", "EN", "VU")) %>%
   count(assessments_year_published, assessments_red_list_category_code) %>%

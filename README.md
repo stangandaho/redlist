@@ -3,6 +3,7 @@
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/stangandaho/redlist/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/stangandaho/redlist/actions/workflows/R-CMD-check.yaml)
 [![CRAN status](https://www.r-pkg.org/badges/version/redlist)](https://CRAN.R-project.org/package=redlist)
+[![CRAN downloads](https://cranlogs.r-pkg.org/badges/grand-total/redlist)](https://cran.r-project.org/package=redlist)
 <!-- badges: end -->
 [![codecov](https://codecov.io/gh/stangandaho/redlist/graph/badge.svg?token=AS6SSJ8F1N)](https://app.codecov.io/gh/stangandaho/redlist)
 

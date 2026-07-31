@@ -43,6 +43,8 @@ navbar:
         href: articles/data_visualisation.html
       - text: 3. GBIF and IUCN Red List
         href: articles/GBIF-and-IUCN-Red-List.html
+      - text: 4. Portrait of Extinction
+        href: articles/profile-of-extinction.html
     news:
       text: News
       icon: fa-face-smile

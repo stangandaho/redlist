@@ -54,7 +54,7 @@ head(benin_redlist)
 ```
 
 ```{r echo=FALSE}
-benin_redlist <- readRDS("benin_redlist.rds")
+benin_redlist <- readRDS("data/benin_redlist.rds")
 head(benin_redlist) %>% 
   kableExtra::kable("html") %>% 
   kableExtra::kable_styling("striped") %>% 
