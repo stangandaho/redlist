@@ -148,7 +148,7 @@ published between **1996** and **2026**.
 
 ``` r
 
-tibble::tibble(
+dplyr::tibble(
   Measure = c(
     "Assessment records returned",
     "Distinct Extinct species (latest listing)",
