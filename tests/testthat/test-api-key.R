@@ -3,7 +3,12 @@
 # .covrignore); here we exercise only the paths that need no connection.
 
 test_that("rl_check_api aborts when no API key is set", {
-  withr::local_envvar(REDLIST_API = "")
+  old <- Sys.getenv("REDLIST_API", unset = NA)
+  Sys.setenv(REDLIST_API = "")
+  on.exit(
+    if (is.na(old)) Sys.unsetenv("REDLIST_API") else Sys.setenv(REDLIST_API = old),
+    add = TRUE
+  )
   expect_error(rl_check_api(), regexp = "No Redlist API key")
 })
 
