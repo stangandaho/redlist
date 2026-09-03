@@ -2,6 +2,11 @@
 
 # 
 
+[![R-CMD-check](https://github.com/stangandaho/redlist/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/stangandaho/redlist/actions/workflows/R-CMD-check.yaml)
+[![CRAN
+status](https://www.r-pkg.org/badges/version/redlist)](https://CRAN.R-project.org/package=redlist)
+[![CRAN
+downloads](https://cranlogs.r-pkg.org/badges/grand-total/redlist)](https://cran.r-project.org/package=redlist)
 [![codecov](https://codecov.io/gh/stangandaho/redlist/graph/badge.svg?token=AS6SSJ8F1N)](https://app.codecov.io/gh/stangandaho/redlist)
 
 ## About This Project
@@ -177,3 +182,10 @@ If you encounter a clear bug, please file an
 [issue](https://github.com/stangandaho/redlist/issues) with a minimal
 reproducible example. For questions and other discussion, please use
 [relevant section](https://github.com/stangandaho/redlist/discussions).
+
+## Acknowledgements
+
+The development of `redlist` is supported by the R Consortium
+Infrastructure Steering Committee (ISC), whose grant funded the
+taxonomic name bridge, the GBIF occurrence pipeline, and the criterion A
+and B risk metrics.
