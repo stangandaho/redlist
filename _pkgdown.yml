@@ -45,6 +45,12 @@ navbar:
         href: articles/GBIF-and-IUCN-Red-List.html
       - text: 4. Portrait of Extinction
         href: articles/profile-of-extinction.html
+      - text: 5. From a name to Criterion B metrics
+        href: articles/occurrence-workflow.html
+      - text: 6. Extent of occurrence and area of occupancy
+        href: articles/eoo-and-aoo.html
+      - text: 7. Population reduction (Criterion A)
+        href: articles/criterion-a-reduction.html
     news:
       text: News
       icon: fa-face-smile
@@ -155,6 +161,19 @@ reference:
     Function to list systems and query assessments by system code.
   contents:
   - rl_systems
+- title: Occurrences and range metrics
+  desc: |
+    Resolve names to the GBIF backbone, fetch and check occurrence records, and
+    compute the IUCN Criterion B range metrics.
+  contents:
+  - rl_name_resolve
+  - rl_occurrences
+  - rl_check_occurrences
+  - rl_eoo
+  - rl_aoo
+  - rl_generation_length
+  - rl_reduction
+  - rl_overall_reduction
 - title: Taxa
   desc: |
     Functions to retrieve summary assessment data at species and higher taxonomic levels.

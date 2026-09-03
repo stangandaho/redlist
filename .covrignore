@@ -21,6 +21,8 @@ R/rl_possibly_extinct_in_wild.R
 R/rl_red_list_categories.R
 R/rl_research.R
 R/rl_scientific_name.R
+R/rl_name_resolve.R
+R/rl_occurrences.R
 R/rl_scopes.R
 R/rl_set_api.R
 R/rl_sis.R

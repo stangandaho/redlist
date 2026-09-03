@@ -1,17 +1,24 @@
 Package: redlist
 Type: Package
-Title: Interface to the IUCN Red List Data
-Version: 0.2.0
-Authors@R: 
-    person(given = "Stanislas Mahussi", 
-           family = "Gandaho", 
-           email = "stangandaho@gmail.com", 
+Title: Interface to the IUCN Red List with Extinction Risk Metrics
+Version: 0.3.0
+Authors@R:
+    person(given = "Stanislas Mahussi",
+           family = "Gandaho",
+           email = "stangandaho@gmail.com",
            role = c("aut", "cre"),
            comment = c(ORCID = "0009-0003-4969-1252"))
-Description: Provides an interface to access data from the International Union 
-    for Conservation of Nature (IUCN) Red List <https://api.iucnredlist.org/api-docs/index.html>. It allows users to retrieve up-to-date 
-    information on species' conservation status, supporting biodiversity research 
-    and conservation efforts.
+Description: Access species conservation data from the International Union for
+    Conservation of Nature (IUCN) Red List API
+    <https://api.iucnredlist.org/api-docs/index.html>, including assessments,
+    taxonomy, threats, habitats and historical status. The package also
+    reconciles taxonomic names between the IUCN Red List and the Global
+    Biodiversity Information Facility (GBIF), retrieves and checks GBIF occurrence
+    records, and computes the range and population metrics of the IUCN Red List
+    Categories and Criteria (IUCN Standards and Petitions Committee, 2024,
+    <https://www.iucnredlist.org/documents/RedListGuidelines.pdf>): extent of
+    occurrence and area of occupancy for criterion B, and population reduction
+    for criterion A.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
@@ -23,17 +30,22 @@ Imports:
     httr2 (>= 1.1.2),
     magrittr (>= 2.0.3),
     methods,
-    rvest (>= 1.0.4)
+    rlang (>= 1.1.0),
+    rvest (>= 1.0.4),
+    stats,
+    utils
 URL: https://github.com/stangandaho/redlist, https://stangandaho.github.io/redlist/
 BugReports: https://github.com/stangandaho/redlist/issues
 Depends: R (>= 3.6.0)
 Suggests:
+    CoordinateCleaner (>= 3.0.0),
     ggplot2 (>= 3.5.2),
-    httptest2 (>= 1.1.0),
     kableExtra (>= 1.4.0),
     knitr (>= 1.50),
+    rgbif (>= 3.7.0),
     rmarkdown (>= 2.29),
     scales (>= 1.4.0),
+    sf (>= 1.0.0),
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Config/Needs/website: rmarkdown

@@ -262,6 +262,104 @@ fill_na_with_previous <- function(x) {
 }
 
 
+# Ensure sf is available, prompting an interactive install when possible.
+#' @noRd
+rl_need_sf <- function() {
+  rlang::check_installed("sf", reason = "to compute spatial Red List metrics (EOO and AOO).")
+}
+
+# Ensure rgbif is available, prompting an interactive install when possible.
+#' @noRd
+rl_need_rgbif <- function() {
+  rlang::check_installed("rgbif", reason = "to retrieve GBIF occurrence records.")
+}
+
+# Turn occurrence input into an sf geometry projected to a local equal area
+# system in metres, so areas and the AOO grid are measured correctly.
+# Accepts an sf POINT object (e.g. from rl_occurrences()) or a data frame with
+# longitude and latitude columns.
+#' @noRd
+rl_prepare_points <- function(x, coords = c("longitude", "latitude"), crs = 4326) {
+  rl_need_sf()
+
+  if (inherits(x, "sf")) {
+    geom_type <- as.character(unique(sf::st_geometry_type(x)))
+    if (!all(geom_type %in% c("POINT", "MULTIPOINT"))) {
+      cli::cli_abort("{.arg x} must be an sf object with POINT geometry.")
+    }
+    points <- sf::st_geometry(x)
+    if (is.na(sf::st_crs(points))) {
+      sf::st_crs(points) <- crs
+    }
+  } else if (is.data.frame(x)) {
+    if (!all(coords %in% names(x))) {
+      cli::cli_abort(c(
+        "Coordinate columns {.val {coords}} were not found in {.arg x}.",
+        i = "Pass the longitude and latitude column names with {.arg coords}."
+      ))
+    }
+    xy <- x[, coords]
+    xy <- xy[rowSums(is.na(xy)) == 0, , drop = FALSE]
+    if (nrow(xy) == 0) {
+      cli::cli_abort("No records with complete coordinates were found in {.arg x}.")
+    }
+    points <- sf::st_geometry(sf::st_as_sf(xy, coords = coords, crs = crs))
+  } else {
+    cli::cli_abort("{.arg x} must be an sf object or a data frame of coordinates.")
+  }
+
+  # Remember the input CRS so callers can return polygons aligned with the
+  # coordinates the user supplied.
+  orig_crs <- sf::st_crs(points)
+
+  # Project geographic coordinates to a Lambert azimuthal equal area system
+  # centred on the data, so that both the convex hull area and the 2 km grid
+  # are computed in metres.
+  if (isTRUE(sf::st_is_longlat(points))) {
+    cc <- sf::st_coordinates(points)
+    laea <- sprintf(
+      "+proj=laea +lat_0=%f +lon_0=%f +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+      mean(cc[, 2]), mean(cc[, 1])
+    )
+    points <- sf::st_transform(points, laea)
+  }
+
+  attr(points, "rl_orig_crs") <- orig_crs
+  points
+}
+
+# IUCN criterion B1 (EOO) spatial thresholds, in square kilometres.
+# Returns the most threatened band the value reaches, or NA when it meets none.
+#' @noRd
+rl_b1_category <- function(area_km2) {
+  if (is.na(area_km2)) return(NA_character_)
+  if (area_km2 < 100) {
+    "CR"
+  } else if (area_km2 < 5000) {
+    "EN"
+  } else if (area_km2 < 20000) {
+    "VU"
+  } else {
+    NA_character_
+  }
+}
+
+# IUCN criterion B2 (AOO) spatial thresholds, in square kilometres.
+#' @noRd
+rl_b2_category <- function(area_km2) {
+  if (is.na(area_km2)) return(NA_character_)
+  if (area_km2 < 10) {
+    "CR"
+  } else if (area_km2 < 500) {
+    "EN"
+  } else if (area_km2 < 2000) {
+    "VU"
+  } else {
+    NA_character_
+  }
+}
+
+
 # Coerce character to numeric or boolean
 coerce_char <- function(x) {
   # Try to convert to logical (TRUE/FALSE)

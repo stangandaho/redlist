@@ -8,7 +8,8 @@ rl_scientific_name(
   genus_name,
   species_name,
   infra_name = NULL,
-  subpopulation_name = NULL
+  subpopulation_name = NULL,
+  resolve = TRUE
 )
 }
 \arguments{
@@ -19,18 +20,39 @@ rl_scientific_name(
 \item{infra_name}{Character. The infraspecific name (optional).}
 
 \item{subpopulation_name}{Character. The subpopulation name (optional).}
+
+\item{resolve}{Logical. If \code{TRUE} (default), attempt to resolve the name via
+\code{\link[=rl_name_resolve]{rl_name_resolve()}} and retry when the IUCN Red List returns a 404 (species
+not found). Set to \code{FALSE} to fail instead.}
 }
 \value{
 A tibble (class \code{tbl_df}, \code{tbl}, \code{data.frame}) where each column represents a unique API response JSON key.
 The tibble contains assessment data for the specified taxon, including taxon details.
+When the name had to be resolved, the columns \code{input_name},
+\code{isSynonym}, \code{entryDate}, and \code{matchType} from \code{\link[=rl_name_resolve]{rl_name_resolve()}}
+are appended.
 }
 \description{
 Retrieve species assessments using scientific names (Latin binomials).
 Returns summary assessment data including both latest and historic assessments.
 }
+\details{
+When the supplied name is not the one the IUCN Red List uses (a common case
+for names coming from GBIF), the API returns a \emph{404} and, if \code{resolve = TRUE},
+this function calls \code{\link[=rl_name_resolve]{rl_name_resolve()}} to recover the accepted IUCN name and
+retries the request with it. The resolved-name provenance is then appended as
+the extra columns \code{outlink}, \code{entryDate}, \code{currentCanonicalFull}, \code{isSynonym}
+and \code{matchType}.
+}
 \examples{
 \dontrun{
 # Get assessments for Panthera leo (lion)
 rl_scientific_name(genus_name = "Panthera", species_name = "leo")
+
+# A GBIF synonym that IUCN lists under another name is resolved automatically
+rl_scientific_name(genus_name = "Corvinella", species_name = "corvina")
 }
+}
+\seealso{
+\code{\link[=rl_name_resolve]{rl_name_resolve()}}
 }
