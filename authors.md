@@ -10,13 +10,14 @@
 Source:
 [`DESCRIPTION`](https://github.com/stangandaho/redlist/blob/main/DESCRIPTION)
 
-Gandaho S (2026). *redlist: Interface to the IUCN Red List Data*. R
-package version 0.2.0, <https://github.com/stangandaho/redlist>.
+Gandaho S (2026). *redlist: Interface to the IUCN Red List with
+Extinction Risk Metrics*. R package version 0.3.0,
+<https://github.com/stangandaho/redlist>.
 
     @Manual{,
-      title = {redlist: Interface to the IUCN Red List Data},
+      title = {redlist: Interface to the IUCN Red List with Extinction Risk Metrics},
       author = {Stanislas Mahussi Gandaho},
       year = {2026},
-      note = {R package version 0.2.0},
+      note = {R package version 0.3.0},
       url = {https://github.com/stangandaho/redlist},
     }

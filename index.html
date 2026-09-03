@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Interface to the IUCN Red List Data • redlist</title>
+<title>Interface to the IUCN Red List with Extinction Risk Metrics • redlist</title>
 <!-- favicons --><link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
 <link rel="icon" type="”image/svg+xml”" href="favicon.svg">
 <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
@@ -23,9 +23,9 @@
 <link href="deps/JetBrains_Mono-0.4.10/font.css" rel="stylesheet">
 <link href="deps/font-awesome-6.5.2/css/all.min.css" rel="stylesheet">
 <link href="deps/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet">
-<script src="deps/headroom-0.11.0/headroom.min.js"></script><script src="deps/headroom-0.11.0/jQuery.headroom.min.js"></script><script src="deps/bootstrap-toc-1.0.1/bootstrap-toc.min.js"></script><script src="deps/clipboard.js-2.0.11/clipboard.min.js"></script><script src="deps/search-1.0.0/autocomplete.jquery.min.js"></script><script src="deps/search-1.0.0/fuse.min.js"></script><script src="deps/search-1.0.0/mark.min.js"></script><!-- pkgdown --><script src="pkgdown.js"></script><meta property="og:title" content="Interface to the IUCN Red List Data">
-<meta name="description" content="Provides an interface to access data from the International Union for Conservation of Nature (IUCN) Red List &lt;https://api.iucnredlist.org/api-docs/index.html&gt;. It allows users to retrieve up-to-date information on species' conservation status, supporting biodiversity research and conservation efforts.">
-<meta property="og:description" content="Provides an interface to access data from the International Union for Conservation of Nature (IUCN) Red List &lt;https://api.iucnredlist.org/api-docs/index.html&gt;. It allows users to retrieve up-to-date information on species' conservation status, supporting biodiversity research and conservation efforts.">
+<script src="deps/headroom-0.11.0/headroom.min.js"></script><script src="deps/headroom-0.11.0/jQuery.headroom.min.js"></script><script src="deps/bootstrap-toc-1.0.1/bootstrap-toc.min.js"></script><script src="deps/clipboard.js-2.0.11/clipboard.min.js"></script><script src="deps/search-1.0.0/autocomplete.jquery.min.js"></script><script src="deps/search-1.0.0/fuse.min.js"></script><script src="deps/search-1.0.0/mark.min.js"></script><!-- pkgdown --><script src="pkgdown.js"></script><meta property="og:title" content="Interface to the IUCN Red List with Extinction Risk Metrics">
+<meta name="description" content="Access species conservation data from the International Union for Conservation of Nature (IUCN) Red List API &lt;https://api.iucnredlist.org/api-docs/index.html&gt;, including assessments, taxonomy, threats, habitats and historical status. The package also reconciles taxonomic names between the IUCN Red List and the Global Biodiversity Information Facility (GBIF), retrieves and checks GBIF occurrence records, and computes the range and population metrics of the IUCN Red List Categories and Criteria (IUCN Standards and Petitions Committee, 2024, &lt;https://www.iucnredlist.org/documents/RedListGuidelines.pdf&gt;): extent of occurrence and area of occupancy for criterion B, and population reduction for criterion A.">
+<meta property="og:description" content="Access species conservation data from the International Union for Conservation of Nature (IUCN) Red List API &lt;https://api.iucnredlist.org/api-docs/index.html&gt;, including assessments, taxonomy, threats, habitats and historical status. The package also reconciles taxonomic names between the IUCN Red List and the Global Biodiversity Information Facility (GBIF), retrieves and checks GBIF occurrence records, and computes the range and population metrics of the IUCN Red List Categories and Criteria (IUCN Standards and Petitions Committee, 2024, &lt;https://www.iucnredlist.org/documents/RedListGuidelines.pdf&gt;): extent of occurrence and area of occupancy for criterion B, and population reduction for criterion A.">
 <meta property="og:image" content="https://stangandaho.github.io/redlist/logo.png">
 </head>
 <body>
@@ -36,7 +36,7 @@
 
     <a class="navbar-brand me-2" href="index.html">redlist</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.2.0</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.3.0</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,6 +54,9 @@
     <li><a class="dropdown-item" href="articles/data_visualisation.html">2. Data Visualisation</a></li>
     <li><a class="dropdown-item" href="articles/GBIF-and-IUCN-Red-List.html">3. GBIF and IUCN Red List</a></li>
     <li><a class="dropdown-item" href="articles/profile-of-extinction.html">4. Portrait of Extinction</a></li>
+    <li><a class="dropdown-item" href="articles/occurrence-workflow.html">5. From a name to Criterion B metrics</a></li>
+    <li><a class="dropdown-item" href="articles/eoo-and-aoo.html">6. Extent of occurrence and area of occupancy</a></li>
+    <li><a class="dropdown-item" href="articles/criterion-a-reduction.html">7. Population reduction (Criterion A)</a></li>
   </ul>
 </li>
 <li class="nav-item"><a class="nav-link" href="news/index.html"><span class="fa fa-face-smile"></span> News</a></li>
@@ -90,6 +93,8 @@
 <h1 id="section"><a class="anchor" aria-label="anchor" href="#section"></a></h1>
 <!-- badges: start -->
 
+<!-- badges: end -->
+<p><a href="https://app.codecov.io/gh/stangandaho/redlist" class="external-link"><img src="https://codecov.io/gh/stangandaho/redlist/graph/badge.svg?token=AS6SSJ8F1N" alt="codecov"></a></p>
 <div class="section level2">
 <h2 id="about-this-project">About This Project<a class="anchor" aria-label="anchor" href="#about-this-project"></a>
 </h2>
@@ -104,13 +109,15 @@ These differences mean the packages are not in competition but are complementary
 <h3 id="package-installation">📦 Installation<a class="anchor" aria-label="anchor" href="#package-installation"></a>
 </h3>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="co"># Install from CRAN</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"redlist"</span><span class="op">)</span></span>
-<span></span>
-<span><span class="co"># Install from GitHub</span></span>
+<code class="sourceCode R"><span><span class="co"># Install with pak package</span></span>
 <span><span class="kw">if</span> <span class="op">(</span><span class="op">!</span><span class="fu"><a href="https://rdrr.io/r/base/ns-load.html" class="external-link">requireNamespace</a></span><span class="op">(</span><span class="st">"pak"</span>, quietly <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span><span class="op">)</span> <span class="op">{</span></span>
 <span>  <span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"pak"</span>, dependencies <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
 <span><span class="op">}</span></span>
+<span></span>
+<span><span class="co"># Install from CRAN</span></span>
+<span><span class="fu">pak</span><span class="fu">::</span><span class="fu"><a href="https://pak.r-lib.org/reference/pkg_install.html" class="external-link">pkg_install</a></span><span class="op">(</span><span class="st">"redlist"</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># Install from GitHub</span></span>
 <span><span class="fu">pak</span><span class="fu">::</span><span class="fu"><a href="https://pak.r-lib.org/reference/pkg_install.html" class="external-link">pkg_install</a></span><span class="op">(</span><span class="st">"stangandaho/redlist"</span><span class="op">)</span></span>
 <span></span>
 <span><span class="co"># Load</span></span>
@@ -121,10 +128,12 @@ These differences mean the packages are not in competition but are complementary
 </h3>
 <p>If you’re using this package for the first time, you’ll likely need an IUCN Red List API key.<br>
 You can check whether it’s set by running <code><a href="reference/rl_check_api.html">rl_check_api()</a></code>.<br>
-If this throws an error like ‘<em>! No Redlist API key found… </em>’, you’ll need to set an API key before using any of the package functions. Just follow these two simple steps:<br>
-1. Visit the official IUCN Red List API website <a href="https://api.iucnredlist.org/users/edit" class="external-link">here</a>. Create an account if you don’t already have one. Once logged in, you can request your API key.<br>
-2. Copy your API key and set it using the <code><a href="reference/rl_set_api.html">rl_set_api()</a></code> function, like this <code>rl_set_api("2GoWiThmYrEDlitApiThatWorkS4me")</code>.<br>
-You can then run <code><a href="reference/rl_check_api.html">rl_check_api()</a></code> again to confirm that your API key is set successfully.</p>
+If this throws an error like ‘<em>! No Redlist API key found…</em>’, you’ll need to set an API key before using any of the package data requery functions. Just follow these two simple steps:</p>
+<ol style="list-style-type: decimal">
+<li><p>Visit the official IUCN Red List API website <a href="https://api.iucnredlist.org/users/edit" class="external-link">here</a>. Create an account if you don’t already have one. Once logged in, you can request your API key.</p></li>
+<li><p>Copy your API key and set it using the <code><a href="reference/rl_set_api.html">rl_set_api()</a></code> function, like this <code>rl_set_api("2GoWiThmYrEDlitApiThatWorkS4me")</code>.</p></li>
+</ol>
+<p>You can then run <code><a href="reference/rl_check_api.html">rl_check_api()</a></code> again to confirm that your API key is set successfully.</p>
 <blockquote>
 <p><em>Please ensure that you have read and agreed to the <a href="https://www.iucnredlist.org/terms/terms-of-use" class="external-link">API key terms of use</a> and have complied with them during your usage.</em></p>
 </blockquote>
@@ -133,11 +142,11 @@ You can then run <code><a href="reference/rl_check_api.html">rl_check_api()</a><
 <div class="section level2">
 <h2 id="usage">Usage<a class="anchor" aria-label="anchor" href="#usage"></a>
 </h2>
-<p>The <code>redlist</code> package offers simple functions to retrieve and explore IUCN Red List data.</p>
+<p>The <code>redlist</code> package offers simple functions to retrieve and explore IUCN Red List data, and calculate risk metrics.</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co"># Retrieve Red List data for Benin (country code "BJ"), first page by default</span></span>
-<span><span class="va">benin_redlist</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/rl_countries.html">rl_countries</a></span><span class="op">(</span>code <span class="op">=</span> <span class="st">"BJ"</span><span class="op">)</span>  <span class="co"># Get first 100 records</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="va">benin_redlist</span><span class="op">)</span>                         <span class="co"># Preview the data</span></span>
+<span><span class="va">benin_redlist</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/rl_countries.html">rl_countries</a></span><span class="op">(</span>code <span class="op">=</span> <span class="st">"BJ"</span><span class="op">)</span> <span class="co"># Get first 100 records</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="va">benin_redlist</span><span class="op">)</span> <span class="co"># Preview the data</span></span>
 <span></span>
 <span><span class="co"># Retrieve data from first 5 pages (up to 500 records)</span></span>
 <span><span class="va">benin_redlist_pages</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/rl_countries.html">rl_countries</a></span><span class="op">(</span>code <span class="op">=</span> <span class="st">"BJ"</span>, page <span class="op">=</span> <span class="fl">1</span><span class="op">:</span><span class="fl">5</span><span class="op">)</span></span>
@@ -158,7 +167,48 @@ You can then run <code><a href="reference/rl_check_api.html">rl_check_api()</a><
 <span><span class="va">all_species_details</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/lapply.html" class="external-link">lapply</a></span><span class="op">(</span><span class="va">benin_redlist</span><span class="op">$</span><span class="va">assessments_assessment_id</span>, <span class="kw">function</span><span class="op">(</span><span class="va">id</span><span class="op">)</span> <span class="op">{</span></span>
 <span>  <span class="fu"><a href="reference/rl_assessment_id.html">rl_assessment_id</a></span><span class="op">(</span>assessment_id <span class="op">=</span> <span class="va">id</span><span class="op">)</span></span>
 <span><span class="op">}</span><span class="op">)</span> <span class="op"><a href="reference/pipe.html">%&gt;%</a></span> <span class="fu">dplyr</span><span class="fu">::</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/bind_rows.html" class="external-link">bind_rows</a></span><span class="op">(</span><span class="op">)</span></span></code></pre></div>
+<div class="section level3">
+<h3 id="from-a-species-name-to-criterion-b-metrics">From a species name to Criterion B metrics<a class="anchor" aria-label="anchor" href="#from-a-species-name-to-criterion-b-metrics"></a>
+</h3>
+<p>Beyond retrieving assessments, <code>redlist</code> can gather occurrence records and compute the range metrics used in Criterion B. The occurrence functions use the public GBIF search service.</p>
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># 1. Get the IUCN assessment. resolve = TRUE recovers the accepted IUCN name</span></span>
+<span><span class="co">#    when the given name is a synonym (here Corvinella corvina is filed by IUCN</span></span>
+<span><span class="co">#    as Lanius corvinus).</span></span>
+<span><span class="va">sp</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/rl_scientific_name.html">rl_scientific_name</a></span><span class="op">(</span>genus_name <span class="op">=</span> <span class="st">"Corvinella"</span>, species_name <span class="op">=</span> <span class="st">"corvina"</span>,</span>
+<span>                         resolve <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># 2. Fetch GBIF occurrence records.</span></span>
+<span><span class="va">occ</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/rl_occurrences.html">rl_occurrences</a></span><span class="op">(</span><span class="va">sp</span>,</span>
+<span>                      year <span class="op">=</span> <span class="st">"&gt;2000"</span>,</span>
+<span>                      basis_of_record <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"HUMAN_OBSERVATION"</span>, <span class="st">"MACHINE_OBSERVATION"</span><span class="op">)</span>,</span>
+<span>                      limit <span class="op">=</span> <span class="fl">2000</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># 3. Check data quality and clean.</span></span>
+<span><span class="va">occ_clean</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/rl_check_occurrences.html">rl_check_occurrences</a></span><span class="op">(</span><span class="va">occ</span>,</span>
+<span>                                  correct <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"duplicates"</span>, <span class="st">"outliers"</span>, <span class="st">"country"</span>, <span class="st">"centroids"</span><span class="op">)</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># 4. Compute the Criterion B metrics.</span></span>
+<span><span class="fu"><a href="reference/rl_eoo.html">rl_eoo</a></span><span class="op">(</span><span class="va">occ_clean</span><span class="op">)</span> <span class="co"># extent of occurrence</span></span>
+<span><span class="fu"><a href="reference/rl_aoo.html">rl_aoo</a></span><span class="op">(</span><span class="va">occ_clean</span><span class="op">)</span> <span class="co"># area of occupancy</span></span></code></pre></div>
+</div>
+<div class="section level3">
+<h3 id="population-reduction-criterion-a">Population reduction (Criterion A)<a class="anchor" aria-label="anchor" href="#population-reduction-criterion-a"></a>
+</h3>
+<p><code><a href="reference/rl_reduction.html">rl_reduction()</a></code> estimates the reduction over generations under an exponential or linear decline. <code><a href="reference/rl_overall_reduction.html">rl_overall_reduction()</a></code> combines subpopulations weighted by size.</p>
+<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># 1556 individuals in 2011 and 898 in 2021, generation length 10 years,</span></span>
+<span><span class="co"># assessed in 2026. This returns an 80.8% reduction (CR under criterion A2).</span></span>
+<span><span class="fu"><a href="reference/rl_reduction.html">rl_reduction</a></span><span class="op">(</span>population <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="fl">1556</span>, <span class="fl">898</span><span class="op">)</span>, time <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="fl">2011</span>, <span class="fl">2021</span><span class="op">)</span>,</span>
+<span>             generation_length <span class="op">=</span> <span class="fl">10</span>, model <span class="op">=</span> <span class="st">"exponential"</span>,</span>
+<span>             assessment_year <span class="op">=</span> <span class="fl">2026</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># Combine three subpopulations into one figure for the taxon</span></span>
+<span><span class="fu"><a href="reference/rl_overall_reduction.html">rl_overall_reduction</a></span><span class="op">(</span>past <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="fl">10000</span>, <span class="fl">8000</span>, <span class="fl">12000</span><span class="op">)</span>,</span>
+<span>                     present <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="fl">5000</span>, <span class="fl">9000</span>, <span class="fl">2000</span><span class="op">)</span><span class="op">)</span></span></code></pre></div>
+<p>These snippets only show the essentials. For the full story, including what each argument does, the IUCN thresholds, and how to read the results, see the articles on <a href="https://stangandaho.github.io/redlist/articles/eoo-and-aoo.html">extent of occurrence and area of occupancy</a> and on <a href="https://stangandaho.github.io/redlist/articles/criterion-a-reduction.html">population reduction under criterion A</a>.</p>
 <p><strong>For a full overview of all available functions, please visit the <a href="https://stangandaho.github.io/redlist/reference/index.html">redlist website</a></strong></p>
+</div>
 </div>
 <div class="section level2">
 <h2 id="code-of-conduct">Code of conduct<a class="anchor" aria-label="anchor" href="#code-of-conduct"></a>
@@ -217,7 +267,6 @@ You can then run <code><a href="reference/rl_check_api.html">rl_check_api()</a><
 <li><a href="https://github.com/stangandaho/redlist/actions/workflows/R-CMD-check.yaml" class="external-link"><img src="https://github.com/stangandaho/redlist/actions/workflows/R-CMD-check.yaml/badge.svg" alt="R-CMD-check"></a></li>
 <li><a href="https://CRAN.R-project.org/package=redlist" class="external-link"><img src="https://www.r-pkg.org/badges/version/redlist" alt="CRAN status"></a></li>
 <li><a href="https://cran.r-project.org/package=redlist" class="external-link"><img src="https://cranlogs.r-pkg.org/badges/grand-total/redlist" alt="CRAN downloads"></a></li>
-<li><a href="https://app.codecov.io/gh/stangandaho/redlist" class="external-link"><img src="https://codecov.io/gh/stangandaho/redlist/graph/badge.svg?token=AS6SSJ8F1N" alt="codecov"></a></li>
 </ul>
 </div>
 

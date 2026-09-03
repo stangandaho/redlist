@@ -129,6 +129,28 @@ Function to list systems and query assessments by system code.
 - [`rl_systems()`](https://stangandaho.github.io/redlist/reference/rl_systems.md)
   : IUCN Red List ecological systems
 
+## Occurrences and range metrics
+
+Resolve names to the GBIF backbone, fetch and check occurrence records,
+and compute the IUCN Criterion B range metrics.
+
+- [`rl_name_resolve()`](https://stangandaho.github.io/redlist/reference/rl_name_resolve.md)
+  : Resolve a scientific name to the accepted IUCN Red List name
+- [`rl_occurrences()`](https://stangandaho.github.io/redlist/reference/rl_occurrences.md)
+  : Retrieve GBIF occurrence records for a taxon
+- [`rl_check_occurrences()`](https://stangandaho.github.io/redlist/reference/rl_check_occurrences.md)
+  : Assessment-readiness checks for occurrence data
+- [`rl_eoo()`](https://stangandaho.github.io/redlist/reference/rl_eoo.md)
+  : Extent of occurrence (EOO) for IUCN criterion B
+- [`rl_aoo()`](https://stangandaho.github.io/redlist/reference/rl_aoo.md)
+  : Area of occupancy (AOO) for IUCN criterion B
+- [`rl_generation_length()`](https://stangandaho.github.io/redlist/reference/rl_generation_length.md)
+  : Generation length for IUCN Red List assessments
+- [`rl_reduction()`](https://stangandaho.github.io/redlist/reference/rl_reduction.md)
+  : Population reduction for IUCN criterion A
+- [`rl_overall_reduction()`](https://stangandaho.github.io/redlist/reference/rl_overall_reduction.md)
+  : Overall reduction across subpopulations for IUCN criterion A
+
 ## Taxa
 
 Functions to retrieve summary assessment data at species and higher

@@ -13,7 +13,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">redlist</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.2.0</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.3.0</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,6 +29,9 @@
     <li><a class="dropdown-item" href="../articles/data_visualisation.html">2. Data Visualisation</a></li>
     <li><a class="dropdown-item" href="../articles/GBIF-and-IUCN-Red-List.html">3. GBIF and IUCN Red List</a></li>
     <li><a class="dropdown-item" href="../articles/profile-of-extinction.html">4. Portrait of Extinction</a></li>
+    <li><a class="dropdown-item" href="../articles/occurrence-workflow.html">5. From a name to Criterion B metrics</a></li>
+    <li><a class="dropdown-item" href="../articles/eoo-and-aoo.html">6. Extent of occurrence and area of occupancy</a></li>
+    <li><a class="dropdown-item" href="../articles/criterion-a-reduction.html">7. Population reduction (Criterion A)</a></li>
   </ul></li>
 <li class="nav-item"><a class="nav-link" href="../news/index.html"><span class="fa fa-face-smile"></span> News</a></li>
 <li class="nav-item"><a class="nav-link" href="../articles/gallery.html"><span class="fa fa-layer-group"></span> Gallery</a></li>
@@ -347,6 +350,71 @@
 
         </dt>
         <dd>IUCN Red List ecological systems</dd>
+      </dl></div><div class="section level2">
+      <h2 id="occurrences-and-range-metrics">Occurrences and range metrics<a class="anchor" aria-label="anchor" href="#occurrences-and-range-metrics"></a></h2>
+
+      <div class="section-desc"><p>Resolve names to the GBIF backbone, fetch and check occurrence records, and compute the IUCN Criterion B range metrics.</p></div>
+
+      <dl></dl></div><div class="section level2">
+
+
+
+
+      <dl><dt>
+
+          <code><a href="rl_name_resolve.html">rl_name_resolve()</a></code>
+
+        </dt>
+        <dd>Resolve a scientific name to the accepted IUCN Red List name</dd>
+
+        <dt>
+
+          <code><a href="rl_occurrences.html">rl_occurrences()</a></code>
+
+        </dt>
+        <dd>Retrieve GBIF occurrence records for a taxon</dd>
+
+        <dt>
+
+          <code><a href="rl_check_occurrences.html">rl_check_occurrences()</a></code>
+
+        </dt>
+        <dd>Assessment-readiness checks for occurrence data</dd>
+
+        <dt>
+
+          <code><a href="rl_eoo.html">rl_eoo()</a></code>
+
+        </dt>
+        <dd>Extent of occurrence (EOO) for IUCN criterion B</dd>
+
+        <dt>
+
+          <code><a href="rl_aoo.html">rl_aoo()</a></code>
+
+        </dt>
+        <dd>Area of occupancy (AOO) for IUCN criterion B</dd>
+
+        <dt>
+
+          <code><a href="rl_generation_length.html">rl_generation_length()</a></code>
+
+        </dt>
+        <dd>Generation length for IUCN Red List assessments</dd>
+
+        <dt>
+
+          <code><a href="rl_reduction.html">rl_reduction()</a></code>
+
+        </dt>
+        <dd>Population reduction for IUCN criterion A</dd>
+
+        <dt>
+
+          <code><a href="rl_overall_reduction.html">rl_overall_reduction()</a></code>
+
+        </dt>
+        <dd>Overall reduction across subpopulations for IUCN criterion A</dd>
       </dl></div><div class="section level2">
       <h2 id="taxa">Taxa<a class="anchor" aria-label="anchor" href="#taxa"></a></h2>
 

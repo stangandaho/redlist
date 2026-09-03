@@ -1,0 +1,231 @@
+# From a species name to Criterion B metrics
+
+``` r
+
+library(redlist)
+```
+
+## What this vignette covers
+
+A common task in a Red List assessment is to take a species, gather its
+occurrence records, clean them, and compute the Criterion B range
+metrics (extent of occurrence and area of occupancy). The main
+difficulty is that the IUCN Red List and GBIF often use different
+accepted names for the same species, so a name that is correct on one
+side may return nothing on the other.
+
+The workflow below goes from a name to the two metrics in five steps.
+The code chunks are not run here because they call the IUCN and GBIF web
+services, but each one shows the kind of output you can expect.
+
+Before you start, the IUCN steps need an API key. See
+[`rl_set_api()`](https://stangandaho.github.io/redlist/reference/rl_set_api.md)
+for how to store it. The GBIF steps need no account or password, since
+they use the public search service.
+
+## 1. Get the IUCN taxonomy
+
+We begin with
+[`rl_scientific_name()`](https://stangandaho.github.io/redlist/reference/rl_scientific_name.md),
+which returns the IUCN assessment for a species given its genus and
+species.
+
+``` r
+
+sp <- rl_scientific_name(
+  genus_name = "Corvinella",
+  species_name = "corvina",
+  resolve = TRUE
+)
+```
+
+The `resolve` argument is the useful part here. GBIF lists this bird as
+*Corvinella corvina*, but the IUCN Red List files it under *Lanius
+corvinus*. A plain request with the GBIF name would return a 404. With
+`resolve = TRUE`,
+[`rl_scientific_name()`](https://stangandaho.github.io/redlist/reference/rl_scientific_name.md)
+notices the 404 and calls
+[`rl_name_resolve()`](https://stangandaho.github.io/redlist/reference/rl_name_resolve.md)
+behind the scenes to find the name the IUCN actually uses, then retries.
+You can also run that resolution yourself:
+
+``` r
+
+rl_name_resolve("Corvinella", "corvina")
+#> currentCanonicalSimple: "Lanius corvinus"   isSynonym: TRUE   matchType: "Exact"
+```
+
+So `sp` now holds the IUCN assessment for *Lanius corvinus*.
+
+## 2. A note on the name bridge
+
+Step 2 in the plan is to move from the IUCN name back to the GBIF
+backbone. In practice you do not need a separate call for this:
+[`rl_occurrences()`](https://stangandaho.github.io/redlist/reference/rl_occurrences.md)
+handles it for you. When you pass it the IUCN result, it reads the name,
+looks it up in the GBIF backbone, and follows the synonym to the
+accepted taxon. GBIF indexes all records under the accepted taxon, so
+this is also how records filed under other synonyms come along.
+
+For *Lanius corvinus* this means the query resolves to GBIF’s accepted
+*Corvinella corvina*, and the records come back under that name.
+
+## 3. Fetch the occurrence records
+
+``` r
+
+occ <- rl_occurrences(
+  sp,
+  year = ">2025",
+  basis_of_record = c("HUMAN_OBSERVATION", "MACHINE_OBSERVATION"),
+  limit = 500
+)
+nrow(occ)
+#> [1] 500
+```
+
+The arguments worth knowing:
+
+- `x` (here `sp`) is what you want records for. It can be the IUCN
+  result from step 1, a plain name such as `"Corvinella corvina"`, or a
+  GBIF taxon key.
+- `year` filters by date. A single year (`2000`), a range as one comma
+  string (`"2000,2020"`, open ended as `"2000,*"`), or a comparator
+  (`">2025"`, `">=2025"`, `"<2000"`). Note that `">2025"` means strictly
+  after 2025, so 2026 onward.
+- `basis_of_record` limits the kinds of records. Pass several as a
+  vector and they are matched as OR, so the line above keeps human and
+  machine observations.
+- `limit` caps how many records are returned. Use `Inf` to fetch every
+  record, up to the service ceiling of 100000.
+- `country` restricts by ISO2 country code, and also takes a vector for
+  several countries.
+- `correct` runs the quality checks from step 4 straight after the
+  download. It is `NULL` here so we can look at the raw records first.
+- Any other GBIF search filter can be passed by name through `...`, for
+  example `continent` or `institutionCode`.
+
+The result is an `sf` points object with the GBIF fields kept as
+columns, so it is ready to map or to feed to the metric functions.
+Records with missing or plainly invalid coordinates are dropped for you;
+everything else is left alone until you ask for a check.
+
+## 4. Check data quality and clean
+
+Raw occurrence data usually carries a few problems that would distort
+the metrics, such as points in the sea, country centroids, or clear
+outliers.
+[`rl_check_occurrences()`](https://stangandaho.github.io/redlist/reference/rl_check_occurrences.md)
+reports these, and can also remove them.
+
+``` r
+
+occ_check <- rl_check_occurrences(
+  x = occ,
+  correct = c("duplicates", "outliers", "country", "ocean_points", "centroids"),
+  terrestrial = FALSE
+)
+nrow(occ_check)
+```
+
+What the arguments do:
+
+- `correct` chooses what to act on. With `FALSE` the function only
+  reports and returns the report table. With a character vector, it
+  removes the records flagged by those checks and returns the cleaned
+  `sf`, with the report kept in its `"report"` attribute. `TRUE`
+  corrects every clear error check.
+- The checks you can name are `duplicates`, `coordinate_precision`,
+  `outliers`, `country`, `ocean_points`, and `centroids`, plus the
+  report only checks `unique_localities`, `institution_diversity`, and
+  `recency`.
+- `terrestrial` controls the ocean check. *Corvinella corvina* is a bird
+  that can legitimately be recorded near or over water, so we set it to
+  `FALSE` to avoid dropping coastal records. For a strictly land
+  species, leave it `TRUE`.
+
+Two checks deserve a note. `coordinate_precision` flags records too
+coarse for the 2 km grid, but it is deliberately left out of the
+automatic corrections, because removing imprecise yet real records can
+quietly shrink the sample and bias the result. If you do want to apply
+it, name it explicitly:
+
+``` r
+
+occ_precise <- rl_check_occurrences(occ, correct = "coordinate_precision")
+```
+
+The other checks that rely on geographic references (`outliers`,
+`country`, `ocean_points`, `centroids`) need the `CoordinateCleaner`
+package. If it is not installed, those checks are skipped with a note
+rather than failing.
+
+You can run the same cleaning as part of the download by passing
+`correct` straight to
+[`rl_occurrences()`](https://stangandaho.github.io/redlist/reference/rl_occurrences.md):
+
+``` r
+
+occ <- rl_occurrences(
+  sp,
+  year = ">2025",
+  correct = c("duplicates", "outliers")
+)
+```
+
+## 5. Compute the metrics
+
+With clean records in hand, compute the metrics on the cleaned object.
+
+``` r
+
+aoo <- rl_aoo(occ_check)
+aoo
+#> metric area_km2 n_records n_occupied_cells cell_size_km category_b2
+#>    AOO      ...       ...              ...            2         ...
+
+eoo <- rl_eoo(occ_check)
+```
+
+[`rl_aoo()`](https://stangandaho.github.io/redlist/reference/rl_aoo.md)
+counts the occupied cells of a 2 by 2 km grid and multiplies by the cell
+area, following the IUCN guidelines.
+[`rl_eoo()`](https://stangandaho.github.io/redlist/reference/rl_eoo.md)
+measures the area of the convex hull around the points. Both return a
+one row `sf` object: the metric and its supporting counts, plus the
+polygon in the `geometry` column, so you can map the result directly.
+
+The `category_b1` and `category_b2` columns give the most threatened
+band the value reaches (`"CR"`, `"EN"`, or `"VU"`), or `NA` when it
+reaches none. Keep in mind that this is the range threshold only. A full
+Criterion B listing also needs the subconditions (fragmentation,
+decline, or fluctuation), so the column is a guide, not a verdict.
+
+``` r
+
+plot(sf::st_geometry(eoo), border = "steelblue")
+plot(sf::st_geometry(occ_check), pch = 20, cex = 0.5, add = TRUE)
+```
+
+## Putting it together
+
+``` r
+
+sp <- rl_scientific_name("Corvinella", "corvina", resolve = TRUE)
+
+occ <- rl_occurrences(
+  sp,
+  year = ">2025",
+  basis_of_record = c("HUMAN_OBSERVATION", "MACHINE_OBSERVATION"),
+  limit = 500
+)
+
+occ_check <- rl_check_occurrences(
+  occ,
+  correct = c("duplicates", "outliers", "country", "ocean_points", "centroids"),
+  terrestrial = FALSE
+)
+
+rl_aoo(occ_check)
+rl_eoo(occ_check)
+```

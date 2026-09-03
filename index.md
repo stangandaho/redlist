@@ -2,6 +2,8 @@
 
 # 
 
+[![codecov](https://codecov.io/gh/stangandaho/redlist/graph/badge.svg?token=AS6SSJ8F1N)](https://app.codecov.io/gh/stangandaho/redlist)
+
 ## About This Project
 
 Started in September 2024, this project originated when
@@ -28,13 +30,15 @@ complementary, serving different user preferences.
 
 ``` r
 
-# Install from CRAN
-install.packages("redlist")
-
-# Install from GitHub
+# Install with pak package
 if (!requireNamespace("pak", quietly = TRUE)) {
   install.packages("pak", dependencies = TRUE)
 }
+
+# Install from CRAN
+pak::pkg_install("redlist")
+
+# Install from GitHub
 pak::pkg_install("stangandaho/redlist")
 
 # Load
@@ -47,15 +51,19 @@ If you’re using this package for the first time, you’ll likely need an
 IUCN Red List API key.  
 You can check whether it’s set by running
 [`rl_check_api()`](https://stangandaho.github.io/redlist/reference/rl_check_api.md).  
-If this throws an error like ‘*! No Redlist API key found…* ’, you’ll
-need to set an API key before using any of the package functions. Just
-follow these two simple steps:  
-1. Visit the official IUCN Red List API website
-[here](https://api.iucnredlist.org/users/edit). Create an account if you
-don’t already have one. Once logged in, you can request your API key.  
-2. Copy your API key and set it using the
-[`rl_set_api()`](https://stangandaho.github.io/redlist/reference/rl_set_api.md)
-function, like this `rl_set_api("2GoWiThmYrEDlitApiThatWorkS4me")`.  
+If this throws an error like ‘*! No Redlist API key found…*’, you’ll
+need to set an API key before using any of the package data requery
+functions. Just follow these two simple steps:
+
+1.  Visit the official IUCN Red List API website
+    [here](https://api.iucnredlist.org/users/edit). Create an account if
+    you don’t already have one. Once logged in, you can request your API
+    key.
+
+2.  Copy your API key and set it using the
+    [`rl_set_api()`](https://stangandaho.github.io/redlist/reference/rl_set_api.md)
+    function, like this `rl_set_api("2GoWiThmYrEDlitApiThatWorkS4me")`.
+
 You can then run
 [`rl_check_api()`](https://stangandaho.github.io/redlist/reference/rl_check_api.md)
 again to confirm that your API key is set successfully.
@@ -67,13 +75,13 @@ again to confirm that your API key is set successfully.
 ## Usage
 
 The `redlist` package offers simple functions to retrieve and explore
-IUCN Red List data.
+IUCN Red List data, and calculate risk metrics.
 
 ``` r
 
 # Retrieve Red List data for Benin (country code "BJ"), first page by default
-benin_redlist <- rl_countries(code = "BJ")  # Get first 100 records
-head(benin_redlist)                         # Preview the data
+benin_redlist <- rl_countries(code = "BJ") # Get first 100 records
+head(benin_redlist) # Preview the data
 
 # Retrieve data from first 5 pages (up to 500 records)
 benin_redlist_pages <- rl_countries(code = "BJ", page = 1:5)
@@ -95,6 +103,63 @@ all_species_details <- lapply(benin_redlist$assessments_assessment_id, function(
   rl_assessment_id(assessment_id = id)
 }) %>% dplyr::bind_rows()
 ```
+
+### From a species name to Criterion B metrics
+
+Beyond retrieving assessments, `redlist` can gather occurrence records
+and compute the range metrics used in Criterion B. The occurrence
+functions use the public GBIF search service.
+
+``` r
+
+# 1. Get the IUCN assessment. resolve = TRUE recovers the accepted IUCN name
+#    when the given name is a synonym (here Corvinella corvina is filed by IUCN
+#    as Lanius corvinus).
+sp <- rl_scientific_name(genus_name = "Corvinella", species_name = "corvina",
+                         resolve = TRUE)
+
+# 2. Fetch GBIF occurrence records.
+occ <- rl_occurrences(sp,
+                      year = ">2000",
+                      basis_of_record = c("HUMAN_OBSERVATION", "MACHINE_OBSERVATION"),
+                      limit = 2000)
+
+# 3. Check data quality and clean.
+occ_clean <- rl_check_occurrences(occ,
+                                  correct = c("duplicates", "outliers", "country", "centroids"))
+
+# 4. Compute the Criterion B metrics.
+rl_eoo(occ_clean) # extent of occurrence
+rl_aoo(occ_clean) # area of occupancy
+```
+
+### Population reduction (Criterion A)
+
+[`rl_reduction()`](https://stangandaho.github.io/redlist/reference/rl_reduction.md)
+estimates the reduction over generations under an exponential or linear
+decline.
+[`rl_overall_reduction()`](https://stangandaho.github.io/redlist/reference/rl_overall_reduction.md)
+combines subpopulations weighted by size.
+
+``` r
+
+# 1556 individuals in 2011 and 898 in 2021, generation length 10 years,
+# assessed in 2026. This returns an 80.8% reduction (CR under criterion A2).
+rl_reduction(population = c(1556, 898), time = c(2011, 2021),
+             generation_length = 10, model = "exponential",
+             assessment_year = 2026)
+
+# Combine three subpopulations into one figure for the taxon
+rl_overall_reduction(past = c(10000, 8000, 12000),
+                     present = c(5000, 9000, 2000))
+```
+
+These snippets only show the essentials. For the full story, including
+what each argument does, the IUCN thresholds, and how to read the
+results, see the articles on [extent of occurrence and area of
+occupancy](https://stangandaho.github.io/redlist/articles/eoo-and-aoo.html)
+and on [population reduction under criterion
+A](https://stangandaho.github.io/redlist/articles/criterion-a-reduction.html).
 
 **For a full overview of all available functions, please visit the
 [redlist
