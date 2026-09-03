@@ -2,13 +2,8 @@
 
 # <img src="man/figures/logo.png" alt="redlist logo" align="right" height="100"/>
 
-<!-- badges: start -->
 
-[![R-CMD-check](https://github.com/stangandaho/redlist/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/stangandaho/redlist/actions/workflows/R-CMD-check.yaml) [![CRAN status](https://www.r-pkg.org/badges/version/redlist)](https://CRAN.R-project.org/package=redlist) [![CRAN downloads](https://cranlogs.r-pkg.org/badges/grand-total/redlist)](https://cran.r-project.org/package=redlist)
-
-<!-- badges: end -->
-
-[![codecov](https://codecov.io/gh/stangandaho/redlist/graph/badge.svg?token=AS6SSJ8F1N)](https://app.codecov.io/gh/stangandaho/redlist)
+[![R-CMD-check](https://github.com/stangandaho/redlist/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/stangandaho/redlist/actions/workflows/R-CMD-check.yaml) [![CRAN status](https://www.r-pkg.org/badges/version/redlist)](https://CRAN.R-project.org/package=redlist) [![CRAN downloads](https://cranlogs.r-pkg.org/badges/grand-total/redlist)](https://cran.r-project.org/package=redlist) [![codecov](https://codecov.io/gh/stangandaho/redlist/graph/badge.svg?token=AS6SSJ8F1N)](https://app.codecov.io/gh/stangandaho/redlist)
 
 ## About This Project
 
@@ -39,13 +34,13 @@ library(redlist)
 
 ### 🔑 Set Your API Key
 
-If you're using this package for the first time, you'll likely need an IUCN Red List API key.  
+If you're using this package for the first time, you'll likely need an IUCN Red List API key.\
 You can check whether it's set by running `rl_check_api()`.\
-If this throws an error like '*! No Redlist API key found...* ', you'll need to set an API key before using any of the package data requery functions. Just follow these two simple steps:  
+If this throws an error like '*! No Redlist API key found...* ', you'll need to set an API key before using any of the package data requery functions. Just follow these two simple steps:
 
-1. Visit the official IUCN Red List API website [here](https://api.iucnredlist.org/users/edit). Create an account if you don't already have one. Once logged in, you can request your API key.  
+1.  Visit the official IUCN Red List API website [here](https://api.iucnredlist.org/users/edit). Create an account if you don't already have one. Once logged in, you can request your API key.
 
-2. Copy your API key and set it using the `rl_set_api()` function, like this `rl_set_api("2GoWiThmYrEDlitApiThatWorkS4me")`.  
+2.  Copy your API key and set it using the `rl_set_api()` function, like this `rl_set_api("2GoWiThmYrEDlitApiThatWorkS4me")`.
 
 You can then run `rl_check_api()` again to confirm that your API key is set successfully.
 
@@ -123,10 +118,7 @@ rl_overall_reduction(past = c(10000, 8000, 12000),
                      present = c(5000, 9000, 2000))
 ```
 
-These snippets only show the essentials. For the full story, including what each
-argument does, the IUCN thresholds, and how to read the results, see the articles
-on [extent of occurrence and area of occupancy](https://stangandaho.github.io/redlist/articles/eoo-and-aoo.html)
-and on [population reduction under criterion A](https://stangandaho.github.io/redlist/articles/criterion-a-reduction.html).
+These snippets only show the essentials. For the full story, including what each argument does, the IUCN thresholds, and how to read the results, see the articles on [extent of occurrence and area of occupancy](https://stangandaho.github.io/redlist/articles/eoo-and-aoo.html) and on [population reduction under criterion A](https://stangandaho.github.io/redlist/articles/criterion-a-reduction.html).
 
 **For a full overview of all available functions, please visit the [redlist website](https://stangandaho.github.io/redlist/reference/index.html)**
 
@@ -137,3 +129,7 @@ Please note that this project is based on the [Contributor Covenant v2.1](https:
 ## Getting help
 
 If you encounter a clear bug, please file an [issue](https://github.com/stangandaho/redlist/issues) with a minimal reproducible example. For questions and other discussion, please use [relevant section](https://github.com/stangandaho/redlist/discussions).
+
+## Acknowledgements
+
+The development of `redlist` is supported by the R Consortium Infrastructure Steering Committee (ISC), whose grant funded the taxonomic name bridge, the GBIF occurrence pipeline, and the criterion A and B risk metrics.

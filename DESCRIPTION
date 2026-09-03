@@ -1,13 +1,15 @@
 Package: redlist
 Type: Package
-Title: Interface to the IUCN Red List with Extinction Risk Metrics
+Title: Interface to the IUCN Red List Data with Risk Metrics
 Version: 0.3.0
-Authors@R:
+Authors@R: c(
     person(given = "Stanislas Mahussi",
            family = "Gandaho",
            email = "stangandaho@gmail.com",
            role = c("aut", "cre"),
-           comment = c(ORCID = "0009-0003-4969-1252"))
+           comment = c(ORCID = "0009-0003-4969-1252")),
+    person("R Consortium", role = "fnd")
+           )
 Description: Access species conservation data from the International Union for
     Conservation of Nature (IUCN) Red List API
     <https://api.iucnredlist.org/api-docs/index.html>, including assessments,
