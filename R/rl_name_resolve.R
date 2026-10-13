@@ -4,7 +4,7 @@
 #' differ from the ones the IUCN Red List uses, so a direct request such as
 #' [rl_scientific_name()] returns *404 (species not found)*. This function forces
 #' a match: it verifies the name against the
-#' \href{https://verifier.globalnames.org/apidoc}{GlobalNames Verifier} API and
+#' \href{https://apidoc.globalnames.org/}{GlobalNames Verifier} API and
 #' returns the accepted (current) name the IUCN Red List uses, so the retrieval
 #' can be repeated with the resolved name.
 #'
@@ -105,7 +105,7 @@ resp_to_tibble <- function(rp) {
     best_result <- n$bestResult %||% list()
     # drop nested lists (e.g. scoreDetails), keeping only scalar fields
     best_result <- best_result[!vapply(best_result, is.list, logical(1))]
-    # `overall_matchType` is the name-level match; `bestResult` keeps its own
+    # `overall_matchType` is the name level match; `bestResult` keeps its own
     # `matchType`, so name them apart to avoid duplicate columns.
     row <- c(list(input_name = n$name, overall_matchType = n$matchType), best_result)
     row <- lapply(row, function(x) if (is.null(x)) NA else x) # NULL -> NA (unmatched names)

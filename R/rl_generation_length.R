@@ -87,7 +87,7 @@
 #' IUCN Standards and Petitions Committee. 2024. Guidelines for Using the IUCN
 #' Red List Categories and Criteria. Version 16. Prepared by the Standards and
 #' Petitions Committee. Pages 30-32.
-#' \url{https://www.iucnredlist.org/documents/RedListGuidelines.pdf}
+#' \url{https://cmsdocs.s3.amazonaws.com/RedListGuidelines.pdf}
 #'
 #' @examples
 #' # Mean age of parents at a stable age distribution

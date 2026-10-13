@@ -18,7 +18,7 @@ Description: Access species conservation data from the International Union for
     Biodiversity Information Facility (GBIF), retrieves and checks GBIF occurrence
     records, and computes the range and population metrics of the IUCN Red List
     Categories and Criteria (IUCN Standards and Petitions Committee, 2024,
-    <https://www.iucnredlist.org/documents/RedListGuidelines.pdf>): extent of
+    <https://cmsdocs.s3.amazonaws.com/RedListGuidelines.pdf>): extent of
     occurrence and area of occupancy for criterion B, and population reduction
     for criterion A.
 License: MIT + file LICENSE

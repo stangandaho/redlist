@@ -42,6 +42,8 @@ export(`%>%`)
 export(`%<>%`)
 export(rl_open_file)
 export(rl_generation_length)
+export(rl_threat_category)
+S3method(print, rl_threat_category)
 
 
 # magrittr

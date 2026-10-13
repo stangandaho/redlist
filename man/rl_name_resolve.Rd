@@ -63,7 +63,7 @@ When you work with names from another source (for example GBIF), some names
 differ from the ones the IUCN Red List uses, so a direct request such as
 \code{\link[=rl_scientific_name]{rl_scientific_name()}} returns \emph{404 (species not found)}. This function forces
 a match: it verifies the name against the
-\href{https://verifier.globalnames.org/apidoc}{GlobalNames Verifier} API and
+\href{https://apidoc.globalnames.org/}{GlobalNames Verifier} API and
 returns the accepted (current) name the IUCN Red List uses, so the retrieval
 can be repeated with the resolved name.
 }

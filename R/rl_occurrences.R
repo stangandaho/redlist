@@ -151,10 +151,10 @@ rl_occurrences <- function(x,
 
   if (!is.null(correct) && !isFALSE(correct)) {
     if (isTRUE(correct)) {
-      sel_checks <- NULL        # every check
-      sel_correct <- TRUE       # correct all clear-error issues
+      sel_checks <- NULL # every check
+      sel_correct <- TRUE # correct all clear-error issues
     } else if (is.character(correct)) {
-      sel_checks <- correct     # run (and report) every named check
+      sel_checks <- correct # run (and report) every named check
       # coordinate_precision is never applied here; it drops imprecise but real
       # records, so it stays a report-only flag inside rl_occurrences().
       sel_correct <- setdiff(correct, "coordinate_precision")

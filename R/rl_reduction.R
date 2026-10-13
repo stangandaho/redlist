@@ -51,7 +51,7 @@
 #' @references
 #' IUCN Standards and Petitions Committee. 2024. Guidelines for Using the IUCN
 #' Red List Categories and Criteria. Version 16, section 4.5.
-#' \url{https://www.iucnredlist.org/documents/RedListGuidelines.pdf}
+#' \url{https://cmsdocs.s3.amazonaws.com/RedListGuidelines.pdf}
 #'
 #' @seealso [rl_overall_reduction()], [rl_generation_length()]
 #'
