@@ -89,7 +89,7 @@ installed.
 
 IUCN Standards and Petitions Committee. 2024. Guidelines for Using the
 IUCN Red List Categories and Criteria. Version 16, section 4.10.
-<https://www.iucnredlist.org/documents/RedListGuidelines.pdf>
+<https://cmsdocs.s3.amazonaws.com/RedListGuidelines.pdf>
 
 ## See also
 

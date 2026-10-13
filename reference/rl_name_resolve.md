@@ -6,9 +6,9 @@ such as
 [`rl_scientific_name()`](https://stangandaho.github.io/redlist/reference/rl_scientific_name.md)
 returns *404 (species not found)*. This function forces a match: it
 verifies the name against the [GlobalNames
-Verifier](https://verifier.globalnames.org/apidoc) API and returns the
-accepted (current) name the IUCN Red List uses, so the retrieval can be
-repeated with the resolved name.
+Verifier](https://apidoc.globalnames.org/) API and returns the accepted
+(current) name the IUCN Red List uses, so the retrieval can be repeated
+with the resolved name.
 
 ## Usage
 

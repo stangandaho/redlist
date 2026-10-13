@@ -132,7 +132,8 @@ Function to list systems and query assessments by system code.
 ## Occurrences and range metrics
 
 Resolve names to the GBIF backbone, fetch and check occurrence records,
-and compute the IUCN Criterion B range metrics.
+compute the IUCN Criterion A and B metrics, and find the threat category
+that a set of values meets.
 
 - [`rl_name_resolve()`](https://stangandaho.github.io/redlist/reference/rl_name_resolve.md)
   : Resolve a scientific name to the accepted IUCN Red List name
@@ -150,6 +151,8 @@ and compute the IUCN Criterion B range metrics.
   : Population reduction for IUCN criterion A
 - [`rl_overall_reduction()`](https://stangandaho.github.io/redlist/reference/rl_overall_reduction.md)
   : Overall reduction across subpopulations for IUCN criterion A
+- [`rl_threat_category()`](https://stangandaho.github.io/redlist/reference/rl_threat_category.md)
+  : Find the IUCN Red List threat category interactively
 
 ## Taxa
 
